@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "date": "2026-07-09",
-  "generated_at": "2026-07-09T05:40:19+00:00",
+  "generated_at": "2026-07-09T23:10:50+00:00",
   "followee_count": 166,
-  "events_collected": 175,
+  "events_collected": 276,
   "trending_available": true,
   "trending_source_date": "2026-07-09",
   "circle_hot": [
@@ -30,20 +30,45 @@
       ],
       "trending": false,
       "trending_front_page": false
+    },
+    {
+      "repo": "chAng-L19/codex-redteam-mode",
+      "count": 2,
+      "starred_by": [
+        "Y4tacker",
+        "niudaii"
+      ],
+      "trending": false,
+      "trending_front_page": false
     }
   ],
-  "trending_overlap": [],
+  "trending_overlap": [
+    {
+      "repo": "vxcontrol/pentagi",
+      "count": 1,
+      "starred_by": [
+        "BambiZombie"
+      ],
+      "trending": true,
+      "trending_front_page": false,
+      "languages": [
+        "go"
+      ]
+    }
+  ],
   "releases": [],
   "new_repos": [],
-  "starred_repos_total": 31,
+  "starred_repos_total": 43,
   "raw_counts": {
-    "WatchEvent": 37,
+    "WatchEvent": 50,
     "IssueCommentEvent": 4,
-    "ForkEvent": 8,
-    "IssuesEvent": 11,
-    "PullRequestEvent": 5,
+    "ForkEvent": 9,
+    "IssuesEvent": 18,
+    "PullRequestEvent": 7,
     "PullRequestReviewEvent": 1,
-    "PushEvent": 105,
-    "CreateEvent": 4
+    "PushEvent": 180,
+    "CreateEvent": 4,
+    "MemberEvent": 1,
+    "DeleteEvent": 2
   }
 }

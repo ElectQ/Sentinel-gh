@@ -1,0 +1,38 @@
+name: daily-pulse
+
+on:
+  schedule:
+    - cron: "0 22 * * *" # ~06:00 Beijing time
+  workflow_dispatch:
+
+concurrency:
+  group: daily-pulse
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - run: uv sync --frozen
+
+      - name: Collect and build pulse
+        run: uv run python -m sentinel.run
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+
+      - name: Commit data
+        run: |
+          git config user.name "sentinel-bot"
+          git config user.email "sentinel-bot@users.noreply.github.com"
+          git add data state
+          git diff --cached --quiet || git commit -m "pulse: $(date -u +%F) [skip ci]"
+          git push

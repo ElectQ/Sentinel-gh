@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sentinel-gh/pulse",
+  "title": "Sentinel-gh daily pulse",
+  "description": "Daily digest of followees' public GitHub activity, cross-referenced with GitHub trending. Contract for downstream consumers; breaking changes bump schema_version.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "date",
+    "generated_at",
+    "followee_count",
+    "events_collected",
+    "trending_available",
+    "circle_hot",
+    "trending_overlap",
+    "releases",
+    "new_repos",
+    "raw_counts"
+  ],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "date": { "type": "string", "format": "date" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "followee_count": { "type": "integer" },
+    "events_collected": { "type": "integer" },
+    "trending_available": { "type": "boolean" },
+    "trending_source_date": {
+      "type": ["string", "null"],
+      "description": "Archive date the trending set came from; may lag `date` when today's archive is not yet committed"
+    },
+    "circle_hot": {
+      "type": "array",
+      "description": "Repos starred by >= 2 followees today, hottest first",
+      "items": { "$ref": "#/$defs/starredRepo" }
+    },
+    "trending_overlap": {
+      "type": "array",
+      "description": "Repos starred by any followee today that are also on GitHub trending (high-signal)",
+      "items": {
+        "allOf": [
+          { "$ref": "#/$defs/starredRepo" },
+          {
+            "properties": {
+              "languages": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "Per-language trending lists the repo appeared on"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "releases": {
+      "type": "array",
+      "description": "Releases published by followees today",
+      "items": {
+        "type": "object",
+        "required": ["repo", "by"],
+        "properties": {
+          "repo": { "type": "string" },
+          "by": { "type": "string" },
+          "tag": { "type": ["string", "null"] },
+          "name": { "type": ["string", "null"] },
+          "url": { "type": ["string", "null"] },
+          "prerelease": { "type": ["boolean", "null"] }
+        }
+      }
+    },
+    "new_repos": {
+      "type": "array",
+      "description": "Repositories created by followees today",
+      "items": {
+        "type": "object",
+        "required": ["repo", "by", "created_at"],
+        "properties": {
+          "repo": { "type": "string" },
+          "by": { "type": "string" },
+          "created_at": { "type": "string", "format": "date-time" }
+        }
+      }
+    },
+    "starred_repos_total": {
+      "type": "integer",
+      "description": "Distinct repos starred by followees today (including single-star ones not listed in circle_hot)"
+    },
+    "raw_counts": {
+      "type": "object",
+      "description": "Event counts by GitHub event type, for downstream trend analysis",
+      "additionalProperties": { "type": "integer" }
+    }
+  },
+  "$defs": {
+    "starredRepo": {
+      "type": "object",
+      "required": ["repo", "count", "starred_by", "trending"],
+      "properties": {
+        "repo": { "type": "string", "description": "owner/name" },
+        "count": { "type": "integer", "description": "Number of followees who starred it today" },
+        "starred_by": { "type": "array", "items": { "type": "string" } },
+        "trending": { "type": "boolean" },
+        "trending_front_page": { "type": "boolean" }
+      }
+    }
+  }
+}

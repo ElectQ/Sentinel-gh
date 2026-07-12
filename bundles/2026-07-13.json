@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-07-13",
+  "collect_window": {
+    "start": "2026-07-12T06:57:07+00:00",
+    "end": "2026-07-12T21:56:40+00:00",
+    "hours": 14
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "29210543947",
+    "commit": "414b15e"
+  },
+  "stats": {
+    "total": 5,
+    "by_kind": {
+      "follow": 1,
+      "star": 4
+    },
+    "failed_lists": [],
+    "followee_count": 166,
+    "push_events_excluded": 101
+  },
+  "items": [
+    {
+      "id": "follow:g3tsyst3m:thecodacus:2026-07-12:followed",
+      "who": "g3tsyst3m",
+      "who_url": "https://github.com/g3tsyst3m",
+      "action": "follow",
+      "target": "thecodacus",
+      "target_url": "https://github.com/thecodacus",
+      "text": "g3tsyst3m followed thecodacus",
+      "at": "2026-07-12T21:56:40+00:00",
+      "external_id": "follow:g3tsyst3m:thecodacus:2026-07-12:followed",
+      "url": "https://github.com/thecodacus",
+      "content": "g3tsyst3m followed thecodacus",
+      "author": "g3tsyst3m",
+      "author_name": "g3tsyst3m",
+      "author_url": "https://github.com/g3tsyst3m",
+      "published_at": "2026-07-12T21:56:40+00:00",
+      "collected_at": "2026-07-12T21:57:17.379729+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/g3tsyst3m",
+        "https://github.com/thecodacus"
+      ],
+      "refs": {
+        "actor": {
+          "login": "g3tsyst3m",
+          "url": "https://github.com/g3tsyst3m"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "thecodacus",
+          "url": "https://github.com/thecodacus"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false
+      }
+    },
+    {
+      "id": "event:11677824707",
+      "who": "odzhan",
+      "who_url": "https://github.com/odzhan",
+      "action": "star",
+      "target": "kernullist/KnWin32ApiMonitor",
+      "target_url": "https://github.com/kernullist/KnWin32ApiMonitor",
+      "text": "odzhan starred kernullist/KnWin32ApiMonitor",
+      "at": "2026-07-12T15:52:57+00:00",
+      "external_id": "event:11677824707",
+      "url": "https://github.com/kernullist/KnWin32ApiMonitor",
+      "content": "odzhan starred kernullist/KnWin32ApiMonitor",
+      "author": "odzhan",
+      "author_name": "odzhan",
+      "author_url": "https://github.com/odzhan",
+      "published_at": "2026-07-12T15:52:57+00:00",
+      "collected_at": "2026-07-12T21:57:17.379729+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/odzhan",
+        "https://github.com/kernullist/KnWin32ApiMonitor"
+      ],
+      "refs": {
+        "actor": {
+          "login": "odzhan",
+          "url": "https://github.com/odzhan"
+        },
+        "repo": {
+          "full_name": "kernullist/KnWin32ApiMonitor",
+          "url": "https://github.com/kernullist/KnWin32ApiMonitor"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true
+      }
+    },
+    {
+      "id": "event:11677810242",
+      "who": "Garck3h",
+      "who_url": "https://github.com/Garck3h",
+      "action": "star",
+      "target": "starsoul666/grok_reg-protocol_cpa",
+      "target_url": "https://github.com/starsoul666/grok_reg-protocol_cpa",
+      "text": "Garck3h starred starsoul666/grok_reg-protocol_cpa",
+      "at": "2026-07-12T15:52:06+00:00",
+      "external_id": "event:11677810242",
+      "url": "https://github.com/starsoul666/grok_reg-protocol_cpa",
+      "content": "Garck3h starred starsoul666/grok_reg-protocol_cpa",
+      "author": "Garck3h",
+      "author_name": "Garck3h",
+      "author_url": "https://github.com/Garck3h",
+      "published_at": "2026-07-12T15:52:06+00:00",
+      "collected_at": "2026-07-12T21:57:17.379729+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Garck3h",
+        "https://github.com/starsoul666/grok_reg-protocol_cpa"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Garck3h",
+          "url": "https://github.com/Garck3h"
+        },
+        "repo": {
+          "full_name": "starsoul666/grok_reg-protocol_cpa",
+          "url": "https://github.com/starsoul666/grok_reg-protocol_cpa"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true
+      }
+    },
+    {
+      "id": "event:11676131809",
+      "who": "Hello-xBugs",
+      "who_url": "https://github.com/Hello-xBugs",
+      "action": "star",
+      "target": "Orange-Cyberdefense/p3-loader",
+      "target_url": "https://github.com/Orange-Cyberdefense/p3-loader",
+      "text": "Hello-xBugs starred Orange-Cyberdefense/p3-loader",
+      "at": "2026-07-12T14:15:32+00:00",
+      "external_id": "event:11676131809",
+      "url": "https://github.com/Orange-Cyberdefense/p3-loader",
+      "content": "Hello-xBugs starred Orange-Cyberdefense/p3-loader",
+      "author": "Hello-xBugs",
+      "author_name": "Hello-xBugs",
+      "author_url": "https://github.com/Hello-xBugs",
+      "published_at": "2026-07-12T14:15:32+00:00",
+      "collected_at": "2026-07-12T21:57:17.379729+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Hello-xBugs",
+        "https://github.com/Orange-Cyberdefense/p3-loader"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Hello-xBugs",
+          "url": "https://github.com/Hello-xBugs"
+        },
+        "repo": {
+          "full_name": "Orange-Cyberdefense/p3-loader",
+          "url": "https://github.com/Orange-Cyberdefense/p3-loader"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true
+      }
+    },
+    {
+      "id": "event:11667242636",
+      "who": "safedv",
+      "who_url": "https://github.com/safedv",
+      "action": "star",
+      "target": "0avx/0avx.github.io",
+      "target_url": "https://github.com/0avx/0avx.github.io",
+      "text": "safedv starred 0avx/0avx.github.io",
+      "at": "2026-07-12T06:57:07+00:00",
+      "external_id": "event:11667242636",
+      "url": "https://github.com/0avx/0avx.github.io",
+      "content": "safedv starred 0avx/0avx.github.io",
+      "author": "safedv",
+      "author_name": "safedv",
+      "author_url": "https://github.com/safedv",
+      "published_at": "2026-07-12T06:57:07+00:00",
+      "collected_at": "2026-07-12T21:57:17.379729+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/safedv",
+        "https://github.com/0avx/0avx.github.io"
+      ],
+      "refs": {
+        "actor": {
+          "login": "safedv",
+          "url": "https://github.com/safedv"
+        },
+        "repo": {
+          "full_name": "0avx/0avx.github.io",
+          "url": "https://github.com/0avx/0avx.github.io"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true
+      }
+    }
+  ]
+}

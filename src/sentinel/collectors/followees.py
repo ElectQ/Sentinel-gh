@@ -54,6 +54,10 @@ def trim(e: dict) -> dict:
     elif t in ("IssuesEvent", "PullRequestEvent"):
         obj = p.get("issue") or p.get("pull_request") or {}
         keep = {"action": p.get("action"), "title": obj.get("title"), "url": obj.get("html_url")}
+    elif t == "PublicEvent":
+        keep = {}
+    elif t == "MemberEvent":
+        keep = {"action": p.get("action")}
     return {
         "id": e["id"],
         "type": t,

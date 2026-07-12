@@ -2,7 +2,8 @@ name: daily-pulse
 
 on:
   schedule:
-    - cron: "0 22 * * *" # ~06:00 Beijing time
+    # 21:00 UTC = 05:00 Asia/Shanghai (Beijing). GitHub cron can lag 0–几小时。
+    - cron: "0 21 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -33,6 +34,6 @@ jobs:
         run: |
           git config user.name "sentinel-bot"
           git config user.email "sentinel-bot@users.noreply.github.com"
-          git add data state
+          git add data state bundles
           git diff --cached --quiet || git commit -m "pulse: $(date -u +%F) [skip ci]"
           git push

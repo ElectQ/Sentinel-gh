@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "sentinel-gh/pulse",
   "title": "Sentinel-gh daily pulse",
-  "description": "Daily digest of followees' public GitHub activity, cross-referenced with GitHub trending. Contract for downstream consumers; breaking changes bump schema_version.",
+  "description": "Daily digest of followees' public GitHub activity, cross-referenced with GitHub trending, plus stars/forks/follows summaries. Contract for downstream consumers; breaking changes bump schema_version.",
   "type": "object",
   "required": [
     "schema_version",
@@ -15,10 +15,13 @@
     "trending_overlap",
     "releases",
     "new_repos",
-    "raw_counts"
+    "raw_counts",
+    "follows",
+    "stars",
+    "forks"
   ],
   "properties": {
-    "schema_version": { "type": "integer", "const": 1 },
+    "schema_version": { "type": "integer", "const": 2 },
     "date": { "type": "string", "format": "date" },
     "generated_at": { "type": "string", "format": "date-time" },
     "followee_count": { "type": "integer" },
@@ -35,7 +38,7 @@
     },
     "trending_overlap": {
       "type": "array",
-      "description": "Repos starred by any followee today that are also on GitHub trending (high-signal)",
+      "description": "Repos starred by any followee today that are also on GitHub trending",
       "items": {
         "allOf": [
           { "$ref": "#/$defs/starredRepo" },
@@ -43,8 +46,7 @@
             "properties": {
               "languages": {
                 "type": "array",
-                "items": { "type": "string" },
-                "description": "Per-language trending lists the repo appeared on"
+                "items": { "type": "string" }
               }
             }
           }
@@ -53,7 +55,6 @@
     },
     "releases": {
       "type": "array",
-      "description": "Releases published by followees today",
       "items": {
         "type": "object",
         "required": ["repo", "by"],
@@ -69,7 +70,6 @@
     },
     "new_repos": {
       "type": "array",
-      "description": "Repositories created by followees today",
       "items": {
         "type": "object",
         "required": ["repo", "by", "created_at"],
@@ -80,23 +80,92 @@
         }
       }
     },
-    "starred_repos_total": {
-      "type": "integer",
-      "description": "Distinct repos starred by followees today (including single-star ones not listed in circle_hot)"
-    },
+    "starred_repos_total": { "type": "integer" },
     "raw_counts": {
       "type": "object",
-      "description": "Event counts by GitHub event type, for downstream trend analysis",
       "additionalProperties": { "type": "integer" }
-    }
+    },
+    "follows": {
+      "type": "object",
+      "required": ["new_count", "unfollow_count", "items", "unfollows", "truncated_users", "incomplete", "degraded"],
+      "properties": {
+        "new_count": { "type": "integer" },
+        "unfollow_count": { "type": "integer" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "by", "target"],
+            "properties": {
+              "id": { "type": "string" },
+              "by": { "type": "string" },
+              "target": { "type": "string" },
+              "observed_at": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "unfollows": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "by", "target"],
+            "properties": {
+              "id": { "type": "string" },
+              "by": { "type": "string" },
+              "target": { "type": "string" },
+              "observed_at": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "truncated_users": { "type": "array", "items": { "type": "string" } },
+        "incomplete": { "type": "boolean" },
+        "degraded": { "type": "boolean" }
+      }
+    },
+    "stars": {
+      "type": "object",
+      "required": ["total", "items"],
+      "properties": {
+        "total": { "type": "integer" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["repo", "by", "created_at"],
+            "properties": {
+              "repo": { "type": "string" },
+              "by": { "type": "string" },
+              "created_at": { "type": "string" },
+              "trending": { "type": "boolean" },
+              "trending_front_page": { "type": "boolean" }
+            }
+          }
+        },
+        "truncated": { "type": "boolean" }
+      }
+    },
+    "forks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["repo", "by", "created_at"],
+        "properties": {
+          "repo": { "type": "string" },
+          "by": { "type": "string" },
+          "forkee": { "type": ["string", "null"] },
+          "created_at": { "type": "string" }
+        }
+      }
+    },
+    "feed_item_count": { "type": "integer" }
   },
   "$defs": {
     "starredRepo": {
       "type": "object",
       "required": ["repo", "count", "starred_by", "trending"],
       "properties": {
-        "repo": { "type": "string", "description": "owner/name" },
-        "count": { "type": "integer", "description": "Number of followees who starred it today" },
+        "repo": { "type": "string" },
+        "count": { "type": "integer" },
         "starred_by": { "type": "array", "items": { "type": "string" } },
         "trending": { "type": "boolean" },
         "trending_front_page": { "type": "boolean" }

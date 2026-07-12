@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-07-12",
+  "collect_window": {
+    "start": "2026-07-12T06:57:07+00:00",
+    "end": "2026-07-12T06:57:07+00:00",
+    "hours": 24
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "",
+    "commit": ""
+  },
+  "stats": {
+    "total": 1,
+    "by_kind": {
+      "star": 1
+    },
+    "failed_lists": [],
+    "followee_count": 166,
+    "push_events_excluded": 29
+  },
+  "items": [
+    {
+      "id": "event:11667242636",
+      "who": "safedv",
+      "who_url": "https://github.com/safedv",
+      "action": "star",
+      "target": "0avx/0avx.github.io",
+      "target_url": "https://github.com/0avx/0avx.github.io",
+      "text": "safedv starred 0avx/0avx.github.io",
+      "at": "2026-07-12T06:57:07+00:00",
+      "external_id": "event:11667242636",
+      "url": "https://github.com/0avx/0avx.github.io",
+      "content": "safedv starred 0avx/0avx.github.io",
+      "author": "safedv",
+      "author_name": "safedv",
+      "author_url": "https://github.com/safedv",
+      "published_at": "2026-07-12T06:57:07+00:00",
+      "collected_at": "2026-07-12T08:30:47.631412+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/safedv",
+        "https://github.com/0avx/0avx.github.io"
+      ],
+      "refs": {
+        "actor": {
+          "login": "safedv",
+          "url": "https://github.com/safedv"
+        },
+        "repo": {
+          "full_name": "0avx/0avx.github.io",
+          "url": "https://github.com/0avx/0avx.github.io"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true
+      }
+    }
+  ]
+}

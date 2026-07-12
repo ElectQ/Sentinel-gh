@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sentinel-gh/feed",
+  "title": "Sentinel-gh daily feed",
+  "description": "Time-ordered high-signal activity of followees (stars, follows, created repos, forks, releases). Contract for downstream consumers.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "date",
+    "generated_at",
+    "followee_count",
+    "item_count",
+    "kinds_included",
+    "items",
+    "summary"
+  ],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "date": { "type": "string", "format": "date" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "followee_count": { "type": "integer" },
+    "item_count": { "type": "integer" },
+    "kinds_included": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Kind whitelist used for this document (e.g. star, fork, follow, release, created)"
+    },
+    "trending_available": { "type": "boolean" },
+    "trending_source_date": { "type": ["string", "null"] },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/feedItem" }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["by_kind", "push_events_excluded"],
+      "properties": {
+        "by_kind": {
+          "type": "object",
+          "additionalProperties": { "type": "integer" }
+        },
+        "push_events_excluded": { "type": "integer" },
+        "events_in_window": { "type": "integer" },
+        "follows_in_window": { "type": "integer" }
+      }
+    }
+  },
+  "$defs": {
+    "feedItem": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "text",
+        "actor",
+        "actor_url",
+        "created_at",
+        "html_url",
+        "time_precision",
+        "signals"
+      ],
+      "properties": {
+        "id": { "type": "string" },
+        "kind": {
+          "type": "string",
+          "description": "star | fork | follow | unfollow | release | created | public_repo | …"
+        },
+        "text": {
+          "type": "string",
+          "description": "Human-readable one-liner, e.g. 'safedv starred 0avx/0avx.github.io'"
+        },
+        "actor": { "type": "string" },
+        "actor_url": {
+          "type": "string",
+          "description": "GitHub profile URL of the actor (followee)"
+        },
+        "created_at": { "type": "string" },
+        "repo": { "type": ["string", "null"] },
+        "repo_url": {
+          "type": ["string", "null"],
+          "description": "https://github.com/{owner}/{name}"
+        },
+        "target_user": { "type": ["string", "null"] },
+        "target_user_url": {
+          "type": ["string", "null"],
+          "description": "Profile URL when kind is follow/unfollow"
+        },
+        "html_url": {
+          "type": ["string", "null"],
+          "description": "Primary click-through: repo page for star/fork/created/release; target profile for follow"
+        },
+        "payload": { "type": "object" },
+        "time_precision": {
+          "type": "string",
+          "enum": ["exact", "daily_window"]
+        },
+        "signals": {
+          "type": "object",
+          "required": ["trending", "trending_front_page", "circle_count"],
+          "properties": {
+            "trending": { "type": "boolean" },
+            "trending_front_page": { "type": "boolean" },
+            "circle_count": { "type": ["integer", "null"] }
+          }
+        }
+      }
+    }
+  }
+}

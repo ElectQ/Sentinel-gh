@@ -43,7 +43,14 @@ class GitHub:
         headers = {"If-None-Match": etag} if etag else {}
         r = None
         for attempt in range(4):
-            r = self.http.get(f"{API}{path}", params=params, headers=headers)
+            try:
+                r = self.http.get(f"{API}{path}", params=params, headers=headers)
+            except httpx.TransportError:
+                # A dropped connection must not take down the whole daily run.
+                if attempt == 3:
+                    raise
+                time.sleep(2**attempt)
+                continue
             self._track_rate(r)
             if r.status_code in (403, 429) and r.headers.get("x-ratelimit-remaining") == "0":
                 reset = int(r.headers.get("x-ratelimit-reset", time.time() + 60))
@@ -84,11 +91,17 @@ class GitHub:
         headers = {"If-None-Match": etag} if etag else {}
         r = None
         for attempt in range(4):
-            r = self.http.get(
-                f"{API}{path}",
-                params={"per_page": per_page, "page": 1},
-                headers=headers,
-            )
+            try:
+                r = self.http.get(
+                    f"{API}{path}",
+                    params={"per_page": per_page, "page": 1},
+                    headers=headers,
+                )
+            except httpx.TransportError:
+                if attempt == 3:
+                    return "error", None, etag, False
+                time.sleep(2**attempt)
+                continue
             self._track_rate(r)
             if r.status_code in (403, 429) and r.headers.get("x-ratelimit-remaining") == "0":
                 reset = int(r.headers.get("x-ratelimit-reset", time.time() + 60))

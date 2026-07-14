@@ -7,6 +7,11 @@ for local testing).
 The events API keeps ~90 days / 300 events per user, so a daily pull never
 loses data. On the first run for a user only the last FIRST_RUN_WINDOW_HOURS
 of events are archived, to avoid flooding the archive with weeks of history.
+
+Incremental cursor is `created_at`, never the event id: GitHub allocates event
+ids from per-type sequences, so a fresh WatchEvent (~1.1e10) can have a *lower*
+id than a week-old PushEvent (~1.4e10). Watermarking on max(id) parked the
+cursor in the Push range and silently swallowed every star/fork thereafter.
 """
 
 import datetime as dt
@@ -16,6 +21,7 @@ from collections import Counter
 
 from ..gh import GitHub
 from ..state import ROOT
+from ..util import beijing_day
 
 EVENTS_DIR = ROOT / "data" / "events"
 FIRST_RUN_WINDOW_HOURS = 24
@@ -68,36 +74,58 @@ def trim(e: dict) -> dict:
     }
 
 
+def _at(e: dict) -> str:
+    """Event timestamp, normalized so plain string compare is a time compare."""
+    return e["created_at"].replace("Z", "+00:00")
+
+
 def _new_events_for(gh: GitHub, login: str, ustate: dict) -> list[dict]:
-    last_id = int(ustate.get("last_event_id", 0))
-    status, data, etag = gh.get(
-        f"/users/{login}/events/public", {"per_page": 100}, etag=ustate.get("etag")
-    )
+    last_at = ustate.get("last_event_at") or ""
+    # Ids of the events sitting exactly on the watermark second, so a re-run
+    # neither re-emits them nor drops a sibling that shares their timestamp.
+    boundary = set(ustate.get("boundary_ids") or [])
+
+    # Migrating off the old id cursor: the cached etag is still valid, so a
+    # conditional request would 304 and strand us on the poisoned state forever.
+    # Force a full fetch once to re-baseline.
+    etag = None if (not last_at and "last_event_id" in ustate) else ustate.get("etag")
+
+    status, data, etag = gh.get(f"/users/{login}/events/public", {"per_page": 100}, etag=etag)
     if status == 304 or not data:
         return []
 
     events = list(data)
-    # Rare: >100 new events since last run — page until we pass last_id.
+    # Rare: >100 new events since last run — page until we're past the watermark.
     page = 2
-    while last_id and events and int(events[-1]["id"]) > last_id and page <= MAX_EVENT_PAGES:
+    while last_at and events and _at(events[-1]) > last_at and page <= MAX_EVENT_PAGES:
         _, more, _ = gh.get(f"/users/{login}/events/public", {"per_page": 100, "page": page})
         if not more:
             break
         events.extend(more)
         page += 1
 
-    if last_id:
-        new = [e for e in events if int(e["id"]) > last_id]
-    else:
-        cutoff = dt.datetime.now(dt.UTC) - dt.timedelta(hours=FIRST_RUN_WINDOW_HOURS)
+    if last_at:
         new = [
             e for e in events
-            if dt.datetime.fromisoformat(e["created_at"].replace("Z", "+00:00")) >= cutoff
+            if _at(e) > last_at or (_at(e) == last_at and str(e["id"]) not in boundary)
         ]
+    else:
+        cutoff = (
+            dt.datetime.now(dt.UTC) - dt.timedelta(hours=FIRST_RUN_WINDOW_HOURS)
+        ).isoformat()
+        new = [e for e in events if _at(e) >= cutoff]
 
     ustate["etag"] = etag
-    if events:
-        ustate["last_event_id"] = max(int(e["id"]) for e in events[:100])
+    ustate.pop("last_event_id", None)  # poisoned by the old max(id) cursor
+
+    newest = max(_at(e) for e in events)
+    if newest > last_at:
+        ustate["last_event_at"] = newest
+        ustate["boundary_ids"] = sorted(str(e["id"]) for e in events if _at(e) == newest)
+    elif newest == last_at:
+        ustate["boundary_ids"] = sorted(
+            boundary | {str(e["id"]) for e in events if _at(e) == newest}
+        )
     return [trim(e) for e in new]
 
 
@@ -114,6 +142,29 @@ def collect(gh: GitHub, state: dict) -> tuple[list[str], list[dict]]:
     # Drop state for people no longer followed.
     state["users"] = {u: s for u, s in state["users"].items() if u in set(followees)}
     return followees, new_events
+
+
+def events_on(bj_date: str) -> list[dict]:
+    """Archived events whose `created_at` falls on the given Beijing calendar day.
+
+    This is what bundles are built from. Keyed on event time, not collection
+    time, so backfilling a missed event lands it in the day it actually belongs
+    to instead of the day we noticed it.
+    """
+    day = dt.date.fromisoformat(bj_date)
+    # A Beijing day straddles two UTC days, hence possibly two month files.
+    months = {(day - dt.timedelta(days=1)).strftime("%Y-%m"), day.strftime("%Y-%m")}
+    by_id: dict[str, dict] = {}
+    for month in months:
+        path = EVENTS_DIR / f"{month}.jsonl"
+        if not path.exists():
+            continue
+        with open(path) as f:
+            for line in f:
+                ev = json.loads(line)
+                if beijing_day(ev["created_at"]) == bj_date:
+                    by_id[str(ev["id"])] = ev  # archive may hold re-collected dupes
+    return list(by_id.values())
 
 
 def collected_on(date: str) -> list[dict]:
@@ -137,16 +188,33 @@ def collected_on(date: str) -> list[dict]:
     return events
 
 
+def _archived_ids(path) -> set[str]:
+    if not path.exists():
+        return set()
+    with open(path) as f:
+        return {str(json.loads(line)["id"]) for line in f if line.strip()}
+
+
 def archive(events: list[dict]) -> None:
-    """Append events to data/events/YYYY-MM.jsonl, grouped by event month."""
+    """Append events to data/events/YYYY-MM.jsonl, grouped by event month.
+
+    Skips ids already on disk. We archive before the cursor is persisted, so a
+    run killed in between (Actions timeout, network blip) is replayed on the next
+    run — without this the same events would be appended twice.
+    """
     EVENTS_DIR.mkdir(parents=True, exist_ok=True)
     by_month: dict[str, list[dict]] = {}
-    for ev in sorted(events, key=lambda e: int(e["id"])):
+    for ev in sorted(events, key=lambda e: e["created_at"]):
         by_month.setdefault(ev["created_at"][:7], []).append(ev)
     for month, evs in by_month.items():
-        with open(EVENTS_DIR / f"{month}.jsonl", "a") as f:
+        path = EVENTS_DIR / f"{month}.jsonl"
+        seen = _archived_ids(path)
+        with open(path, "a") as f:
             for ev in evs:
+                if str(ev["id"]) in seen:
+                    continue
                 f.write(json.dumps(ev, ensure_ascii=False) + "\n")
+                seen.add(str(ev["id"]))
 
 
 if __name__ == "__main__":

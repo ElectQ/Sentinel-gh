@@ -16,7 +16,7 @@ from pathlib import Path
 
 from ..gh import GitHub
 from ..state import ROOT
-from ..util import env_bool, env_int
+from ..util import beijing_day, env_bool, env_int
 
 FOLLOWS_DIR = ROOT / "data" / "follows"
 DEFAULT_MAX_PAGES = 10
@@ -207,6 +207,30 @@ def archive(diffs: list[dict]) -> None:
                     continue
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
                 existing.add(rec["id"])
+
+
+def follows_on(bj_date: str) -> list[dict]:
+    """Follow records observed on the given Beijing calendar day; dedupe by id.
+
+    Follow edges have no event timestamp — `observed_at` is the daily-diff window
+    they were spotted in, which is the best "when it happened" we have.
+    """
+    day = dt.date.fromisoformat(bj_date)
+    months = {(day - dt.timedelta(days=1)).strftime("%Y-%m"), day.strftime("%Y-%m")}
+    by_id: dict[str, dict] = {}
+    for month in months:
+        path = FOLLOWS_DIR / f"{month}.jsonl"
+        if not path.exists():
+            continue
+        with open(path) as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                rec = json.loads(line)
+                if beijing_day(rec["observed_at"]) == bj_date:
+                    by_id[rec["id"]] = rec
+    return list(by_id.values())
 
 
 def collected_on(date: str) -> list[dict]:

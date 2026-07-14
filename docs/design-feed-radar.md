@@ -57,7 +57,7 @@ flowchart LR
 | Followee 事件 | `src/sentinel/collectors/followees.py` | 增量 events、`trim`、月度 jsonl |
 | Trending | `src/sentinel/collectors/trending.py` | 第三方归档适配 |
 | Pulse | `src/sentinel/analyzers/pulse.py` | `SCHEMA_VERSION = 1` 聚合 |
-| 状态 | `state/followees.json` | 每用户 `etag` / `last_event_id` |
+| 状态 | `state/followees.json` | 每用户 `etag` / `last_event_at` / `boundary_ids` |
 | 工作流 | `.github/workflows/daily-pulse.yml` | UTC 22:00，`GH_PAT`，回写 `data/` + `state/` |
 
 ### 实证基线（2026-07 归档）
@@ -244,7 +244,9 @@ def main() -> None:
 
 **保留**：
 
-- `GET /users/{login}/events/public`，ETag + `last_event_id`（`followees.py`）
+- `GET /users/{login}/events/public`，ETag + `last_event_at`（`followees.py`）
+- 增量游标是 `created_at`，**不是 event id** —— id 按事件类型分号段，跨类型不可比（见 `tests/test_followees_watermark.py`）
+- 同一秒的事件用 `boundary_ids` 去重，避免漏掉共享时间戳的兄弟事件
 - `MAX_EVENT_PAGES = 3`，首跑 `FIRST_RUN_WINDOW_HOURS = 24`
 - 月度 jsonl append；`trim()` 裁剪 payload
 

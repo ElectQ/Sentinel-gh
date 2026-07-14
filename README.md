@@ -14,7 +14,7 @@
 | 文件 | 说明 |
 | --- | --- |
 | **`bundles/index.json`** | **入口 + 就绪标记**（`latest` / `days[]` / `sha256`） |
-| **`bundles/YYYY-MM-DD.json`** | 当日全部高信号 items（按北京日期命名） |
+| **`bundles/YYYY-MM-DD.json`** | 该**北京日**发生的全部高信号 items |
 | `data/feed/*` | 内部 feed 投影（调试/回放） |
 | `data/pulse/*` | 聚合 digest |
 | `data/events/*.jsonl` | 原始 events（含 Push；**非契约**） |
@@ -74,12 +74,23 @@ curl -s "$BASE/$(curl -s "$BASE/index.json" | jq -r .latest).json" \
 ### 调度
 
 - `daily-pulse.yml` 每日 **UTC 21:00 = 北京时间 05:00** 运行（也可手动 `workflow_dispatch`）。
-- GitHub 定时任务可能延迟数十分钟～数小时（与 Soundwave 同类）；bundle 用**北京日期**命名，延迟仍落在同一天。
+- GitHub 定时任务可能延迟数十分钟～数小时（与 Soundwave 同类）。
 - 下游应用 **poll `bundles/index.json`**，不要死等时钟点。
+
+#### Bundle 的分日口径
+
+`bundles/D.json` = **事件 `created_at` 落在北京日 D** 的全部高信号 items —— 按事件**发生**时间分日，不是按采集批次。
+
+因此：
+
+- **幂等**：重跑、补采、回填都不会把事件挪到别的天；同一天重建多少次内容都一样。
+- 05:00 的那次运行**同时收尾昨天、开启今天**（它覆盖昨天 05:00 ～ 今天 05:00）。所以 **`D` 在 `D+1` 凌晨跑完后才完整**；当天的 `latest` 是部分数据。下游若要「完整的一天」，取 `index.days[1]`（即 `latest` 的前一天）。
+- 每次运行只重建被新事件**触及的那几天**（通常是昨天 + 今天），其余 bundle 不动。
 
 ### 采集
 
-- followee 事件：`/users/{u}/events/public` **增量**（ETag + `last_event_id`），相对**上次成功运行**拉新事件。
+- followee 事件：`/users/{u}/events/public` **增量**（ETag + `last_event_at`），相对**上次成功运行**拉新事件。
+  - 增量游标用 **`created_at` 时间戳，不能用 event id**：GitHub 的 event id 按类型分号段（Watch/Fork ~1.1e10，Push/Create ~1.4e10），新 star 的 id 会**小于**旧 push 的 id。曾按 `max(id)` 记水位线，导致游标被顶进 Push 号段后永久吞掉 star/fork。
 - following diff：`/users/{u}/following` 日快照；**仅 full↔full 才 emit 边**。
 - 首跑 following 只建 baseline，不刷假 follow。
 - trending 消费 [antonkomarev/github-trending-archive](https://github.com/antonkomarev/github-trending-archive)。

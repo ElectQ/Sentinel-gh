@@ -9,7 +9,7 @@ from collections import Counter
 
 from ..state import ROOT
 from ..util import env_bool
-from . import project
+from . import persona, project
 
 FEED_DIR = ROOT / "data" / "feed"
 SCHEMA_VERSION = 1
@@ -79,6 +79,7 @@ def build(
     followee_count: int,
     *,
     date: str | None = None,
+    gh=None,
 ) -> dict:
     now = dt.datetime.now(dt.UTC)
     day = date or now.date().isoformat()
@@ -108,6 +109,12 @@ def build(
         project.attach_repo_signals(item, trepos=trepos, circle=circle)
         item.pop("source_event_id", None)
         by_id[item["id"]] = item
+
+    # Enrich each newly-followed target with a persona blob. Best-effort and
+    # gated: a run without a GitHub client (offline rebuild) or with the flag off
+    # simply produces follows with no persona.
+    if gh is not None and env_bool("PERSONA_ENRICH_ENABLED", True):
+        persona.enrich_follows(gh, by_id.values())
 
     items = _sort_items(list(by_id.values()))
     by_kind = dict(Counter(i["kind"] for i in items))

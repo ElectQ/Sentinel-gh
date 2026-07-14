@@ -3,9 +3,9 @@
   "source_id": "github_followee_feed",
   "collect_date": "2026-07-14",
   "collect_window": {
-    "start": "2026-07-13T18:40:40+00:00",
-    "end": "2026-07-14T03:54:33+00:00",
-    "hours": 9
+    "start": "2026-07-13T16:30:02+00:00",
+    "end": "2026-07-14T07:23:55+00:00",
+    "hours": 14
   },
   "producer": {
     "name": "sentinel-gh",
@@ -14,16 +14,594 @@
     "commit": ""
   },
   "stats": {
-    "total": 8,
+    "total": 23,
     "by_kind": {
-      "star": 6,
-      "fork": 2
+      "release": 2,
+      "fork": 3,
+      "star": 11,
+      "network_hot": 7
     },
     "failed_lists": [],
     "followee_count": 166,
-    "push_events_excluded": 50
+    "push_events_excluded": 76
   },
   "items": [
+    {
+      "id": "event:11752073583",
+      "who": "M09Ic",
+      "who_url": "https://github.com/M09Ic",
+      "action": "release",
+      "target": "chainreactors/gogo",
+      "target_url": "https://github.com/chainreactors/gogo",
+      "text": "M09Ic released chainreactors/gogo v2.15.0",
+      "at": "2026-07-14T07:23:55+00:00",
+      "external_id": "event:11752073583",
+      "url": "https://github.com/chainreactors/gogo/releases/tag/untagged-06c16135f4674bc805d0",
+      "content": "M09Ic released chainreactors/gogo v2.15.0",
+      "author": "M09Ic",
+      "author_name": "M09Ic",
+      "author_url": "https://github.com/M09Ic",
+      "published_at": "2026-07-14T07:23:55+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/M09Ic",
+        "https://github.com/chainreactors/gogo",
+        "https://github.com/chainreactors/gogo/releases/tag/untagged-06c16135f4674bc805d0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "M09Ic",
+          "url": "https://github.com/M09Ic"
+        },
+        "repo": {
+          "full_name": "chainreactors/gogo",
+          "url": "https://github.com/chainreactors/gogo"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11751379334",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/symbridge",
+      "target_url": "https://github.com/gmh5225/symbridge",
+      "text": "gmh5225 forked xp987/symbridge → gmh5225/symbridge",
+      "at": "2026-07-14T07:06:37+00:00",
+      "external_id": "event:11751379334",
+      "url": "https://github.com/gmh5225/symbridge",
+      "content": "gmh5225 forked xp987/symbridge → gmh5225/symbridge",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-14T07:06:37+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/xp987/symbridge",
+        "https://github.com/gmh5225/symbridge"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "xp987/symbridge",
+          "url": "https://github.com/xp987/symbridge"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/symbridge",
+          "url": "https://github.com/gmh5225/symbridge"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11751243390",
+      "who": "zema1",
+      "who_url": "https://github.com/zema1",
+      "action": "star",
+      "target": "owu/wsl-dashboard",
+      "target_url": "https://github.com/owu/wsl-dashboard",
+      "text": "zema1 starred owu/wsl-dashboard",
+      "at": "2026-07-14T07:03:13+00:00",
+      "external_id": "event:11751243390",
+      "url": "https://github.com/owu/wsl-dashboard",
+      "content": "zema1 starred owu/wsl-dashboard",
+      "author": "zema1",
+      "author_name": "zema1",
+      "author_url": "https://github.com/zema1",
+      "published_at": "2026-07-14T07:03:13+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/zema1",
+        "https://github.com/owu/wsl-dashboard"
+      ],
+      "refs": {
+        "actor": {
+          "login": "zema1",
+          "url": "https://github.com/zema1"
+        },
+        "repo": {
+          "full_name": "owu/wsl-dashboard",
+          "url": "https://github.com/owu/wsl-dashboard"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11751167424",
+      "who": "yenick514",
+      "who_url": "https://github.com/yenick514",
+      "action": "star",
+      "target": "adysec/nuclei_poc",
+      "target_url": "https://github.com/adysec/nuclei_poc",
+      "text": "yenick514 starred adysec/nuclei_poc",
+      "at": "2026-07-14T07:01:15+00:00",
+      "external_id": "event:11751167424",
+      "url": "https://github.com/adysec/nuclei_poc",
+      "content": "yenick514 starred adysec/nuclei_poc",
+      "author": "yenick514",
+      "author_name": "yenick514",
+      "author_url": "https://github.com/yenick514",
+      "published_at": "2026-07-14T07:01:15+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yenick514",
+        "https://github.com/adysec/nuclei_poc"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yenick514",
+          "url": "https://github.com/yenick514"
+        },
+        "repo": {
+          "full_name": "adysec/nuclei_poc",
+          "url": "https://github.com/adysec/nuclei_poc"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11750725104",
+      "who": "Garck3h",
+      "who_url": "https://github.com/Garck3h",
+      "action": "star",
+      "target": "lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "target_url": "https://github.com/lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "text": "Garck3h starred lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "at": "2026-07-14T06:49:32+00:00",
+      "external_id": "event:11750725104",
+      "url": "https://github.com/lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "content": "Garck3h starred lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "author": "Garck3h",
+      "author_name": "Garck3h",
+      "author_url": "https://github.com/Garck3h",
+      "published_at": "2026-07-14T06:49:32+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Garck3h",
+        "https://github.com/lingbol088-spec/Codex-5.5-codex-instruct-5.5"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Garck3h",
+          "url": "https://github.com/Garck3h"
+        },
+        "repo": {
+          "full_name": "lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+          "url": "https://github.com/lingbol088-spec/Codex-5.5-codex-instruct-5.5"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:chainreactors/aiscan:2026-07-14",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "chainreactors/aiscan",
+      "target_url": "https://github.com/chainreactors/aiscan",
+      "text": "chainreactors/aiscan — 圈外 2 人参与（star×2）",
+      "at": "2026-07-14T06:18:16+00:00",
+      "external_id": "network:chainreactors/aiscan:2026-07-14",
+      "url": "https://github.com/chainreactors/aiscan",
+      "content": "chainreactors/aiscan — 圈外 2 人参与（star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-14T06:18:16+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/chainreactors/aiscan"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "chainreactors/aiscan",
+          "url": "https://github.com/chainreactors/aiscan"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "Mashiro726",
+          "th1nk3rrr-dev"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:11749504057",
+      "who": "yhy0",
+      "who_url": "https://github.com/yhy0",
+      "action": "star",
+      "target": "JustVugg/colibri",
+      "target_url": "https://github.com/JustVugg/colibri",
+      "text": "yhy0 starred JustVugg/colibri",
+      "at": "2026-07-14T06:14:29+00:00",
+      "external_id": "event:11749504057",
+      "url": "https://github.com/JustVugg/colibri",
+      "content": "yhy0 starred JustVugg/colibri",
+      "author": "yhy0",
+      "author_name": "yhy0",
+      "author_url": "https://github.com/yhy0",
+      "published_at": "2026-07-14T06:14:29+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yhy0",
+        "https://github.com/JustVugg/colibri"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yhy0",
+          "url": "https://github.com/yhy0"
+        },
+        "repo": {
+          "full_name": "JustVugg/colibri",
+          "url": "https://github.com/JustVugg/colibri"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11748259190",
+      "who": "yj94",
+      "who_url": "https://github.com/yj94",
+      "action": "star",
+      "target": "neocanable/garlic",
+      "target_url": "https://github.com/neocanable/garlic",
+      "text": "yj94 starred neocanable/garlic",
+      "at": "2026-07-14T05:35:00+00:00",
+      "external_id": "event:11748259190",
+      "url": "https://github.com/neocanable/garlic",
+      "content": "yj94 starred neocanable/garlic",
+      "author": "yj94",
+      "author_name": "yj94",
+      "author_url": "https://github.com/yj94",
+      "published_at": "2026-07-14T05:35:00+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yj94",
+        "https://github.com/neocanable/garlic"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yj94",
+          "url": "https://github.com/yj94"
+        },
+        "repo": {
+          "full_name": "neocanable/garlic",
+          "url": "https://github.com/neocanable/garlic"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11747948343",
+      "who": "zema1",
+      "who_url": "https://github.com/zema1",
+      "action": "release",
+      "target": "zema1/suo5",
+      "target_url": "https://github.com/zema1/suo5",
+      "text": "zema1 released zema1/suo5 v2.2.0",
+      "at": "2026-07-14T05:24:02+00:00",
+      "external_id": "event:11747948343",
+      "url": "https://github.com/zema1/suo5/releases/tag/v2.2.0",
+      "content": "zema1 released zema1/suo5 v2.2.0",
+      "author": "zema1",
+      "author_name": "zema1",
+      "author_url": "https://github.com/zema1",
+      "published_at": "2026-07-14T05:24:02+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/zema1",
+        "https://github.com/zema1/suo5",
+        "https://github.com/zema1/suo5/releases/tag/v2.2.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "zema1",
+          "url": "https://github.com/zema1"
+        },
+        "repo": {
+          "full_name": "zema1/suo5",
+          "url": "https://github.com/zema1/suo5"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-07-14",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/sliver",
+      "target_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 5 人参与（pr×1, star×4）",
+      "at": "2026-07-14T05:08:12+00:00",
+      "external_id": "network:BishopFox/sliver:2026-07-14",
+      "url": "https://github.com/BishopFox/sliver",
+      "content": "BishopFox/sliver — 圈外 5 人参与（pr×1, star×4）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-14T05:08:12+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/sliver"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/sliver",
+          "url": "https://github.com/BishopFox/sliver"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "CTW4268",
+          "SmigsDeLaMigs",
+          "moloch--",
+          "tearfulDalvik",
+          "wafflexyzz"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 4,
+          "pr": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
     {
       "id": "event:11745558189",
       "who": "realoriginal",
@@ -40,7 +618,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-07-14T03:54:33+00:00",
-      "collected_at": "2026-07-14T04:21:12.203627+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
       "tags": [
         "kind:star"
       ],
@@ -74,7 +652,8 @@
         "kind": "star",
         "time_precision": "exact",
         "is_follow": false,
-        "is_repo_event": true
+        "is_repo_event": true,
+        "is_aggregate": false
       }
     },
     {
@@ -93,7 +672,7 @@
       "author_name": "fdx-xdf",
       "author_url": "https://github.com/fdx-xdf",
       "published_at": "2026-07-14T03:28:33+00:00",
-      "collected_at": "2026-07-14T04:21:12.203627+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
       "tags": [
         "kind:star"
       ],
@@ -127,7 +706,75 @@
         "kind": "star",
         "time_precision": "exact",
         "is_follow": false,
-        "is_repo_event": true
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:BishopFox/cloudfox:2026-07-14",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/cloudfox",
+      "target_url": "https://github.com/BishopFox/cloudfox",
+      "text": "BishopFox/cloudfox — 圈外 2 人参与（star×2）",
+      "at": "2026-07-14T03:25:00+00:00",
+      "external_id": "network:BishopFox/cloudfox:2026-07-14",
+      "url": "https://github.com/BishopFox/cloudfox",
+      "content": "BishopFox/cloudfox — 圈外 2 人参与（star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-14T03:25:00+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/cloudfox"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/cloudfox",
+          "url": "https://github.com/BishopFox/cloudfox"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "DamodarPatil",
+          "PatrickEunice"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
       }
     },
     {
@@ -146,7 +793,7 @@
       "author_name": "Xre0uS",
       "author_url": "https://github.com/Xre0uS",
       "published_at": "2026-07-14T02:48:47+00:00",
-      "collected_at": "2026-07-14T04:21:12.203627+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
       "tags": [
         "kind:star"
       ],
@@ -180,7 +827,8 @@
         "kind": "star",
         "time_precision": "exact",
         "is_follow": false,
-        "is_repo_event": true
+        "is_repo_event": true,
+        "is_aggregate": false
       }
     },
     {
@@ -199,7 +847,7 @@
       "author_name": "yhy0",
       "author_url": "https://github.com/yhy0",
       "published_at": "2026-07-14T02:20:34+00:00",
-      "collected_at": "2026-07-14T04:21:12.203627+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
       "tags": [
         "kind:star"
       ],
@@ -233,7 +881,219 @@
         "kind": "star",
         "time_precision": "exact",
         "is_follow": false,
-        "is_repo_event": true
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-07-14",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 5 人参与（comment×3, issue×1, pr×24, star×1）",
+      "at": "2026-07-14T00:53:14+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-07-14",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 5 人参与（comment×3, issue×1, pr×24, star×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-14T00:53:14+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "bdash",
+          "emesare",
+          "m1stadev",
+          "plafosse",
+          "xusheng6"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "comment": 3,
+          "pr": 24,
+          "star": 1,
+          "issue": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:Vector35/qt-build:2026-07-14",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/qt-build",
+      "target_url": "https://github.com/Vector35/qt-build",
+      "text": "Vector35/qt-build — 圈外 3 人参与（issue×2, pr×3）",
+      "at": "2026-07-13T22:32:10+00:00",
+      "external_id": "network:Vector35/qt-build:2026-07-14",
+      "url": "https://github.com/Vector35/qt-build",
+      "content": "Vector35/qt-build — 圈外 3 人参与（issue×2, pr×3）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-13T22:32:10+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/qt-build"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/qt-build",
+          "url": "https://github.com/Vector35/qt-build"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "D0ntPanic",
+          "bdash",
+          "fuzyll"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 3,
+          "issue": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:BishopFox/sj:2026-07-14",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/sj",
+      "target_url": "https://github.com/BishopFox/sj",
+      "text": "BishopFox/sj — 圈外 3 人参与（issue×5, star×1）",
+      "at": "2026-07-13T20:54:58+00:00",
+      "external_id": "network:BishopFox/sj:2026-07-14",
+      "url": "https://github.com/BishopFox/sj",
+      "content": "BishopFox/sj — 圈外 3 人参与（issue×5, star×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-13T20:54:58+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/sj"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/sj",
+          "url": "https://github.com/BishopFox/sj"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "mr-pmillz",
+          "nikoladzekic",
+          "twest-bf"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 5,
+          "star": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
       }
     },
     {
@@ -252,7 +1112,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-13T19:23:06+00:00",
-      "collected_at": "2026-07-14T04:21:12.203627+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -290,7 +1150,8 @@
         "kind": "fork",
         "time_precision": "exact",
         "is_follow": false,
-        "is_repo_event": true
+        "is_repo_event": true,
+        "is_aggregate": false
       }
     },
     {
@@ -309,7 +1170,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-13T19:21:16+00:00",
-      "collected_at": "2026-07-14T04:21:12.203627+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -347,7 +1208,8 @@
         "kind": "fork",
         "time_precision": "exact",
         "is_follow": false,
-        "is_repo_event": true
+        "is_repo_event": true,
+        "is_aggregate": false
       }
     },
     {
@@ -366,7 +1228,7 @@
       "author_name": "huoji120",
       "author_url": "https://github.com/huoji120",
       "published_at": "2026-07-13T18:52:17+00:00",
-      "collected_at": "2026-07-14T04:21:12.203627+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
       "tags": [
         "kind:star"
       ],
@@ -400,7 +1262,8 @@
         "kind": "star",
         "time_precision": "exact",
         "is_follow": false,
-        "is_repo_event": true
+        "is_repo_event": true,
+        "is_aggregate": false
       }
     },
     {
@@ -419,7 +1282,7 @@
       "author_name": "huoji120",
       "author_url": "https://github.com/huoji120",
       "published_at": "2026-07-13T18:40:40+00:00",
-      "collected_at": "2026-07-14T04:21:12.203627+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
       "tags": [
         "kind:star"
       ],
@@ -453,7 +1316,75 @@
         "kind": "star",
         "time_precision": "exact",
         "is_follow": false,
-        "is_repo_event": true
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:BishopFox/Favicons:2026-07-14",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/Favicons",
+      "target_url": "https://github.com/BishopFox/Favicons",
+      "text": "BishopFox/Favicons — 圈外 2 人参与（star×2）",
+      "at": "2026-07-13T16:30:02+00:00",
+      "external_id": "network:BishopFox/Favicons:2026-07-14",
+      "url": "https://github.com/BishopFox/Favicons",
+      "content": "BishopFox/Favicons — 圈外 2 人参与（star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-13T16:30:02+00:00",
+      "collected_at": "2026-07-14T07:59:31.362262+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/Favicons"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/Favicons",
+          "url": "https://github.com/BishopFox/Favicons"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "pard0p",
+          "simeononsecurity"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
       }
     }
   ]

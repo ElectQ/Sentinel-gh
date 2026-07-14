@@ -63,16 +63,19 @@
         "id": { "type": "string" },
         "kind": {
           "type": "string",
-          "description": "star | fork | follow | unfollow | release | created | public_repo | …"
+          "description": "star | fork | follow | unfollow | release | created | public_repo | network_hot | …"
         },
         "text": {
           "type": "string",
           "description": "Human-readable one-liner, e.g. 'safedv starred 0avx/0avx.github.io'"
         },
-        "actor": { "type": "string" },
+        "actor": {
+          "type": ["string", "null"],
+          "description": "The followee who acted; null for network_hot (aggregate, no single actor)"
+        },
         "actor_url": {
-          "type": "string",
-          "description": "GitHub profile URL of the actor (followee)"
+          "type": ["string", "null"],
+          "description": "GitHub profile URL of the actor; null for network_hot"
         },
         "created_at": { "type": "string" },
         "repo": { "type": ["string", "null"] },
@@ -102,6 +105,10 @@
             "trending_front_page": { "type": "boolean" },
             "circle_count": { "type": ["integer", "null"] }
           }
+        },
+        "network": {
+          "type": ["object", "null"],
+          "description": "network_hot items only: outer-circle aggregate — outer_count (distinct outsiders), outer_actors, by_kind (engagement breakdown), inner_count/inner_actors/in_circle (followee crossover), trending, languages, source"
         }
       }
     }

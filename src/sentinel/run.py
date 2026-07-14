@@ -8,15 +8,25 @@ from . import state as state_mod
 from .analyzers import bundle as bundle_mod
 from .analyzers import feed as feed_mod
 from .analyzers import pulse as pulse_mod
-from .collectors import followees, following, trending
+from .collectors import followees, following, received, trending
 from .gh import GitHub
 from .util import beijing_day, env_bool
+
+
+def _my_repos(gh: GitHub) -> set[str]:
+    """Repos you own — excluded from outer-circle heat. Best-effort."""
+    try:
+        repos = gh.paginate("/user/repos", {"affiliation": "owner"})
+        return {r["full_name"] for r in repos}
+    except Exception:
+        return set()
 
 
 def main() -> None:
     gh = GitHub()
     st_users = state_mod.load_followees()
     st_following = state_mod.load_following()
+    st_received = state_mod.load_received()
 
     followee_logins, new_events = followees.collect(gh, st_users)
     followees.archive(new_events)
@@ -33,8 +43,15 @@ def main() -> None:
         new_diffs = []
         print("following: disabled")
 
+    new_received: list[dict] = []
+    if env_bool("RECEIVED_ENABLED", True):
+        new_received = received.collect(gh, st_received)
+        received.archive(new_received)
+        print(f"received: login={st_received.get('login')} new={len(new_received)}")
+
     state_mod.save_followees(st_users)
     state_mod.save_following(st_following)
+    state_mod.save_received(st_received)
 
     trend = trending.fetch(gh)
     print(
@@ -42,6 +59,8 @@ def main() -> None:
         f"repos={len(trend['repos'])}"
     )
 
+    followee_set = set(followee_logins)
+    my_repos = _my_repos(gh) if env_bool("RECEIVED_ENABLED", True) else set()
     trunc = following.truncated_actors(st_following)
 
     # Contract day = Beijing calendar date the event *happened* on. A run near
@@ -50,16 +69,19 @@ def main() -> None:
     # that keeps bundles idempotent under re-runs and backfills.
     days = {beijing_day(e["created_at"]) for e in new_events}
     days |= {beijing_day(f["observed_at"]) for f in new_diffs}
+    days |= {beijing_day(e["created_at"]) for e in new_received}
     days.add(bundle_mod.beijing_date())
 
     for day in sorted(days):  # ascending, so latest.json ends on the newest day
         day_events = followees.events_on(day)
         day_follows = following.follows_on(day)
+        day_received = received.received_on(day)
 
         feed_item_count = None
         if env_bool("FEED_ENABLED", True):
             feed = feed_mod.build(
-                day_events, day_follows, trend, len(followee_logins), date=day, gh=gh
+                day_events, day_follows, trend, len(followee_logins), date=day, gh=gh,
+                received_events=day_received, followees=followee_set, my_repos=my_repos,
             )
             feed_mod.write(feed)
             feed_item_count = feed["item_count"]
@@ -81,11 +103,15 @@ def main() -> None:
             feed_item_count=feed_item_count,
             following_enabled=env_bool("FOLLOWING_ENABLED", True),
             truncated_users=trunc,
+            received_events=day_received,
+            followees=followee_set,
+            my_repos=my_repos,
         )
         pulse["date"] = day
         pulse_mod.write(pulse)
         print(
             f"pulse {day}: circle_hot={len(pulse['circle_hot'])} "
+            f"outer_hot={len(pulse['circle_outer_hot'])} "
             f"overlap={len(pulse['trending_overlap'])} "
             f"stars={pulse['stars']['total']} forks={len(pulse['forks'])} "
             f"follows={pulse['follows']['new_count']} "

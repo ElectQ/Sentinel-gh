@@ -53,11 +53,13 @@ flowchart LR
 | 组件 | 路径 | 职责 |
 | --- | --- | --- |
 | 入口 | `src/sentinel/run.py` | 采集 → 归档 → trending → pulse |
-| GH 客户端 | `src/sentinel/gh.py` | PAT、ETag 304、分页、限流退避 |
+| GH 客户端 | `src/sentinel/gh.py` | PAT、ETag 304、分页、限流退避、传输层重试 |
 | Followee 事件 | `src/sentinel/collectors/followees.py` | 增量 events、`trim`、月度 jsonl |
+| 首页 feed | `src/sentinel/collectors/received.py` | `/users/{me}/received_events` 增量 → 圈外热门 |
 | Trending | `src/sentinel/collectors/trending.py` | 第三方归档适配 |
 | Pulse | `src/sentinel/analyzers/pulse.py` | `SCHEMA_VERSION = 1` 聚合 |
 | 状态 | `state/followees.json` | 每用户 `etag` / `last_event_at` / `boundary_ids` |
+| 状态 | `state/received.json` | 首页 feed 游标 `login` / `last_event_at` / `boundary_ids` |
 | 工作流 | `.github/workflows/daily-pulse.yml` | UTC 22:00，`GH_PAT`，回写 `data/` + `state/` |
 
 ### 实证基线（2026-07 归档）

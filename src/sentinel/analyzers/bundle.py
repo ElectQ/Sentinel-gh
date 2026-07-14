@@ -141,11 +141,15 @@ def feed_item_to_contract(item: dict[str, Any], *, collected_at: str | None = No
             "time_precision": item.get("time_precision") or "exact",
             "is_follow": kind in ("follow", "unfollow"),
             "is_repo_event": kind in ("star", "fork", "release", "created", "public_repo"),
+            "is_aggregate": kind == "network_hot",
         },
         # Persona of the newly-followed target, when enrichment ran (follow items
         # only). Explicitly copied because this builder is a whitelist — a key on
         # the internal item that is not named here never reaches the bundle.
         **({"persona": item["persona"]} if item.get("persona") else {}),
+        # Outer-circle aggregate detail (network_hot items only): who outside your
+        # circle engaged, split by engagement type. Same whitelist rule as persona.
+        **({"network": item["network"]} if item.get("network") else {}),
     }
 
 

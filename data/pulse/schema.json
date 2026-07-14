@@ -36,6 +36,11 @@
       "description": "Repos starred by >= 2 followees today, hottest first",
       "items": { "$ref": "#/$defs/starredRepo" }
     },
+    "circle_outer_hot": {
+      "type": "array",
+      "description": "Outer-circle heat from the dashboard feed (received_events): repos engaged by >= 2 people you do NOT follow, on repos you do not own. Heat is distinct-actor count across star/fork/issue/PR/comment. Empty on days with no received-feed coverage.",
+      "items": { "$ref": "#/$defs/outerHotRepo" }
+    },
     "trending_overlap": {
       "type": "array",
       "description": "Repos starred by any followee today that are also on GitHub trending",
@@ -169,6 +174,29 @@
         "starred_by": { "type": "array", "items": { "type": "string" } },
         "trending": { "type": "boolean" },
         "trending_front_page": { "type": "boolean" }
+      }
+    },
+    "outerHotRepo": {
+      "type": "object",
+      "required": ["repo", "outer_count", "outer_actors", "by_kind", "in_circle", "trending"],
+      "properties": {
+        "repo": { "type": "string" },
+        "repo_url": { "type": "string" },
+        "outer_count": { "type": "integer", "description": "distinct people you don't follow who engaged" },
+        "outer_actors": { "type": "array", "items": { "type": "string" } },
+        "outer_actor_urls": { "type": "array", "items": { "type": "string" } },
+        "by_kind": {
+          "type": "object",
+          "description": "engagement breakdown: star/fork/release/issue/pr/comment/created -> count",
+          "additionalProperties": { "type": "integer" }
+        },
+        "inner_count": { "type": "integer", "description": "followees who also starred it today" },
+        "inner_actors": { "type": "array", "items": { "type": "string" } },
+        "in_circle": { "type": "boolean" },
+        "trending": { "type": "boolean" },
+        "trending_front_page": { "type": "boolean" },
+        "languages": { "type": "array", "items": { "type": "string" } },
+        "latest_at": { "type": "string", "description": "most recent engagement timestamp, for sorting" }
       }
     }
   }

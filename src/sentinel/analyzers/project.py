@@ -2,11 +2,27 @@
 
 from __future__ import annotations
 
-from collections import defaultdict
+from collections import Counter, defaultdict
 from collections.abc import Iterator
 from typing import Any
 
 GH = "https://github.com"
+
+# Dashboard-feed event type -> the kind of engagement it represents. Anything not
+# listed here (PublicEvent, DeleteEvent, MemberEvent, PushEvent, …) is ignored as
+# noise for the purpose of "what is the network converging on".
+RECEIVED_ENGAGEMENT = {
+    "WatchEvent": "star",
+    "ForkEvent": "fork",
+    "ReleaseEvent": "release",
+    "CreateEvent": "created",
+    "IssuesEvent": "issue",
+    "IssueCommentEvent": "issue",
+    "PullRequestEvent": "pr",
+    "PullRequestReviewEvent": "pr",
+    "PullRequestReviewCommentEvent": "pr",
+    "CommitCommentEvent": "comment",
+}
 
 
 def profile_url(login: str | None) -> str | None:
@@ -40,6 +56,75 @@ def star_circle_counts(day_events: list[dict]) -> dict[str, set[str]]:
 
 def count_push_excluded(day_events: list[dict]) -> int:
     return sum(1 for e in day_events if e.get("type") == "PushEvent")
+
+
+def outer_circle_hot(
+    received_events: list[dict],
+    *,
+    followees: set[str],
+    my_repos: set[str],
+    inner_starred_by: dict[str, set[str]] | None = None,
+    trepos: dict[str, dict] | None = None,
+    min_actors: int = 2,
+) -> list[dict]:
+    """Repos the *outer* network is converging on, from the dashboard feed.
+
+    "Outer" = engagement by people you don't follow, on repos you don't own. Your
+    followees' activity is already the inner circle (collectors.followees), and
+    your own repos are a separate concern; both are excluded here so this stays a
+    pure "what's bubbling up around my circle that I'm not tracking yet" signal.
+
+    Heat is distinct-actor count across all engagement types (star / fork / issue
+    / PR / comment / release), not raw event count — ten pushes from one bot must
+    not outweigh three different people opening issues. A repo qualifies when
+    `min_actors` distinct outsiders engaged, OR when someone in your own circle
+    also starred it (the crossover is worth surfacing even at low outer count).
+    """
+    inner_starred_by = inner_starred_by or {}
+    trepos = trepos or {}
+
+    actors: dict[str, set[str]] = defaultdict(set)
+    kinds: dict[str, Counter] = defaultdict(Counter)
+    latest: dict[str, str] = {}
+    for ev in received_events:
+        actor = ev.get("actor")
+        repo = ev.get("repo")
+        engagement = RECEIVED_ENGAGEMENT.get(ev.get("type"))
+        if not (actor and repo and engagement):
+            continue
+        if actor in followees or repo in my_repos:
+            continue
+        actors[repo].add(actor)
+        kinds[repo][engagement] += 1
+        at = ev.get("created_at") or ""
+        if at > latest.get(repo, ""):
+            latest[repo] = at
+
+    out = []
+    for repo, who in actors.items():
+        inner = inner_starred_by.get(repo, set())
+        if len(who) < min_actors and not inner:
+            continue
+        meta = trepos.get(repo)
+        out.append(
+            {
+                "repo": repo,
+                "repo_url": repo_url(repo),
+                "outer_count": len(who),
+                "outer_actors": sorted(who),
+                "outer_actor_urls": [profile_url(u) for u in sorted(who)],
+                "by_kind": dict(kinds[repo]),
+                "inner_count": len(inner),
+                "inner_actors": sorted(inner),
+                "in_circle": bool(inner),
+                "trending": meta is not None,
+                "trending_front_page": bool(meta and meta.get("front_page")),
+                "languages": (meta or {}).get("languages", []),
+                "latest_at": latest.get(repo, ""),
+            }
+        )
+    out.sort(key=lambda x: (-x["outer_count"], -x["inner_count"], x["repo"]))
+    return out
 
 
 def _base(

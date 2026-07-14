@@ -24,10 +24,25 @@ def build(
     feed_item_count: int | None = None,
     following_enabled: bool = True,
     truncated_users: list[str] | None = None,
+    received_events: list[dict] | None = None,
+    followees: set[str] | None = None,
+    my_repos: set[str] | None = None,
 ) -> dict:
     now = dt.datetime.now(dt.UTC)
     trepos = trending.get("repos") or {}
     starred_by = project.star_circle_counts(day_events)
+
+    circle_outer_hot = (
+        project.outer_circle_hot(
+            received_events,
+            followees=followees or set(),
+            my_repos=my_repos or set(),
+            inner_starred_by=starred_by,
+            trepos=trepos,
+        )
+        if received_events
+        else []
+    )
 
     releases = []
     for item in project.iter_releases(day_events):
@@ -186,6 +201,7 @@ def build(
         "trending_available": bool(trending.get("available")),
         "trending_source_date": trending.get("date"),
         "circle_hot": circle_hot,
+        "circle_outer_hot": circle_outer_hot,
         "trending_overlap": trending_overlap,
         "releases": releases,
         "new_repos": new_repos,

@@ -1,19 +1,263 @@
 {
   "schema_version": 1,
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T04:21:12+00:00",
+  "generated_at": "2026-07-14T07:59:31+00:00",
   "followee_count": 166,
-  "item_count": 8,
+  "item_count": 23,
   "kinds_included": [
     "star",
     "fork",
     "follow",
     "release",
-    "created"
+    "created",
+    "network_hot"
   ],
   "trending_available": true,
   "trending_source_date": "2026-07-14",
   "items": [
+    {
+      "id": "event:11752073583",
+      "kind": "release",
+      "text": "M09Ic released chainreactors/gogo v2.15.0",
+      "actor": "M09Ic",
+      "actor_url": "https://github.com/M09Ic",
+      "created_at": "2026-07-14T07:23:55Z",
+      "repo": "chainreactors/gogo",
+      "repo_url": "https://github.com/chainreactors/gogo",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/chainreactors/gogo/releases/tag/untagged-06c16135f4674bc805d0",
+      "payload": {
+        "tag": "v2.15.0",
+        "name": "v2.15.0",
+        "url": "https://github.com/chainreactors/gogo/releases/tag/untagged-06c16135f4674bc805d0",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:11751379334",
+      "kind": "fork",
+      "text": "gmh5225 forked xp987/symbridge → gmh5225/symbridge",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-07-14T07:06:37Z",
+      "repo": "xp987/symbridge",
+      "repo_url": "https://github.com/xp987/symbridge",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/symbridge",
+      "payload": {
+        "forkee": "gmh5225/symbridge",
+        "forkee_url": "https://github.com/gmh5225/symbridge"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:11751243390",
+      "kind": "star",
+      "text": "zema1 starred owu/wsl-dashboard",
+      "actor": "zema1",
+      "actor_url": "https://github.com/zema1",
+      "created_at": "2026-07-14T07:03:13Z",
+      "repo": "owu/wsl-dashboard",
+      "repo_url": "https://github.com/owu/wsl-dashboard",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/owu/wsl-dashboard",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:11751167424",
+      "kind": "star",
+      "text": "yenick514 starred adysec/nuclei_poc",
+      "actor": "yenick514",
+      "actor_url": "https://github.com/yenick514",
+      "created_at": "2026-07-14T07:01:15Z",
+      "repo": "adysec/nuclei_poc",
+      "repo_url": "https://github.com/adysec/nuclei_poc",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/adysec/nuclei_poc",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:11750725104",
+      "kind": "star",
+      "text": "Garck3h starred lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "actor": "Garck3h",
+      "actor_url": "https://github.com/Garck3h",
+      "created_at": "2026-07-14T06:49:32Z",
+      "repo": "lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "repo_url": "https://github.com/lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:chainreactors/aiscan:2026-07-14",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "chainreactors/aiscan",
+      "repo_url": "https://github.com/chainreactors/aiscan",
+      "html_url": "https://github.com/chainreactors/aiscan",
+      "text": "chainreactors/aiscan — 圈外 2 人参与（star×2）",
+      "created_at": "2026-07-14T06:18:16Z",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "Mashiro726",
+          "th1nk3rrr-dev"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:11749504057",
+      "kind": "star",
+      "text": "yhy0 starred JustVugg/colibri",
+      "actor": "yhy0",
+      "actor_url": "https://github.com/yhy0",
+      "created_at": "2026-07-14T06:14:29Z",
+      "repo": "JustVugg/colibri",
+      "repo_url": "https://github.com/JustVugg/colibri",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/JustVugg/colibri",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:11748259190",
+      "kind": "star",
+      "text": "yj94 starred neocanable/garlic",
+      "actor": "yj94",
+      "actor_url": "https://github.com/yj94",
+      "created_at": "2026-07-14T05:35:00Z",
+      "repo": "neocanable/garlic",
+      "repo_url": "https://github.com/neocanable/garlic",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/neocanable/garlic",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:11747948343",
+      "kind": "release",
+      "text": "zema1 released zema1/suo5 v2.2.0",
+      "actor": "zema1",
+      "actor_url": "https://github.com/zema1",
+      "created_at": "2026-07-14T05:24:02Z",
+      "repo": "zema1/suo5",
+      "repo_url": "https://github.com/zema1/suo5",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/zema1/suo5/releases/tag/v2.2.0",
+      "payload": {
+        "tag": "v2.2.0",
+        "name": "Suo5 v2.2.0 发布",
+        "url": "https://github.com/zema1/suo5/releases/tag/v2.2.0",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-07-14",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "BishopFox/sliver",
+      "repo_url": "https://github.com/BishopFox/sliver",
+      "html_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 5 人参与（pr×1, star×4）",
+      "created_at": "2026-07-14T05:08:12Z",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "CTW4268",
+          "SmigsDeLaMigs",
+          "moloch--",
+          "tearfulDalvik",
+          "wafflexyzz"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 4,
+          "pr": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
     {
       "id": "event:11745558189",
       "kind": "star",
@@ -55,6 +299,39 @@
       }
     },
     {
+      "id": "network:BishopFox/cloudfox:2026-07-14",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "BishopFox/cloudfox",
+      "repo_url": "https://github.com/BishopFox/cloudfox",
+      "html_url": "https://github.com/BishopFox/cloudfox",
+      "text": "BishopFox/cloudfox — 圈外 2 人参与（star×2）",
+      "created_at": "2026-07-14T03:25:00Z",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "DamodarPatil",
+          "PatrickEunice"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
       "id": "event:11743914030",
       "kind": "star",
       "text": "Xre0uS starred denniskniep/DeviceCodePhishing",
@@ -92,6 +369,115 @@
         "trending": false,
         "trending_front_page": false,
         "circle_count": 1
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-07-14",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "Vector35/binaryninja-api",
+      "repo_url": "https://github.com/Vector35/binaryninja-api",
+      "html_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 5 人参与（comment×3, issue×1, pr×24, star×1）",
+      "created_at": "2026-07-14T00:53:14Z",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "bdash",
+          "emesare",
+          "m1stadev",
+          "plafosse",
+          "xusheng6"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "comment": 3,
+          "pr": 24,
+          "star": 1,
+          "issue": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:Vector35/qt-build:2026-07-14",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "Vector35/qt-build",
+      "repo_url": "https://github.com/Vector35/qt-build",
+      "html_url": "https://github.com/Vector35/qt-build",
+      "text": "Vector35/qt-build — 圈外 3 人参与（issue×2, pr×3）",
+      "created_at": "2026-07-13T22:32:10Z",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "D0ntPanic",
+          "bdash",
+          "fuzyll"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 3,
+          "issue": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:BishopFox/sj:2026-07-14",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "BishopFox/sj",
+      "repo_url": "https://github.com/BishopFox/sj",
+      "html_url": "https://github.com/BishopFox/sj",
+      "text": "BishopFox/sj — 圈外 3 人参与（issue×5, star×1）",
+      "created_at": "2026-07-13T20:54:58Z",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "mr-pmillz",
+          "nikoladzekic",
+          "twest-bf"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 5,
+          "star": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
       }
     },
     {
@@ -179,15 +565,50 @@
         "trending_front_page": false,
         "circle_count": 1
       }
+    },
+    {
+      "id": "network:BishopFox/Favicons:2026-07-14",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "BishopFox/Favicons",
+      "repo_url": "https://github.com/BishopFox/Favicons",
+      "html_url": "https://github.com/BishopFox/Favicons",
+      "text": "BishopFox/Favicons — 圈外 2 人参与（star×2）",
+      "created_at": "2026-07-13T16:30:02Z",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "pard0p",
+          "simeononsecurity"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
     }
   ],
   "summary": {
     "by_kind": {
-      "star": 6,
-      "fork": 2
+      "release": 2,
+      "fork": 3,
+      "star": 11,
+      "network_hot": 7
     },
-    "push_events_excluded": 50,
-    "events_in_window": 66,
+    "push_events_excluded": 76,
+    "events_in_window": 110,
     "follows_in_window": 0
   }
 }

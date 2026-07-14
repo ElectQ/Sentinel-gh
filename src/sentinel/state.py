@@ -8,6 +8,7 @@ ROOT = Path(os.environ.get("SENTINEL_ROOT", "."))
 STATE_DIR = ROOT / "state"
 FOLLOWEES_FILE = STATE_DIR / "followees.json"
 FOLLOWING_FILE = STATE_DIR / "following.json"
+RECEIVED_FILE = STATE_DIR / "received.json"
 
 
 def load() -> dict:
@@ -41,3 +42,15 @@ def load_following() -> dict:
 def save_following(state: dict) -> None:
     STATE_DIR.mkdir(parents=True, exist_ok=True)
     FOLLOWING_FILE.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n")
+
+
+def load_received() -> dict:
+    """Dashboard-feed cursor: {login, last_event_at, boundary_ids, etag}."""
+    if RECEIVED_FILE.exists():
+        return json.loads(RECEIVED_FILE.read_text())
+    return {}
+
+
+def save_received(state: dict) -> None:
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    RECEIVED_FILE.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n")

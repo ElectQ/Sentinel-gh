@@ -56,7 +56,7 @@ def main() -> None:
     feed = None
     if env_bool("FEED_ENABLED", True):
         feed = feed_mod.build(
-            day_events, day_follows, trend, len(followee_logins), date=bj_today
+            day_events, day_follows, trend, len(followee_logins), date=bj_today, gh=gh
         )
         feed_mod.write(feed)
         feed_item_count = feed["item_count"]

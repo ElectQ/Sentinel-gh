@@ -142,6 +142,10 @@ def feed_item_to_contract(item: dict[str, Any], *, collected_at: str | None = No
             "is_follow": kind in ("follow", "unfollow"),
             "is_repo_event": kind in ("star", "fork", "release", "created", "public_repo"),
         },
+        # Persona of the newly-followed target, when enrichment ran (follow items
+        # only). Explicitly copied because this builder is a whitelist — a key on
+        # the internal item that is not named here never reaches the bundle.
+        **({"persona": item["persona"]} if item.get("persona") else {}),
     }
 
 

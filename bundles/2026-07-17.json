@@ -4,28 +4,2531 @@
   "collect_date": "2026-07-17",
   "collect_window": {
     "start": "2026-07-16T16:17:54+00:00",
-    "end": "2026-07-16T22:06:43+00:00",
-    "hours": 5
+    "end": "2026-07-17T15:57:24+00:00",
+    "hours": 23
   },
   "producer": {
     "name": "sentinel-gh",
     "version": "0.1.0",
-    "run_id": "29538386846",
-    "commit": "e4a3d53"
+    "run_id": "29616316816",
+    "commit": "2a25a47"
   },
   "stats": {
-    "total": 29,
+    "total": 68,
     "by_kind": {
-      "follow": 2,
-      "network_hot": 6,
-      "star": 9,
-      "fork": 12
+      "star": 27,
+      "network_hot": 9,
+      "fork": 30,
+      "follow": 2
     },
     "failed_lists": [],
     "followee_count": 166,
-    "push_events_excluded": 25
+    "push_events_excluded": 101
   },
   "items": [
+    {
+      "id": "event:11938209299",
+      "who": "yj94",
+      "who_url": "https://github.com/yj94",
+      "action": "star",
+      "target": "xiaoy-sec/Pentest_Note",
+      "target_url": "https://github.com/xiaoy-sec/Pentest_Note",
+      "text": "yj94 starred xiaoy-sec/Pentest_Note",
+      "at": "2026-07-17T15:57:24+00:00",
+      "external_id": "event:11938209299",
+      "url": "https://github.com/xiaoy-sec/Pentest_Note",
+      "content": "yj94 starred xiaoy-sec/Pentest_Note",
+      "author": "yj94",
+      "author_name": "yj94",
+      "author_url": "https://github.com/yj94",
+      "published_at": "2026-07-17T15:57:24+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yj94",
+        "https://github.com/xiaoy-sec/Pentest_Note"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yj94",
+          "url": "https://github.com/yj94"
+        },
+        "repo": {
+          "full_name": "xiaoy-sec/Pentest_Note",
+          "url": "https://github.com/xiaoy-sec/Pentest_Note"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-07-17",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/sliver",
+      "target_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 9 人参与（fork×3, star×6）",
+      "at": "2026-07-17T15:56:46+00:00",
+      "external_id": "network:BishopFox/sliver:2026-07-17",
+      "url": "https://github.com/BishopFox/sliver",
+      "content": "BishopFox/sliver — 圈外 9 人参与（fork×3, star×6）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-17T15:56:46+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/sliver"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/sliver",
+          "url": "https://github.com/BishopFox/sliver"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 9,
+        "outer_actors": [
+          "Bulu868",
+          "bytecodesecurecorp",
+          "ctxzero",
+          "djfatbody",
+          "imnotbrucewayne",
+          "lgray-bf",
+          "skypianox",
+          "winezer0",
+          "xhddhy"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 6,
+          "fork": 3
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:BishopFox/snowpick:2026-07-17",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/snowpick",
+      "target_url": "https://github.com/BishopFox/snowpick",
+      "text": "BishopFox/snowpick — 圈外 2 人参与（star×2）",
+      "at": "2026-07-17T15:51:52+00:00",
+      "external_id": "network:BishopFox/snowpick:2026-07-17",
+      "url": "https://github.com/BishopFox/snowpick",
+      "content": "BishopFox/snowpick — 圈外 2 人参与（star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-17T15:51:52+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/snowpick"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/snowpick",
+          "url": "https://github.com/BishopFox/snowpick"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "cj-shuffle",
+          "dvdknaap"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-07-17",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 3 人参与（issue×12）",
+      "at": "2026-07-17T15:42:58+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-07-17",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 3 人参与（issue×12）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-17T15:42:58+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "nimaarek",
+          "psifertex",
+          "xusheng6"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 12
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:11937270394",
+      "who": "odzhan",
+      "who_url": "https://github.com/odzhan",
+      "action": "star",
+      "target": "ox01024/awesome-offensive-security-ai",
+      "target_url": "https://github.com/ox01024/awesome-offensive-security-ai",
+      "text": "odzhan starred ox01024/awesome-offensive-security-ai",
+      "at": "2026-07-17T15:35:55+00:00",
+      "external_id": "event:11937270394",
+      "url": "https://github.com/ox01024/awesome-offensive-security-ai",
+      "content": "odzhan starred ox01024/awesome-offensive-security-ai",
+      "author": "odzhan",
+      "author_name": "odzhan",
+      "author_url": "https://github.com/odzhan",
+      "published_at": "2026-07-17T15:35:55+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/odzhan",
+        "https://github.com/ox01024/awesome-offensive-security-ai"
+      ],
+      "refs": {
+        "actor": {
+          "login": "odzhan",
+          "url": "https://github.com/odzhan"
+        },
+        "repo": {
+          "full_name": "ox01024/awesome-offensive-security-ai",
+          "url": "https://github.com/ox01024/awesome-offensive-security-ai"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11934203374",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/oop-in-c-lab",
+      "target_url": "https://github.com/gmh5225/oop-in-c-lab",
+      "text": "gmh5225 forked gcomneno/oop-in-c-lab → gmh5225/oop-in-c-lab",
+      "at": "2026-07-17T14:28:28+00:00",
+      "external_id": "event:11934203374",
+      "url": "https://github.com/gmh5225/oop-in-c-lab",
+      "content": "gmh5225 forked gcomneno/oop-in-c-lab → gmh5225/oop-in-c-lab",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T14:28:28+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/gcomneno/oop-in-c-lab",
+        "https://github.com/gmh5225/oop-in-c-lab"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "gcomneno/oop-in-c-lab",
+          "url": "https://github.com/gcomneno/oop-in-c-lab"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/oop-in-c-lab",
+          "url": "https://github.com/gmh5225/oop-in-c-lab"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11934192121",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/Codex-X",
+      "target_url": "https://github.com/gmh5225/Codex-X",
+      "text": "gmh5225 forked yynxxxxx/Codex-X → gmh5225/Codex-X",
+      "at": "2026-07-17T14:28:13+00:00",
+      "external_id": "event:11934192121",
+      "url": "https://github.com/gmh5225/Codex-X",
+      "content": "gmh5225 forked yynxxxxx/Codex-X → gmh5225/Codex-X",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T14:28:13+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/yynxxxxx/Codex-X",
+        "https://github.com/gmh5225/Codex-X"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "yynxxxxx/Codex-X",
+          "url": "https://github.com/yynxxxxx/Codex-X"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/Codex-X",
+          "url": "https://github.com/gmh5225/Codex-X"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11933931770",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/llarm",
+      "target_url": "https://github.com/gmh5225/llarm",
+      "text": "gmh5225 forked kernelwernel/llarm → gmh5225/llarm",
+      "at": "2026-07-17T14:22:36+00:00",
+      "external_id": "event:11933931770",
+      "url": "https://github.com/gmh5225/llarm",
+      "content": "gmh5225 forked kernelwernel/llarm → gmh5225/llarm",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T14:22:36+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/kernelwernel/llarm",
+        "https://github.com/gmh5225/llarm"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "kernelwernel/llarm",
+          "url": "https://github.com/kernelwernel/llarm"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/llarm",
+          "url": "https://github.com/gmh5225/llarm"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11933922703",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/duchamp-root",
+      "target_url": "https://github.com/gmh5225/duchamp-root",
+      "text": "gmh5225 forked Colorful-glassblock/duchamp-root → gmh5225/duchamp-root",
+      "at": "2026-07-17T14:22:24+00:00",
+      "external_id": "event:11933922703",
+      "url": "https://github.com/gmh5225/duchamp-root",
+      "content": "gmh5225 forked Colorful-glassblock/duchamp-root → gmh5225/duchamp-root",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T14:22:24+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/Colorful-glassblock/duchamp-root",
+        "https://github.com/gmh5225/duchamp-root"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "Colorful-glassblock/duchamp-root",
+          "url": "https://github.com/Colorful-glassblock/duchamp-root"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/duchamp-root",
+          "url": "https://github.com/gmh5225/duchamp-root"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11933468507",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/PoseidonVK",
+      "target_url": "https://github.com/gmh5225/PoseidonVK",
+      "text": "gmh5225 forked koosoli/PoseidonVK → gmh5225/PoseidonVK",
+      "at": "2026-07-17T14:12:35+00:00",
+      "external_id": "event:11933468507",
+      "url": "https://github.com/gmh5225/PoseidonVK",
+      "content": "gmh5225 forked koosoli/PoseidonVK → gmh5225/PoseidonVK",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T14:12:35+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/koosoli/PoseidonVK",
+        "https://github.com/gmh5225/PoseidonVK"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "koosoli/PoseidonVK",
+          "url": "https://github.com/koosoli/PoseidonVK"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/PoseidonVK",
+          "url": "https://github.com/gmh5225/PoseidonVK"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11933452326",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/WindEffects",
+      "target_url": "https://github.com/gmh5225/WindEffects",
+      "text": "gmh5225 forked udinmoInc/WindEffects → gmh5225/WindEffects",
+      "at": "2026-07-17T14:12:13+00:00",
+      "external_id": "event:11933452326",
+      "url": "https://github.com/gmh5225/WindEffects",
+      "content": "gmh5225 forked udinmoInc/WindEffects → gmh5225/WindEffects",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T14:12:13+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/udinmoInc/WindEffects",
+        "https://github.com/gmh5225/WindEffects"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "udinmoInc/WindEffects",
+          "url": "https://github.com/udinmoInc/WindEffects"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/WindEffects",
+          "url": "https://github.com/gmh5225/WindEffects"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11932791742",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/ICH_A12_plus_Ramdisk",
+      "target_url": "https://github.com/gmh5225/ICH_A12_plus_Ramdisk",
+      "text": "gmh5225 forked Pa7r0n/ICH_A12_plus_Ramdisk → gmh5225/ICH_A12_plus_Ramdisk",
+      "at": "2026-07-17T13:58:06+00:00",
+      "external_id": "event:11932791742",
+      "url": "https://github.com/gmh5225/ICH_A12_plus_Ramdisk",
+      "content": "gmh5225 forked Pa7r0n/ICH_A12_plus_Ramdisk → gmh5225/ICH_A12_plus_Ramdisk",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T13:58:06+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/Pa7r0n/ICH_A12_plus_Ramdisk",
+        "https://github.com/gmh5225/ICH_A12_plus_Ramdisk"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "Pa7r0n/ICH_A12_plus_Ramdisk",
+          "url": "https://github.com/Pa7r0n/ICH_A12_plus_Ramdisk"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/ICH_A12_plus_Ramdisk",
+          "url": "https://github.com/gmh5225/ICH_A12_plus_Ramdisk"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11932454864",
+      "who": "Autumn-27",
+      "who_url": "https://github.com/Autumn-27",
+      "action": "star",
+      "target": "Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+      "target_url": "https://github.com/Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+      "text": "Autumn-27 starred Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+      "at": "2026-07-17T13:50:58+00:00",
+      "external_id": "event:11932454864",
+      "url": "https://github.com/Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+      "content": "Autumn-27 starred Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+      "author": "Autumn-27",
+      "author_name": "Autumn-27",
+      "author_url": "https://github.com/Autumn-27",
+      "published_at": "2026-07-17T13:50:58+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Autumn-27",
+        "https://github.com/Yeti-791/Awesome-Offensive-AI-Agentic-Landscape"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Autumn-27",
+          "url": "https://github.com/Autumn-27"
+        },
+        "repo": {
+          "full_name": "Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+          "url": "https://github.com/Yeti-791/Awesome-Offensive-AI-Agentic-Landscape"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11931435311",
+      "who": "cdxiaodong",
+      "who_url": "https://github.com/cdxiaodong",
+      "action": "star",
+      "target": "sonuoffsec/DVAP",
+      "target_url": "https://github.com/sonuoffsec/DVAP",
+      "text": "cdxiaodong starred sonuoffsec/DVAP",
+      "at": "2026-07-17T13:28:47+00:00",
+      "external_id": "event:11931435311",
+      "url": "https://github.com/sonuoffsec/DVAP",
+      "content": "cdxiaodong starred sonuoffsec/DVAP",
+      "author": "cdxiaodong",
+      "author_name": "cdxiaodong",
+      "author_url": "https://github.com/cdxiaodong",
+      "published_at": "2026-07-17T13:28:47+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/cdxiaodong",
+        "https://github.com/sonuoffsec/DVAP"
+      ],
+      "refs": {
+        "actor": {
+          "login": "cdxiaodong",
+          "url": "https://github.com/cdxiaodong"
+        },
+        "repo": {
+          "full_name": "sonuoffsec/DVAP",
+          "url": "https://github.com/sonuoffsec/DVAP"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:Adaptix-Framework/AdaptixC2:2026-07-17",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Adaptix-Framework/AdaptixC2",
+      "target_url": "https://github.com/Adaptix-Framework/AdaptixC2",
+      "text": "Adaptix-Framework/AdaptixC2 — 圈外 7 人参与（fork×1, star×6）",
+      "at": "2026-07-17T12:33:41+00:00",
+      "external_id": "network:Adaptix-Framework/AdaptixC2:2026-07-17",
+      "url": "https://github.com/Adaptix-Framework/AdaptixC2",
+      "content": "Adaptix-Framework/AdaptixC2 — 圈外 7 人参与（fork×1, star×6）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-17T12:33:41+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Adaptix-Framework/AdaptixC2"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Adaptix-Framework/AdaptixC2",
+          "url": "https://github.com/Adaptix-Framework/AdaptixC2"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 7,
+        "outer_actors": [
+          "Awrrays",
+          "Jurangren",
+          "Parad0x7e",
+          "iacobusc",
+          "iokama",
+          "tbennett6421",
+          "winezer0"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 6,
+          "fork": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:11928796704",
+      "who": "seventeenman",
+      "who_url": "https://github.com/seventeenman",
+      "action": "star",
+      "target": "praetorian-inc/titus",
+      "target_url": "https://github.com/praetorian-inc/titus",
+      "text": "seventeenman starred praetorian-inc/titus",
+      "at": "2026-07-17T12:27:54+00:00",
+      "external_id": "event:11928796704",
+      "url": "https://github.com/praetorian-inc/titus",
+      "content": "seventeenman starred praetorian-inc/titus",
+      "author": "seventeenman",
+      "author_name": "seventeenman",
+      "author_url": "https://github.com/seventeenman",
+      "published_at": "2026-07-17T12:27:54+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/seventeenman",
+        "https://github.com/praetorian-inc/titus"
+      ],
+      "refs": {
+        "actor": {
+          "login": "seventeenman",
+          "url": "https://github.com/seventeenman"
+        },
+        "repo": {
+          "full_name": "praetorian-inc/titus",
+          "url": "https://github.com/praetorian-inc/titus"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 3,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11927086123",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/tauri-plugin-notifications",
+      "target_url": "https://github.com/gmh5225/tauri-plugin-notifications",
+      "text": "gmh5225 forked Choochmeque/tauri-plugin-notifications → gmh5225/tauri-plugin-notifications",
+      "at": "2026-07-17T11:45:37+00:00",
+      "external_id": "event:11927086123",
+      "url": "https://github.com/gmh5225/tauri-plugin-notifications",
+      "content": "gmh5225 forked Choochmeque/tauri-plugin-notifications → gmh5225/tauri-plugin-notifications",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T11:45:37+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/Choochmeque/tauri-plugin-notifications",
+        "https://github.com/gmh5225/tauri-plugin-notifications"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "Choochmeque/tauri-plugin-notifications",
+          "url": "https://github.com/Choochmeque/tauri-plugin-notifications"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/tauri-plugin-notifications",
+          "url": "https://github.com/gmh5225/tauri-plugin-notifications"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11927069112",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/GuardAC",
+      "target_url": "https://github.com/gmh5225/GuardAC",
+      "text": "gmh5225 forked PalassCQ/GuardAC → gmh5225/GuardAC",
+      "at": "2026-07-17T11:45:12+00:00",
+      "external_id": "event:11927069112",
+      "url": "https://github.com/gmh5225/GuardAC",
+      "content": "gmh5225 forked PalassCQ/GuardAC → gmh5225/GuardAC",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T11:45:12+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/PalassCQ/GuardAC",
+        "https://github.com/gmh5225/GuardAC"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "PalassCQ/GuardAC",
+          "url": "https://github.com/PalassCQ/GuardAC"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/GuardAC",
+          "url": "https://github.com/gmh5225/GuardAC"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11927037693",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/kernforge",
+      "target_url": "https://github.com/gmh5225/kernforge",
+      "text": "gmh5225 forked kernullist/kernforge → gmh5225/kernforge",
+      "at": "2026-07-17T11:44:26+00:00",
+      "external_id": "event:11927037693",
+      "url": "https://github.com/gmh5225/kernforge",
+      "content": "gmh5225 forked kernullist/kernforge → gmh5225/kernforge",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T11:44:26+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/kernullist/kernforge",
+        "https://github.com/gmh5225/kernforge"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "kernullist/kernforge",
+          "url": "https://github.com/kernullist/kernforge"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/kernforge",
+          "url": "https://github.com/gmh5225/kernforge"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11926547492",
+      "who": "odzhan",
+      "who_url": "https://github.com/odzhan",
+      "action": "star",
+      "target": "timb-machine/linux-malware",
+      "target_url": "https://github.com/timb-machine/linux-malware",
+      "text": "odzhan starred timb-machine/linux-malware",
+      "at": "2026-07-17T11:32:22+00:00",
+      "external_id": "event:11926547492",
+      "url": "https://github.com/timb-machine/linux-malware",
+      "content": "odzhan starred timb-machine/linux-malware",
+      "author": "odzhan",
+      "author_name": "odzhan",
+      "author_url": "https://github.com/odzhan",
+      "published_at": "2026-07-17T11:32:22+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/odzhan",
+        "https://github.com/timb-machine/linux-malware"
+      ],
+      "refs": {
+        "actor": {
+          "login": "odzhan",
+          "url": "https://github.com/odzhan"
+        },
+        "repo": {
+          "full_name": "timb-machine/linux-malware",
+          "url": "https://github.com/timb-machine/linux-malware"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 2,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11926212507",
+      "who": "odzhan",
+      "who_url": "https://github.com/odzhan",
+      "action": "star",
+      "target": "gcomneno/oop-in-c-lab",
+      "target_url": "https://github.com/gcomneno/oop-in-c-lab",
+      "text": "odzhan starred gcomneno/oop-in-c-lab",
+      "at": "2026-07-17T11:23:49+00:00",
+      "external_id": "event:11926212507",
+      "url": "https://github.com/gcomneno/oop-in-c-lab",
+      "content": "odzhan starred gcomneno/oop-in-c-lab",
+      "author": "odzhan",
+      "author_name": "odzhan",
+      "author_url": "https://github.com/odzhan",
+      "published_at": "2026-07-17T11:23:49+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/odzhan",
+        "https://github.com/gcomneno/oop-in-c-lab"
+      ],
+      "refs": {
+        "actor": {
+          "login": "odzhan",
+          "url": "https://github.com/odzhan"
+        },
+        "repo": {
+          "full_name": "gcomneno/oop-in-c-lab",
+          "url": "https://github.com/gcomneno/oop-in-c-lab"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11925855448",
+      "who": "h3zh1",
+      "who_url": "https://github.com/h3zh1",
+      "action": "star",
+      "target": "xai-org/grok-build",
+      "target_url": "https://github.com/xai-org/grok-build",
+      "text": "h3zh1 starred xai-org/grok-build",
+      "at": "2026-07-17T11:14:30+00:00",
+      "external_id": "event:11925855448",
+      "url": "https://github.com/xai-org/grok-build",
+      "content": "h3zh1 starred xai-org/grok-build",
+      "author": "h3zh1",
+      "author_name": "h3zh1",
+      "author_url": "https://github.com/h3zh1",
+      "published_at": "2026-07-17T11:14:30+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/h3zh1",
+        "https://github.com/xai-org/grok-build"
+      ],
+      "refs": {
+        "actor": {
+          "login": "h3zh1",
+          "url": "https://github.com/h3zh1"
+        },
+        "repo": {
+          "full_name": "xai-org/grok-build",
+          "url": "https://github.com/xai-org/grok-build"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:BishopFox/aimap:2026-07-17",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/aimap",
+      "target_url": "https://github.com/BishopFox/aimap",
+      "text": "BishopFox/aimap — 圈外 2 人参与（fork×1, star×2）",
+      "at": "2026-07-17T10:08:46+00:00",
+      "external_id": "network:BishopFox/aimap:2026-07-17",
+      "url": "https://github.com/BishopFox/aimap",
+      "content": "BishopFox/aimap — 圈外 2 人参与（fork×1, star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-17T10:08:46+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/aimap"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/aimap",
+          "url": "https://github.com/BishopFox/aimap"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "mehdi-berel",
+          "techdayo"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2,
+          "fork": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:11922081591",
+      "who": "mrfearless",
+      "who_url": "https://github.com/mrfearless",
+      "action": "star",
+      "target": "Wimukthi/AxiomCompress",
+      "target_url": "https://github.com/Wimukthi/AxiomCompress",
+      "text": "mrfearless starred Wimukthi/AxiomCompress",
+      "at": "2026-07-17T09:42:29+00:00",
+      "external_id": "event:11922081591",
+      "url": "https://github.com/Wimukthi/AxiomCompress",
+      "content": "mrfearless starred Wimukthi/AxiomCompress",
+      "author": "mrfearless",
+      "author_name": "mrfearless",
+      "author_url": "https://github.com/mrfearless",
+      "published_at": "2026-07-17T09:42:29+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/mrfearless",
+        "https://github.com/Wimukthi/AxiomCompress"
+      ],
+      "refs": {
+        "actor": {
+          "login": "mrfearless",
+          "url": "https://github.com/mrfearless"
+        },
+        "repo": {
+          "full_name": "Wimukthi/AxiomCompress",
+          "url": "https://github.com/Wimukthi/AxiomCompress"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11921676147",
+      "who": "0xTriboulet",
+      "who_url": "https://github.com/0xTriboulet",
+      "action": "star",
+      "target": "timb-machine/linux-malware",
+      "target_url": "https://github.com/timb-machine/linux-malware",
+      "text": "0xTriboulet starred timb-machine/linux-malware",
+      "at": "2026-07-17T09:33:17+00:00",
+      "external_id": "event:11921676147",
+      "url": "https://github.com/timb-machine/linux-malware",
+      "content": "0xTriboulet starred timb-machine/linux-malware",
+      "author": "0xTriboulet",
+      "author_name": "0xTriboulet",
+      "author_url": "https://github.com/0xTriboulet",
+      "published_at": "2026-07-17T09:33:17+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xTriboulet",
+        "https://github.com/timb-machine/linux-malware"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0xTriboulet",
+          "url": "https://github.com/0xTriboulet"
+        },
+        "repo": {
+          "full_name": "timb-machine/linux-malware",
+          "url": "https://github.com/timb-machine/linux-malware"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 2,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11920786417",
+      "who": "niudaii",
+      "who_url": "https://github.com/niudaii",
+      "action": "star",
+      "target": "portbuster1337/lpe-toolkit",
+      "target_url": "https://github.com/portbuster1337/lpe-toolkit",
+      "text": "niudaii starred portbuster1337/lpe-toolkit",
+      "at": "2026-07-17T09:12:43+00:00",
+      "external_id": "event:11920786417",
+      "url": "https://github.com/portbuster1337/lpe-toolkit",
+      "content": "niudaii starred portbuster1337/lpe-toolkit",
+      "author": "niudaii",
+      "author_name": "niudaii",
+      "author_url": "https://github.com/niudaii",
+      "published_at": "2026-07-17T09:12:43+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/niudaii",
+        "https://github.com/portbuster1337/lpe-toolkit"
+      ],
+      "refs": {
+        "actor": {
+          "login": "niudaii",
+          "url": "https://github.com/niudaii"
+        },
+        "repo": {
+          "full_name": "portbuster1337/lpe-toolkit",
+          "url": "https://github.com/portbuster1337/lpe-toolkit"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11917415593",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/nanoda_lib",
+      "target_url": "https://github.com/gmh5225/nanoda_lib",
+      "text": "gmh5225 forked ammkrn/nanoda_lib → gmh5225/nanoda_lib",
+      "at": "2026-07-17T07:51:32+00:00",
+      "external_id": "event:11917415593",
+      "url": "https://github.com/gmh5225/nanoda_lib",
+      "content": "gmh5225 forked ammkrn/nanoda_lib → gmh5225/nanoda_lib",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T07:51:32+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/ammkrn/nanoda_lib",
+        "https://github.com/gmh5225/nanoda_lib"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "ammkrn/nanoda_lib",
+          "url": "https://github.com/ammkrn/nanoda_lib"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/nanoda_lib",
+          "url": "https://github.com/gmh5225/nanoda_lib"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11917236400",
+      "who": "yj94",
+      "who_url": "https://github.com/yj94",
+      "action": "star",
+      "target": "3516634930/Payloader",
+      "target_url": "https://github.com/3516634930/Payloader",
+      "text": "yj94 starred 3516634930/Payloader",
+      "at": "2026-07-17T07:46:50+00:00",
+      "external_id": "event:11917236400",
+      "url": "https://github.com/3516634930/Payloader",
+      "content": "yj94 starred 3516634930/Payloader",
+      "author": "yj94",
+      "author_name": "yj94",
+      "author_url": "https://github.com/yj94",
+      "published_at": "2026-07-17T07:46:50+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yj94",
+        "https://github.com/3516634930/Payloader"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yj94",
+          "url": "https://github.com/yj94"
+        },
+        "repo": {
+          "full_name": "3516634930/Payloader",
+          "url": "https://github.com/3516634930/Payloader"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 2,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11916608478",
+      "who": "Rvn0xsy",
+      "who_url": "https://github.com/Rvn0xsy",
+      "action": "star",
+      "target": "knewstimek/agent-tool",
+      "target_url": "https://github.com/knewstimek/agent-tool",
+      "text": "Rvn0xsy starred knewstimek/agent-tool",
+      "at": "2026-07-17T07:30:35+00:00",
+      "external_id": "event:11916608478",
+      "url": "https://github.com/knewstimek/agent-tool",
+      "content": "Rvn0xsy starred knewstimek/agent-tool",
+      "author": "Rvn0xsy",
+      "author_name": "Rvn0xsy",
+      "author_url": "https://github.com/Rvn0xsy",
+      "published_at": "2026-07-17T07:30:35+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Rvn0xsy",
+        "https://github.com/knewstimek/agent-tool"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Rvn0xsy",
+          "url": "https://github.com/Rvn0xsy"
+        },
+        "repo": {
+          "full_name": "knewstimek/agent-tool",
+          "url": "https://github.com/knewstimek/agent-tool"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11916573218",
+      "who": "fdx-xdf",
+      "who_url": "https://github.com/fdx-xdf",
+      "action": "star",
+      "target": "MrTiz/CET-Enum-CallStack-Spoofer",
+      "target_url": "https://github.com/MrTiz/CET-Enum-CallStack-Spoofer",
+      "text": "fdx-xdf starred MrTiz/CET-Enum-CallStack-Spoofer",
+      "at": "2026-07-17T07:29:41+00:00",
+      "external_id": "event:11916573218",
+      "url": "https://github.com/MrTiz/CET-Enum-CallStack-Spoofer",
+      "content": "fdx-xdf starred MrTiz/CET-Enum-CallStack-Spoofer",
+      "author": "fdx-xdf",
+      "author_name": "fdx-xdf",
+      "author_url": "https://github.com/fdx-xdf",
+      "published_at": "2026-07-17T07:29:41+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/fdx-xdf",
+        "https://github.com/MrTiz/CET-Enum-CallStack-Spoofer"
+      ],
+      "refs": {
+        "actor": {
+          "login": "fdx-xdf",
+          "url": "https://github.com/fdx-xdf"
+        },
+        "repo": {
+          "full_name": "MrTiz/CET-Enum-CallStack-Spoofer",
+          "url": "https://github.com/MrTiz/CET-Enum-CallStack-Spoofer"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 3,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11916566357",
+      "who": "fdx-xdf",
+      "who_url": "https://github.com/fdx-xdf",
+      "action": "star",
+      "target": "MazX0p/LACUNA-Chain",
+      "target_url": "https://github.com/MazX0p/LACUNA-Chain",
+      "text": "fdx-xdf starred MazX0p/LACUNA-Chain",
+      "at": "2026-07-17T07:29:33+00:00",
+      "external_id": "event:11916566357",
+      "url": "https://github.com/MazX0p/LACUNA-Chain",
+      "content": "fdx-xdf starred MazX0p/LACUNA-Chain",
+      "author": "fdx-xdf",
+      "author_name": "fdx-xdf",
+      "author_url": "https://github.com/fdx-xdf",
+      "published_at": "2026-07-17T07:29:33+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/fdx-xdf",
+        "https://github.com/MazX0p/LACUNA-Chain"
+      ],
+      "refs": {
+        "actor": {
+          "login": "fdx-xdf",
+          "url": "https://github.com/fdx-xdf"
+        },
+        "repo": {
+          "full_name": "MazX0p/LACUNA-Chain",
+          "url": "https://github.com/MazX0p/LACUNA-Chain"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:Vector35/Z80:2026-07-17",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/Z80",
+      "target_url": "https://github.com/Vector35/Z80",
+      "text": "Vector35/Z80 — 圈外 3 人参与（issue×2, pr×3）",
+      "at": "2026-07-17T06:21:43+00:00",
+      "external_id": "network:Vector35/Z80:2026-07-17",
+      "url": "https://github.com/Vector35/Z80",
+      "content": "Vector35/Z80 — 圈外 3 人参与（issue×2, pr×3）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-17T06:21:43+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/Z80"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/Z80",
+          "url": "https://github.com/Vector35/Z80"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "ashvika-creator",
+          "psifertex",
+          "samrussell"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 3,
+          "issue": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:11914055125",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/VulnHunter",
+      "target_url": "https://github.com/gmh5225/VulnHunter",
+      "text": "gmh5225 forked capitalone/VulnHunter → gmh5225/VulnHunter",
+      "at": "2026-07-17T06:21:21+00:00",
+      "external_id": "event:11914055125",
+      "url": "https://github.com/gmh5225/VulnHunter",
+      "content": "gmh5225 forked capitalone/VulnHunter → gmh5225/VulnHunter",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T06:21:21+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/capitalone/VulnHunter",
+        "https://github.com/gmh5225/VulnHunter"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "capitalone/VulnHunter",
+          "url": "https://github.com/capitalone/VulnHunter"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/VulnHunter",
+          "url": "https://github.com/gmh5225/VulnHunter"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11913212658",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/CVE-2025-2135",
+      "target_url": "https://github.com/gmh5225/CVE-2025-2135",
+      "text": "gmh5225 forked Wa1nut4/CVE-2025-2135 → gmh5225/CVE-2025-2135",
+      "at": "2026-07-17T05:54:45+00:00",
+      "external_id": "event:11913212658",
+      "url": "https://github.com/gmh5225/CVE-2025-2135",
+      "content": "gmh5225 forked Wa1nut4/CVE-2025-2135 → gmh5225/CVE-2025-2135",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T05:54:45+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/Wa1nut4/CVE-2025-2135",
+        "https://github.com/gmh5225/CVE-2025-2135"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "Wa1nut4/CVE-2025-2135",
+          "url": "https://github.com/Wa1nut4/CVE-2025-2135"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/CVE-2025-2135",
+          "url": "https://github.com/gmh5225/CVE-2025-2135"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11913200912",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/CVE-2024-26230",
+      "target_url": "https://github.com/gmh5225/CVE-2024-26230",
+      "text": "gmh5225 forked Wa1nut4/CVE-2024-26230 → gmh5225/CVE-2024-26230",
+      "at": "2026-07-17T05:54:23+00:00",
+      "external_id": "event:11913200912",
+      "url": "https://github.com/gmh5225/CVE-2024-26230",
+      "content": "gmh5225 forked Wa1nut4/CVE-2024-26230 → gmh5225/CVE-2024-26230",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T05:54:23+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/Wa1nut4/CVE-2024-26230",
+        "https://github.com/gmh5225/CVE-2024-26230"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "Wa1nut4/CVE-2024-26230",
+          "url": "https://github.com/Wa1nut4/CVE-2024-26230"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/CVE-2024-26230",
+          "url": "https://github.com/gmh5225/CVE-2024-26230"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11912366708",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/mylego-vision",
+      "target_url": "https://github.com/gmh5225/mylego-vision",
+      "text": "gmh5225 forked cocomelonc/mylego-vision → gmh5225/mylego-vision",
+      "at": "2026-07-17T05:25:48+00:00",
+      "external_id": "event:11912366708",
+      "url": "https://github.com/gmh5225/mylego-vision",
+      "content": "gmh5225 forked cocomelonc/mylego-vision → gmh5225/mylego-vision",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T05:25:48+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/cocomelonc/mylego-vision",
+        "https://github.com/gmh5225/mylego-vision"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "cocomelonc/mylego-vision",
+          "url": "https://github.com/cocomelonc/mylego-vision"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/mylego-vision",
+          "url": "https://github.com/gmh5225/mylego-vision"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:chainreactors/picker:2026-07-17",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "chainreactors/picker",
+      "target_url": "https://github.com/chainreactors/picker",
+      "text": "chainreactors/picker — 圈外 2 人参与（issue×4）",
+      "at": "2026-07-17T05:01:20+00:00",
+      "external_id": "network:chainreactors/picker:2026-07-17",
+      "url": "https://github.com/chainreactors/picker",
+      "content": "chainreactors/picker — 圈外 2 人参与（issue×4）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-17T05:01:20+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/chainreactors/picker"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "chainreactors/picker",
+          "url": "https://github.com/chainreactors/picker"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "chainreactorbot",
+          "github-actions[bot]"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 4
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:11909859169",
+      "who": "Neo-Maoku",
+      "who_url": "https://github.com/Neo-Maoku",
+      "action": "star",
+      "target": "stablyai/orca",
+      "target_url": "https://github.com/stablyai/orca",
+      "text": "Neo-Maoku starred stablyai/orca",
+      "at": "2026-07-17T03:47:49+00:00",
+      "external_id": "event:11909859169",
+      "url": "https://github.com/stablyai/orca",
+      "content": "Neo-Maoku starred stablyai/orca",
+      "author": "Neo-Maoku",
+      "author_name": "Neo-Maoku",
+      "author_url": "https://github.com/Neo-Maoku",
+      "published_at": "2026-07-17T03:47:49+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Neo-Maoku",
+        "https://github.com/stablyai/orca"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Neo-Maoku",
+          "url": "https://github.com/Neo-Maoku"
+        },
+        "repo": {
+          "full_name": "stablyai/orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11907852119",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/kiln-llm",
+      "target_url": "https://github.com/gmh5225/kiln-llm",
+      "text": "gmh5225 forked ericflo/kiln → gmh5225/kiln-llm",
+      "at": "2026-07-17T02:25:23+00:00",
+      "external_id": "event:11907852119",
+      "url": "https://github.com/gmh5225/kiln-llm",
+      "content": "gmh5225 forked ericflo/kiln → gmh5225/kiln-llm",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T02:25:23+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/ericflo/kiln",
+        "https://github.com/gmh5225/kiln-llm"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "ericflo/kiln",
+          "url": "https://github.com/ericflo/kiln"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/kiln-llm",
+          "url": "https://github.com/gmh5225/kiln-llm"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11907835071",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/como-funciona-vac",
+      "target_url": "https://github.com/gmh5225/como-funciona-vac",
+      "text": "gmh5225 forked ianveig29/como-funciona-vac → gmh5225/como-funciona-vac",
+      "at": "2026-07-17T02:24:42+00:00",
+      "external_id": "event:11907835071",
+      "url": "https://github.com/gmh5225/como-funciona-vac",
+      "content": "gmh5225 forked ianveig29/como-funciona-vac → gmh5225/como-funciona-vac",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T02:24:42+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/ianveig29/como-funciona-vac",
+        "https://github.com/gmh5225/como-funciona-vac"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "ianveig29/como-funciona-vac",
+          "url": "https://github.com/ianveig29/como-funciona-vac"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/como-funciona-vac",
+          "url": "https://github.com/gmh5225/como-funciona-vac"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11907751436",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/guru3",
+      "target_url": "https://github.com/gmh5225/guru3",
+      "text": "gmh5225 forked eventphone/guru3 → gmh5225/guru3",
+      "at": "2026-07-17T02:21:20+00:00",
+      "external_id": "event:11907751436",
+      "url": "https://github.com/gmh5225/guru3",
+      "content": "gmh5225 forked eventphone/guru3 → gmh5225/guru3",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-17T02:21:20+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/eventphone/guru3",
+        "https://github.com/gmh5225/guru3"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "eventphone/guru3",
+          "url": "https://github.com/eventphone/guru3"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/guru3",
+          "url": "https://github.com/gmh5225/guru3"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11904900596",
+      "who": "seventeenman",
+      "who_url": "https://github.com/seventeenman",
+      "action": "star",
+      "target": "MrTiz/CET-Enum-CallStack-Spoofer",
+      "target_url": "https://github.com/MrTiz/CET-Enum-CallStack-Spoofer",
+      "text": "seventeenman starred MrTiz/CET-Enum-CallStack-Spoofer",
+      "at": "2026-07-17T00:27:57+00:00",
+      "external_id": "event:11904900596",
+      "url": "https://github.com/MrTiz/CET-Enum-CallStack-Spoofer",
+      "content": "seventeenman starred MrTiz/CET-Enum-CallStack-Spoofer",
+      "author": "seventeenman",
+      "author_name": "seventeenman",
+      "author_url": "https://github.com/seventeenman",
+      "published_at": "2026-07-17T00:27:57+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/seventeenman",
+        "https://github.com/MrTiz/CET-Enum-CallStack-Spoofer"
+      ],
+      "refs": {
+        "actor": {
+          "login": "seventeenman",
+          "url": "https://github.com/seventeenman"
+        },
+        "repo": {
+          "full_name": "MrTiz/CET-Enum-CallStack-Spoofer",
+          "url": "https://github.com/MrTiz/CET-Enum-CallStack-Spoofer"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 3,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11903498529",
+      "who": "ZephrFish",
+      "who_url": "https://github.com/ZephrFish",
+      "action": "star",
+      "target": "capitalone/VulnHunter",
+      "target_url": "https://github.com/capitalone/VulnHunter",
+      "text": "ZephrFish starred capitalone/VulnHunter",
+      "at": "2026-07-16T23:29:29+00:00",
+      "external_id": "event:11903498529",
+      "url": "https://github.com/capitalone/VulnHunter",
+      "content": "ZephrFish starred capitalone/VulnHunter",
+      "author": "ZephrFish",
+      "author_name": "ZephrFish",
+      "author_url": "https://github.com/ZephrFish",
+      "published_at": "2026-07-16T23:29:29+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ZephrFish",
+        "https://github.com/capitalone/VulnHunter"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ZephrFish",
+          "url": "https://github.com/ZephrFish"
+        },
+        "repo": {
+          "full_name": "capitalone/VulnHunter",
+          "url": "https://github.com/capitalone/VulnHunter"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
     {
       "id": "follow:h3zh1:kee1ongz:2026-07-16:followed",
       "who": "h3zh1",
@@ -42,7 +2545,7 @@
       "author_name": "h3zh1",
       "author_url": "https://github.com/h3zh1",
       "published_at": "2026-07-16T22:06:43+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:follow"
       ],
@@ -147,7 +2650,7 @@
       "author_name": "FemaleGhost",
       "author_url": "https://github.com/FemaleGhost",
       "published_at": "2026-07-16T22:06:43+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:follow"
       ],
@@ -188,7 +2691,7 @@
         "login": "MrTiz",
         "name": "Tiziano Marra",
         "bio": "",
-        "followers": 27,
+        "followers": 28,
         "public_repos": 13,
         "html_url": "https://github.com/MrTiz",
         "languages": [
@@ -210,7 +2713,7 @@
             "name": "MrTiz/CET-Enum-CallStack-Spoofer",
             "description": "A Proof of Concept demonstrating CET-compliant callstack spoofing in Rust. It leverages Windows Thread Pool and Enum Callback trampolining (e.g., EnumSystemLocalesEx) to forge a pristine, hardware-ali",
             "language": "Rust",
-            "stars": 29,
+            "stars": 40,
             "pushed_at": "2026-07-12T20:49:00Z"
           },
           {
@@ -238,74 +2741,6 @@
       }
     },
     {
-      "id": "network:Vector35/Z80:2026-07-17",
-      "who": "",
-      "who_url": "",
-      "action": "network_hot",
-      "target": "Vector35/Z80",
-      "target_url": "https://github.com/Vector35/Z80",
-      "text": "Vector35/Z80 — 圈外 2 人参与（issue×1, pr×3）",
-      "at": "2026-07-16T21:55:34+00:00",
-      "external_id": "network:Vector35/Z80:2026-07-17",
-      "url": "https://github.com/Vector35/Z80",
-      "content": "Vector35/Z80 — 圈外 2 人参与（issue×1, pr×3）",
-      "author": "",
-      "author_name": "",
-      "author_url": "",
-      "published_at": "2026-07-16T21:55:34+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
-      "tags": [
-        "kind:network_hot"
-      ],
-      "hashtags": [],
-      "links": [
-        "https://github.com/Vector35/Z80"
-      ],
-      "refs": {
-        "actor": null,
-        "repo": {
-          "full_name": "Vector35/Z80",
-          "url": "https://github.com/Vector35/Z80"
-        },
-        "target_user": null,
-        "forkee": null
-      },
-      "media": {
-        "photos": [],
-        "videos": []
-      },
-      "metrics": {
-        "circle_count": null,
-        "trending": false,
-        "trending_front_page": false
-      },
-      "flags": {
-        "kind": "network_hot",
-        "time_precision": "exact",
-        "is_follow": false,
-        "is_repo_event": false,
-        "is_aggregate": true
-      },
-      "network": {
-        "outer_count": 2,
-        "outer_actors": [
-          "ashvika-creator",
-          "psifertex"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "pr": 3,
-          "issue": 1
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
       "id": "event:11900543003",
       "who": "realoriginal",
       "who_url": "https://github.com/realoriginal",
@@ -321,7 +2756,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-07-16T21:38:13+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:star"
       ],
@@ -375,7 +2810,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-07-16T21:38:09+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:star"
       ],
@@ -429,7 +2864,7 @@
       "author_name": "odzhan",
       "author_url": "https://github.com/odzhan",
       "published_at": "2026-07-16T20:39:23+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:star"
       ],
@@ -455,7 +2890,7 @@
         "videos": []
       },
       "metrics": {
-        "circle_count": 1,
+        "circle_count": 3,
         "trending": false,
         "trending_front_page": false
       },
@@ -465,73 +2900,6 @@
         "is_follow": false,
         "is_repo_event": true,
         "is_aggregate": false
-      }
-    },
-    {
-      "id": "network:Vector35/binaryninja-api:2026-07-17",
-      "who": "",
-      "who_url": "",
-      "action": "network_hot",
-      "target": "Vector35/binaryninja-api",
-      "target_url": "https://github.com/Vector35/binaryninja-api",
-      "text": "Vector35/binaryninja-api — 圈外 2 人参与（issue×9）",
-      "at": "2026-07-16T20:24:46+00:00",
-      "external_id": "network:Vector35/binaryninja-api:2026-07-17",
-      "url": "https://github.com/Vector35/binaryninja-api",
-      "content": "Vector35/binaryninja-api — 圈外 2 人参与（issue×9）",
-      "author": "",
-      "author_name": "",
-      "author_url": "",
-      "published_at": "2026-07-16T20:24:46+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
-      "tags": [
-        "kind:network_hot"
-      ],
-      "hashtags": [],
-      "links": [
-        "https://github.com/Vector35/binaryninja-api"
-      ],
-      "refs": {
-        "actor": null,
-        "repo": {
-          "full_name": "Vector35/binaryninja-api",
-          "url": "https://github.com/Vector35/binaryninja-api"
-        },
-        "target_user": null,
-        "forkee": null
-      },
-      "media": {
-        "photos": [],
-        "videos": []
-      },
-      "metrics": {
-        "circle_count": null,
-        "trending": false,
-        "trending_front_page": false
-      },
-      "flags": {
-        "kind": "network_hot",
-        "time_precision": "exact",
-        "is_follow": false,
-        "is_repo_event": false,
-        "is_aggregate": true
-      },
-      "network": {
-        "outer_count": 2,
-        "outer_actors": [
-          "psifertex",
-          "xusheng6"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "issue": 9
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
       }
     },
     {
@@ -550,7 +2918,7 @@
       "author_name": "0xflux",
       "author_url": "https://github.com/0xflux",
       "published_at": "2026-07-16T20:13:57+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:star"
       ],
@@ -577,7 +2945,7 @@
       },
       "metrics": {
         "circle_count": 1,
-        "trending": true,
+        "trending": false,
         "trending_front_page": false
       },
       "flags": {
@@ -586,74 +2954,6 @@
         "is_follow": false,
         "is_repo_event": true,
         "is_aggregate": false
-      }
-    },
-    {
-      "id": "network:BishopFox/sliver:2026-07-17",
-      "who": "",
-      "who_url": "",
-      "action": "network_hot",
-      "target": "BishopFox/sliver",
-      "target_url": "https://github.com/BishopFox/sliver",
-      "text": "BishopFox/sliver — 圈外 2 人参与（fork×1, star×1）",
-      "at": "2026-07-16T19:23:24+00:00",
-      "external_id": "network:BishopFox/sliver:2026-07-17",
-      "url": "https://github.com/BishopFox/sliver",
-      "content": "BishopFox/sliver — 圈外 2 人参与（fork×1, star×1）",
-      "author": "",
-      "author_name": "",
-      "author_url": "",
-      "published_at": "2026-07-16T19:23:24+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
-      "tags": [
-        "kind:network_hot"
-      ],
-      "hashtags": [],
-      "links": [
-        "https://github.com/BishopFox/sliver"
-      ],
-      "refs": {
-        "actor": null,
-        "repo": {
-          "full_name": "BishopFox/sliver",
-          "url": "https://github.com/BishopFox/sliver"
-        },
-        "target_user": null,
-        "forkee": null
-      },
-      "media": {
-        "photos": [],
-        "videos": []
-      },
-      "metrics": {
-        "circle_count": null,
-        "trending": false,
-        "trending_front_page": false
-      },
-      "flags": {
-        "kind": "network_hot",
-        "time_precision": "exact",
-        "is_follow": false,
-        "is_repo_event": false,
-        "is_aggregate": true
-      },
-      "network": {
-        "outer_count": 2,
-        "outer_actors": [
-          "djfatbody",
-          "lgray-bf"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "star": 1,
-          "fork": 1
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
       }
     },
     {
@@ -672,7 +2972,7 @@
       "author_name": "FemaleGhost",
       "author_url": "https://github.com/FemaleGhost",
       "published_at": "2026-07-16T19:15:19+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -702,7 +3002,7 @@
         "videos": []
       },
       "metrics": {
-        "circle_count": 2,
+        "circle_count": 3,
         "trending": false,
         "trending_front_page": false
       },
@@ -730,7 +3030,7 @@
       "author_name": "FemaleGhost",
       "author_url": "https://github.com/FemaleGhost",
       "published_at": "2026-07-16T19:14:23+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -788,7 +3088,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-16T18:48:15+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -846,7 +3146,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-16T18:47:39+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -904,7 +3204,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-16T18:47:16+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -962,7 +3262,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-16T18:46:40+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -1020,7 +3320,7 @@
       "author_name": "AabyssZG",
       "author_url": "https://github.com/AabyssZG",
       "published_at": "2026-07-16T18:29:23+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1046,7 +3346,7 @@
         "videos": []
       },
       "metrics": {
-        "circle_count": 1,
+        "circle_count": 2,
         "trending": false,
         "trending_front_page": false
       },
@@ -1074,7 +3374,7 @@
       "author_name": "Octoberfest7",
       "author_url": "https://github.com/Octoberfest7",
       "published_at": "2026-07-16T18:19:27+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1128,7 +3428,7 @@
       "author_name": "Xre0uS",
       "author_url": "https://github.com/Xre0uS",
       "published_at": "2026-07-16T18:04:18+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1154,7 +3454,7 @@
         "videos": []
       },
       "metrics": {
-        "circle_count": 2,
+        "circle_count": 3,
         "trending": false,
         "trending_front_page": false
       },
@@ -1182,7 +3482,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-16T18:01:06+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -1240,7 +3540,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-16T18:00:44+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -1298,7 +3598,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-16T17:59:56+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -1356,7 +3656,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-16T17:59:17+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -1414,7 +3714,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-07-16T17:31:26+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -1481,7 +3781,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-16T17:27:39+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -1539,7 +3839,7 @@
       "author_name": "Cracked5pider",
       "author_url": "https://github.com/Cracked5pider",
       "published_at": "2026-07-16T17:25:06+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1565,7 +3865,7 @@
         "videos": []
       },
       "metrics": {
-        "circle_count": 2,
+        "circle_count": 3,
         "trending": false,
         "trending_front_page": false
       },
@@ -1593,7 +3893,7 @@
       "author_name": "shashinma",
       "author_url": "https://github.com/shashinma",
       "published_at": "2026-07-16T16:52:26+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1647,7 +3947,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-07-16T16:47:53+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -1699,75 +3999,6 @@
       }
     },
     {
-      "id": "network:Adaptix-Framework/AdaptixC2:2026-07-17",
-      "who": "",
-      "who_url": "",
-      "action": "network_hot",
-      "target": "Adaptix-Framework/AdaptixC2",
-      "target_url": "https://github.com/Adaptix-Framework/AdaptixC2",
-      "text": "Adaptix-Framework/AdaptixC2 — 圈外 3 人参与（fork×1, star×2）",
-      "at": "2026-07-16T16:36:29+00:00",
-      "external_id": "network:Adaptix-Framework/AdaptixC2:2026-07-17",
-      "url": "https://github.com/Adaptix-Framework/AdaptixC2",
-      "content": "Adaptix-Framework/AdaptixC2 — 圈外 3 人参与（fork×1, star×2）",
-      "author": "",
-      "author_name": "",
-      "author_url": "",
-      "published_at": "2026-07-16T16:36:29+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
-      "tags": [
-        "kind:network_hot"
-      ],
-      "hashtags": [],
-      "links": [
-        "https://github.com/Adaptix-Framework/AdaptixC2"
-      ],
-      "refs": {
-        "actor": null,
-        "repo": {
-          "full_name": "Adaptix-Framework/AdaptixC2",
-          "url": "https://github.com/Adaptix-Framework/AdaptixC2"
-        },
-        "target_user": null,
-        "forkee": null
-      },
-      "media": {
-        "photos": [],
-        "videos": []
-      },
-      "metrics": {
-        "circle_count": null,
-        "trending": false,
-        "trending_front_page": false
-      },
-      "flags": {
-        "kind": "network_hot",
-        "time_precision": "exact",
-        "is_follow": false,
-        "is_repo_event": false,
-        "is_aggregate": true
-      },
-      "network": {
-        "outer_count": 3,
-        "outer_actors": [
-          "Parad0x7e",
-          "tbennett6421",
-          "winezer0"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "star": 2,
-          "fork": 1
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
       "id": "event:11886997152",
       "who": "gmh5225",
       "who_url": "https://github.com/gmh5225",
@@ -1783,7 +4014,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-07-16T16:17:54+00:00",
-      "collected_at": "2026-07-16T22:07:33.175076+00:00",
+      "collected_at": "2026-07-17T21:57:32.283257+00:00",
       "tags": [
         "kind:fork"
       ],

@@ -1,0 +1,799 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-07-20",
+  "collect_window": {
+    "start": "2026-07-19T16:09:15+00:00",
+    "end": "2026-07-19T21:58:11+00:00",
+    "hours": 5
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "29705270964",
+    "commit": "ba5d5dc"
+  },
+  "stats": {
+    "total": 12,
+    "by_kind": {
+      "follow": 1,
+      "network_hot": 3,
+      "fork": 5,
+      "star": 3
+    },
+    "failed_lists": [],
+    "followee_count": 166,
+    "push_events_excluded": 17
+  },
+  "items": [
+    {
+      "id": "follow:0xflux:un4ckn0wl3z:2026-07-19:followed",
+      "who": "0xflux",
+      "who_url": "https://github.com/0xflux",
+      "action": "follow",
+      "target": "un4ckn0wl3z",
+      "target_url": "https://github.com/un4ckn0wl3z",
+      "text": "0xflux followed un4ckn0wl3z",
+      "at": "2026-07-19T21:58:11+00:00",
+      "external_id": "follow:0xflux:un4ckn0wl3z:2026-07-19:followed",
+      "url": "https://github.com/un4ckn0wl3z",
+      "content": "0xflux followed un4ckn0wl3z",
+      "author": "0xflux",
+      "author_name": "0xflux",
+      "author_url": "https://github.com/0xflux",
+      "published_at": "2026-07-19T21:58:11+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xflux",
+        "https://github.com/un4ckn0wl3z"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0xflux",
+          "url": "https://github.com/0xflux"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "un4ckn0wl3z",
+          "url": "https://github.com/un4ckn0wl3z"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "un4ckn0wl3z",
+        "name": "unacknowledged¹³³⁷",
+        "bio": "Low-level programming, low-level security, offensive/defensive tool development and electronics enthusiast @damned-software ",
+        "followers": 585,
+        "public_repos": 885,
+        "html_url": "https://github.com/un4ckn0wl3z",
+        "languages": [
+          "C++",
+          "TypeScript",
+          "Rust",
+          "C",
+          "JavaScript"
+        ],
+        "top_repos": [
+          {
+            "name": "un4ckn0wl3z/Labubot",
+            "description": "Popmart Automate Script",
+            "language": "JavaScript",
+            "stars": 70,
+            "pushed_at": "2024-07-10T15:57:28Z"
+          },
+          {
+            "name": "un4ckn0wl3z/PCIE-Detector",
+            "description": "Sample/PoC Windows kernel driver for detect DMA devices by using Vendor ID and Device ID signatures",
+            "language": "C++",
+            "stars": 38,
+            "pushed_at": "2024-09-22T07:01:45Z"
+          },
+          {
+            "name": "un4ckn0wl3z/MemMCP",
+            "description": "Cheat Engine-like but MCP",
+            "language": "Python",
+            "stars": 34,
+            "pushed_at": "2025-04-15T05:02:38Z"
+          },
+          {
+            "name": "un4ckn0wl3z/DMACheatEngineLoader",
+            "description": "This project simplifies the process of enabling DMA support for Cheat Engine. Instead of complex configurations, you can achieve DMA compatibility by simply copying your existing Cheat Engine installa",
+            "language": null,
+            "stars": 26,
+            "pushed_at": "2025-04-08T10:47:49Z"
+          },
+          {
+            "name": "un4ckn0wl3z/dioprocess-private",
+            "description": "DioProcess — Advanced Windows Internals, Evasion, Rootkit, Hypervisor, SMM & Bootkit Research Framework",
+            "language": "C",
+            "stars": 18,
+            "pushed_at": "2026-07-06T07:14:03Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-07-20",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 3 人参与（issue×3, star×1）",
+      "at": "2026-07-19T21:54:13+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-07-20",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 3 人参与（issue×3, star×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-19T21:54:13+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "joleeee",
+          "plafosse",
+          "prathampopatiya"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 1,
+          "issue": 3
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:BishopFox/aimap:2026-07-20",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/aimap",
+      "target_url": "https://github.com/BishopFox/aimap",
+      "text": "BishopFox/aimap — 圈外 8 人参与（star×8）",
+      "at": "2026-07-19T21:18:24+00:00",
+      "external_id": "network:BishopFox/aimap:2026-07-20",
+      "url": "https://github.com/BishopFox/aimap",
+      "content": "BishopFox/aimap — 圈外 8 人参与（star×8）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-19T21:18:24+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/aimap"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/aimap",
+          "url": "https://github.com/BishopFox/aimap"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 8,
+        "outer_actors": [
+          "ChrisDroubi",
+          "HARZE12",
+          "QWERcik-wlx",
+          "TangoisdownHQ",
+          "bryannichols730",
+          "j713rod",
+          "recon-ops",
+          "xshayank"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 8
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-07-20",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/sliver",
+      "target_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 3 人参与（fork×2, star×1）",
+      "at": "2026-07-19T18:43:51+00:00",
+      "external_id": "network:BishopFox/sliver:2026-07-20",
+      "url": "https://github.com/BishopFox/sliver",
+      "content": "BishopFox/sliver — 圈外 3 人参与（fork×2, star×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-19T18:43:51+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/sliver"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/sliver",
+          "url": "https://github.com/BishopFox/sliver"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "dotriple",
+          "maux339-cpu",
+          "salehzahr1234"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 1,
+          "fork": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:11993289892",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/omath",
+      "target_url": "https://github.com/gmh5225/omath",
+      "text": "gmh5225 forked orange-cpp/omath → gmh5225/omath",
+      "at": "2026-07-19T17:31:53+00:00",
+      "external_id": "event:11993289892",
+      "url": "https://github.com/gmh5225/omath",
+      "content": "gmh5225 forked orange-cpp/omath → gmh5225/omath",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-19T17:31:53+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/orange-cpp/omath",
+        "https://github.com/gmh5225/omath"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "orange-cpp/omath",
+          "url": "https://github.com/orange-cpp/omath"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/omath",
+          "url": "https://github.com/gmh5225/omath"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11993283926",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/qaccessible-agent",
+      "target_url": "https://github.com/gmh5225/qaccessible-agent",
+      "text": "gmh5225 forked mrexodia/qaccessible-agent → gmh5225/qaccessible-agent",
+      "at": "2026-07-19T17:31:32+00:00",
+      "external_id": "event:11993283926",
+      "url": "https://github.com/gmh5225/qaccessible-agent",
+      "content": "gmh5225 forked mrexodia/qaccessible-agent → gmh5225/qaccessible-agent",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-19T17:31:32+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/mrexodia/qaccessible-agent",
+        "https://github.com/gmh5225/qaccessible-agent"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "mrexodia/qaccessible-agent",
+          "url": "https://github.com/mrexodia/qaccessible-agent"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/qaccessible-agent",
+          "url": "https://github.com/gmh5225/qaccessible-agent"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11992981478",
+      "who": "FemaleGhost",
+      "who_url": "https://github.com/FemaleGhost",
+      "action": "fork",
+      "target": "FemaleGhost/Offensive-COM",
+      "target_url": "https://github.com/FemaleGhost/Offensive-COM",
+      "text": "FemaleGhost forked An0nUD4Y/Offensive-COM → FemaleGhost/Offensive-COM",
+      "at": "2026-07-19T17:13:44+00:00",
+      "external_id": "event:11992981478",
+      "url": "https://github.com/FemaleGhost/Offensive-COM",
+      "content": "FemaleGhost forked An0nUD4Y/Offensive-COM → FemaleGhost/Offensive-COM",
+      "author": "FemaleGhost",
+      "author_name": "FemaleGhost",
+      "author_url": "https://github.com/FemaleGhost",
+      "published_at": "2026-07-19T17:13:44+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/FemaleGhost",
+        "https://github.com/An0nUD4Y/Offensive-COM",
+        "https://github.com/FemaleGhost/Offensive-COM"
+      ],
+      "refs": {
+        "actor": {
+          "login": "FemaleGhost",
+          "url": "https://github.com/FemaleGhost"
+        },
+        "repo": {
+          "full_name": "An0nUD4Y/Offensive-COM",
+          "url": "https://github.com/An0nUD4Y/Offensive-COM"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "FemaleGhost/Offensive-COM",
+          "url": "https://github.com/FemaleGhost/Offensive-COM"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11992951918",
+      "who": "FemaleGhost",
+      "who_url": "https://github.com/FemaleGhost",
+      "action": "fork",
+      "target": "FemaleGhost/Furtex-Linux",
+      "target_url": "https://github.com/FemaleGhost/Furtex-Linux",
+      "text": "FemaleGhost forked MatheuZSecurity/Furtex → FemaleGhost/Furtex-Linux",
+      "at": "2026-07-19T17:12:04+00:00",
+      "external_id": "event:11992951918",
+      "url": "https://github.com/FemaleGhost/Furtex-Linux",
+      "content": "FemaleGhost forked MatheuZSecurity/Furtex → FemaleGhost/Furtex-Linux",
+      "author": "FemaleGhost",
+      "author_name": "FemaleGhost",
+      "author_url": "https://github.com/FemaleGhost",
+      "published_at": "2026-07-19T17:12:04+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/FemaleGhost",
+        "https://github.com/MatheuZSecurity/Furtex",
+        "https://github.com/FemaleGhost/Furtex-Linux"
+      ],
+      "refs": {
+        "actor": {
+          "login": "FemaleGhost",
+          "url": "https://github.com/FemaleGhost"
+        },
+        "repo": {
+          "full_name": "MatheuZSecurity/Furtex",
+          "url": "https://github.com/MatheuZSecurity/Furtex"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "FemaleGhost/Furtex-Linux",
+          "url": "https://github.com/FemaleGhost/Furtex-Linux"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11992293069",
+      "who": "lsr00ter",
+      "who_url": "https://github.com/lsr00ter",
+      "action": "fork",
+      "target": "lsr00ter/when-reset",
+      "target_url": "https://github.com/lsr00ter/when-reset",
+      "text": "lsr00ter forked iebb/when-reset → lsr00ter/when-reset",
+      "at": "2026-07-19T16:34:19+00:00",
+      "external_id": "event:11992293069",
+      "url": "https://github.com/lsr00ter/when-reset",
+      "content": "lsr00ter forked iebb/when-reset → lsr00ter/when-reset",
+      "author": "lsr00ter",
+      "author_name": "lsr00ter",
+      "author_url": "https://github.com/lsr00ter",
+      "published_at": "2026-07-19T16:34:19+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/lsr00ter",
+        "https://github.com/iebb/when-reset",
+        "https://github.com/lsr00ter/when-reset"
+      ],
+      "refs": {
+        "actor": {
+          "login": "lsr00ter",
+          "url": "https://github.com/lsr00ter"
+        },
+        "repo": {
+          "full_name": "iebb/when-reset",
+          "url": "https://github.com/iebb/when-reset"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "lsr00ter/when-reset",
+          "url": "https://github.com/lsr00ter/when-reset"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11992017651",
+      "who": "seventeenman",
+      "who_url": "https://github.com/seventeenman",
+      "action": "star",
+      "target": "DietrichGebert/ponytail",
+      "target_url": "https://github.com/DietrichGebert/ponytail",
+      "text": "seventeenman starred DietrichGebert/ponytail",
+      "at": "2026-07-19T16:18:42+00:00",
+      "external_id": "event:11992017651",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "content": "seventeenman starred DietrichGebert/ponytail",
+      "author": "seventeenman",
+      "author_name": "seventeenman",
+      "author_url": "https://github.com/seventeenman",
+      "published_at": "2026-07-19T16:18:42+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/seventeenman",
+        "https://github.com/DietrichGebert/ponytail"
+      ],
+      "refs": {
+        "actor": {
+          "login": "seventeenman",
+          "url": "https://github.com/seventeenman"
+        },
+        "repo": {
+          "full_name": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11991857445",
+      "who": "ssrsec",
+      "who_url": "https://github.com/ssrsec",
+      "action": "star",
+      "target": "170-carry/codex-tools",
+      "target_url": "https://github.com/170-carry/codex-tools",
+      "text": "ssrsec starred 170-carry/codex-tools",
+      "at": "2026-07-19T16:09:44+00:00",
+      "external_id": "event:11991857445",
+      "url": "https://github.com/170-carry/codex-tools",
+      "content": "ssrsec starred 170-carry/codex-tools",
+      "author": "ssrsec",
+      "author_name": "ssrsec",
+      "author_url": "https://github.com/ssrsec",
+      "published_at": "2026-07-19T16:09:44+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ssrsec",
+        "https://github.com/170-carry/codex-tools"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ssrsec",
+          "url": "https://github.com/ssrsec"
+        },
+        "repo": {
+          "full_name": "170-carry/codex-tools",
+          "url": "https://github.com/170-carry/codex-tools"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:11991849439",
+      "who": "ScriptIdiot",
+      "who_url": "https://github.com/ScriptIdiot",
+      "action": "star",
+      "target": "MatheuZSecurity/Furtex",
+      "target_url": "https://github.com/MatheuZSecurity/Furtex",
+      "text": "ScriptIdiot starred MatheuZSecurity/Furtex",
+      "at": "2026-07-19T16:09:15+00:00",
+      "external_id": "event:11991849439",
+      "url": "https://github.com/MatheuZSecurity/Furtex",
+      "content": "ScriptIdiot starred MatheuZSecurity/Furtex",
+      "author": "ScriptIdiot",
+      "author_name": "ScriptIdiot",
+      "author_url": "https://github.com/ScriptIdiot",
+      "published_at": "2026-07-19T16:09:15+00:00",
+      "collected_at": "2026-07-19T21:58:58.132817+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ScriptIdiot",
+        "https://github.com/MatheuZSecurity/Furtex"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ScriptIdiot",
+          "url": "https://github.com/ScriptIdiot"
+        },
+        "repo": {
+          "full_name": "MatheuZSecurity/Furtex",
+          "url": "https://github.com/MatheuZSecurity/Furtex"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

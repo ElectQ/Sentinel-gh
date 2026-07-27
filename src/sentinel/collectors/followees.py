@@ -126,7 +126,7 @@ def _new_events_for(gh: GitHub, login: str, ustate: dict) -> list[dict]:
         ustate["boundary_ids"] = sorted(
             boundary | {str(e["id"]) for e in events if _at(e) == newest}
         )
-    return [trim(e) for e in new]
+    return [trim(e) for e in new if (e.get("repo") or {}).get("name")]
 
 
 def collect(gh: GitHub, state: dict) -> tuple[list[str], list[dict]]:

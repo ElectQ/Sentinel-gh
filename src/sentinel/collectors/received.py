@@ -102,7 +102,7 @@ def collect(gh: GitHub, state: dict) -> list[dict]:
         state["boundary_ids"] = sorted(
             boundary | {str(e["id"]) for e in events if _at(e) == newest}
         )
-    return [trim(e) for e in new]
+    return [trim(e) for e in new if (e.get("repo") or {}).get("name")]
 
 
 def _archived_ids(path) -> set[str]:

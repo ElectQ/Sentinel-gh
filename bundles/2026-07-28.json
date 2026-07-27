@@ -1,0 +1,762 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-07-28",
+  "collect_window": {
+    "start": "2026-07-27T16:04:06+00:00",
+    "end": "2026-07-27T22:11:23+00:00",
+    "hours": 6
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "30309759797",
+    "commit": "f6e5eae"
+  },
+  "stats": {
+    "total": 12,
+    "by_kind": {
+      "follow": 1,
+      "network_hot": 2,
+      "release": 2,
+      "star": 4,
+      "fork": 3
+    },
+    "failed_lists": [],
+    "followee_count": 166,
+    "push_events_excluded": 17
+  },
+  "items": [
+    {
+      "id": "follow:safedv:MSNightmare:2026-07-27:followed",
+      "who": "safedv",
+      "who_url": "https://github.com/safedv",
+      "action": "follow",
+      "target": "MSNightmare",
+      "target_url": "https://github.com/MSNightmare",
+      "text": "safedv followed MSNightmare",
+      "at": "2026-07-27T22:11:23+00:00",
+      "external_id": "follow:safedv:MSNightmare:2026-07-27:followed",
+      "url": "https://github.com/MSNightmare",
+      "content": "safedv followed MSNightmare",
+      "author": "safedv",
+      "author_name": "safedv",
+      "author_url": "https://github.com/safedv",
+      "published_at": "2026-07-27T22:11:23+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/safedv",
+        "https://github.com/MSNightmare"
+      ],
+      "refs": {
+        "actor": {
+          "login": "safedv",
+          "url": "https://github.com/safedv"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "MSNightmare",
+          "url": "https://github.com/MSNightmare"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "MSNightmare",
+        "name": "INFINITE NIGHTMARE",
+        "bio": "I love Microsoft.",
+        "followers": 2330,
+        "public_repos": 4,
+        "html_url": "https://github.com/MSNightmare",
+        "languages": [
+          "C++"
+        ],
+        "top_repos": [
+          {
+            "name": "MSNightmare/RoguePlanet",
+            "description": "RoguePlanet Windows Defender Vulnerability",
+            "language": "C++",
+            "stars": 1560,
+            "pushed_at": "2026-06-09T19:58:22Z"
+          },
+          {
+            "name": "MSNightmare/GreatXML",
+            "description": "GreatXML bitlocker bypass vulnerability",
+            "language": null,
+            "stars": 611,
+            "pushed_at": "2026-06-11T01:04:40Z"
+          },
+          {
+            "name": "MSNightmare/LegacyHive",
+            "description": "Windows ProfSvc 0day",
+            "language": "C++",
+            "stars": 274,
+            "pushed_at": "2026-07-14T17:41:34Z"
+          },
+          {
+            "name": "MSNightmare/BrokenArrow",
+            "description": "",
+            "language": null,
+            "stars": 50,
+            "pushed_at": "2026-07-25T14:03:07Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-07-28",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 3 人参与（issue×8）",
+      "at": "2026-07-27T21:39:38+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-07-28",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 3 人参与（issue×8）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-27T21:39:38+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "CouleeApps",
+          "D0ntPanic",
+          "fuzyll"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 8
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12376630651",
+      "who": "Idov31",
+      "who_url": "https://github.com/Idov31",
+      "action": "release",
+      "target": "Idov31/EtwSuite",
+      "target_url": "https://github.com/Idov31/EtwSuite",
+      "text": "Idov31 released Idov31/EtwSuite v1.2.0",
+      "at": "2026-07-27T20:41:08+00:00",
+      "external_id": "event:12376630651",
+      "url": "https://github.com/Idov31/EtwSuite/releases/tag/v1.2.0",
+      "content": "Idov31 released Idov31/EtwSuite v1.2.0",
+      "author": "Idov31",
+      "author_name": "Idov31",
+      "author_url": "https://github.com/Idov31",
+      "published_at": "2026-07-27T20:41:08+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Idov31",
+        "https://github.com/Idov31/EtwSuite",
+        "https://github.com/Idov31/EtwSuite/releases/tag/v1.2.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Idov31",
+          "url": "https://github.com/Idov31"
+        },
+        "repo": {
+          "full_name": "Idov31/EtwSuite",
+          "url": "https://github.com/Idov31/EtwSuite"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:BishopFox/joro:2026-07-28",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/joro",
+      "target_url": "https://github.com/BishopFox/joro",
+      "text": "BishopFox/joro — 圈外 2 人参与（pr×2, release×1）",
+      "at": "2026-07-27T20:32:21+00:00",
+      "external_id": "network:BishopFox/joro:2026-07-28",
+      "url": "https://github.com/BishopFox/joro",
+      "content": "BishopFox/joro — 圈外 2 人参与（pr×2, release×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-27T20:32:21+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/joro"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/joro",
+          "url": "https://github.com/BishopFox/joro"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "dependabot[bot]",
+          "twest-bf"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 2,
+          "release": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12371901557",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "star",
+      "target": "1jehuang/jcode",
+      "target_url": "https://github.com/1jehuang/jcode",
+      "text": "gmh5225 starred 1jehuang/jcode",
+      "at": "2026-07-27T18:57:25+00:00",
+      "external_id": "event:12371901557",
+      "url": "https://github.com/1jehuang/jcode",
+      "content": "gmh5225 starred 1jehuang/jcode",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-27T18:57:25+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/1jehuang/jcode"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "1jehuang/jcode",
+          "url": "https://github.com/1jehuang/jcode"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12371622976",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/NocturneLdr",
+      "target_url": "https://github.com/gmh5225/NocturneLdr",
+      "text": "gmh5225 forked xec412/NocturneLdr → gmh5225/NocturneLdr",
+      "at": "2026-07-27T18:51:32+00:00",
+      "external_id": "event:12371622976",
+      "url": "https://github.com/gmh5225/NocturneLdr",
+      "content": "gmh5225 forked xec412/NocturneLdr → gmh5225/NocturneLdr",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-27T18:51:32+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/xec412/NocturneLdr",
+        "https://github.com/gmh5225/NocturneLdr"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "xec412/NocturneLdr",
+          "url": "https://github.com/xec412/NocturneLdr"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/NocturneLdr",
+          "url": "https://github.com/gmh5225/NocturneLdr"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12369577855",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "star",
+      "target": "kvcache-ai/AgentENV",
+      "target_url": "https://github.com/kvcache-ai/AgentENV",
+      "text": "gmh5225 starred kvcache-ai/AgentENV",
+      "at": "2026-07-27T18:08:32+00:00",
+      "external_id": "event:12369577855",
+      "url": "https://github.com/kvcache-ai/AgentENV",
+      "content": "gmh5225 starred kvcache-ai/AgentENV",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-27T18:08:32+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/kvcache-ai/AgentENV"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "kvcache-ai/AgentENV",
+          "url": "https://github.com/kvcache-ai/AgentENV"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12369504218",
+      "who": "seventeenman",
+      "who_url": "https://github.com/seventeenman",
+      "action": "star",
+      "target": "4minx/CVE-2026-50522",
+      "target_url": "https://github.com/4minx/CVE-2026-50522",
+      "text": "seventeenman starred 4minx/CVE-2026-50522",
+      "at": "2026-07-27T18:06:57+00:00",
+      "external_id": "event:12369504218",
+      "url": "https://github.com/4minx/CVE-2026-50522",
+      "content": "seventeenman starred 4minx/CVE-2026-50522",
+      "author": "seventeenman",
+      "author_name": "seventeenman",
+      "author_url": "https://github.com/seventeenman",
+      "published_at": "2026-07-27T18:06:57+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/seventeenman",
+        "https://github.com/4minx/CVE-2026-50522"
+      ],
+      "refs": {
+        "actor": {
+          "login": "seventeenman",
+          "url": "https://github.com/seventeenman"
+        },
+        "repo": {
+          "full_name": "4minx/CVE-2026-50522",
+          "url": "https://github.com/4minx/CVE-2026-50522"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12369390338",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/ActiveDirectoryTierModel",
+      "target_url": "https://github.com/gmh5225/ActiveDirectoryTierModel",
+      "text": "gmh5225 forked microsoft/ActiveDirectoryTierModel → gmh5225/ActiveDirectoryTierModel",
+      "at": "2026-07-27T18:04:35+00:00",
+      "external_id": "event:12369390338",
+      "url": "https://github.com/gmh5225/ActiveDirectoryTierModel",
+      "content": "gmh5225 forked microsoft/ActiveDirectoryTierModel → gmh5225/ActiveDirectoryTierModel",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-27T18:04:35+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/microsoft/ActiveDirectoryTierModel",
+        "https://github.com/gmh5225/ActiveDirectoryTierModel"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "microsoft/ActiveDirectoryTierModel",
+          "url": "https://github.com/microsoft/ActiveDirectoryTierModel"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/ActiveDirectoryTierModel",
+          "url": "https://github.com/gmh5225/ActiveDirectoryTierModel"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12367812428",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/AgentENV",
+      "target_url": "https://github.com/gmh5225/AgentENV",
+      "text": "gmh5225 forked kvcache-ai/AgentENV → gmh5225/AgentENV",
+      "at": "2026-07-27T17:31:47+00:00",
+      "external_id": "event:12367812428",
+      "url": "https://github.com/gmh5225/AgentENV",
+      "content": "gmh5225 forked kvcache-ai/AgentENV → gmh5225/AgentENV",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-27T17:31:47+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/kvcache-ai/AgentENV",
+        "https://github.com/gmh5225/AgentENV"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "kvcache-ai/AgentENV",
+          "url": "https://github.com/kvcache-ai/AgentENV"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/AgentENV",
+          "url": "https://github.com/gmh5225/AgentENV"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12363795827",
+      "who": "Neo-Maoku",
+      "who_url": "https://github.com/Neo-Maoku",
+      "action": "star",
+      "target": "MDX-Tom/gpt-5.6-instruct",
+      "target_url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+      "text": "Neo-Maoku starred MDX-Tom/gpt-5.6-instruct",
+      "at": "2026-07-27T16:10:30+00:00",
+      "external_id": "event:12363795827",
+      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+      "content": "Neo-Maoku starred MDX-Tom/gpt-5.6-instruct",
+      "author": "Neo-Maoku",
+      "author_name": "Neo-Maoku",
+      "author_url": "https://github.com/Neo-Maoku",
+      "published_at": "2026-07-27T16:10:30+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Neo-Maoku",
+        "https://github.com/MDX-Tom/gpt-5.6-instruct"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Neo-Maoku",
+          "url": "https://github.com/Neo-Maoku"
+        },
+        "repo": {
+          "full_name": "MDX-Tom/gpt-5.6-instruct",
+          "url": "https://github.com/MDX-Tom/gpt-5.6-instruct"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12363451162",
+      "who": "helviojunior",
+      "who_url": "https://github.com/helviojunior",
+      "action": "release",
+      "target": "helviojunior/digital-document-checker",
+      "target_url": "https://github.com/helviojunior/digital-document-checker",
+      "text": "helviojunior released helviojunior/digital-document-checker v0.1.3",
+      "at": "2026-07-27T16:04:06+00:00",
+      "external_id": "event:12363451162",
+      "url": "https://github.com/helviojunior/digital-document-checker/releases/tag/v0.1.3",
+      "content": "helviojunior released helviojunior/digital-document-checker v0.1.3",
+      "author": "helviojunior",
+      "author_name": "helviojunior",
+      "author_url": "https://github.com/helviojunior",
+      "published_at": "2026-07-27T16:04:06+00:00",
+      "collected_at": "2026-07-27T22:12:08.304061+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/helviojunior",
+        "https://github.com/helviojunior/digital-document-checker",
+        "https://github.com/helviojunior/digital-document-checker/releases/tag/v0.1.3"
+      ],
+      "refs": {
+        "actor": {
+          "login": "helviojunior",
+          "url": "https://github.com/helviojunior"
+        },
+        "repo": {
+          "full_name": "helviojunior/digital-document-checker",
+          "url": "https://github.com/helviojunior/digital-document-checker"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

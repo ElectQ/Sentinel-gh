@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import datetime as dt
+
 from sentinel.analyzers import bundle, feed
 from sentinel.collectors import received
 
@@ -29,20 +31,25 @@ def _ev(eid, etype, at, actor="stranger", repo="a/one"):
     }
 
 
+def _now(hours_ago=1):
+    return (dt.datetime.now(dt.UTC) - dt.timedelta(hours=hours_ago)).isoformat()
+
+
 def test_collect_caches_login_and_advances_cursor():
-    gh = FakeGH([_ev("9", "WatchEvent", "2026-07-14T06:00:00Z")])
+    at = _now()
+    gh = FakeGH([_ev("9", "WatchEvent", at)])
     st: dict = {}
     new = received.collect(gh, st)
     assert st["login"] == "me"
     assert len(new) == 1
-    assert st["last_event_at"] == "2026-07-14T06:00:00+00:00"
+    assert st["last_event_at"] == at
     # trimmed to the fields aggregation needs
     assert set(new[0]) == {"id", "type", "actor", "repo", "created_at"}
     assert new[0]["actor"] == "stranger"
 
 
 def test_rerun_emits_nothing():
-    ev = _ev("9", "WatchEvent", "2026-07-14T06:00:00Z")
+    ev = _ev("9", "WatchEvent", _now())
     st: dict = {}
     received.collect(FakeGH([ev]), st)
     assert received.collect(FakeGH([ev]), st) == []

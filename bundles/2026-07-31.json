@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-07-31",
+  "collect_window": {
+    "start": "2026-07-30T16:18:45+00:00",
+    "end": "2026-07-30T22:10:25+00:00",
+    "hours": 5
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "30586113199",
+    "commit": "28d78ea"
+  },
+  "stats": {
+    "total": 8,
+    "by_kind": {
+      "network_hot": 2,
+      "follow": 1,
+      "fork": 3,
+      "star": 2
+    },
+    "failed_lists": [],
+    "followee_count": 166,
+    "push_events_excluded": 36
+  },
+  "items": [
+    {
+      "id": "network:Vector35/binaryninja-api:2026-07-31",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 3 人参与（issue×2, pr×35）",
+      "at": "2026-07-30T22:10:25+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-07-31",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 3 人参与（issue×2, pr×35）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-30T22:10:25+00:00",
+      "collected_at": "2026-07-30T22:10:58.000003+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "CouleeApps",
+          "bdash",
+          "xusheng6"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 2,
+          "pr": 35
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "follow:LloydLabs:ViRb3:2026-07-30:followed",
+      "who": "LloydLabs",
+      "who_url": "https://github.com/LloydLabs",
+      "action": "follow",
+      "target": "ViRb3",
+      "target_url": "https://github.com/ViRb3",
+      "text": "LloydLabs followed ViRb3",
+      "at": "2026-07-30T22:10:09+00:00",
+      "external_id": "follow:LloydLabs:ViRb3:2026-07-30:followed",
+      "url": "https://github.com/ViRb3",
+      "content": "LloydLabs followed ViRb3",
+      "author": "LloydLabs",
+      "author_name": "LloydLabs",
+      "author_url": "https://github.com/LloydLabs",
+      "published_at": "2026-07-30T22:10:09+00:00",
+      "collected_at": "2026-07-30T22:10:58.000003+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/LloydLabs",
+        "https://github.com/ViRb3"
+      ],
+      "refs": {
+        "actor": {
+          "login": "LloydLabs",
+          "url": "https://github.com/LloydLabs"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "ViRb3",
+          "url": "https://github.com/ViRb3"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "ViRb3",
+        "name": "",
+        "bio": "Nothing to see here",
+        "followers": 846,
+        "public_repos": 119,
+        "html_url": "https://github.com/ViRb3",
+        "languages": [
+          "Go",
+          "C#",
+          "Python",
+          "Java",
+          "Shell"
+        ],
+        "top_repos": [
+          {
+            "name": "ViRb3/wgcf",
+            "description": "🚤 Cross-platform, unofficial CLI for Cloudflare Warp",
+            "language": "Go",
+            "stars": 8553,
+            "pushed_at": "2026-07-30T17:40:33Z"
+          },
+          {
+            "name": "ViRb3/TrustMeAlready",
+            "description": "🔓 Disable SSL verification and pinning on Android, system-wide",
+            "language": "Java",
+            "stars": 1509,
+            "pushed_at": "2019-09-23T19:53:15Z"
+          },
+          {
+            "name": "ViRb3/magisk-frida",
+            "description": "🔐 Run frida-server on boot with Magisk, always up-to-date",
+            "language": "Shell",
+            "stars": 1427,
+            "pushed_at": "2026-07-21T23:25:09Z"
+          },
+          {
+            "name": "ViRb3/de4dot-cex",
+            "description": "📦 de4dot deobfuscator with full support for vanilla ConfuserEx",
+            "language": "C#",
+            "stars": 576,
+            "pushed_at": "2020-03-09T17:00:18Z"
+          },
+          {
+            "name": "ViRb3/LenovoController",
+            "description": "🎮 A lightweight alternative to Lenovo Vantage",
+            "language": "C#",
+            "stars": 278,
+            "pushed_at": "2023-04-30T11:50:59Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-07-31",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/sliver",
+      "target_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 3 人参与（pr×2, star×2）",
+      "at": "2026-07-30T21:42:07+00:00",
+      "external_id": "network:BishopFox/sliver:2026-07-31",
+      "url": "https://github.com/BishopFox/sliver",
+      "content": "BishopFox/sliver — 圈外 3 人参与（pr×2, star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-07-30T21:42:07+00:00",
+      "collected_at": "2026-07-30T22:10:58.000003+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/sliver"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/sliver",
+          "url": "https://github.com/BishopFox/sliver"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "AL-MARID",
+          "Luppa90",
+          "osundwacyril"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2,
+          "pr": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12548214364",
+      "who": "FemaleGhost",
+      "who_url": "https://github.com/FemaleGhost",
+      "action": "fork",
+      "target": "FemaleGhost/dns",
+      "target_url": "https://github.com/FemaleGhost/dns",
+      "text": "FemaleGhost forked ANR2MERefork/dns → FemaleGhost/dns",
+      "at": "2026-07-30T17:27:44+00:00",
+      "external_id": "event:12548214364",
+      "url": "https://github.com/FemaleGhost/dns",
+      "content": "FemaleGhost forked ANR2MERefork/dns → FemaleGhost/dns",
+      "author": "FemaleGhost",
+      "author_name": "FemaleGhost",
+      "author_url": "https://github.com/FemaleGhost",
+      "published_at": "2026-07-30T17:27:44+00:00",
+      "collected_at": "2026-07-30T22:10:58.000003+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/FemaleGhost",
+        "https://github.com/ANR2MERefork/dns",
+        "https://github.com/FemaleGhost/dns"
+      ],
+      "refs": {
+        "actor": {
+          "login": "FemaleGhost",
+          "url": "https://github.com/FemaleGhost"
+        },
+        "repo": {
+          "full_name": "ANR2MERefork/dns",
+          "url": "https://github.com/ANR2MERefork/dns"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "FemaleGhost/dns",
+          "url": "https://github.com/FemaleGhost/dns"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12546824040",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/gatewarden-public",
+      "target_url": "https://github.com/gmh5225/gatewarden-public",
+      "text": "gmh5225 forked euuuuuuan/gatewarden-public → gmh5225/gatewarden-public",
+      "at": "2026-07-30T16:57:40+00:00",
+      "external_id": "event:12546824040",
+      "url": "https://github.com/gmh5225/gatewarden-public",
+      "content": "gmh5225 forked euuuuuuan/gatewarden-public → gmh5225/gatewarden-public",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-07-30T16:57:40+00:00",
+      "collected_at": "2026-07-30T22:10:58.000003+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/euuuuuuan/gatewarden-public",
+        "https://github.com/gmh5225/gatewarden-public"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "euuuuuuan/gatewarden-public",
+          "url": "https://github.com/euuuuuuan/gatewarden-public"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/gatewarden-public",
+          "url": "https://github.com/gmh5225/gatewarden-public"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12545291411",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "star",
+      "target": "B00merang-Project/Windows-Longhorn",
+      "target_url": "https://github.com/B00merang-Project/Windows-Longhorn",
+      "text": "yetone starred B00merang-Project/Windows-Longhorn",
+      "at": "2026-07-30T16:25:52+00:00",
+      "external_id": "event:12545291411",
+      "url": "https://github.com/B00merang-Project/Windows-Longhorn",
+      "content": "yetone starred B00merang-Project/Windows-Longhorn",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-07-30T16:25:52+00:00",
+      "collected_at": "2026-07-30T22:10:58.000003+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/B00merang-Project/Windows-Longhorn"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "B00merang-Project/Windows-Longhorn",
+          "url": "https://github.com/B00merang-Project/Windows-Longhorn"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12544944183",
+      "who": "ScriptIdiot",
+      "who_url": "https://github.com/ScriptIdiot",
+      "action": "fork",
+      "target": "ScriptIdiot/macEnum",
+      "target_url": "https://github.com/ScriptIdiot/macEnum",
+      "text": "ScriptIdiot forked CaptainHacX/macEnum → ScriptIdiot/macEnum",
+      "at": "2026-07-30T16:18:47+00:00",
+      "external_id": "event:12544944183",
+      "url": "https://github.com/ScriptIdiot/macEnum",
+      "content": "ScriptIdiot forked CaptainHacX/macEnum → ScriptIdiot/macEnum",
+      "author": "ScriptIdiot",
+      "author_name": "ScriptIdiot",
+      "author_url": "https://github.com/ScriptIdiot",
+      "published_at": "2026-07-30T16:18:47+00:00",
+      "collected_at": "2026-07-30T22:10:58.000003+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ScriptIdiot",
+        "https://github.com/CaptainHacX/macEnum",
+        "https://github.com/ScriptIdiot/macEnum"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ScriptIdiot",
+          "url": "https://github.com/ScriptIdiot"
+        },
+        "repo": {
+          "full_name": "CaptainHacX/macEnum",
+          "url": "https://github.com/CaptainHacX/macEnum"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "ScriptIdiot/macEnum",
+          "url": "https://github.com/ScriptIdiot/macEnum"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12544942440",
+      "who": "ScriptIdiot",
+      "who_url": "https://github.com/ScriptIdiot",
+      "action": "star",
+      "target": "CaptainHacX/macEnum",
+      "target_url": "https://github.com/CaptainHacX/macEnum",
+      "text": "ScriptIdiot starred CaptainHacX/macEnum",
+      "at": "2026-07-30T16:18:45+00:00",
+      "external_id": "event:12544942440",
+      "url": "https://github.com/CaptainHacX/macEnum",
+      "content": "ScriptIdiot starred CaptainHacX/macEnum",
+      "author": "ScriptIdiot",
+      "author_name": "ScriptIdiot",
+      "author_url": "https://github.com/ScriptIdiot",
+      "published_at": "2026-07-30T16:18:45+00:00",
+      "collected_at": "2026-07-30T22:10:58.000003+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ScriptIdiot",
+        "https://github.com/CaptainHacX/macEnum"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ScriptIdiot",
+          "url": "https://github.com/ScriptIdiot"
+        },
+        "repo": {
+          "full_name": "CaptainHacX/macEnum",
+          "url": "https://github.com/CaptainHacX/macEnum"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

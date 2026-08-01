@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-08-02",
+  "collect_window": {
+    "start": "2026-08-01T16:53:58+00:00",
+    "end": "2026-08-01T21:59:51+00:00",
+    "hours": 5
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "30720287419",
+    "commit": "65d09ab"
+  },
+  "stats": {
+    "total": 8,
+    "by_kind": {
+      "follow": 1,
+      "star": 3,
+      "network_hot": 1,
+      "fork": 3
+    },
+    "failed_lists": [],
+    "followee_count": 166,
+    "push_events_excluded": 10
+  },
+  "items": [
+    {
+      "id": "follow:0xflux:pandare9x:2026-08-01:followed",
+      "who": "0xflux",
+      "who_url": "https://github.com/0xflux",
+      "action": "follow",
+      "target": "pandare9x",
+      "target_url": "https://github.com/pandare9x",
+      "text": "0xflux followed pandare9x",
+      "at": "2026-08-01T21:59:51+00:00",
+      "external_id": "follow:0xflux:pandare9x:2026-08-01:followed",
+      "url": "https://github.com/pandare9x",
+      "content": "0xflux followed pandare9x",
+      "author": "0xflux",
+      "author_name": "0xflux",
+      "author_url": "https://github.com/0xflux",
+      "published_at": "2026-08-01T21:59:51+00:00",
+      "collected_at": "2026-08-01T22:00:23.094456+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xflux",
+        "https://github.com/pandare9x"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0xflux",
+          "url": "https://github.com/0xflux"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "pandare9x",
+          "url": "https://github.com/pandare9x"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "pandare9x",
+        "name": "PandaRE",
+        "bio": "Senior Threat Intelligence Researcher | Malware Addict | Threat Hunter ",
+        "followers": 490,
+        "public_repos": 10,
+        "html_url": "https://github.com/pandare9x",
+        "languages": [
+          "Python",
+          "YARA",
+          "SCSS"
+        ],
+        "top_repos": [
+          {
+            "name": "pandare9x/Yara-Rules",
+            "description": "Repository of Yara Rules",
+            "language": "YARA",
+            "stars": 148,
+            "pushed_at": "2026-06-04T14:43:09Z"
+          },
+          {
+            "name": "pandare9x/Configuration_extractors",
+            "description": "Configuration Extractors for Malware",
+            "language": "Python",
+            "stars": 126,
+            "pushed_at": "2025-04-23T03:50:12Z"
+          },
+          {
+            "name": "pandare9x/IDAPython",
+            "description": "IDA Python scripts",
+            "language": "Python",
+            "stars": 41,
+            "pushed_at": "2025-04-11T19:39:16Z"
+          },
+          {
+            "name": "pandare9x/Malware",
+            "description": "IOCs and notes related to malware",
+            "language": "Python",
+            "stars": 26,
+            "pushed_at": "2025-07-07T21:06:29Z"
+          },
+          {
+            "name": "pandare9x/NOP_Plugin",
+            "description": "Plugin for NOPing instructions in IDA",
+            "language": "Python",
+            "stars": 21,
+            "pushed_at": "2024-05-09T22:25:27Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "event:12639081425",
+      "who": "RalfHacker",
+      "who_url": "https://github.com/RalfHacker",
+      "action": "star",
+      "target": "Faceless0x7/AdaptixC2-MCP-Server",
+      "target_url": "https://github.com/Faceless0x7/AdaptixC2-MCP-Server",
+      "text": "RalfHacker starred Faceless0x7/AdaptixC2-MCP-Server",
+      "at": "2026-08-01T20:26:58+00:00",
+      "external_id": "event:12639081425",
+      "url": "https://github.com/Faceless0x7/AdaptixC2-MCP-Server",
+      "content": "RalfHacker starred Faceless0x7/AdaptixC2-MCP-Server",
+      "author": "RalfHacker",
+      "author_name": "RalfHacker",
+      "author_url": "https://github.com/RalfHacker",
+      "published_at": "2026-08-01T20:26:58+00:00",
+      "collected_at": "2026-08-01T22:00:23.094456+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/RalfHacker",
+        "https://github.com/Faceless0x7/AdaptixC2-MCP-Server"
+      ],
+      "refs": {
+        "actor": {
+          "login": "RalfHacker",
+          "url": "https://github.com/RalfHacker"
+        },
+        "repo": {
+          "full_name": "Faceless0x7/AdaptixC2-MCP-Server",
+          "url": "https://github.com/Faceless0x7/AdaptixC2-MCP-Server"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12638741930",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "alshedivat/al-folio",
+      "target_url": "https://github.com/alshedivat/al-folio",
+      "text": "Cracked5pider starred alshedivat/al-folio",
+      "at": "2026-08-01T20:08:41+00:00",
+      "external_id": "event:12638741930",
+      "url": "https://github.com/alshedivat/al-folio",
+      "content": "Cracked5pider starred alshedivat/al-folio",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-08-01T20:08:41+00:00",
+      "collected_at": "2026-08-01T22:00:23.094456+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/alshedivat/al-folio"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "alshedivat/al-folio",
+          "url": "https://github.com/alshedivat/al-folio"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12637728573",
+      "who": "INotGreen",
+      "who_url": "https://github.com/INotGreen",
+      "action": "star",
+      "target": "lxf746/any-auto-register",
+      "target_url": "https://github.com/lxf746/any-auto-register",
+      "text": "INotGreen starred lxf746/any-auto-register",
+      "at": "2026-08-01T19:15:28+00:00",
+      "external_id": "event:12637728573",
+      "url": "https://github.com/lxf746/any-auto-register",
+      "content": "INotGreen starred lxf746/any-auto-register",
+      "author": "INotGreen",
+      "author_name": "INotGreen",
+      "author_url": "https://github.com/INotGreen",
+      "published_at": "2026-08-01T19:15:28+00:00",
+      "collected_at": "2026-08-01T22:00:23.094456+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/INotGreen",
+        "https://github.com/lxf746/any-auto-register"
+      ],
+      "refs": {
+        "actor": {
+          "login": "INotGreen",
+          "url": "https://github.com/INotGreen"
+        },
+        "repo": {
+          "full_name": "lxf746/any-auto-register",
+          "url": "https://github.com/lxf746/any-auto-register"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-08-02",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 2 人参与（issue×1, pr×1）",
+      "at": "2026-08-01T19:03:27+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-08-02",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 2 人参与（issue×1, pr×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-01T19:03:27+00:00",
+      "collected_at": "2026-08-01T22:00:23.094456+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "CLAassistant",
+          "Marvisak"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 1,
+          "issue": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12635584643",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/NeuroPurple",
+      "target_url": "https://github.com/gmh5225/NeuroPurple",
+      "text": "gmh5225 forked JoasASantos/NeuroPurple → gmh5225/NeuroPurple",
+      "at": "2026-08-01T17:27:45+00:00",
+      "external_id": "event:12635584643",
+      "url": "https://github.com/gmh5225/NeuroPurple",
+      "content": "gmh5225 forked JoasASantos/NeuroPurple → gmh5225/NeuroPurple",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-08-01T17:27:45+00:00",
+      "collected_at": "2026-08-01T22:00:23.094456+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/JoasASantos/NeuroPurple",
+        "https://github.com/gmh5225/NeuroPurple"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "JoasASantos/NeuroPurple",
+          "url": "https://github.com/JoasASantos/NeuroPurple"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/NeuroPurple",
+          "url": "https://github.com/gmh5225/NeuroPurple"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12634951665",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/OpenAnytime",
+      "target_url": "https://github.com/gmh5225/OpenAnytime",
+      "text": "gmh5225 forked qqqqqf-q/OpenAnytime → gmh5225/OpenAnytime",
+      "at": "2026-08-01T16:55:15+00:00",
+      "external_id": "event:12634951665",
+      "url": "https://github.com/gmh5225/OpenAnytime",
+      "content": "gmh5225 forked qqqqqf-q/OpenAnytime → gmh5225/OpenAnytime",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-08-01T16:55:15+00:00",
+      "collected_at": "2026-08-01T22:00:23.094456+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/qqqqqf-q/OpenAnytime",
+        "https://github.com/gmh5225/OpenAnytime"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "qqqqqf-q/OpenAnytime",
+          "url": "https://github.com/qqqqqf-q/OpenAnytime"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/OpenAnytime",
+          "url": "https://github.com/gmh5225/OpenAnytime"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:12634927111",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/pireel",
+      "target_url": "https://github.com/gmh5225/pireel",
+      "text": "gmh5225 forked pireel/pireel → gmh5225/pireel",
+      "at": "2026-08-01T16:53:58+00:00",
+      "external_id": "event:12634927111",
+      "url": "https://github.com/gmh5225/pireel",
+      "content": "gmh5225 forked pireel/pireel → gmh5225/pireel",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-08-01T16:53:58+00:00",
+      "collected_at": "2026-08-01T22:00:23.094456+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/pireel/pireel",
+        "https://github.com/gmh5225/pireel"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "pireel/pireel",
+          "url": "https://github.com/pireel/pireel"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/pireel",
+          "url": "https://github.com/gmh5225/pireel"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

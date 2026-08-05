@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "date": "2026-08-05",
-  "generated_at": "2026-08-04T22:17:37+00:00",
+  "generated_at": "2026-08-05T22:15:23+00:00",
   "followee_count": 166,
-  "item_count": 25,
+  "item_count": 62,
   "kinds_included": [
     "star",
     "fork",
@@ -13,7 +13,7 @@
     "network_hot"
   ],
   "trending_available": true,
-  "trending_source_date": "2026-08-04",
+  "trending_source_date": "2026-08-05",
   "items": [
     {
       "id": "network:BishopFox/sliver:2026-08-05",
@@ -23,8 +23,8 @@
       "repo": "BishopFox/sliver",
       "repo_url": "https://github.com/BishopFox/sliver",
       "html_url": "https://github.com/BishopFox/sliver",
-      "text": "BishopFox/sliver — 圈外 4 人参与（fork×1, star×3）",
-      "created_at": "2026-08-04T22:07:35Z",
+      "text": "BishopFox/sliver — 圈外 10 人参与（fork×2, star×8）",
+      "created_at": "2026-08-05T15:33:20Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -32,16 +32,180 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 4,
+        "outer_count": 10,
         "outer_actors": [
+          "2ndNatureAI",
+          "3169417664",
           "3t3rnitybk",
           "Gioxaa",
+          "Jurangren",
+          "hackerschina",
           "ico612",
-          "jquirozz"
+          "jquirozz",
+          "kurotsuki888",
+          "laisongqing"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
-          "star": 3,
+          "star": 8,
+          "fork": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12829565536",
+      "kind": "fork",
+      "text": "gmh5225 forked cloudflare/computer → gmh5225/computer",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T15:20:09Z",
+      "repo": "cloudflare/computer",
+      "repo_url": "https://github.com/cloudflare/computer",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/computer",
+      "payload": {
+        "forkee": "gmh5225/computer",
+        "forkee_url": "https://github.com/gmh5225/computer"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12829555660",
+      "kind": "star",
+      "text": "gmh5225 starred cloudflare/computer",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T15:19:59Z",
+      "repo": "cloudflare/computer",
+      "repo_url": "https://github.com/cloudflare/computer",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/cloudflare/computer",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:BishopFox/iam-vulnerable:2026-08-05",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "BishopFox/iam-vulnerable",
+      "repo_url": "https://github.com/BishopFox/iam-vulnerable",
+      "html_url": "https://github.com/BishopFox/iam-vulnerable",
+      "text": "BishopFox/iam-vulnerable — 圈外 2 人参与（star×2）",
+      "created_at": "2026-08-05T15:18:01Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "MelForze",
+          "jkcousart"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12828798536",
+      "kind": "fork",
+      "text": "gmh5225 forked bilbospocketses/ws-scrcpy-web → gmh5225/ws-scrcpy-web",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T15:06:21Z",
+      "repo": "bilbospocketses/ws-scrcpy-web",
+      "repo_url": "https://github.com/bilbospocketses/ws-scrcpy-web",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/ws-scrcpy-web",
+      "payload": {
+        "forkee": "gmh5225/ws-scrcpy-web",
+        "forkee_url": "https://github.com/gmh5225/ws-scrcpy-web"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12828747630",
+      "kind": "fork",
+      "text": "gmh5225 forked gigbh/d-process → gmh5225/d-process",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T15:05:27Z",
+      "repo": "gigbh/d-process",
+      "repo_url": "https://github.com/gigbh/d-process",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/d-process",
+      "payload": {
+        "forkee": "gmh5225/d-process",
+        "forkee_url": "https://github.com/gmh5225/d-process"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "network:chainreactors/gogo:2026-08-05",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "chainreactors/gogo",
+      "repo_url": "https://github.com/chainreactors/gogo",
+      "html_url": "https://github.com/chainreactors/gogo",
+      "text": "chainreactors/gogo — 圈外 2 人参与（fork×1, star×1）",
+      "created_at": "2026-08-05T14:13:44Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "Yuukipix",
+          "weiranbit-maker"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 1,
           "fork": 1
         },
         "inner_count": 0,
@@ -50,6 +214,744 @@
         "trending": false,
         "languages": [],
         "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12825564394",
+      "kind": "star",
+      "text": "mrfearless starred Free-Ink/freeink-sdk",
+      "actor": "mrfearless",
+      "actor_url": "https://github.com/mrfearless",
+      "created_at": "2026-08-05T14:10:59Z",
+      "repo": "Free-Ink/freeink-sdk",
+      "repo_url": "https://github.com/Free-Ink/freeink-sdk",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Free-Ink/freeink-sdk",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-08-05",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "Vector35/binaryninja-api",
+      "repo_url": "https://github.com/Vector35/binaryninja-api",
+      "html_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 6 人参与（issue×3, pr×13, star×1）",
+      "created_at": "2026-08-05T13:50:45Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 6,
+        "outer_actors": [
+          "ChrisKader",
+          "bdash",
+          "emesare",
+          "fuzyll",
+          "wns25678",
+          "xusheng6"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 13,
+          "issue": 3,
+          "star": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12822727140",
+      "kind": "fork",
+      "text": "gmh5225 forked your-quantguy/gate-crossex → gmh5225/gate-crossex",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T13:22:03Z",
+      "repo": "your-quantguy/gate-crossex",
+      "repo_url": "https://github.com/your-quantguy/gate-crossex",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/gate-crossex",
+      "payload": {
+        "forkee": "gmh5225/gate-crossex",
+        "forkee_url": "https://github.com/gmh5225/gate-crossex"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12818514294",
+      "kind": "fork",
+      "text": "gmh5225 forked KKKKhazix/human-writing → gmh5225/human-writing",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T11:59:38Z",
+      "repo": "KKKKhazix/human-writing",
+      "repo_url": "https://github.com/KKKKhazix/human-writing",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/human-writing",
+      "payload": {
+        "forkee": "gmh5225/human-writing",
+        "forkee_url": "https://github.com/gmh5225/human-writing"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12818393855",
+      "kind": "fork",
+      "text": "gmh5225 forked BlackSnufkin/CredsHunter → gmh5225/CredsHunter",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T11:57:07Z",
+      "repo": "BlackSnufkin/CredsHunter",
+      "repo_url": "https://github.com/BlackSnufkin/CredsHunter",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/CredsHunter",
+      "payload": {
+        "forkee": "gmh5225/CredsHunter",
+        "forkee_url": "https://github.com/gmh5225/CredsHunter"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12818355702",
+      "kind": "fork",
+      "text": "gmh5225 forked BlackSnufkin/AxHunter → gmh5225/AxHunter",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T11:56:22Z",
+      "repo": "BlackSnufkin/AxHunter",
+      "repo_url": "https://github.com/BlackSnufkin/AxHunter",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/AxHunter",
+      "payload": {
+        "forkee": "gmh5225/AxHunter",
+        "forkee_url": "https://github.com/gmh5225/AxHunter"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12813901429",
+      "kind": "star",
+      "text": "Idov31 starred matteyeux/binja-diff",
+      "actor": "Idov31",
+      "actor_url": "https://github.com/Idov31",
+      "created_at": "2026-08-05T10:18:07Z",
+      "repo": "matteyeux/binja-diff",
+      "repo_url": "https://github.com/matteyeux/binja-diff",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/matteyeux/binja-diff",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12812864446",
+      "kind": "fork",
+      "text": "gmh5225 forked scavenrage/Daikin-VAM-P1P2-SlaveController → gmh5225/Daikin-VAM-P1P2-SlaveController",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T09:56:03Z",
+      "repo": "scavenrage/Daikin-VAM-P1P2-SlaveController",
+      "repo_url": "https://github.com/scavenrage/Daikin-VAM-P1P2-SlaveController",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/Daikin-VAM-P1P2-SlaveController",
+      "payload": {
+        "forkee": "gmh5225/Daikin-VAM-P1P2-SlaveController",
+        "forkee_url": "https://github.com/gmh5225/Daikin-VAM-P1P2-SlaveController"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12812826978",
+      "kind": "fork",
+      "text": "gmh5225 forked kojino/120-Data-Science-Interview-Questions → gmh5225/120-Data-Science-Interview-Questions",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T09:55:17Z",
+      "repo": "kojino/120-Data-Science-Interview-Questions",
+      "repo_url": "https://github.com/kojino/120-Data-Science-Interview-Questions",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/120-Data-Science-Interview-Questions",
+      "payload": {
+        "forkee": "gmh5225/120-Data-Science-Interview-Questions",
+        "forkee_url": "https://github.com/gmh5225/120-Data-Science-Interview-Questions"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12812794340",
+      "kind": "star",
+      "text": "h3zh1 starred tkmru/awesome-edr-bypass",
+      "actor": "h3zh1",
+      "actor_url": "https://github.com/h3zh1",
+      "created_at": "2026-08-05T09:54:39Z",
+      "repo": "tkmru/awesome-edr-bypass",
+      "repo_url": "https://github.com/tkmru/awesome-edr-bypass",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/tkmru/awesome-edr-bypass",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12811436794",
+      "kind": "star",
+      "text": "ssrsec starred P3TERX/GeoLite.mmdb",
+      "actor": "ssrsec",
+      "actor_url": "https://github.com/ssrsec",
+      "created_at": "2026-08-05T09:26:09Z",
+      "repo": "P3TERX/GeoLite.mmdb",
+      "repo_url": "https://github.com/P3TERX/GeoLite.mmdb",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/P3TERX/GeoLite.mmdb",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12808013416",
+      "kind": "star",
+      "text": "Garck3h starred Unclecheng-li/VulnClaw",
+      "actor": "Garck3h",
+      "actor_url": "https://github.com/Garck3h",
+      "created_at": "2026-08-05T08:15:31Z",
+      "repo": "Unclecheng-li/VulnClaw",
+      "repo_url": "https://github.com/Unclecheng-li/VulnClaw",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Unclecheng-li/VulnClaw",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12806511506",
+      "kind": "star",
+      "text": "niudaii starred uditgoenka/autoresearch",
+      "actor": "niudaii",
+      "actor_url": "https://github.com/niudaii",
+      "created_at": "2026-08-05T07:42:56Z",
+      "repo": "uditgoenka/autoresearch",
+      "repo_url": "https://github.com/uditgoenka/autoresearch",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/uditgoenka/autoresearch",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12806478516",
+      "kind": "star",
+      "text": "niudaii starred yc-software/qm",
+      "actor": "niudaii",
+      "actor_url": "https://github.com/niudaii",
+      "created_at": "2026-08-05T07:42:13Z",
+      "repo": "yc-software/qm",
+      "repo_url": "https://github.com/yc-software/qm",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/yc-software/qm",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12805963113",
+      "kind": "star",
+      "text": "shmilylty starred alphadl/proxifier_code",
+      "actor": "shmilylty",
+      "actor_url": "https://github.com/shmilylty",
+      "created_at": "2026-08-05T07:30:46Z",
+      "repo": "alphadl/proxifier_code",
+      "repo_url": "https://github.com/alphadl/proxifier_code",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/alphadl/proxifier_code",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12805673512",
+      "kind": "star",
+      "text": "timwhitez starred sky-valley/pi",
+      "actor": "timwhitez",
+      "actor_url": "https://github.com/timwhitez",
+      "created_at": "2026-08-05T07:24:24Z",
+      "repo": "sky-valley/pi",
+      "repo_url": "https://github.com/sky-valley/pi",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/sky-valley/pi",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12805405438",
+      "kind": "fork",
+      "text": "gmh5225 forked cracken-ai/blacksea → gmh5225/blacksea",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T07:18:15Z",
+      "repo": "cracken-ai/blacksea",
+      "repo_url": "https://github.com/cracken-ai/blacksea",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/blacksea",
+      "payload": {
+        "forkee": "gmh5225/blacksea",
+        "forkee_url": "https://github.com/gmh5225/blacksea"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "network:BishopFox/aimap:2026-08-05",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "BishopFox/aimap",
+      "repo_url": "https://github.com/BishopFox/aimap",
+      "html_url": "https://github.com/BishopFox/aimap",
+      "text": "BishopFox/aimap — 圈外 2 人参与（star×2）",
+      "created_at": "2026-08-05T06:59:40Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "nikosvaggalis",
+          "sabt-dev"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12803007846",
+      "kind": "star",
+      "text": "Neo-Maoku starred Lotus6/JavaGadgetGenerator",
+      "actor": "Neo-Maoku",
+      "actor_url": "https://github.com/Neo-Maoku",
+      "created_at": "2026-08-05T06:19:41Z",
+      "repo": "Lotus6/JavaGadgetGenerator",
+      "repo_url": "https://github.com/Lotus6/JavaGadgetGenerator",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Lotus6/JavaGadgetGenerator",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:chainreactors/picker:2026-08-05",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "chainreactors/picker",
+      "repo_url": "https://github.com/chainreactors/picker",
+      "html_url": "https://github.com/chainreactors/picker",
+      "text": "chainreactors/picker — 圈外 2 人参与（issue×4）",
+      "created_at": "2026-08-05T05:00:57Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "chainreactorbot",
+          "github-actions[bot]"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 4
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12800246431",
+      "kind": "fork",
+      "text": "gmh5225 forked NeverSight/NeverD → gmh5225/NeverD",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T04:59:28Z",
+      "repo": "NeverSight/NeverD",
+      "repo_url": "https://github.com/NeverSight/NeverD",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/NeverD",
+      "payload": {
+        "forkee": "gmh5225/NeverD",
+        "forkee_url": "https://github.com/gmh5225/NeverD"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12800242757",
+      "kind": "star",
+      "text": "gmh5225 starred NeverSight/NeverD",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T04:59:22Z",
+      "repo": "NeverSight/NeverD",
+      "repo_url": "https://github.com/NeverSight/NeverD",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/NeverSight/NeverD",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12798245288",
+      "kind": "star",
+      "text": "aleenzz starred mverschu/SOCKSRelayd",
+      "actor": "aleenzz",
+      "actor_url": "https://github.com/aleenzz",
+      "created_at": "2026-08-05T03:53:33Z",
+      "repo": "mverschu/SOCKSRelayd",
+      "repo_url": "https://github.com/mverschu/SOCKSRelayd",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/mverschu/SOCKSRelayd",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12797355668",
+      "kind": "star",
+      "text": "Cracked5pider starred NotRequiem/antidbg",
+      "actor": "Cracked5pider",
+      "actor_url": "https://github.com/Cracked5pider",
+      "created_at": "2026-08-05T03:21:44Z",
+      "repo": "NotRequiem/antidbg",
+      "repo_url": "https://github.com/NotRequiem/antidbg",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/NotRequiem/antidbg",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12797227362",
+      "kind": "fork",
+      "text": "gmh5225 forked offseq/threat-finder → gmh5225/threat-finder",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T03:17:04Z",
+      "repo": "offseq/threat-finder",
+      "repo_url": "https://github.com/offseq/threat-finder",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/threat-finder",
+      "payload": {
+        "forkee": "gmh5225/threat-finder",
+        "forkee_url": "https://github.com/gmh5225/threat-finder"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12796498171",
+      "kind": "fork",
+      "text": "gmh5225 forked ximinng/HiVG → gmh5225/HiVG",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T02:52:15Z",
+      "repo": "ximinng/HiVG",
+      "repo_url": "https://github.com/ximinng/HiVG",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/HiVG",
+      "payload": {
+        "forkee": "gmh5225/HiVG",
+        "forkee_url": "https://github.com/gmh5225/HiVG"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12796488086",
+      "kind": "fork",
+      "text": "gmh5225 forked Washi1337/cilfi → gmh5225/cilfi",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-05T02:51:55Z",
+      "repo": "Washi1337/cilfi",
+      "repo_url": "https://github.com/Washi1337/cilfi",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/cilfi",
+      "payload": {
+        "forkee": "gmh5225/cilfi",
+        "forkee_url": "https://github.com/gmh5225/cilfi"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12795682924",
+      "kind": "star",
+      "text": "Autumn-27 starred alibaba/open-code-review",
+      "actor": "Autumn-27",
+      "actor_url": "https://github.com/Autumn-27",
+      "created_at": "2026-08-05T02:24:02Z",
+      "repo": "alibaba/open-code-review",
+      "repo_url": "https://github.com/alibaba/open-code-review",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/alibaba/open-code-review",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:12794716462",
+      "kind": "fork",
+      "text": "Mx-Iris forked IcaliaLabs/Presentr → MxIris-iOS-Library-Forks/Presentr",
+      "actor": "Mx-Iris",
+      "actor_url": "https://github.com/Mx-Iris",
+      "created_at": "2026-08-05T01:51:44Z",
+      "repo": "IcaliaLabs/Presentr",
+      "repo_url": "https://github.com/IcaliaLabs/Presentr",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/MxIris-iOS-Library-Forks/Presentr",
+      "payload": {
+        "forkee": "MxIris-iOS-Library-Forks/Presentr",
+        "forkee_url": "https://github.com/MxIris-iOS-Library-Forks/Presentr"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:12794179765",
+      "kind": "star",
+      "text": "aleenzz starred dmcxblue/ANIMO",
+      "actor": "aleenzz",
+      "actor_url": "https://github.com/aleenzz",
+      "created_at": "2026-08-05T01:33:02Z",
+      "repo": "dmcxblue/ANIMO",
+      "repo_url": "https://github.com/dmcxblue/ANIMO",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/dmcxblue/ANIMO",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "network:BishopFox/unredacter:2026-08-05",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "BishopFox/unredacter",
+      "repo_url": "https://github.com/BishopFox/unredacter",
+      "html_url": "https://github.com/BishopFox/unredacter",
+      "text": "BishopFox/unredacter — 圈外 2 人参与（star×2）",
+      "created_at": "2026-08-05T00:51:31Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "LJH9328",
+          "akazdayo"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:12792809477",
+      "kind": "star",
+      "text": "INotGreen starred msitarzewski/agency-agents",
+      "actor": "INotGreen",
+      "actor_url": "https://github.com/INotGreen",
+      "created_at": "2026-08-05T00:44:27Z",
+      "repo": "msitarzewski/agency-agents",
+      "repo_url": "https://github.com/msitarzewski/agency-agents",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/msitarzewski/agency-agents",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
       }
     },
     {
@@ -164,40 +1066,6 @@
         "trending": false,
         "trending_front_page": false,
         "circle_count": null
-      }
-    },
-    {
-      "id": "network:Vector35/binaryninja-api:2026-08-05",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "Vector35/binaryninja-api",
-      "repo_url": "https://github.com/Vector35/binaryninja-api",
-      "html_url": "https://github.com/Vector35/binaryninja-api",
-      "text": "Vector35/binaryninja-api — 圈外 2 人参与（pr×5）",
-      "created_at": "2026-08-04T19:15:59Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 2,
-        "outer_actors": [
-          "ChrisKader",
-          "emesare"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "pr": 5
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
       }
     },
     {
@@ -415,7 +1283,7 @@
       "signals": {
         "trending": false,
         "trending_front_page": false,
-        "circle_count": 1
+        "circle_count": 2
       }
     },
     {
@@ -593,13 +1461,13 @@
   ],
   "summary": {
     "by_kind": {
-      "network_hot": 2,
-      "fork": 13,
-      "star": 9,
+      "network_hot": 7,
+      "fork": 28,
+      "star": 26,
       "release": 1
     },
-    "push_events_excluded": 8,
-    "events_in_window": 40,
+    "push_events_excluded": 62,
+    "events_in_window": 180,
     "follows_in_window": 0
   }
 }

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "date": "2026-08-15",
-  "generated_at": "2026-08-14T21:29:47+00:00",
+  "generated_at": "2026-08-15T21:25:47+00:00",
   "followee_count": 168,
-  "item_count": 22,
+  "item_count": 56,
   "kinds_included": [
     "star",
     "fork",
@@ -13,8 +13,893 @@
     "network_hot"
   ],
   "trending_available": true,
-  "trending_source_date": "2026-08-14",
+  "trending_source_date": "2026-08-15",
   "items": [
+    {
+      "id": "event:13333421069",
+      "kind": "fork",
+      "text": "gmh5225 forked Kohaku-Lab/KohakuTerrarium → gmh5225/KohakuTerrarium",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-15T15:57:08Z",
+      "repo": "Kohaku-Lab/KohakuTerrarium",
+      "repo_url": "https://github.com/Kohaku-Lab/KohakuTerrarium",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/KohakuTerrarium",
+      "payload": {
+        "forkee": "gmh5225/KohakuTerrarium",
+        "forkee_url": "https://github.com/gmh5225/KohakuTerrarium"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-08-15",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/DeepSeek-V3",
+      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 5 人参与（issue×107）",
+      "created_at": "2026-08-15T15:54:17Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "HappinessEV",
+          "github-actions[bot]",
+          "icophy",
+          "qingkong66",
+          "yun520-1"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 107
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:13333254623",
+      "kind": "star",
+      "text": "Rvn0xsy starred awesome-dsh-plugin/awesome-dsh-plugin",
+      "actor": "Rvn0xsy",
+      "actor_url": "https://github.com/Rvn0xsy",
+      "created_at": "2026-08-15T15:48:53Z",
+      "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "repo_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13333055502",
+      "kind": "fork",
+      "text": "gmh5225 forked aramosf/CVE-2026-68398 → gmh5225/CVE-2026-68398",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-15T15:38:51Z",
+      "repo": "aramosf/CVE-2026-68398",
+      "repo_url": "https://github.com/aramosf/CVE-2026-68398",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/CVE-2026-68398",
+      "payload": {
+        "forkee": "gmh5225/CVE-2026-68398",
+        "forkee_url": "https://github.com/gmh5225/CVE-2026-68398"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:13332847380",
+      "kind": "star",
+      "text": "bartblaze starred boxwise/boxtribute",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T15:28:27Z",
+      "repo": "boxwise/boxtribute",
+      "repo_url": "https://github.com/boxwise/boxtribute",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/boxwise/boxtribute",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13332823646",
+      "kind": "star",
+      "text": "Xre0uS starred deepseek-ai/deepseek-harness",
+      "actor": "Xre0uS",
+      "actor_url": "https://github.com/Xre0uS",
+      "created_at": "2026-08-15T15:27:16Z",
+      "repo": "deepseek-ai/deepseek-harness",
+      "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13332798732",
+      "kind": "star",
+      "text": "bartblaze starred accrescent/accrescent",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T15:25:57Z",
+      "repo": "accrescent/accrescent",
+      "repo_url": "https://github.com/accrescent/accrescent",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/accrescent/accrescent",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13332798549",
+      "kind": "star",
+      "text": "bartblaze starred ImranR98/Obtainium",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T15:25:56Z",
+      "repo": "ImranR98/Obtainium",
+      "repo_url": "https://github.com/ImranR98/Obtainium",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/ImranR98/Obtainium",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13331767379",
+      "kind": "fork",
+      "text": "gmh5225 forked b-nnett/codex-plusplus → gmh5225/codex-plusplus",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-15T14:33:53Z",
+      "repo": "b-nnett/codex-plusplus",
+      "repo_url": "https://github.com/b-nnett/codex-plusplus",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/codex-plusplus",
+      "payload": {
+        "forkee": "gmh5225/codex-plusplus",
+        "forkee_url": "https://github.com/gmh5225/codex-plusplus"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:13330949109",
+      "kind": "star",
+      "text": "timwhitez starred huoji120/QWEN-EXO-booster",
+      "actor": "timwhitez",
+      "actor_url": "https://github.com/timwhitez",
+      "created_at": "2026-08-15T13:50:35Z",
+      "repo": "huoji120/QWEN-EXO-booster",
+      "repo_url": "https://github.com/huoji120/QWEN-EXO-booster",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/huoji120/QWEN-EXO-booster",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13330235964",
+      "kind": "fork",
+      "text": "gmh5225 forked lauralex/OAC → gmh5225/OAC-OAC",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-15T13:11:58Z",
+      "repo": "lauralex/OAC",
+      "repo_url": "https://github.com/lauralex/OAC",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/OAC-OAC",
+      "payload": {
+        "forkee": "gmh5225/OAC-OAC",
+        "forkee_url": "https://github.com/gmh5225/OAC-OAC"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:13329758730",
+      "kind": "star",
+      "text": "bartblaze starred BlueWallet/BlueWallet",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T12:44:46Z",
+      "repo": "BlueWallet/BlueWallet",
+      "repo_url": "https://github.com/BlueWallet/BlueWallet",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/BlueWallet/BlueWallet",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13329756180",
+      "kind": "star",
+      "text": "bartblaze starred nunchuk-io/nunchuk-desktop",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T12:44:38Z",
+      "repo": "nunchuk-io/nunchuk-desktop",
+      "repo_url": "https://github.com/nunchuk-io/nunchuk-desktop",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/nunchuk-io/nunchuk-desktop",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13329738286",
+      "kind": "star",
+      "text": "bartblaze starred smolcars/blixt-wallet",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T12:43:45Z",
+      "repo": "smolcars/blixt-wallet",
+      "repo_url": "https://github.com/smolcars/blixt-wallet",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/smolcars/blixt-wallet",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13329702043",
+      "kind": "star",
+      "text": "bartblaze starred Next-Flip/Momentum-Firmware",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T12:41:54Z",
+      "repo": "Next-Flip/Momentum-Firmware",
+      "repo_url": "https://github.com/Next-Flip/Momentum-Firmware",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Next-Flip/Momentum-Firmware",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:deepseek-ai/awesome-deepseek-agent:2026-08-15",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/awesome-deepseek-agent",
+      "repo_url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+      "html_url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+      "text": "deepseek-ai/awesome-deepseek-agent — 圈外 9 人参与（fork×2, issue×1, pr×1, star×5）",
+      "created_at": "2026-08-15T12:41:34Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": true,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 9,
+        "outer_actors": [
+          "Dongmahdi",
+          "Ephemeral182",
+          "Moresyl",
+          "RFSoC47",
+          "jackkli0505",
+          "jaimedhenriques",
+          "mstfcck",
+          "s89042479-rgb",
+          "shakenbake604"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 2,
+          "star": 5,
+          "issue": 1,
+          "pr": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": true,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:13329666156",
+      "kind": "star",
+      "text": "bartblaze starred SeedSigner/seedsigner",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T12:39:58Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/SeedSigner/seedsigner",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13329634480",
+      "kind": "star",
+      "text": "bartblaze starred selfcustody/krux",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T12:38:07Z",
+      "repo": "selfcustody/krux",
+      "repo_url": "https://github.com/selfcustody/krux",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/selfcustody/krux",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-08-15",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "Vector35/binaryninja-api",
+      "repo_url": "https://github.com/Vector35/binaryninja-api",
+      "html_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 6 人参与（issue×9, pr×2）",
+      "created_at": "2026-08-15T12:21:59Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 6,
+        "outer_actors": [
+          "ClearCutDevel",
+          "UvuvDev",
+          "ashvika-creator",
+          "bdash",
+          "emesare",
+          "psifertex"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 9,
+          "pr": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:13329032255",
+      "kind": "star",
+      "text": "bartblaze starred tracelabs/tlosint-vm",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T12:03:20Z",
+      "repo": "tracelabs/tlosint-vm",
+      "repo_url": "https://github.com/tracelabs/tlosint-vm",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/tracelabs/tlosint-vm",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13328742586",
+      "kind": "star",
+      "text": "Autumn-27 starred ljagiello/ctf-skills",
+      "actor": "Autumn-27",
+      "actor_url": "https://github.com/Autumn-27",
+      "created_at": "2026-08-15T11:45:46Z",
+      "repo": "ljagiello/ctf-skills",
+      "repo_url": "https://github.com/ljagiello/ctf-skills",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/ljagiello/ctf-skills",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13328364543",
+      "kind": "star",
+      "text": "Whitecat18 starred som3canadian/Cloudflare-Redirector",
+      "actor": "Whitecat18",
+      "actor_url": "https://github.com/Whitecat18",
+      "created_at": "2026-08-15T11:22:34Z",
+      "repo": "som3canadian/Cloudflare-Redirector",
+      "repo_url": "https://github.com/som3canadian/Cloudflare-Redirector",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/som3canadian/Cloudflare-Redirector",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13327741059",
+      "kind": "star",
+      "text": "bartblaze starred stoyky/figment",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-08-15T10:43:57Z",
+      "repo": "stoyky/figment",
+      "repo_url": "https://github.com/stoyky/figment",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/stoyky/figment",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:deepseek-ai/awesome-deepseek-integration:2026-08-15",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/awesome-deepseek-integration",
+      "repo_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "html_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "text": "deepseek-ai/awesome-deepseek-integration — 圈外 6 人参与（pr×5, star×1）",
+      "created_at": "2026-08-15T08:04:28Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 6,
+        "outer_actors": [
+          "Francis-Xavier-code",
+          "Moresyl",
+          "Penguinnator",
+          "denial123789",
+          "fendouai",
+          "jeremy9682"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 1,
+          "pr": 5
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:13324658941",
+      "kind": "star",
+      "text": "seventeenman starred MSNightmare/ShieldBreak",
+      "actor": "seventeenman",
+      "actor_url": "https://github.com/seventeenman",
+      "created_at": "2026-08-15T07:43:15Z",
+      "repo": "MSNightmare/ShieldBreak",
+      "repo_url": "https://github.com/MSNightmare/ShieldBreak",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/MSNightmare/ShieldBreak",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13324542042",
+      "kind": "star",
+      "text": "timwhitez starred timwhitez/dsh-self-evolving",
+      "actor": "timwhitez",
+      "actor_url": "https://github.com/timwhitez",
+      "created_at": "2026-08-15T07:37:04Z",
+      "repo": "timwhitez/dsh-self-evolving",
+      "repo_url": "https://github.com/timwhitez/dsh-self-evolving",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/timwhitez/dsh-self-evolving",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13324479455",
+      "kind": "fork",
+      "text": "gmh5225 forked Devolutions/windbg-tool → gmh5225/windbg-tool-",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-15T07:33:45Z",
+      "repo": "Devolutions/windbg-tool",
+      "repo_url": "https://github.com/Devolutions/windbg-tool",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/windbg-tool-",
+      "payload": {
+        "forkee": "gmh5225/windbg-tool-",
+        "forkee_url": "https://github.com/gmh5225/windbg-tool-"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:13324224846",
+      "kind": "star",
+      "text": "0xflux starred gfx-rs/wgpu",
+      "actor": "0xflux",
+      "actor_url": "https://github.com/0xflux",
+      "created_at": "2026-08-15T07:18:19Z",
+      "repo": "gfx-rs/wgpu",
+      "repo_url": "https://github.com/gfx-rs/wgpu",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gfx-rs/wgpu",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13323592836",
+      "kind": "release",
+      "text": "timwhitez released timwhitez/dsh-self-evolving dsh-self-evolving-v0.2.0",
+      "actor": "timwhitez",
+      "actor_url": "https://github.com/timwhitez",
+      "created_at": "2026-08-15T06:42:05Z",
+      "repo": "timwhitez/dsh-self-evolving",
+      "repo_url": "https://github.com/timwhitez/dsh-self-evolving",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/timwhitez/dsh-self-evolving/releases/tag/dsh-self-evolving-v0.2.0",
+      "payload": {
+        "tag": "dsh-self-evolving-v0.2.0",
+        "name": "dsh-self-evolving v0.2.0 — Public release candidate",
+        "url": "https://github.com/timwhitez/dsh-self-evolving/releases/tag/dsh-self-evolving-v0.2.0",
+        "prerelease": true
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13322349688",
+      "kind": "star",
+      "text": "gmh5225 starred guillaumemeyer/watermarks-remover",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-15T05:26:58Z",
+      "repo": "guillaumemeyer/watermarks-remover",
+      "repo_url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13322346557",
+      "kind": "fork",
+      "text": "gmh5225 forked guillaumemeyer/watermarks-remover → gmh5225/watermarks-remover",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-15T05:26:44Z",
+      "repo": "guillaumemeyer/watermarks-remover",
+      "repo_url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/watermarks-remover",
+      "payload": {
+        "forkee": "gmh5225/watermarks-remover",
+        "forkee_url": "https://github.com/gmh5225/watermarks-remover"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13321817935",
+      "kind": "star",
+      "text": "realoriginal starred yewstack/yew",
+      "actor": "realoriginal",
+      "actor_url": "https://github.com/realoriginal",
+      "created_at": "2026-08-15T04:54:12Z",
+      "repo": "yewstack/yew",
+      "repo_url": "https://github.com/yewstack/yew",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/yewstack/yew",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13321729375",
+      "kind": "star",
+      "text": "realoriginal starred getzola/zola",
+      "actor": "realoriginal",
+      "actor_url": "https://github.com/realoriginal",
+      "created_at": "2026-08-15T04:49:05Z",
+      "repo": "getzola/zola",
+      "repo_url": "https://github.com/getzola/zola",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/getzola/zola",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13320015385",
+      "kind": "fork",
+      "text": "gmh5225 forked rasbt/ai-detector-from-scratch → gmh5225/ai-detector-from-scratch",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-08-15T03:07:47Z",
+      "repo": "rasbt/ai-detector-from-scratch",
+      "repo_url": "https://github.com/rasbt/ai-detector-from-scratch",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/ai-detector-from-scratch",
+      "payload": {
+        "forkee": "gmh5225/ai-detector-from-scratch",
+        "forkee_url": "https://github.com/gmh5225/ai-detector-from-scratch"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:13318127290",
+      "kind": "fork",
+      "text": "badboycxcc forked wangwangit/SubsTracker → badboycxcc/SubsTracker",
+      "actor": "badboycxcc",
+      "actor_url": "https://github.com/badboycxcc",
+      "created_at": "2026-08-15T01:26:35Z",
+      "repo": "wangwangit/SubsTracker",
+      "repo_url": "https://github.com/wangwangit/SubsTracker",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/badboycxcc/SubsTracker",
+      "payload": {
+        "forkee": "badboycxcc/SubsTracker",
+        "forkee_url": "https://github.com/badboycxcc/SubsTracker"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:13318125724",
+      "kind": "star",
+      "text": "badboycxcc starred wangwangit/SubsTracker",
+      "actor": "badboycxcc",
+      "actor_url": "https://github.com/badboycxcc",
+      "created_at": "2026-08-15T01:26:31Z",
+      "repo": "wangwangit/SubsTracker",
+      "repo_url": "https://github.com/wangwangit/SubsTracker",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/wangwangit/SubsTracker",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:Vector35/debugger:2026-08-15",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "Vector35/debugger",
+      "repo_url": "https://github.com/Vector35/debugger",
+      "html_url": "https://github.com/Vector35/debugger",
+      "text": "Vector35/debugger — 圈外 4 人参与（issue×11, pr×7）",
+      "created_at": "2026-08-15T00:28:07Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 4,
+        "outer_actors": [
+          "UvuvDev",
+          "bdash",
+          "plafosse",
+          "xusheng6"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 7,
+          "issue": 11
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:13315609872",
+      "kind": "star",
+      "text": "badboycxcc starred abb3rrant/Unkn0wnC2",
+      "actor": "badboycxcc",
+      "actor_url": "https://github.com/badboycxcc",
+      "created_at": "2026-08-14T23:35:01Z",
+      "repo": "abb3rrant/Unkn0wnC2",
+      "repo_url": "https://github.com/abb3rrant/Unkn0wnC2",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/abb3rrant/Unkn0wnC2",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
     {
       "id": "follow:shashinma:praetorian-inc:2026-08-14:followed",
       "kind": "follow",
@@ -114,7 +999,7 @@
         "login": "Whitecat18",
         "name": "Smukx ♠",
         "bio": "Offensive code writer. 20 y/o.",
-        "followers": 1418,
+        "followers": 1417,
         "public_repos": 18,
         "html_url": "https://github.com/Whitecat18",
         "languages": [
@@ -188,7 +1073,7 @@
         "login": "Whispergate",
         "name": "Whispergate",
         "bio": "01110000 01110011 01110011 01110100 00100001",
-        "followers": 96,
+        "followers": 106,
         "public_repos": 49,
         "html_url": "https://github.com/Whispergate",
         "languages": [
@@ -200,18 +1085,18 @@
         ],
         "top_repos": [
           {
-            "name": "Whispergate/InfraGuard",
-            "description": "InfraGuard is a Command & Control Redirection Proxy and Manager which protects your Red Team Infrastructure against threat attribution",
-            "language": "Python",
-            "stars": 164,
-            "pushed_at": "2026-07-15T03:52:07Z"
-          },
-          {
             "name": "Whispergate/Erebus",
             "description": "Erebus is an Initial Access wrapper for the Mythic Command & Control Server. It converts shellcode into payloads specifically used for phishing and IA operations.",
             "language": "Python",
-            "stars": 152,
+            "stars": 168,
             "pushed_at": "2026-08-14T19:20:00Z"
+          },
+          {
+            "name": "Whispergate/InfraGuard",
+            "description": "InfraGuard is a Command & Control Redirection Proxy and Manager which protects your Red Team Infrastructure against threat attribution",
+            "language": "Python",
+            "stars": 165,
+            "pushed_at": "2026-08-15T11:14:38Z"
           },
           {
             "name": "Whispergate/Hecate",
@@ -262,7 +1147,7 @@
         "login": "ServiceNow",
         "name": "ServiceNow",
         "bio": "Works for you™",
-        "followers": 1120,
+        "followers": 1121,
         "public_repos": 277,
         "html_url": "https://github.com/ServiceNow",
         "languages": [
@@ -277,14 +1162,14 @@
             "name": "ServiceNow/BrowserGym",
             "description": "🌎💪 BrowserGym, a Gym environment for web task automation",
             "language": "Python",
-            "stars": 1315,
+            "stars": 1317,
             "pushed_at": "2026-07-17T18:09:30Z"
           },
           {
             "name": "ServiceNow/AgentLab",
             "description": "AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility.",
             "language": "Python",
-            "stars": 621,
+            "stars": 622,
             "pushed_at": "2026-07-17T18:09:43Z"
           },
           {
@@ -467,13 +1352,13 @@
       "repo": "deepseek-ai/deepseek-harness",
       "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
-      "text": "deepseek-ai/deepseek-harness — 圈外 176 人参与（fork×90, star×90）",
+      "text": "deepseek-ai/deepseek-harness — 圈外 176 人参与，圈内 1 人也 star（fork×90, star×90）",
       "created_at": "2026-08-14T21:28:47Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
         "trending_front_page": false,
-        "circle_count": null
+        "circle_count": 1
       },
       "network": {
         "outer_count": 176,
@@ -504,85 +1389,11 @@
           "fork": 90,
           "star": 90
         },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
-      "id": "network:Vector35/debugger:2026-08-15",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "Vector35/debugger",
-      "repo_url": "https://github.com/Vector35/debugger",
-      "html_url": "https://github.com/Vector35/debugger",
-      "text": "Vector35/debugger — 圈外 3 人参与（issue×10, pr×5）",
-      "created_at": "2026-08-14T21:28:32Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 3,
-        "outer_actors": [
-          "UvuvDev",
-          "plafosse",
-          "xusheng6"
+        "inner_count": 1,
+        "inner_actors": [
+          "Xre0uS"
         ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "pr": 5,
-          "issue": 10
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
-      "id": "network:deepseek-ai/awesome-deepseek-agent:2026-08-15",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "deepseek-ai/awesome-deepseek-agent",
-      "repo_url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
-      "html_url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
-      "text": "deepseek-ai/awesome-deepseek-agent — 圈外 7 人参与（fork×2, star×5）",
-      "created_at": "2026-08-14T21:24:28Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 7,
-        "outer_actors": [
-          "Dongmahdi",
-          "Ephemeral182",
-          "jackkli0505",
-          "jaimedhenriques",
-          "mstfcck",
-          "s89042479-rgb",
-          "shakenbake604"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "fork": 2,
-          "star": 5
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
+        "in_circle": true,
         "trending": false,
         "languages": [],
         "source": "received_feed"
@@ -624,75 +1435,6 @@
       }
     },
     {
-      "id": "network:deepseek-ai/DeepSeek-V3:2026-08-15",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "deepseek-ai/DeepSeek-V3",
-      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "text": "deepseek-ai/DeepSeek-V3 — 圈外 2 人参与（issue×82）",
-      "created_at": "2026-08-14T20:54:37Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 2,
-        "outer_actors": [
-          "HappinessEV",
-          "qingkong66"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "issue": 82
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
-      "id": "network:Vector35/binaryninja-api:2026-08-15",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "Vector35/binaryninja-api",
-      "repo_url": "https://github.com/Vector35/binaryninja-api",
-      "html_url": "https://github.com/Vector35/binaryninja-api",
-      "text": "Vector35/binaryninja-api — 圈外 3 人参与（issue×3）",
-      "created_at": "2026-08-14T19:41:58Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 3,
-        "outer_actors": [
-          "UvuvDev",
-          "bdash",
-          "psifertex"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "issue": 3
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
       "id": "event:13303043893",
       "kind": "fork",
       "text": "FemaleGhost forked som3canadian/Cloudflare-Redirector → FemaleGhost/Cloudflare-Redirector",
@@ -712,7 +1454,7 @@
       "signals": {
         "trending": false,
         "trending_front_page": false,
-        "circle_count": null
+        "circle_count": 1
       }
     },
     {
@@ -921,14 +1663,14 @@
   ],
   "summary": {
     "by_kind": {
-      "follow": 6,
-      "network_hot": 6,
-      "fork": 7,
-      "star": 2,
-      "release": 1
+      "fork": 15,
+      "network_hot": 7,
+      "star": 26,
+      "release": 2,
+      "follow": 6
     },
-    "push_events_excluded": 8,
-    "events_in_window": 28,
+    "push_events_excluded": 64,
+    "events_in_window": 137,
     "follows_in_window": 7
   }
 }

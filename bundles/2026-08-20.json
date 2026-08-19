@@ -1,0 +1,1259 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-08-20",
+  "collect_window": {
+    "start": "2026-08-19T16:08:09+00:00",
+    "end": "2026-08-19T21:29:12+00:00",
+    "hours": 5
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "32304035058",
+    "commit": "c2309ab"
+  },
+  "stats": {
+    "total": 16,
+    "by_kind": {
+      "follow": 5,
+      "network_hot": 5,
+      "fork": 2,
+      "star": 2,
+      "release": 2
+    },
+    "failed_lists": [],
+    "followee_count": 168,
+    "push_events_excluded": 15
+  },
+  "items": [
+    {
+      "id": "follow:zero2504:dobin:2026-08-19:followed",
+      "who": "zero2504",
+      "who_url": "https://github.com/zero2504",
+      "action": "follow",
+      "target": "dobin",
+      "target_url": "https://github.com/dobin",
+      "text": "zero2504 followed dobin",
+      "at": "2026-08-19T21:29:12+00:00",
+      "external_id": "follow:zero2504:dobin:2026-08-19:followed",
+      "url": "https://github.com/dobin",
+      "content": "zero2504 followed dobin",
+      "author": "zero2504",
+      "author_name": "zero2504",
+      "author_url": "https://github.com/zero2504",
+      "published_at": "2026-08-19T21:29:12+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/zero2504",
+        "https://github.com/dobin"
+      ],
+      "refs": {
+        "actor": {
+          "login": "zero2504",
+          "url": "https://github.com/zero2504"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "dobin",
+          "url": "https://github.com/dobin"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "dobin",
+        "name": "Dobin Rutishauser",
+        "bio": "",
+        "followers": 453,
+        "public_repos": 111,
+        "html_url": "https://github.com/dobin",
+        "languages": [
+          "Python",
+          "JavaScript",
+          "C",
+          "Go",
+          "HTML"
+        ],
+        "top_repos": [
+          {
+            "name": "dobin/avred",
+            "description": "Analyse your malware to surgically obfuscate it",
+            "language": "Python",
+            "stars": 545,
+            "pushed_at": "2026-06-27T12:53:53Z"
+          },
+          {
+            "name": "dobin/RedEdr",
+            "description": "Collect Windows telemetry for Maldev",
+            "language": "C++",
+            "stars": 500,
+            "pushed_at": "2026-08-14T14:53:37Z"
+          },
+          {
+            "name": "dobin/SuperMega",
+            "description": "Stealthily inject shellcode into an executable",
+            "language": "Python",
+            "stars": 482,
+            "pushed_at": "2025-10-19T18:57:05Z"
+          },
+          {
+            "name": "dobin/antnium",
+            "description": "A C2 framework for initial access in Go",
+            "language": "Go",
+            "stars": 200,
+            "pushed_at": "2022-07-05T19:51:07Z"
+          },
+          {
+            "name": "dobin/lxd-webgui",
+            "description": "A lightweight web frontend for LXD",
+            "language": "JavaScript",
+            "stars": 170,
+            "pushed_at": "2018-12-10T08:42:15Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "follow:realoriginal:aftermathlabs:2026-08-19:followed",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "follow",
+      "target": "aftermathlabs",
+      "target_url": "https://github.com/aftermathlabs",
+      "text": "realoriginal followed aftermathlabs",
+      "at": "2026-08-19T21:29:12+00:00",
+      "external_id": "follow:realoriginal:aftermathlabs:2026-08-19:followed",
+      "url": "https://github.com/aftermathlabs",
+      "content": "realoriginal followed aftermathlabs",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-08-19T21:29:12+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/aftermathlabs"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "aftermathlabs",
+          "url": "https://github.com/aftermathlabs"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "aftermathlabs",
+        "name": "Aftermath Labs",
+        "bio": "Nothing is beyond our reach.",
+        "followers": 508,
+        "public_repos": 36,
+        "html_url": "https://github.com/aftermathlabs",
+        "languages": [
+          "C++",
+          "C",
+          "Rust",
+          "Python",
+          "LLVM"
+        ],
+        "top_repos": [
+          {
+            "name": "aftermathlabs/llvm-msvc",
+            "description": "LLVM fork with explicit compatibility with MSVC 2022 features.",
+            "language": "LLVM",
+            "stars": 434,
+            "pushed_at": "2026-08-09T06:32:55Z"
+          },
+          {
+            "name": "aftermathlabs/Voyager",
+            "description": "A Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel)",
+            "language": "C",
+            "stars": 200,
+            "pushed_at": "2023-09-03T23:48:53Z"
+          },
+          {
+            "name": "aftermathlabs/vmp2",
+            "description": "VMProtect2 Deobfuscation Tooling",
+            "language": "C++",
+            "stars": 130,
+            "pushed_at": "2025-11-12T17:03:20Z"
+          },
+          {
+            "name": "aftermathlabs/themida-devirt",
+            "description": "Themida Devirt Results",
+            "language": null,
+            "stars": 114,
+            "pushed_at": "2026-05-10T20:17:25Z"
+          },
+          {
+            "name": "aftermathlabs/ring-1.io",
+            "description": "Deobfuscation and Analysis of Ring-1.io",
+            "language": null,
+            "stars": 111,
+            "pushed_at": "2026-02-07T09:09:53Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "follow:memN0ps:aftermathlabs:2026-08-19:followed",
+      "who": "memN0ps",
+      "who_url": "https://github.com/memN0ps",
+      "action": "follow",
+      "target": "aftermathlabs",
+      "target_url": "https://github.com/aftermathlabs",
+      "text": "memN0ps followed aftermathlabs",
+      "at": "2026-08-19T21:29:12+00:00",
+      "external_id": "follow:memN0ps:aftermathlabs:2026-08-19:followed",
+      "url": "https://github.com/aftermathlabs",
+      "content": "memN0ps followed aftermathlabs",
+      "author": "memN0ps",
+      "author_name": "memN0ps",
+      "author_url": "https://github.com/memN0ps",
+      "published_at": "2026-08-19T21:29:12+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/memN0ps",
+        "https://github.com/aftermathlabs"
+      ],
+      "refs": {
+        "actor": {
+          "login": "memN0ps",
+          "url": "https://github.com/memN0ps"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "aftermathlabs",
+          "url": "https://github.com/aftermathlabs"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "aftermathlabs",
+        "name": "Aftermath Labs",
+        "bio": "Nothing is beyond our reach.",
+        "followers": 508,
+        "public_repos": 36,
+        "html_url": "https://github.com/aftermathlabs",
+        "languages": [
+          "C++",
+          "C",
+          "Rust",
+          "Python",
+          "LLVM"
+        ],
+        "top_repos": [
+          {
+            "name": "aftermathlabs/llvm-msvc",
+            "description": "LLVM fork with explicit compatibility with MSVC 2022 features.",
+            "language": "LLVM",
+            "stars": 434,
+            "pushed_at": "2026-08-09T06:32:55Z"
+          },
+          {
+            "name": "aftermathlabs/Voyager",
+            "description": "A Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel)",
+            "language": "C",
+            "stars": 200,
+            "pushed_at": "2023-09-03T23:48:53Z"
+          },
+          {
+            "name": "aftermathlabs/vmp2",
+            "description": "VMProtect2 Deobfuscation Tooling",
+            "language": "C++",
+            "stars": 130,
+            "pushed_at": "2025-11-12T17:03:20Z"
+          },
+          {
+            "name": "aftermathlabs/themida-devirt",
+            "description": "Themida Devirt Results",
+            "language": null,
+            "stars": 114,
+            "pushed_at": "2026-05-10T20:17:25Z"
+          },
+          {
+            "name": "aftermathlabs/ring-1.io",
+            "description": "Deobfuscation and Analysis of Ring-1.io",
+            "language": null,
+            "stars": 111,
+            "pushed_at": "2026-02-07T09:09:53Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "follow:She11code:aftermathlabs:2026-08-19:followed",
+      "who": "She11code",
+      "who_url": "https://github.com/She11code",
+      "action": "follow",
+      "target": "aftermathlabs",
+      "target_url": "https://github.com/aftermathlabs",
+      "text": "She11code followed aftermathlabs",
+      "at": "2026-08-19T21:29:12+00:00",
+      "external_id": "follow:She11code:aftermathlabs:2026-08-19:followed",
+      "url": "https://github.com/aftermathlabs",
+      "content": "She11code followed aftermathlabs",
+      "author": "She11code",
+      "author_name": "She11code",
+      "author_url": "https://github.com/She11code",
+      "published_at": "2026-08-19T21:29:12+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/She11code",
+        "https://github.com/aftermathlabs"
+      ],
+      "refs": {
+        "actor": {
+          "login": "She11code",
+          "url": "https://github.com/She11code"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "aftermathlabs",
+          "url": "https://github.com/aftermathlabs"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "aftermathlabs",
+        "name": "Aftermath Labs",
+        "bio": "Nothing is beyond our reach.",
+        "followers": 508,
+        "public_repos": 36,
+        "html_url": "https://github.com/aftermathlabs",
+        "languages": [
+          "C++",
+          "C",
+          "Rust",
+          "Python",
+          "LLVM"
+        ],
+        "top_repos": [
+          {
+            "name": "aftermathlabs/llvm-msvc",
+            "description": "LLVM fork with explicit compatibility with MSVC 2022 features.",
+            "language": "LLVM",
+            "stars": 434,
+            "pushed_at": "2026-08-09T06:32:55Z"
+          },
+          {
+            "name": "aftermathlabs/Voyager",
+            "description": "A Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel)",
+            "language": "C",
+            "stars": 200,
+            "pushed_at": "2023-09-03T23:48:53Z"
+          },
+          {
+            "name": "aftermathlabs/vmp2",
+            "description": "VMProtect2 Deobfuscation Tooling",
+            "language": "C++",
+            "stars": 130,
+            "pushed_at": "2025-11-12T17:03:20Z"
+          },
+          {
+            "name": "aftermathlabs/themida-devirt",
+            "description": "Themida Devirt Results",
+            "language": null,
+            "stars": 114,
+            "pushed_at": "2026-05-10T20:17:25Z"
+          },
+          {
+            "name": "aftermathlabs/ring-1.io",
+            "description": "Deobfuscation and Analysis of Ring-1.io",
+            "language": null,
+            "stars": 111,
+            "pushed_at": "2026-02-07T09:09:53Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "follow:0a777h:aftermathlabs:2026-08-19:followed",
+      "who": "0a777h",
+      "who_url": "https://github.com/0a777h",
+      "action": "follow",
+      "target": "aftermathlabs",
+      "target_url": "https://github.com/aftermathlabs",
+      "text": "0a777h followed aftermathlabs",
+      "at": "2026-08-19T21:29:12+00:00",
+      "external_id": "follow:0a777h:aftermathlabs:2026-08-19:followed",
+      "url": "https://github.com/aftermathlabs",
+      "content": "0a777h followed aftermathlabs",
+      "author": "0a777h",
+      "author_name": "0a777h",
+      "author_url": "https://github.com/0a777h",
+      "published_at": "2026-08-19T21:29:12+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0a777h",
+        "https://github.com/aftermathlabs"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0a777h",
+          "url": "https://github.com/0a777h"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "aftermathlabs",
+          "url": "https://github.com/aftermathlabs"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "aftermathlabs",
+        "name": "Aftermath Labs",
+        "bio": "Nothing is beyond our reach.",
+        "followers": 508,
+        "public_repos": 36,
+        "html_url": "https://github.com/aftermathlabs",
+        "languages": [
+          "C++",
+          "C",
+          "Rust",
+          "Python",
+          "LLVM"
+        ],
+        "top_repos": [
+          {
+            "name": "aftermathlabs/llvm-msvc",
+            "description": "LLVM fork with explicit compatibility with MSVC 2022 features.",
+            "language": "LLVM",
+            "stars": 434,
+            "pushed_at": "2026-08-09T06:32:55Z"
+          },
+          {
+            "name": "aftermathlabs/Voyager",
+            "description": "A Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel)",
+            "language": "C",
+            "stars": 200,
+            "pushed_at": "2023-09-03T23:48:53Z"
+          },
+          {
+            "name": "aftermathlabs/vmp2",
+            "description": "VMProtect2 Deobfuscation Tooling",
+            "language": "C++",
+            "stars": 130,
+            "pushed_at": "2025-11-12T17:03:20Z"
+          },
+          {
+            "name": "aftermathlabs/themida-devirt",
+            "description": "Themida Devirt Results",
+            "language": null,
+            "stars": 114,
+            "pushed_at": "2026-05-10T20:17:25Z"
+          },
+          {
+            "name": "aftermathlabs/ring-1.io",
+            "description": "Deobfuscation and Analysis of Ring-1.io",
+            "language": null,
+            "stars": 111,
+            "pushed_at": "2026-02-07T09:09:53Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:deepseek-ai/deepseek-harness:2026-08-20",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/deepseek-harness",
+      "target_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "text": "deepseek-ai/deepseek-harness — 圈外 184 人参与（fork×94, star×97）",
+      "at": "2026-08-19T21:28:56+00:00",
+      "external_id": "network:deepseek-ai/deepseek-harness:2026-08-20",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "content": "deepseek-ai/deepseek-harness — 圈外 184 人参与（fork×94, star×97）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-19T21:28:56+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/deepseek-harness"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/deepseek-harness",
+          "url": "https://github.com/deepseek-ai/deepseek-harness"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 184,
+        "outer_actors": [
+          "0xSmartis",
+          "1x7xxxxxxx",
+          "AndreyZlobin",
+          "AnubhavUjjawal",
+          "Cyberchopin",
+          "Cynthiavin",
+          "DawidKolasa",
+          "DehitTrivedi",
+          "DiegoMMF",
+          "DitrexMC",
+          "Dongetabag",
+          "DotWasi",
+          "EgoPros",
+          "FarhanSabit",
+          "FarkyRafiq1",
+          "FrancyJGLisboa",
+          "GGManera",
+          "Gab-CosmoLabs",
+          "Haipm26",
+          "HariKrishna100"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 94,
+          "star": 97
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-Coder:2026-08-20",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-Coder",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-Coder",
+      "text": "deepseek-ai/DeepSeek-Coder — 圈外 2 人参与（fork×1, star×1）",
+      "at": "2026-08-19T21:24:04+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-Coder:2026-08-20",
+      "url": "https://github.com/deepseek-ai/DeepSeek-Coder",
+      "content": "deepseek-ai/DeepSeek-Coder — 圈外 2 人参与（fork×1, star×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-19T21:24:04+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-Coder"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-Coder",
+          "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "apetros75",
+          "lyle-luan"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 1,
+          "star": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-08-20",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/sliver",
+      "target_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 2 人参与（issue×1, pr×4）",
+      "at": "2026-08-19T21:12:27+00:00",
+      "external_id": "network:BishopFox/sliver:2026-08-20",
+      "url": "https://github.com/BishopFox/sliver",
+      "content": "BishopFox/sliver — 圈外 2 人参与（issue×1, pr×4）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-19T21:12:27+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/sliver"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/sliver",
+          "url": "https://github.com/BishopFox/sliver"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "kyzzniko-lang",
+          "moloch--"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 4,
+          "issue": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-08-20",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 8 人参与（comment×5, issue×23, pr×2）",
+      "at": "2026-08-19T20:44:28+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-08-20",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 8 人参与（comment×5, issue×23, pr×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-19T20:44:28+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 8,
+        "outer_actors": [
+          "ElykDeer",
+          "UvuvDev",
+          "Weitao-Sun",
+          "emesare",
+          "jvoisin",
+          "psifertex",
+          "xusheng6",
+          "zznop"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 23,
+          "comment": 5,
+          "pr": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:13540160682",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/Airports",
+      "target_url": "https://github.com/gmh5225/Airports",
+      "text": "gmh5225 forked mwgg/Airports → gmh5225/Airports",
+      "at": "2026-08-19T19:08:20+00:00",
+      "external_id": "event:13540160682",
+      "url": "https://github.com/gmh5225/Airports",
+      "content": "gmh5225 forked mwgg/Airports → gmh5225/Airports",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-08-19T19:08:20+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/mwgg/Airports",
+        "https://github.com/gmh5225/Airports"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "mwgg/Airports",
+          "url": "https://github.com/mwgg/Airports"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/Airports",
+          "url": "https://github.com/gmh5225/Airports"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13540154903",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/spectrIDA-Reverse_Engineering_Stack",
+      "target_url": "https://github.com/gmh5225/spectrIDA-Reverse_Engineering_Stack",
+      "text": "gmh5225 forked ggfuchsi-oss/spectrIDA-Reverse_Engineering_Stack → gmh5225/spectrIDA-Reverse_Engineering_Stack",
+      "at": "2026-08-19T19:08:13+00:00",
+      "external_id": "event:13540154903",
+      "url": "https://github.com/gmh5225/spectrIDA-Reverse_Engineering_Stack",
+      "content": "gmh5225 forked ggfuchsi-oss/spectrIDA-Reverse_Engineering_Stack → gmh5225/spectrIDA-Reverse_Engineering_Stack",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-08-19T19:08:13+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/ggfuchsi-oss/spectrIDA-Reverse_Engineering_Stack",
+        "https://github.com/gmh5225/spectrIDA-Reverse_Engineering_Stack"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "ggfuchsi-oss/spectrIDA-Reverse_Engineering_Stack",
+          "url": "https://github.com/ggfuchsi-oss/spectrIDA-Reverse_Engineering_Stack"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/spectrIDA-Reverse_Engineering_Stack",
+          "url": "https://github.com/gmh5225/spectrIDA-Reverse_Engineering_Stack"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13538259572",
+      "who": "kyxiaxiang",
+      "who_url": "https://github.com/kyxiaxiang",
+      "action": "star",
+      "target": "huoji120/QWEN-EXO-booster",
+      "target_url": "https://github.com/huoji120/QWEN-EXO-booster",
+      "text": "kyxiaxiang starred huoji120/QWEN-EXO-booster",
+      "at": "2026-08-19T18:30:55+00:00",
+      "external_id": "event:13538259572",
+      "url": "https://github.com/huoji120/QWEN-EXO-booster",
+      "content": "kyxiaxiang starred huoji120/QWEN-EXO-booster",
+      "author": "kyxiaxiang",
+      "author_name": "kyxiaxiang",
+      "author_url": "https://github.com/kyxiaxiang",
+      "published_at": "2026-08-19T18:30:55+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/kyxiaxiang",
+        "https://github.com/huoji120/QWEN-EXO-booster"
+      ],
+      "refs": {
+        "actor": {
+          "login": "kyxiaxiang",
+          "url": "https://github.com/kyxiaxiang"
+        },
+        "repo": {
+          "full_name": "huoji120/QWEN-EXO-booster",
+          "url": "https://github.com/huoji120/QWEN-EXO-booster"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13538180548",
+      "who": "Lakr233",
+      "who_url": "https://github.com/Lakr233",
+      "action": "star",
+      "target": "missuo/herdrm",
+      "target_url": "https://github.com/missuo/herdrm",
+      "text": "Lakr233 starred missuo/herdrm",
+      "at": "2026-08-19T18:29:21+00:00",
+      "external_id": "event:13538180548",
+      "url": "https://github.com/missuo/herdrm",
+      "content": "Lakr233 starred missuo/herdrm",
+      "author": "Lakr233",
+      "author_name": "Lakr233",
+      "author_url": "https://github.com/Lakr233",
+      "published_at": "2026-08-19T18:29:21+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Lakr233",
+        "https://github.com/missuo/herdrm"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Lakr233",
+          "url": "https://github.com/Lakr233"
+        },
+        "repo": {
+          "full_name": "missuo/herdrm",
+          "url": "https://github.com/missuo/herdrm"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-08-20",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-V3",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 2 人参与（issue×2）",
+      "at": "2026-08-19T17:21:52+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-08-20",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "content": "deepseek-ai/DeepSeek-V3 — 圈外 2 人参与（issue×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-19T17:21:52+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-V3"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "nhlpl",
+          "qingkong66"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:13532701148",
+      "who": "cristianzsh",
+      "who_url": "https://github.com/cristianzsh",
+      "action": "release",
+      "target": "cristianzsh/mxray",
+      "target_url": "https://github.com/cristianzsh/mxray",
+      "text": "cristianzsh released cristianzsh/mxray 1.0.0",
+      "at": "2026-08-19T16:43:46+00:00",
+      "external_id": "event:13532701148",
+      "url": "https://github.com/cristianzsh/mxray/releases/tag/1.0.0",
+      "content": "cristianzsh released cristianzsh/mxray 1.0.0",
+      "author": "cristianzsh",
+      "author_name": "cristianzsh",
+      "author_url": "https://github.com/cristianzsh",
+      "published_at": "2026-08-19T16:43:46+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/cristianzsh",
+        "https://github.com/cristianzsh/mxray",
+        "https://github.com/cristianzsh/mxray/releases/tag/1.0.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "cristianzsh",
+          "url": "https://github.com/cristianzsh"
+        },
+        "repo": {
+          "full_name": "cristianzsh/mxray",
+          "url": "https://github.com/cristianzsh/mxray"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13530777621",
+      "who": "Lakr233",
+      "who_url": "https://github.com/Lakr233",
+      "action": "release",
+      "target": "LookInsideApp/LookInside-Release",
+      "target_url": "https://github.com/LookInsideApp/LookInside-Release",
+      "text": "Lakr233 released LookInsideApp/LookInside-Release 0.2.8",
+      "at": "2026-08-19T16:08:09+00:00",
+      "external_id": "event:13530777621",
+      "url": "https://github.com/LookInsideApp/LookInside-Release/releases/tag/0.2.8",
+      "content": "Lakr233 released LookInsideApp/LookInside-Release 0.2.8",
+      "author": "Lakr233",
+      "author_name": "Lakr233",
+      "author_url": "https://github.com/Lakr233",
+      "published_at": "2026-08-19T16:08:09+00:00",
+      "collected_at": "2026-08-19T21:29:50.064438+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Lakr233",
+        "https://github.com/LookInsideApp/LookInside-Release",
+        "https://github.com/LookInsideApp/LookInside-Release/releases/tag/0.2.8"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Lakr233",
+          "url": "https://github.com/Lakr233"
+        },
+        "repo": {
+          "full_name": "LookInsideApp/LookInside-Release",
+          "url": "https://github.com/LookInsideApp/LookInside-Release"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

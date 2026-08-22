@@ -1,12 +1,28 @@
 {
   "schema_version": 2,
   "date": "2026-08-22",
-  "generated_at": "2026-08-21T21:29:24+00:00",
+  "generated_at": "2026-08-22T21:26:45+00:00",
   "followee_count": 168,
-  "events_collected": 32,
+  "events_collected": 175,
   "trending_available": true,
-  "trending_source_date": "2026-08-21",
-  "circle_hot": [],
+  "trending_source_date": "2026-08-22",
+  "circle_hot": [
+    {
+      "repo": "xec412/XeraLdr",
+      "repo_url": "https://github.com/xec412/XeraLdr",
+      "count": 2,
+      "starred_by": [
+        "Hello-xBugs",
+        "odzhan"
+      ],
+      "starred_by_urls": [
+        "https://github.com/Hello-xBugs",
+        "https://github.com/odzhan"
+      ],
+      "trending": false,
+      "trending_front_page": false
+    }
+  ],
   "circle_outer_hot": [
     {
       "repo": "deepseek-ai/deepseek-harness",
@@ -376,9 +392,11 @@
         "fork": 87,
         "star": 97
       },
-      "inner_count": 0,
-      "inner_actors": [],
-      "in_circle": false,
+      "inner_count": 1,
+      "inner_actors": [
+        "badboycxcc"
+      ],
+      "in_circle": true,
       "trending": false,
       "trending_front_page": false,
       "languages": [],
@@ -434,13 +452,36 @@
       "latest_at": "2026-08-21T18:56:51Z"
     }
   ],
-  "trending_overlap": [],
+  "trending_overlap": [
+    {
+      "repo": "nautechsystems/nautilus_trader",
+      "repo_url": "https://github.com/nautechsystems/nautilus_trader",
+      "count": 1,
+      "starred_by": [
+        "cdxiaodong"
+      ],
+      "starred_by_urls": [
+        "https://github.com/cdxiaodong"
+      ],
+      "trending": true,
+      "trending_front_page": false,
+      "languages": [
+        "rust"
+      ]
+    }
+  ],
   "releases": [],
   "new_repos": [],
-  "starred_repos_total": 1,
+  "starred_repos_total": 13,
   "raw_counts": {
-    "PushEvent": 31,
-    "WatchEvent": 1
+    "PushEvent": 117,
+    "WatchEvent": 14,
+    "IssueCommentEvent": 5,
+    "IssuesEvent": 5,
+    "ForkEvent": 17,
+    "PullRequestEvent": 6,
+    "CreateEvent": 10,
+    "GollumEvent": 1
   },
   "follows": {
     "new_count": 0,
@@ -455,8 +496,151 @@
     "degraded": false
   },
   "stars": {
-    "total": 1,
+    "total": 14,
     "items": [
+      {
+        "repo": "freestylefly/awesome-gpt-image-2",
+        "repo_url": "https://github.com/freestylefly/awesome-gpt-image-2",
+        "by": "Hello-xBugs",
+        "by_url": "https://github.com/Hello-xBugs",
+        "html_url": "https://github.com/freestylefly/awesome-gpt-image-2",
+        "text": "Hello-xBugs starred freestylefly/awesome-gpt-image-2",
+        "created_at": "2026-08-22T15:40:48Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "xec412/NocturneLdr",
+        "repo_url": "https://github.com/xec412/NocturneLdr",
+        "by": "Hello-xBugs",
+        "by_url": "https://github.com/Hello-xBugs",
+        "html_url": "https://github.com/xec412/NocturneLdr",
+        "text": "Hello-xBugs starred xec412/NocturneLdr",
+        "created_at": "2026-08-22T15:07:09Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "xec412/XeraLdr",
+        "repo_url": "https://github.com/xec412/XeraLdr",
+        "by": "Hello-xBugs",
+        "by_url": "https://github.com/Hello-xBugs",
+        "html_url": "https://github.com/xec412/XeraLdr",
+        "text": "Hello-xBugs starred xec412/XeraLdr",
+        "created_at": "2026-08-22T15:00:02Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "asciinema/agg",
+        "repo_url": "https://github.com/asciinema/agg",
+        "by": "bartblaze",
+        "by_url": "https://github.com/bartblaze",
+        "html_url": "https://github.com/asciinema/agg",
+        "text": "bartblaze starred asciinema/agg",
+        "created_at": "2026-08-22T10:11:55Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "nautechsystems/nautilus_trader",
+        "repo_url": "https://github.com/nautechsystems/nautilus_trader",
+        "by": "cdxiaodong",
+        "by_url": "https://github.com/cdxiaodong",
+        "html_url": "https://github.com/nautechsystems/nautilus_trader",
+        "text": "cdxiaodong starred nautechsystems/nautilus_trader",
+        "created_at": "2026-08-22T09:15:54Z",
+        "trending": true,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Autumn-27/ARTEX",
+        "repo_url": "https://github.com/Autumn-27/ARTEX",
+        "by": "veo",
+        "by_url": "https://github.com/veo",
+        "html_url": "https://github.com/Autumn-27/ARTEX",
+        "text": "veo starred Autumn-27/ARTEX",
+        "created_at": "2026-08-22T06:55:48Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "anywhere-labs/deepseek-harness-desktop",
+        "repo_url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+        "by": "Rvn0xsy",
+        "by_url": "https://github.com/Rvn0xsy",
+        "html_url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+        "text": "Rvn0xsy starred anywhere-labs/deepseek-harness-desktop",
+        "created_at": "2026-08-22T05:35:02Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "deepseek-ai/deepseek-harness",
+        "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
+        "by": "badboycxcc",
+        "by_url": "https://github.com/badboycxcc",
+        "html_url": "https://github.com/deepseek-ai/deepseek-harness",
+        "text": "badboycxcc starred deepseek-ai/deepseek-harness",
+        "created_at": "2026-08-22T02:11:53Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "xec412/XeraLdr",
+        "repo_url": "https://github.com/xec412/XeraLdr",
+        "by": "odzhan",
+        "by_url": "https://github.com/odzhan",
+        "html_url": "https://github.com/xec412/XeraLdr",
+        "text": "odzhan starred xec412/XeraLdr",
+        "created_at": "2026-08-22T00:10:28Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "mrexodia/toilet-pi",
+        "repo_url": "https://github.com/mrexodia/toilet-pi",
+        "by": "odzhan",
+        "by_url": "https://github.com/odzhan",
+        "html_url": "https://github.com/mrexodia/toilet-pi",
+        "text": "odzhan starred mrexodia/toilet-pi",
+        "created_at": "2026-08-21T23:52:16Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "HexRaysSA/ida-nexus",
+        "repo_url": "https://github.com/HexRaysSA/ida-nexus",
+        "by": "odzhan",
+        "by_url": "https://github.com/odzhan",
+        "html_url": "https://github.com/HexRaysSA/ida-nexus",
+        "text": "odzhan starred HexRaysSA/ida-nexus",
+        "created_at": "2026-08-21T23:51:56Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "mrexodia/ida-nexus-docker",
+        "repo_url": "https://github.com/mrexodia/ida-nexus-docker",
+        "by": "odzhan",
+        "by_url": "https://github.com/odzhan",
+        "html_url": "https://github.com/mrexodia/ida-nexus-docker",
+        "text": "odzhan starred mrexodia/ida-nexus-docker",
+        "created_at": "2026-08-21T23:44:09Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "mrexodia/deepseek-ransomware-analysis",
+        "repo_url": "https://github.com/mrexodia/deepseek-ransomware-analysis",
+        "by": "odzhan",
+        "by_url": "https://github.com/odzhan",
+        "html_url": "https://github.com/mrexodia/deepseek-ransomware-analysis",
+        "text": "odzhan starred mrexodia/deepseek-ransomware-analysis",
+        "created_at": "2026-08-21T23:44:06Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "InfinityCurveLabs/inject-kit",
         "repo_url": "https://github.com/InfinityCurveLabs/inject-kit",
@@ -470,6 +654,194 @@
       }
     ]
   },
-  "forks": [],
-  "feed_item_count": 4
+  "forks": [
+    {
+      "repo": "miraihack/Vimtoria",
+      "repo_url": "https://github.com/miraihack/Vimtoria",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/Vimtoria",
+      "forkee_url": "https://github.com/gmh5225/Vimtoria",
+      "html_url": "https://github.com/gmh5225/Vimtoria",
+      "text": "gmh5225 forked miraihack/Vimtoria → gmh5225/Vimtoria",
+      "created_at": "2026-08-22T12:09:47Z"
+    },
+    {
+      "repo": "MatchaOnMuffins/oxalpha",
+      "repo_url": "https://github.com/MatchaOnMuffins/oxalpha",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/oxalpha",
+      "forkee_url": "https://github.com/gmh5225/oxalpha",
+      "html_url": "https://github.com/gmh5225/oxalpha",
+      "text": "gmh5225 forked MatchaOnMuffins/oxalpha → gmh5225/oxalpha",
+      "created_at": "2026-08-22T12:08:01Z"
+    },
+    {
+      "repo": "mlund/mega65-freezer",
+      "repo_url": "https://github.com/mlund/mega65-freezer",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/mega65-freezer",
+      "forkee_url": "https://github.com/gmh5225/mega65-freezer",
+      "html_url": "https://github.com/gmh5225/mega65-freezer",
+      "text": "gmh5225 forked mlund/mega65-freezer → gmh5225/mega65-freezer",
+      "created_at": "2026-08-22T11:56:18Z"
+    },
+    {
+      "repo": "ChainScriptor/gorb",
+      "repo_url": "https://github.com/ChainScriptor/gorb",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/gorb",
+      "forkee_url": "https://github.com/gmh5225/gorb",
+      "html_url": "https://github.com/gmh5225/gorb",
+      "text": "gmh5225 forked ChainScriptor/gorb → gmh5225/gorb",
+      "created_at": "2026-08-22T11:39:58Z"
+    },
+    {
+      "repo": "a10nw01f/Mitzi",
+      "repo_url": "https://github.com/a10nw01f/Mitzi",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/Mitzi",
+      "forkee_url": "https://github.com/gmh5225/Mitzi",
+      "html_url": "https://github.com/gmh5225/Mitzi",
+      "text": "gmh5225 forked a10nw01f/Mitzi → gmh5225/Mitzi",
+      "created_at": "2026-08-22T11:37:56Z"
+    },
+    {
+      "repo": "srtdog64/PergyraLang",
+      "repo_url": "https://github.com/srtdog64/PergyraLang",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/PergyraLang",
+      "forkee_url": "https://github.com/gmh5225/PergyraLang",
+      "html_url": "https://github.com/gmh5225/PergyraLang",
+      "text": "gmh5225 forked srtdog64/PergyraLang → gmh5225/PergyraLang",
+      "created_at": "2026-08-22T11:26:27Z"
+    },
+    {
+      "repo": "s2-streamstore/s2",
+      "repo_url": "https://github.com/s2-streamstore/s2",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/s2",
+      "forkee_url": "https://github.com/gmh5225/s2",
+      "html_url": "https://github.com/gmh5225/s2",
+      "text": "gmh5225 forked s2-streamstore/s2 → gmh5225/s2",
+      "created_at": "2026-08-22T10:34:09Z"
+    },
+    {
+      "repo": "MemTensor/memmy-agent",
+      "repo_url": "https://github.com/MemTensor/memmy-agent",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/memmy-agent",
+      "forkee_url": "https://github.com/gmh5225/memmy-agent",
+      "html_url": "https://github.com/gmh5225/memmy-agent",
+      "text": "gmh5225 forked MemTensor/memmy-agent → gmh5225/memmy-agent",
+      "created_at": "2026-08-22T10:29:55Z"
+    },
+    {
+      "repo": "PanzerPeter/Neuro",
+      "repo_url": "https://github.com/PanzerPeter/Neuro",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/Neuro",
+      "forkee_url": "https://github.com/gmh5225/Neuro",
+      "html_url": "https://github.com/gmh5225/Neuro",
+      "text": "gmh5225 forked PanzerPeter/Neuro → gmh5225/Neuro",
+      "created_at": "2026-08-22T10:21:32Z"
+    },
+    {
+      "repo": "AtomiJD/jdBasic",
+      "repo_url": "https://github.com/AtomiJD/jdBasic",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/jdBasic",
+      "forkee_url": "https://github.com/gmh5225/jdBasic",
+      "html_url": "https://github.com/gmh5225/jdBasic",
+      "text": "gmh5225 forked AtomiJD/jdBasic → gmh5225/jdBasic",
+      "created_at": "2026-08-22T10:21:13Z"
+    },
+    {
+      "repo": "soamane/warface-dma",
+      "repo_url": "https://github.com/soamane/warface-dma",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/warface-dma",
+      "forkee_url": "https://github.com/gmh5225/warface-dma",
+      "html_url": "https://github.com/gmh5225/warface-dma",
+      "text": "gmh5225 forked soamane/warface-dma → gmh5225/warface-dma",
+      "created_at": "2026-08-22T10:20:44Z"
+    },
+    {
+      "repo": "marksvia/usbliter8Remote",
+      "repo_url": "https://github.com/marksvia/usbliter8Remote",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/usbliter8Remote",
+      "forkee_url": "https://github.com/gmh5225/usbliter8Remote",
+      "html_url": "https://github.com/gmh5225/usbliter8Remote",
+      "text": "gmh5225 forked marksvia/usbliter8Remote → gmh5225/usbliter8Remote",
+      "created_at": "2026-08-22T10:19:28Z"
+    },
+    {
+      "repo": "ksotaria1337/CVE-2026-19598",
+      "repo_url": "https://github.com/ksotaria1337/CVE-2026-19598",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/CVE-2026-19598",
+      "forkee_url": "https://github.com/gmh5225/CVE-2026-19598",
+      "html_url": "https://github.com/gmh5225/CVE-2026-19598",
+      "text": "gmh5225 forked ksotaria1337/CVE-2026-19598 → gmh5225/CVE-2026-19598",
+      "created_at": "2026-08-22T09:54:58Z"
+    },
+    {
+      "repo": "plrigaux/sysd-manager",
+      "repo_url": "https://github.com/plrigaux/sysd-manager",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/sysd-manager",
+      "forkee_url": "https://github.com/gmh5225/sysd-manager",
+      "html_url": "https://github.com/gmh5225/sysd-manager",
+      "text": "gmh5225 forked plrigaux/sysd-manager → gmh5225/sysd-manager",
+      "created_at": "2026-08-22T09:53:36Z"
+    },
+    {
+      "repo": "henryqin1997/statem",
+      "repo_url": "https://github.com/henryqin1997/statem",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/statem",
+      "forkee_url": "https://github.com/gmh5225/statem",
+      "html_url": "https://github.com/gmh5225/statem",
+      "text": "gmh5225 forked henryqin1997/statem → gmh5225/statem",
+      "created_at": "2026-08-22T09:53:16Z"
+    },
+    {
+      "repo": "TrackAndTruckDevs/SPF_GhidraPatternHelper",
+      "repo_url": "https://github.com/TrackAndTruckDevs/SPF_GhidraPatternHelper",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/SPF_GhidraPatternHelper",
+      "forkee_url": "https://github.com/gmh5225/SPF_GhidraPatternHelper",
+      "html_url": "https://github.com/gmh5225/SPF_GhidraPatternHelper",
+      "text": "gmh5225 forked TrackAndTruckDevs/SPF_GhidraPatternHelper → gmh5225/SPF_GhidraPatternHelper",
+      "created_at": "2026-08-22T03:25:01Z"
+    },
+    {
+      "repo": "sec4us-class01/chall001",
+      "repo_url": "https://github.com/sec4us-class01/chall001",
+      "by": "helviojunior",
+      "by_url": "https://github.com/helviojunior",
+      "forkee": "helviojunior/chall001",
+      "forkee_url": "https://github.com/helviojunior/chall001",
+      "html_url": "https://github.com/helviojunior/chall001",
+      "text": "helviojunior forked sec4us-class01/chall001 → helviojunior/chall001",
+      "created_at": "2026-08-22T00:20:50Z"
+    }
+  ],
+  "feed_item_count": 34
 }

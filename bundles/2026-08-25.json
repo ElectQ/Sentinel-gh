@@ -1,0 +1,1334 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-08-25",
+  "collect_window": {
+    "start": "2026-08-24T16:07:28+00:00",
+    "end": "2026-08-24T21:33:39+00:00",
+    "hours": 5
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "32780065737",
+    "commit": "f74e412"
+  },
+  "stats": {
+    "total": 19,
+    "by_kind": {
+      "network_hot": 6,
+      "follow": 3,
+      "star": 6,
+      "fork": 4
+    },
+    "failed_lists": [],
+    "followee_count": 168,
+    "push_events_excluded": 14
+  },
+  "items": [
+    {
+      "id": "network:BishopFox/sj:2026-08-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/sj",
+      "target_url": "https://github.com/BishopFox/sj",
+      "text": "BishopFox/sj — 圈外 2 人参与（pr×2）",
+      "at": "2026-08-24T21:33:39+00:00",
+      "external_id": "network:BishopFox/sj:2026-08-25",
+      "url": "https://github.com/BishopFox/sj",
+      "content": "BishopFox/sj — 圈外 2 人参与（pr×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-24T21:33:39+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/sj"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/sj",
+          "url": "https://github.com/BishopFox/sj"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "dependabot[bot]",
+          "twest-bf"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "follow:timwhitez:p-e-w:2026-08-24:followed",
+      "who": "timwhitez",
+      "who_url": "https://github.com/timwhitez",
+      "action": "follow",
+      "target": "p-e-w",
+      "target_url": "https://github.com/p-e-w",
+      "text": "timwhitez followed p-e-w",
+      "at": "2026-08-24T21:33:35+00:00",
+      "external_id": "follow:timwhitez:p-e-w:2026-08-24:followed",
+      "url": "https://github.com/p-e-w",
+      "content": "timwhitez followed p-e-w",
+      "author": "timwhitez",
+      "author_name": "timwhitez",
+      "author_url": "https://github.com/timwhitez",
+      "published_at": "2026-08-24T21:33:35+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/timwhitez",
+        "https://github.com/p-e-w"
+      ],
+      "refs": {
+        "actor": {
+          "login": "timwhitez",
+          "url": "https://github.com/timwhitez"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "p-e-w",
+          "url": "https://github.com/p-e-w"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "p-e-w",
+        "name": "Philipp Emanuel Weidmann",
+        "bio": "",
+        "followers": 1190,
+        "public_repos": 37,
+        "html_url": "https://github.com/p-e-w",
+        "languages": [
+          "Python",
+          "JavaScript",
+          "Rust",
+          "Vala",
+          "TypeScript"
+        ],
+        "top_repos": [
+          {
+            "name": "p-e-w/heretic",
+            "description": "Fully automatic censorship removal for language models",
+            "language": "Python",
+            "stars": 28083,
+            "pushed_at": "2026-08-17T16:57:44Z"
+          },
+          {
+            "name": "p-e-w/maybe",
+            "description": " :open_file_folder: :rabbit2: :tophat: See what a program does before deciding whether you really want it to happen (NO LONGER MAINTAINED)",
+            "language": "Python",
+            "stars": 6302,
+            "pushed_at": "2017-01-22T11:38:22Z"
+          },
+          {
+            "name": "p-e-w/finalterm",
+            "description": "At last – a modern terminal emulator (NO LONGER MAINTAINED)",
+            "language": "Vala",
+            "stars": 3813,
+            "pushed_at": "2015-09-03T11:32:58Z"
+          },
+          {
+            "name": "p-e-w/argos",
+            "description": "Create GNOME Shell extensions in seconds",
+            "language": "JavaScript",
+            "stars": 1794,
+            "pushed_at": "2026-05-04T06:32:26Z"
+          },
+          {
+            "name": "p-e-w/ternimal",
+            "description": "Simulate a lifeform in the terminal",
+            "language": "Rust",
+            "stars": 1112,
+            "pushed_at": "2018-11-19T08:05:21Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "follow:timwhitez:PrimeIntellect-ai:2026-08-24:followed",
+      "who": "timwhitez",
+      "who_url": "https://github.com/timwhitez",
+      "action": "follow",
+      "target": "PrimeIntellect-ai",
+      "target_url": "https://github.com/PrimeIntellect-ai",
+      "text": "timwhitez followed PrimeIntellect-ai",
+      "at": "2026-08-24T21:33:35+00:00",
+      "external_id": "follow:timwhitez:PrimeIntellect-ai:2026-08-24:followed",
+      "url": "https://github.com/PrimeIntellect-ai",
+      "content": "timwhitez followed PrimeIntellect-ai",
+      "author": "timwhitez",
+      "author_name": "timwhitez",
+      "author_url": "https://github.com/timwhitez",
+      "published_at": "2026-08-24T21:33:35+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/timwhitez",
+        "https://github.com/PrimeIntellect-ai"
+      ],
+      "refs": {
+        "actor": {
+          "login": "timwhitez",
+          "url": "https://github.com/timwhitez"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "PrimeIntellect-ai",
+          "url": "https://github.com/PrimeIntellect-ai"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "PrimeIntellect-ai",
+        "name": "Prime Intellect",
+        "bio": "",
+        "followers": 1356,
+        "public_repos": 65,
+        "html_url": "https://github.com/PrimeIntellect-ai",
+        "languages": [
+          "Python",
+          "C++",
+          "Rust",
+          "Cuda",
+          "TypeScript"
+        ],
+        "top_repos": [
+          {
+            "name": "PrimeIntellect-ai/prime-agent",
+            "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+            "language": "TypeScript",
+            "stars": 18139,
+            "pushed_at": "2026-08-24T21:14:58Z"
+          },
+          {
+            "name": "PrimeIntellect-ai/verifiers",
+            "description": "Our library for RL environments + evals",
+            "language": "Python",
+            "stars": 4550,
+            "pushed_at": "2026-08-24T21:32:41Z"
+          },
+          {
+            "name": "PrimeIntellect-ai/prime-rl",
+            "description": "Agentic RL Training at Scale",
+            "language": "Python",
+            "stars": 1965,
+            "pushed_at": "2026-08-24T21:32:32Z"
+          },
+          {
+            "name": "PrimeIntellect-ai/prime-diloco",
+            "description": "prime is a framework for efficient, globally distributed training of AI models over the internet.",
+            "language": "Python",
+            "stars": 855,
+            "pushed_at": "2026-07-17T22:02:52Z"
+          },
+          {
+            "name": "PrimeIntellect-ai/OpenDiloco",
+            "description": "OpenDiLoCo: An Open-Source Framework for Globally Distributed Low-Communication Training",
+            "language": "Python",
+            "stars": 590,
+            "pushed_at": "2026-07-17T21:01:46Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "follow:timwhitez:MiniMax-AI:2026-08-24:followed",
+      "who": "timwhitez",
+      "who_url": "https://github.com/timwhitez",
+      "action": "follow",
+      "target": "MiniMax-AI",
+      "target_url": "https://github.com/MiniMax-AI",
+      "text": "timwhitez followed MiniMax-AI",
+      "at": "2026-08-24T21:33:35+00:00",
+      "external_id": "follow:timwhitez:MiniMax-AI:2026-08-24:followed",
+      "url": "https://github.com/MiniMax-AI",
+      "content": "timwhitez followed MiniMax-AI",
+      "author": "timwhitez",
+      "author_name": "timwhitez",
+      "author_url": "https://github.com/timwhitez",
+      "published_at": "2026-08-24T21:33:35+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/timwhitez",
+        "https://github.com/MiniMax-AI"
+      ],
+      "refs": {
+        "actor": {
+          "login": "timwhitez",
+          "url": "https://github.com/timwhitez"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "MiniMax-AI",
+          "url": "https://github.com/MiniMax-AI"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "MiniMax-AI",
+        "name": "MiniMax",
+        "bio": "Intelligence with Everyone",
+        "followers": 7471,
+        "public_repos": 34,
+        "html_url": "https://github.com/MiniMax-AI",
+        "languages": [
+          "Python",
+          "TypeScript",
+          "HTML",
+          "C#"
+        ],
+        "top_repos": [
+          {
+            "name": "MiniMax-AI/skills",
+            "description": "",
+            "language": "C#",
+            "stars": 13435,
+            "pushed_at": "2026-04-18T09:48:47Z"
+          },
+          {
+            "name": "MiniMax-AI/MiniMax-H3",
+            "description": "",
+            "language": "Python",
+            "stars": 6944,
+            "pushed_at": "2026-08-15T08:31:17Z"
+          },
+          {
+            "name": "MiniMax-AI/MiniMax-01",
+            "description": "The official repo of MiniMax-Text-01 and MiniMax-VL-01, large-language-model & vision-language-model based on Linear Attention",
+            "language": "Python",
+            "stars": 3465,
+            "pushed_at": "2025-07-07T12:24:30Z"
+          },
+          {
+            "name": "MiniMax-AI/MiniMax-M1",
+            "description": "MiniMax-M1, the world's first open-weight, large-scale hybrid-attention reasoning model.",
+            "language": "Python",
+            "stars": 3178,
+            "pushed_at": "2025-07-07T11:57:22Z"
+          },
+          {
+            "name": "MiniMax-AI/Mini-Agent",
+            "description": "A minimal yet professional single agent demo project that showcases the core execution pipeline and production-grade features of agents.",
+            "language": "Python",
+            "stars": 2982,
+            "pushed_at": "2026-02-14T04:00:26Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:deepseek-ai/deepseek-harness:2026-08-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/deepseek-harness",
+      "target_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "text": "deepseek-ai/deepseek-harness — 圈外 165 人参与（fork×72, star×96）",
+      "at": "2026-08-24T21:32:45+00:00",
+      "external_id": "network:deepseek-ai/deepseek-harness:2026-08-25",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "content": "deepseek-ai/deepseek-harness — 圈外 165 人参与（fork×72, star×96）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-24T21:32:45+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/deepseek-harness"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/deepseek-harness",
+          "url": "https://github.com/deepseek-ai/deepseek-harness"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 165,
+        "outer_actors": [
+          "13971687337",
+          "3nd1ess",
+          "AEnguerrand",
+          "ATchangan",
+          "Amorsun-211",
+          "ArkadiuszMalesa",
+          "BramFr",
+          "Chuhnakov",
+          "CodyWatters",
+          "Danidiasd2",
+          "Dr-Deep",
+          "ETW20-ETWS",
+          "Erik786",
+          "EtienneNL",
+          "FelipeZdog",
+          "Gepsonka",
+          "Gnave7",
+          "H23120",
+          "HUANG-weiqin",
+          "HolyChlamys"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 72,
+          "star": 96
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-08-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-V3",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 7 人参与（fork×2, issue×62）",
+      "at": "2026-08-24T21:22:52+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-08-25",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "content": "deepseek-ai/DeepSeek-V3 — 圈外 7 人参与（fork×2, issue×62）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-24T21:22:52+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-V3"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 7,
+        "outer_actors": [
+          "Aayan811",
+          "DanceNitra",
+          "HappinessEV",
+          "amirh123123",
+          "gabriel-ferraresi",
+          "mwaqas786",
+          "qingkong66"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 62,
+          "fork": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-08-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 2 人参与（star×2）",
+      "at": "2026-08-24T21:09:48+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-08-25",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 2 人参与（star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-24T21:09:48+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "Ambi93",
+          "wyteroze"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/awesome-deepseek-integration:2026-08-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/awesome-deepseek-integration",
+      "target_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "text": "deepseek-ai/awesome-deepseek-integration — 圈外 2 人参与（fork×2, pr×1）",
+      "at": "2026-08-24T20:32:52+00:00",
+      "external_id": "network:deepseek-ai/awesome-deepseek-integration:2026-08-25",
+      "url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "content": "deepseek-ai/awesome-deepseek-integration — 圈外 2 人参与（fork×2, pr×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-24T20:32:52+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/awesome-deepseek-integration"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/awesome-deepseek-integration",
+          "url": "https://github.com/deepseek-ai/awesome-deepseek-integration"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "gabriel-ferraresi",
+          "tonyclawskill"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 2,
+          "pr": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:13780200658",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "egraphs-good/egg",
+      "target_url": "https://github.com/egraphs-good/egg",
+      "text": "Cracked5pider starred egraphs-good/egg",
+      "at": "2026-08-24T18:39:12+00:00",
+      "external_id": "event:13780200658",
+      "url": "https://github.com/egraphs-good/egg",
+      "content": "Cracked5pider starred egraphs-good/egg",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-08-24T18:39:12+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/egraphs-good/egg"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "egraphs-good/egg",
+          "url": "https://github.com/egraphs-good/egg"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepGEMM:2026-08-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepGEMM",
+      "target_url": "https://github.com/deepseek-ai/DeepGEMM",
+      "text": "deepseek-ai/DeepGEMM — 圈外 3 人参与（fork×1, issue×2, pr×2）",
+      "at": "2026-08-24T18:32:52+00:00",
+      "external_id": "network:deepseek-ai/DeepGEMM:2026-08-25",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "content": "deepseek-ai/DeepGEMM — 圈外 3 人参与（fork×1, issue×2, pr×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-08-24T18:32:52+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepGEMM"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepGEMM",
+          "url": "https://github.com/deepseek-ai/DeepGEMM"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "OllieinCanada",
+          "brendangibat",
+          "maci0"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 2,
+          "fork": 1,
+          "issue": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:13777649373",
+      "who": "seventeenman",
+      "who_url": "https://github.com/seventeenman",
+      "action": "star",
+      "target": "ricardojoserf/CrystalPotato",
+      "target_url": "https://github.com/ricardojoserf/CrystalPotato",
+      "text": "seventeenman starred ricardojoserf/CrystalPotato",
+      "at": "2026-08-24T17:53:22+00:00",
+      "external_id": "event:13777649373",
+      "url": "https://github.com/ricardojoserf/CrystalPotato",
+      "content": "seventeenman starred ricardojoserf/CrystalPotato",
+      "author": "seventeenman",
+      "author_name": "seventeenman",
+      "author_url": "https://github.com/seventeenman",
+      "published_at": "2026-08-24T17:53:22+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/seventeenman",
+        "https://github.com/ricardojoserf/CrystalPotato"
+      ],
+      "refs": {
+        "actor": {
+          "login": "seventeenman",
+          "url": "https://github.com/seventeenman"
+        },
+        "repo": {
+          "full_name": "ricardojoserf/CrystalPotato",
+          "url": "https://github.com/ricardojoserf/CrystalPotato"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13776648593",
+      "who": "h3zh1",
+      "who_url": "https://github.com/h3zh1",
+      "action": "star",
+      "target": "apache/maka",
+      "target_url": "https://github.com/apache/maka",
+      "text": "h3zh1 starred apache/maka",
+      "at": "2026-08-24T17:35:41+00:00",
+      "external_id": "event:13776648593",
+      "url": "https://github.com/apache/maka",
+      "content": "h3zh1 starred apache/maka",
+      "author": "h3zh1",
+      "author_name": "h3zh1",
+      "author_url": "https://github.com/h3zh1",
+      "published_at": "2026-08-24T17:35:41+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/h3zh1",
+        "https://github.com/apache/maka"
+      ],
+      "refs": {
+        "actor": {
+          "login": "h3zh1",
+          "url": "https://github.com/h3zh1"
+        },
+        "repo": {
+          "full_name": "apache/maka",
+          "url": "https://github.com/apache/maka"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": true,
+        "trending_front_page": true
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13775690653",
+      "who": "h3zh1",
+      "who_url": "https://github.com/h3zh1",
+      "action": "star",
+      "target": "furkankly/zoetrope",
+      "target_url": "https://github.com/furkankly/zoetrope",
+      "text": "h3zh1 starred furkankly/zoetrope",
+      "at": "2026-08-24T17:19:04+00:00",
+      "external_id": "event:13775690653",
+      "url": "https://github.com/furkankly/zoetrope",
+      "content": "h3zh1 starred furkankly/zoetrope",
+      "author": "h3zh1",
+      "author_name": "h3zh1",
+      "author_url": "https://github.com/h3zh1",
+      "published_at": "2026-08-24T17:19:04+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/h3zh1",
+        "https://github.com/furkankly/zoetrope"
+      ],
+      "refs": {
+        "actor": {
+          "login": "h3zh1",
+          "url": "https://github.com/h3zh1"
+        },
+        "repo": {
+          "full_name": "furkankly/zoetrope",
+          "url": "https://github.com/furkankly/zoetrope"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13775468209",
+      "who": "ASkyeye",
+      "who_url": "https://github.com/ASkyeye",
+      "action": "fork",
+      "target": "ASkyeye/firefoxdump",
+      "target_url": "https://github.com/ASkyeye/firefoxdump",
+      "text": "ASkyeye forked mrrobot1o1/firefoxdump → ASkyeye/firefoxdump",
+      "at": "2026-08-24T17:14:54+00:00",
+      "external_id": "event:13775468209",
+      "url": "https://github.com/ASkyeye/firefoxdump",
+      "content": "ASkyeye forked mrrobot1o1/firefoxdump → ASkyeye/firefoxdump",
+      "author": "ASkyeye",
+      "author_name": "ASkyeye",
+      "author_url": "https://github.com/ASkyeye",
+      "published_at": "2026-08-24T17:14:54+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ASkyeye",
+        "https://github.com/mrrobot1o1/firefoxdump",
+        "https://github.com/ASkyeye/firefoxdump"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ASkyeye",
+          "url": "https://github.com/ASkyeye"
+        },
+        "repo": {
+          "full_name": "mrrobot1o1/firefoxdump",
+          "url": "https://github.com/mrrobot1o1/firefoxdump"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "ASkyeye/firefoxdump",
+          "url": "https://github.com/ASkyeye/firefoxdump"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13775124921",
+      "who": "ASkyeye",
+      "who_url": "https://github.com/ASkyeye",
+      "action": "fork",
+      "target": "ASkyeye/CrystalPotato",
+      "target_url": "https://github.com/ASkyeye/CrystalPotato",
+      "text": "ASkyeye forked ricardojoserf/CrystalPotato → ASkyeye/CrystalPotato",
+      "at": "2026-08-24T17:08:16+00:00",
+      "external_id": "event:13775124921",
+      "url": "https://github.com/ASkyeye/CrystalPotato",
+      "content": "ASkyeye forked ricardojoserf/CrystalPotato → ASkyeye/CrystalPotato",
+      "author": "ASkyeye",
+      "author_name": "ASkyeye",
+      "author_url": "https://github.com/ASkyeye",
+      "published_at": "2026-08-24T17:08:16+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ASkyeye",
+        "https://github.com/ricardojoserf/CrystalPotato",
+        "https://github.com/ASkyeye/CrystalPotato"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ASkyeye",
+          "url": "https://github.com/ASkyeye"
+        },
+        "repo": {
+          "full_name": "ricardojoserf/CrystalPotato",
+          "url": "https://github.com/ricardojoserf/CrystalPotato"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "ASkyeye/CrystalPotato",
+          "url": "https://github.com/ASkyeye/CrystalPotato"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13772277941",
+      "who": "Rvn0xsy",
+      "who_url": "https://github.com/Rvn0xsy",
+      "action": "star",
+      "target": "duty1g/x64dbg-mcp-server",
+      "target_url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "text": "Rvn0xsy starred duty1g/x64dbg-mcp-server",
+      "at": "2026-08-24T16:16:45+00:00",
+      "external_id": "event:13772277941",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "content": "Rvn0xsy starred duty1g/x64dbg-mcp-server",
+      "author": "Rvn0xsy",
+      "author_name": "Rvn0xsy",
+      "author_url": "https://github.com/Rvn0xsy",
+      "published_at": "2026-08-24T16:16:45+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Rvn0xsy",
+        "https://github.com/duty1g/x64dbg-mcp-server"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Rvn0xsy",
+          "url": "https://github.com/Rvn0xsy"
+        },
+        "repo": {
+          "full_name": "duty1g/x64dbg-mcp-server",
+          "url": "https://github.com/duty1g/x64dbg-mcp-server"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13771894491",
+      "who": "timwhitez",
+      "who_url": "https://github.com/timwhitez",
+      "action": "star",
+      "target": "FlashML-org/FreeToken",
+      "target_url": "https://github.com/FlashML-org/FreeToken",
+      "text": "timwhitez starred FlashML-org/FreeToken",
+      "at": "2026-08-24T16:09:57+00:00",
+      "external_id": "event:13771894491",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "content": "timwhitez starred FlashML-org/FreeToken",
+      "author": "timwhitez",
+      "author_name": "timwhitez",
+      "author_url": "https://github.com/timwhitez",
+      "published_at": "2026-08-24T16:09:57+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/timwhitez",
+        "https://github.com/FlashML-org/FreeToken"
+      ],
+      "refs": {
+        "actor": {
+          "login": "timwhitez",
+          "url": "https://github.com/timwhitez"
+        },
+        "repo": {
+          "full_name": "FlashML-org/FreeToken",
+          "url": "https://github.com/FlashML-org/FreeToken"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13771789930",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/DeepSeek-v4-Flash-One-DGX-Spark",
+      "target_url": "https://github.com/gmh5225/DeepSeek-v4-Flash-One-DGX-Spark",
+      "text": "gmh5225 forked MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark → gmh5225/DeepSeek-v4-Flash-One-DGX-Spark",
+      "at": "2026-08-24T16:08:02+00:00",
+      "external_id": "event:13771789930",
+      "url": "https://github.com/gmh5225/DeepSeek-v4-Flash-One-DGX-Spark",
+      "content": "gmh5225 forked MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark → gmh5225/DeepSeek-v4-Flash-One-DGX-Spark",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-08-24T16:08:02+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
+        "https://github.com/gmh5225/DeepSeek-v4-Flash-One-DGX-Spark"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
+          "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/DeepSeek-v4-Flash-One-DGX-Spark",
+          "url": "https://github.com/gmh5225/DeepSeek-v4-Flash-One-DGX-Spark"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:13771757411",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/butler",
+      "target_url": "https://github.com/gmh5225/butler",
+      "text": "gmh5225 forked d4rken-org/butler → gmh5225/butler",
+      "at": "2026-08-24T16:07:28+00:00",
+      "external_id": "event:13771757411",
+      "url": "https://github.com/gmh5225/butler",
+      "content": "gmh5225 forked d4rken-org/butler → gmh5225/butler",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-08-24T16:07:28+00:00",
+      "collected_at": "2026-08-24T21:34:11.719880+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/d4rken-org/butler",
+        "https://github.com/gmh5225/butler"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "d4rken-org/butler",
+          "url": "https://github.com/d4rken-org/butler"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/butler",
+          "url": "https://github.com/gmh5225/butler"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

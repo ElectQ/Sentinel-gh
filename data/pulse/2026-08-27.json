@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "date": "2026-08-27",
-  "generated_at": "2026-08-28T05:10:40+00:00",
+  "generated_at": "2026-08-29T03:07:59+00:00",
   "followee_count": 168,
-  "events_collected": 278,
+  "events_collected": 280,
   "trending_available": true,
-  "trending_source_date": "2026-08-28",
+  "trending_source_date": "2026-08-29",
   "circle_hot": [
     {
       "repo": "tailscale/tailcat",
@@ -21,8 +21,8 @@
         "https://github.com/Lakr233",
         "https://github.com/badboycxcc"
       ],
-      "trending": false,
-      "trending_front_page": false
+      "trending": true,
+      "trending_front_page": true
     }
   ],
   "circle_outer_hot": [
@@ -572,11 +572,9 @@
       "inner_count": 0,
       "inner_actors": [],
       "in_circle": false,
-      "trending": true,
+      "trending": false,
       "trending_front_page": false,
-      "languages": [
-        "makefile"
-      ],
+      "languages": [],
       "latest_at": "2026-08-26T19:19:05Z"
     },
     {
@@ -675,7 +673,28 @@
       "latest_at": "2026-08-26T20:26:02Z"
     }
   ],
-  "trending_overlap": [],
+  "trending_overlap": [
+    {
+      "repo": "tailscale/tailcat",
+      "repo_url": "https://github.com/tailscale/tailcat",
+      "count": 3,
+      "starred_by": [
+        "0xTriboulet",
+        "Lakr233",
+        "badboycxcc"
+      ],
+      "starred_by_urls": [
+        "https://github.com/0xTriboulet",
+        "https://github.com/Lakr233",
+        "https://github.com/badboycxcc"
+      ],
+      "trending": true,
+      "trending_front_page": true,
+      "languages": [
+        "go"
+      ]
+    }
+  ],
   "releases": [
     {
       "repo": "yetone/cumora",
@@ -706,7 +725,7 @@
   "starred_repos_total": 25,
   "raw_counts": {
     "ForkEvent": 18,
-    "PushEvent": 104,
+    "PushEvent": 106,
     "IssueCommentEvent": 11,
     "DeleteEvent": 14,
     "IssuesEvent": 29,
@@ -850,8 +869,8 @@
         "html_url": "https://github.com/tailscale/tailcat",
         "text": "0xTriboulet starred tailscale/tailcat",
         "created_at": "2026-08-27T09:25:16Z",
-        "trending": false,
-        "trending_front_page": false
+        "trending": true,
+        "trending_front_page": true
       },
       {
         "repo": "ossf/malicious-packages",
@@ -938,8 +957,8 @@
         "html_url": "https://github.com/tailscale/tailcat",
         "text": "badboycxcc starred tailscale/tailcat",
         "created_at": "2026-08-27T07:58:26Z",
-        "trending": false,
-        "trending_front_page": false
+        "trending": true,
+        "trending_front_page": true
       },
       {
         "repo": "tailscale/tailcat",
@@ -949,8 +968,8 @@
         "html_url": "https://github.com/tailscale/tailcat",
         "text": "Lakr233 starred tailscale/tailcat",
         "created_at": "2026-08-27T07:56:14Z",
-        "trending": false,
-        "trending_front_page": false
+        "trending": true,
+        "trending_front_page": true
       },
       {
         "repo": "lcn2/fnv",

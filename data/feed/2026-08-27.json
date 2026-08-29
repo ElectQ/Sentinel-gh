@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-08-27",
-  "generated_at": "2026-08-28T05:10:40+00:00",
+  "generated_at": "2026-08-29T03:07:59+00:00",
   "followee_count": 168,
   "item_count": 59,
   "kinds_included": [
@@ -13,7 +13,7 @@
     "network_hot"
   ],
   "trending_available": true,
-  "trending_source_date": "2026-08-28",
+  "trending_source_date": "2026-08-29",
   "items": [
     {
       "id": "network:deepseek-ai/DeepSeek-V3:2026-08-27",
@@ -620,8 +620,8 @@
       "payload": {},
       "time_precision": "exact",
       "signals": {
-        "trending": false,
-        "trending_front_page": false,
+        "trending": true,
+        "trending_front_page": true,
         "circle_count": 3
       }
     },
@@ -826,8 +826,8 @@
       "payload": {},
       "time_precision": "exact",
       "signals": {
-        "trending": false,
-        "trending_front_page": false,
+        "trending": true,
+        "trending_front_page": true,
         "circle_count": 3
       }
     },
@@ -846,8 +846,8 @@
       "payload": {},
       "time_precision": "exact",
       "signals": {
-        "trending": false,
-        "trending_front_page": false,
+        "trending": true,
+        "trending_front_page": true,
         "circle_count": 3
       }
     },
@@ -1245,7 +1245,7 @@
       "created_at": "2026-08-26T19:19:05Z",
       "time_precision": "exact",
       "signals": {
-        "trending": true,
+        "trending": false,
         "trending_front_page": false,
         "circle_count": null
       },
@@ -1262,10 +1262,8 @@
         "inner_count": 0,
         "inner_actors": [],
         "in_circle": false,
-        "trending": true,
-        "languages": [
-          "makefile"
-        ],
+        "trending": false,
+        "languages": [],
         "source": "received_feed"
       }
     },
@@ -1483,8 +1481,8 @@
       "fork": 18,
       "release": 3
     },
-    "push_events_excluded": 104,
-    "events_in_window": 278,
+    "push_events_excluded": 106,
+    "events_in_window": 280,
     "follows_in_window": 0
   }
 }

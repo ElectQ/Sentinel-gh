@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "date": "2026-09-07",
-  "generated_at": "2026-09-06T22:49:03+00:00",
+  "generated_at": "2026-09-07T23:22:18+00:00",
   "followee_count": 168,
-  "item_count": 7,
+  "item_count": 43,
   "kinds_included": [
     "star",
     "fork",
@@ -13,8 +13,31 @@
     "network_hot"
   ],
   "trending_available": true,
-  "trending_source_date": "2026-09-06",
+  "trending_source_date": "2026-09-07",
   "items": [
+    {
+      "id": "event:14580941567",
+      "kind": "fork",
+      "text": "FemaleGhost forked OrbitCurve/firmware-reverse-engineering → FemaleGhost/firmware-reverse-engineering",
+      "actor": "FemaleGhost",
+      "actor_url": "https://github.com/FemaleGhost",
+      "created_at": "2026-09-07T15:49:52Z",
+      "repo": "OrbitCurve/firmware-reverse-engineering",
+      "repo_url": "https://github.com/OrbitCurve/firmware-reverse-engineering",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/FemaleGhost/firmware-reverse-engineering",
+      "payload": {
+        "forkee": "FemaleGhost/firmware-reverse-engineering",
+        "forkee_url": "https://github.com/FemaleGhost/firmware-reverse-engineering"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
     {
       "id": "network:deepseek-ai/deepseek-harness:2026-09-07",
       "kind": "network_hot",
@@ -23,8 +46,8 @@
       "repo": "deepseek-ai/deepseek-harness",
       "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
-      "text": "deepseek-ai/deepseek-harness — 圈外 118 人参与（fork×27, star×93）",
-      "created_at": "2026-09-06T22:43:20Z",
+      "text": "deepseek-ai/deepseek-harness — 圈外 173 人参与（fork×81, release×1, star×93）",
+      "created_at": "2026-09-07T15:43:48Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -32,33 +55,34 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 118,
+        "outer_count": 173,
         "outer_actors": [
           "1995fengv-dot",
           "274949234",
+          "2scotoyoumu",
+          "643060908",
           "AbdulghaniHa",
           "AgustinRamiroDiaz",
           "Ai110002",
           "AndreyX",
           "ApproximateMan",
+          "Bebbolus",
           "C6Lactide",
           "CarterPlenge",
+          "DXL-0702",
+          "Danny7A",
           "DavoudTeimouri",
+          "Delacrowa",
           "Dhou25",
           "DuZeLei",
           "Favnnn",
-          "FearfulTomcat27",
-          "FukoIbuki-starfish",
-          "GiacomoGal",
-          "GuanyiLi-Craig",
-          "HZSV10",
-          "HobbitCraft",
-          "Humfrickk"
+          "FearfulTomcat27"
         ],
         "outer_actors_truncated": true,
         "by_kind": {
-          "fork": 27,
-          "star": 93
+          "fork": 81,
+          "star": 93,
+          "release": 1
         },
         "inner_count": 0,
         "inner_actors": [],
@@ -76,8 +100,8 @@
       "repo": "deepseek-ai/DeepSeek-V3",
       "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
       "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "text": "deepseek-ai/DeepSeek-V3 — 圈外 6 人参与（fork×2, issue×10, star×1）",
-      "created_at": "2026-09-06T20:31:04Z",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 13 人参与（fork×3, issue×19, star×1）",
+      "created_at": "2026-09-07T15:43:30Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -85,20 +109,867 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 6,
+        "outer_count": 13,
         "outer_actors": [
           "AmoebaFPS",
+          "NgPoppie",
           "RemanenetSpy",
+          "XuZhangxing",
+          "Yasirabssss",
           "ariehmahoukou-web",
+          "borisanny-jpg",
           "chewinkk",
           "enjpyiii",
-          "morepepla-ship-it"
+          "icophy",
+          "m92ss",
+          "morepepla-ship-it",
+          "qingkong66"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
-          "issue": 10,
+          "issue": 19,
           "star": 1,
-          "fork": 2
+          "fork": 3
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepGEMM:2026-09-07",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/DeepGEMM",
+      "repo_url": "https://github.com/deepseek-ai/DeepGEMM",
+      "html_url": "https://github.com/deepseek-ai/DeepGEMM",
+      "text": "deepseek-ai/DeepGEMM — 圈外 4 人参与（fork×3, issue×2, pr×6）",
+      "created_at": "2026-09-07T15:33:10Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 4,
+        "outer_actors": [
+          "baptiste-bt",
+          "ds-review-bot",
+          "monperrus",
+          "nisbenz"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 3,
+          "pr": 6,
+          "issue": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:14579426855",
+      "kind": "fork",
+      "text": "gmh5225 forked yro7/panini → gmh5225/panini",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T15:20:37Z",
+      "repo": "yro7/panini",
+      "repo_url": "https://github.com/yro7/panini",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/panini",
+      "payload": {
+        "forkee": "gmh5225/panini",
+        "forkee_url": "https://github.com/gmh5225/panini"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14579381711",
+      "kind": "fork",
+      "text": "gmh5225 forked TheGhostOfAnawanna/solana-eco-report → gmh5225/solana-eco-report",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T15:19:47Z",
+      "repo": "TheGhostOfAnawanna/solana-eco-report",
+      "repo_url": "https://github.com/TheGhostOfAnawanna/solana-eco-report",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/solana-eco-report",
+      "payload": {
+        "forkee": "gmh5225/solana-eco-report",
+        "forkee_url": "https://github.com/gmh5225/solana-eco-report"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14579299333",
+      "kind": "fork",
+      "text": "gmh5225 forked lfzk550/fanzha-ai-proxy → gmh5225/fanzha-ai-proxy",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T15:18:14Z",
+      "repo": "lfzk550/fanzha-ai-proxy",
+      "repo_url": "https://github.com/lfzk550/fanzha-ai-proxy",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/fanzha-ai-proxy",
+      "payload": {
+        "forkee": "gmh5225/fanzha-ai-proxy",
+        "forkee_url": "https://github.com/gmh5225/fanzha-ai-proxy"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14577071841",
+      "kind": "star",
+      "text": "zema1 starred nhh9905/CVE-2026-62735",
+      "actor": "zema1",
+      "actor_url": "https://github.com/zema1",
+      "created_at": "2026-09-07T14:38:55Z",
+      "repo": "nhh9905/CVE-2026-62735",
+      "repo_url": "https://github.com/nhh9905/CVE-2026-62735",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/nhh9905/CVE-2026-62735",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepEP:2026-09-07",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/DeepEP",
+      "repo_url": "https://github.com/deepseek-ai/DeepEP",
+      "html_url": "https://github.com/deepseek-ai/DeepEP",
+      "text": "deepseek-ai/DeepEP — 圈外 4 人参与（fork×1, issue×5, pr×1）",
+      "created_at": "2026-09-07T14:37:54Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 4,
+        "outer_actors": [
+          "abcdabcd987",
+          "jershi425",
+          "linmuchuiyang",
+          "pishonplc893"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 1,
+          "issue": 5,
+          "fork": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:14575879442",
+      "kind": "fork",
+      "text": "gmh5225 forked nommiin/ImGui_GM → gmh5225/ImGui_GM",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T14:18:42Z",
+      "repo": "nommiin/ImGui_GM",
+      "repo_url": "https://github.com/nommiin/ImGui_GM",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/ImGui_GM",
+      "payload": {
+        "forkee": "gmh5225/ImGui_GM",
+        "forkee_url": "https://github.com/gmh5225/ImGui_GM"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14573326779",
+      "kind": "fork",
+      "text": "gmh5225 forked chadhurley25075-png/pd-bridge → gmh5225/pd-bridge",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T13:36:43Z",
+      "repo": "chadhurley25075-png/pd-bridge",
+      "repo_url": "https://github.com/chadhurley25075-png/pd-bridge",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/pd-bridge",
+      "payload": {
+        "forkee": "gmh5225/pd-bridge",
+        "forkee_url": "https://github.com/gmh5225/pd-bridge"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14571344951",
+      "kind": "star",
+      "text": "phith0n starred Zeejay0/gathered-scenes-zine-skill",
+      "actor": "phith0n",
+      "actor_url": "https://github.com/phith0n",
+      "created_at": "2026-09-07T13:04:20Z",
+      "repo": "Zeejay0/gathered-scenes-zine-skill",
+      "repo_url": "https://github.com/Zeejay0/gathered-scenes-zine-skill",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Zeejay0/gathered-scenes-zine-skill",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14569489729",
+      "kind": "fork",
+      "text": "gmh5225 forked Oraclizer/erc-trust → gmh5225/erc-trust",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T12:32:23Z",
+      "repo": "Oraclizer/erc-trust",
+      "repo_url": "https://github.com/Oraclizer/erc-trust",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/erc-trust",
+      "payload": {
+        "forkee": "gmh5225/erc-trust",
+        "forkee_url": "https://github.com/gmh5225/erc-trust"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14569482504",
+      "kind": "star",
+      "text": "gmh5225 starred Oraclizer/erc-trust",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T12:32:16Z",
+      "repo": "Oraclizer/erc-trust",
+      "repo_url": "https://github.com/Oraclizer/erc-trust",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Oraclizer/erc-trust",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14569437848",
+      "kind": "fork",
+      "text": "gmh5225 forked mikio815/linux-anticheat → gmh5225/linux-anticheat",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T12:31:31Z",
+      "repo": "mikio815/linux-anticheat",
+      "repo_url": "https://github.com/mikio815/linux-anticheat",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/linux-anticheat",
+      "payload": {
+        "forkee": "gmh5225/linux-anticheat",
+        "forkee_url": "https://github.com/gmh5225/linux-anticheat"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14568244036",
+      "kind": "star",
+      "text": "mrfearless starred dmellok/tesserae",
+      "actor": "mrfearless",
+      "actor_url": "https://github.com/mrfearless",
+      "created_at": "2026-09-07T12:11:37Z",
+      "repo": "dmellok/tesserae",
+      "repo_url": "https://github.com/dmellok/tesserae",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/dmellok/tesserae",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14566345842",
+      "kind": "star",
+      "text": "timwhitez starred can1357/oh-my-pi",
+      "actor": "timwhitez",
+      "actor_url": "https://github.com/timwhitez",
+      "created_at": "2026-09-07T11:38:15Z",
+      "repo": "can1357/oh-my-pi",
+      "repo_url": "https://github.com/can1357/oh-my-pi",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/can1357/oh-my-pi",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14565751908",
+      "kind": "fork",
+      "text": "gmh5225 forked Vheissu/hit-and-run-web → gmh5225/hit-and-run-web",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T11:27:39Z",
+      "repo": "Vheissu/hit-and-run-web",
+      "repo_url": "https://github.com/Vheissu/hit-and-run-web",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/hit-and-run-web",
+      "payload": {
+        "forkee": "gmh5225/hit-and-run-web",
+        "forkee_url": "https://github.com/gmh5225/hit-and-run-web"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14565480402",
+      "kind": "star",
+      "text": "seventeenman starred eeeeeeeeee-code/POC",
+      "actor": "seventeenman",
+      "actor_url": "https://github.com/seventeenman",
+      "created_at": "2026-09-07T11:22:50Z",
+      "repo": "eeeeeeeeee-code/POC",
+      "repo_url": "https://github.com/eeeeeeeeee-code/POC",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/eeeeeeeeee-code/POC",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-09-07",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "BishopFox/sliver",
+      "repo_url": "https://github.com/BishopFox/sliver",
+      "html_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 2 人参与（fork×1, pr×5）",
+      "created_at": "2026-09-07T11:17:54Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "0n0x0",
+          "dependabot[bot]"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 5,
+          "fork": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:14563760571",
+      "kind": "star",
+      "text": "Lakr233 starred Innei/lody-ios",
+      "actor": "Lakr233",
+      "actor_url": "https://github.com/Lakr233",
+      "created_at": "2026-09-07T10:52:54Z",
+      "repo": "Innei/lody-ios",
+      "repo_url": "https://github.com/Innei/lody-ios",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/lody-ios",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14562678748",
+      "kind": "fork",
+      "text": "gmh5225 forked EverettFish/holo-card-studio → gmh5225/holo-card-studio",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T10:33:33Z",
+      "repo": "EverettFish/holo-card-studio",
+      "repo_url": "https://github.com/EverettFish/holo-card-studio",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/holo-card-studio",
+      "payload": {
+        "forkee": "gmh5225/holo-card-studio",
+        "forkee_url": "https://github.com/gmh5225/holo-card-studio"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14560833925",
+      "kind": "star",
+      "text": "Garck3h starred yyhuni/lunafox",
+      "actor": "Garck3h",
+      "actor_url": "https://github.com/Garck3h",
+      "created_at": "2026-09-07T10:02:08Z",
+      "repo": "yyhuni/lunafox",
+      "repo_url": "https://github.com/yyhuni/lunafox",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/yyhuni/lunafox",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14559884553",
+      "kind": "release",
+      "text": "timwhitez released timwhitez/AutoRE-CLI v0.1.6",
+      "actor": "timwhitez",
+      "actor_url": "https://github.com/timwhitez",
+      "created_at": "2026-09-07T09:46:12Z",
+      "repo": "timwhitez/AutoRE-CLI",
+      "repo_url": "https://github.com/timwhitez/AutoRE-CLI",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/timwhitez/AutoRE-CLI/releases/tag/v0.1.6",
+      "payload": {
+        "tag": "v0.1.6",
+        "name": "AutoRE-CLI v0.1.6",
+        "url": "https://github.com/timwhitez/AutoRE-CLI/releases/tag/v0.1.6",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14558585826",
+      "kind": "star",
+      "text": "timwhitez starred getpaseo/paseo",
+      "actor": "timwhitez",
+      "actor_url": "https://github.com/timwhitez",
+      "created_at": "2026-09-07T09:25:23Z",
+      "repo": "getpaseo/paseo",
+      "repo_url": "https://github.com/getpaseo/paseo",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/getpaseo/paseo",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14557668825",
+      "kind": "star",
+      "text": "h3zh1 starred oritera/Cairn",
+      "actor": "h3zh1",
+      "actor_url": "https://github.com/h3zh1",
+      "created_at": "2026-09-07T09:11:05Z",
+      "repo": "oritera/Cairn",
+      "repo_url": "https://github.com/oritera/Cairn",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/oritera/Cairn",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14556023660",
+      "kind": "release",
+      "text": "Mx-Iris released AppKitSupportProgram/AppKitPlus-Release 0.4.2",
+      "actor": "Mx-Iris",
+      "actor_url": "https://github.com/Mx-Iris",
+      "created_at": "2026-09-07T08:44:20Z",
+      "repo": "AppKitSupportProgram/AppKitPlus-Release",
+      "repo_url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release/releases/tag/0.4.2",
+      "payload": {
+        "tag": "0.4.2",
+        "name": "0.4.2",
+        "url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release/releases/tag/0.4.2",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14555972537",
+      "kind": "release",
+      "text": "Mx-Iris released AppKitSupportProgram/AppKitPlus-Release 0.4.1",
+      "actor": "Mx-Iris",
+      "actor_url": "https://github.com/Mx-Iris",
+      "created_at": "2026-09-07T08:43:31Z",
+      "repo": "AppKitSupportProgram/AppKitPlus-Release",
+      "repo_url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release/releases/tag/0.4.1",
+      "payload": {
+        "tag": "0.4.1",
+        "name": "0.4.1",
+        "url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release/releases/tag/0.4.1",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14544367432",
+      "kind": "fork",
+      "text": "gmh5225 forked boykopovar/AnyPS5 → gmh5225/AnyPS5",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T04:43:26Z",
+      "repo": "boykopovar/AnyPS5",
+      "repo_url": "https://github.com/boykopovar/AnyPS5",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/AnyPS5",
+      "payload": {
+        "forkee": "gmh5225/AnyPS5",
+        "forkee_url": "https://github.com/gmh5225/AnyPS5"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14544306733",
+      "kind": "fork",
+      "text": "gmh5225 forked noahware/armcall → gmh5225/armcall",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-07T04:41:45Z",
+      "repo": "noahware/armcall",
+      "repo_url": "https://github.com/noahware/armcall",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/armcall",
+      "payload": {
+        "forkee": "gmh5225/armcall",
+        "forkee_url": "https://github.com/gmh5225/armcall"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:14544207100",
+      "kind": "fork",
+      "text": "M09Ic forked oritera/Cairn → M09Ic/Cairn",
+      "actor": "M09Ic",
+      "actor_url": "https://github.com/M09Ic",
+      "created_at": "2026-09-07T04:39:00Z",
+      "repo": "oritera/Cairn",
+      "repo_url": "https://github.com/oritera/Cairn",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/M09Ic/Cairn",
+      "payload": {
+        "forkee": "M09Ic/Cairn",
+        "forkee_url": "https://github.com/M09Ic/Cairn"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14542129713",
+      "kind": "star",
+      "text": "veo starred DietrichGebert/ponytail",
+      "actor": "veo",
+      "actor_url": "https://github.com/veo",
+      "created_at": "2026-09-07T03:38:23Z",
+      "repo": "DietrichGebert/ponytail",
+      "repo_url": "https://github.com/DietrichGebert/ponytail",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/DietrichGebert/ponytail",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": true,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14541729360",
+      "kind": "star",
+      "text": "Y4tacker starred LadybirdBrowser/ladybird",
+      "actor": "Y4tacker",
+      "actor_url": "https://github.com/Y4tacker",
+      "created_at": "2026-09-07T03:25:51Z",
+      "repo": "LadybirdBrowser/ladybird",
+      "repo_url": "https://github.com/LadybirdBrowser/ladybird",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/LadybirdBrowser/ladybird",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14541683491",
+      "kind": "star",
+      "text": "CrazyHarb starred official-pikafish/Pikafish",
+      "actor": "CrazyHarb",
+      "actor_url": "https://github.com/CrazyHarb",
+      "created_at": "2026-09-07T03:24:26Z",
+      "repo": "official-pikafish/Pikafish",
+      "repo_url": "https://github.com/official-pikafish/Pikafish",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/official-pikafish/Pikafish",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14541454528",
+      "kind": "star",
+      "text": "Cen4enCen starred togg53192-cmd/jailbreaks",
+      "actor": "Cen4enCen",
+      "actor_url": "https://github.com/Cen4enCen",
+      "created_at": "2026-09-07T03:17:21Z",
+      "repo": "togg53192-cmd/jailbreaks",
+      "repo_url": "https://github.com/togg53192-cmd/jailbreaks",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/togg53192-cmd/jailbreaks",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14539553776",
+      "kind": "star",
+      "text": "yj94 starred comicbase/sms-relay",
+      "actor": "yj94",
+      "actor_url": "https://github.com/yj94",
+      "created_at": "2026-09-07T02:18:17Z",
+      "repo": "comicbase/sms-relay",
+      "repo_url": "https://github.com/comicbase/sms-relay",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/comicbase/sms-relay",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14536578474",
+      "kind": "star",
+      "text": "ZephrFish starred AlloySecureGroup/DNSDriverDetection",
+      "actor": "ZephrFish",
+      "actor_url": "https://github.com/ZephrFish",
+      "created_at": "2026-09-07T00:39:59Z",
+      "repo": "AlloySecureGroup/DNSDriverDetection",
+      "repo_url": "https://github.com/AlloySecureGroup/DNSDriverDetection",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/AlloySecureGroup/DNSDriverDetection",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:14535012399",
+      "kind": "fork",
+      "text": "ASkyeye forked tyeurada/edrEvasionWorkshop → ASkyeye/edrEvasionWorkshop",
+      "actor": "ASkyeye",
+      "actor_url": "https://github.com/ASkyeye",
+      "created_at": "2026-09-06T23:44:19Z",
+      "repo": "tyeurada/edrEvasionWorkshop",
+      "repo_url": "https://github.com/tyeurada/edrEvasionWorkshop",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/ASkyeye/edrEvasionWorkshop",
+      "payload": {
+        "forkee": "ASkyeye/edrEvasionWorkshop",
+        "forkee_url": "https://github.com/ASkyeye/edrEvasionWorkshop"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "network:deepseek-ai/awesome-deepseek-integration:2026-09-07",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/awesome-deepseek-integration",
+      "repo_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "html_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "text": "deepseek-ai/awesome-deepseek-integration — 圈外 2 人参与（pr×1, star×1）",
+      "created_at": "2026-09-06T23:16:37Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "JTCodeRRigan",
+          "the503girl"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 1,
+          "pr": 1
         },
         "inner_count": 0,
         "inner_actors": [],
@@ -202,51 +1073,17 @@
         "languages": [],
         "source": "received_feed"
       }
-    },
-    {
-      "id": "network:deepseek-ai/DeepGEMM:2026-09-07",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "deepseek-ai/DeepGEMM",
-      "repo_url": "https://github.com/deepseek-ai/DeepGEMM",
-      "html_url": "https://github.com/deepseek-ai/DeepGEMM",
-      "text": "deepseek-ai/DeepGEMM — 圈外 2 人参与（fork×1, issue×1, pr×5）",
-      "created_at": "2026-09-06T18:08:21Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 2,
-        "outer_actors": [
-          "ds-review-bot",
-          "monperrus"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "fork": 1,
-          "pr": 5,
-          "issue": 1
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
     }
   ],
   "summary": {
     "by_kind": {
-      "network_hot": 4,
-      "star": 3
+      "fork": 14,
+      "network_hot": 7,
+      "star": 19,
+      "release": 3
     },
-    "push_events_excluded": 5,
-    "events_in_window": 18,
+    "push_events_excluded": 55,
+    "events_in_window": 171,
     "follows_in_window": 0
   }
 }

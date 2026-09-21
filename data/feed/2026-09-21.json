@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "date": "2026-09-21",
-  "generated_at": "2026-09-20T23:06:08+00:00",
-  "followee_count": 172,
-  "item_count": 10,
+  "generated_at": "2026-09-21T23:57:13+00:00",
+  "followee_count": 173,
+  "item_count": 70,
   "kinds_included": [
     "star",
     "fork",
@@ -13,8 +13,49 @@
     "network_hot"
   ],
   "trending_available": true,
-  "trending_source_date": "2026-09-20",
+  "trending_source_date": "2026-09-21",
   "items": [
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-09-21",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/DeepSeek-V3",
+      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 7 人参与（fork×2, issue×8, star×1）",
+      "created_at": "2026-09-21T15:59:22Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 7,
+        "outer_actors": [
+          "Nutella928",
+          "XuZhangxing",
+          "faerkan88228-pixel",
+          "henceenterprise",
+          "ihab206-max",
+          "qingkong66",
+          "rami710"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 8,
+          "fork": 2,
+          "star": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
     {
       "id": "network:deepseek-ai/deepseek-harness:2026-09-21",
       "kind": "network_hot",
@@ -23,8 +64,8 @@
       "repo": "deepseek-ai/deepseek-harness",
       "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
-      "text": "deepseek-ai/deepseek-harness — 圈外 104 人参与（fork×24, star×84）",
-      "created_at": "2026-09-20T23:04:31Z",
+      "text": "deepseek-ai/deepseek-harness — 圈外 130 人参与（fork×50, star×84）",
+      "created_at": "2026-09-21T15:59:11Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -32,13 +73,14 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 104,
+        "outer_count": 130,
         "outer_actors": [
           "0Sond",
           "0tunguyen0",
           "111pointer111",
           "123qq999",
           "233kx",
+          "2824799",
           "8DZ",
           "Aaltc",
           "AkramAlQaifi",
@@ -52,12 +94,11 @@
           "Dreamscaps",
           "ELO0777",
           "EgorAdonev",
-          "Endogen",
-          "Feyax"
+          "Endogen"
         ],
         "outer_actors_truncated": true,
         "by_kind": {
-          "fork": 24,
+          "fork": 50,
           "star": 84
         },
         "inner_count": 0,
@@ -69,6 +110,66 @@
       }
     },
     {
+      "id": "event:15441818632",
+      "kind": "star",
+      "text": "bartblaze starred corpnewt/USBMap",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-09-21T15:41:10Z",
+      "repo": "corpnewt/USBMap",
+      "repo_url": "https://github.com/corpnewt/USBMap",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/corpnewt/USBMap",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15441795928",
+      "kind": "star",
+      "text": "bartblaze starred hoochanlon/Free-NTFS-for-Mac",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-09-21T15:40:50Z",
+      "repo": "hoochanlon/Free-NTFS-for-Mac",
+      "repo_url": "https://github.com/hoochanlon/Free-NTFS-for-Mac",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/hoochanlon/Free-NTFS-for-Mac",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15441751767",
+      "kind": "star",
+      "text": "bartblaze starred vorssaint/vorssaint-utils",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-09-21T15:40:10Z",
+      "repo": "vorssaint/vorssaint-utils",
+      "repo_url": "https://github.com/vorssaint/vorssaint-utils",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/vorssaint/vorssaint-utils",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
       "id": "network:deepseek-ai/DeepGEMM:2026-09-21",
       "kind": "network_hot",
       "actor": null,
@@ -76,8 +177,67 @@
       "repo": "deepseek-ai/DeepGEMM",
       "repo_url": "https://github.com/deepseek-ai/DeepGEMM",
       "html_url": "https://github.com/deepseek-ai/DeepGEMM",
-      "text": "deepseek-ai/DeepGEMM — 圈外 3 人参与（star×3）",
-      "created_at": "2026-09-20T23:02:25Z",
+      "text": "deepseek-ai/DeepGEMM — 圈外 5 人参与（fork×1, issue×1, star×3）",
+      "created_at": "2026-09-21T15:39:07Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "garrett361",
+          "hetnieuwebeginbv-glitch",
+          "kzhou003",
+          "lucifer1004",
+          "popraf"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 3,
+          "fork": 1,
+          "issue": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:15441667047",
+      "kind": "star",
+      "text": "bartblaze starred northpolesec/santa",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-09-21T15:38:56Z",
+      "repo": "northpolesec/santa",
+      "repo_url": "https://github.com/northpolesec/santa",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/northpolesec/santa",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-09-21",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "Vector35/binaryninja-api",
+      "repo_url": "https://github.com/Vector35/binaryninja-api",
+      "html_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 3 人参与（issue×30, pr×2）",
+      "created_at": "2026-09-21T15:38:07Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -87,13 +247,14 @@
       "network": {
         "outer_count": 3,
         "outer_actors": [
-          "hetnieuwebeginbv-glitch",
-          "kzhou003",
-          "popraf"
+          "emesare",
+          "noah0x1",
+          "psifertex"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
-          "star": 3
+          "issue": 30,
+          "pr": 2
         },
         "inner_count": 0,
         "inner_actors": [],
@@ -101,6 +262,1195 @@
         "trending": false,
         "languages": [],
         "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:15441442849",
+      "kind": "star",
+      "text": "bartblaze starred fmhy/FMHY",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-09-21T15:35:42Z",
+      "repo": "fmhy/FMHY",
+      "repo_url": "https://github.com/fmhy/FMHY",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/fmhy/FMHY",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15441297908",
+      "kind": "star",
+      "text": "bartblaze starred webtorrent/webtorrent-desktop",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-09-21T15:33:35Z",
+      "repo": "webtorrent/webtorrent-desktop",
+      "repo_url": "https://github.com/webtorrent/webtorrent-desktop",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/webtorrent/webtorrent-desktop",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15441278397",
+      "kind": "star",
+      "text": "bartblaze starred webtorrent/webtorrent",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-09-21T15:33:18Z",
+      "repo": "webtorrent/webtorrent",
+      "repo_url": "https://github.com/webtorrent/webtorrent",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/webtorrent/webtorrent",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15440925452",
+      "kind": "star",
+      "text": "bartblaze starred PimpinPumpkin/Vela",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-09-21T15:28:08Z",
+      "repo": "PimpinPumpkin/Vela",
+      "repo_url": "https://github.com/PimpinPumpkin/Vela",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/PimpinPumpkin/Vela",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15440379448",
+      "kind": "star",
+      "text": "bartblaze starred Recurse-Labs/recurse",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-09-21T15:20:24Z",
+      "repo": "Recurse-Labs/recurse",
+      "repo_url": "https://github.com/Recurse-Labs/recurse",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Recurse-Labs/recurse",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:15438358288",
+      "kind": "fork",
+      "text": "FemaleGhost forked Rurixis/MSRKit → FemaleGhost/MSRKit",
+      "actor": "FemaleGhost",
+      "actor_url": "https://github.com/FemaleGhost",
+      "created_at": "2026-09-21T14:52:15Z",
+      "repo": "Rurixis/MSRKit",
+      "repo_url": "https://github.com/Rurixis/MSRKit",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/FemaleGhost/MSRKit",
+      "payload": {
+        "forkee": "FemaleGhost/MSRKit",
+        "forkee_url": "https://github.com/FemaleGhost/MSRKit"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15435145268",
+      "kind": "star",
+      "text": "Cracked5pider starred Rurixis/MSRKit",
+      "actor": "Cracked5pider",
+      "actor_url": "https://github.com/Cracked5pider",
+      "created_at": "2026-09-21T14:08:08Z",
+      "repo": "Rurixis/MSRKit",
+      "repo_url": "https://github.com/Rurixis/MSRKit",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Rurixis/MSRKit",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15428753823",
+      "kind": "star",
+      "text": "Mx-Iris starred EEliberto/Pastel-macOS",
+      "actor": "Mx-Iris",
+      "actor_url": "https://github.com/Mx-Iris",
+      "created_at": "2026-09-21T12:33:52Z",
+      "repo": "EEliberto/Pastel-macOS",
+      "repo_url": "https://github.com/EEliberto/Pastel-macOS",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/EEliberto/Pastel-macOS",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15427286170",
+      "kind": "star",
+      "text": "J1angLl starred Autumn-27/ARTEX",
+      "actor": "J1angLl",
+      "actor_url": "https://github.com/J1angLl",
+      "created_at": "2026-09-21T12:10:23Z",
+      "repo": "Autumn-27/ARTEX",
+      "repo_url": "https://github.com/Autumn-27/ARTEX",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Autumn-27/ARTEX",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15427264401",
+      "kind": "fork",
+      "text": "J1angLl forked Autumn-27/ARTEX → J1angLl/ARTEX",
+      "actor": "J1angLl",
+      "actor_url": "https://github.com/J1angLl",
+      "created_at": "2026-09-21T12:10:03Z",
+      "repo": "Autumn-27/ARTEX",
+      "repo_url": "https://github.com/Autumn-27/ARTEX",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/J1angLl/ARTEX",
+      "payload": {
+        "forkee": "J1angLl/ARTEX",
+        "forkee_url": "https://github.com/J1angLl/ARTEX"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15424803964",
+      "kind": "star",
+      "text": "niudaii starred jlcodes99/cockpit-tools",
+      "actor": "niudaii",
+      "actor_url": "https://github.com/niudaii",
+      "created_at": "2026-09-21T11:27:51Z",
+      "repo": "jlcodes99/cockpit-tools",
+      "repo_url": "https://github.com/jlcodes99/cockpit-tools",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/jlcodes99/cockpit-tools",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15423823277",
+      "kind": "fork",
+      "text": "Innei forked lobehub/mcp-hello-world → Innei/mcp-hello-world",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:10:28Z",
+      "repo": "lobehub/mcp-hello-world",
+      "repo_url": "https://github.com/lobehub/mcp-hello-world",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/mcp-hello-world",
+      "payload": {
+        "forkee": "Innei/mcp-hello-world",
+        "forkee_url": "https://github.com/Innei/mcp-hello-world"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423812194",
+      "kind": "fork",
+      "text": "Innei forked lobehub/lobe-vidol → Innei/lobe-vidol",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:10:18Z",
+      "repo": "lobehub/lobe-vidol",
+      "repo_url": "https://github.com/lobehub/lobe-vidol",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/lobe-vidol",
+      "payload": {
+        "forkee": "Innei/lobe-vidol",
+        "forkee_url": "https://github.com/Innei/lobe-vidol"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423804960",
+      "kind": "fork",
+      "text": "Innei forked lobehub/lobe-readme-wizard → Innei/lobe-readme-wizard",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:10:09Z",
+      "repo": "lobehub/lobe-readme-wizard",
+      "repo_url": "https://github.com/lobehub/lobe-readme-wizard",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/lobe-readme-wizard",
+      "payload": {
+        "forkee": "Innei/lobe-readme-wizard",
+        "forkee_url": "https://github.com/Innei/lobe-readme-wizard"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423798645",
+      "kind": "fork",
+      "text": "Innei forked lobehub/lobe-openai-plugins → Innei/lobe-openai-plugins",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:10:01Z",
+      "repo": "lobehub/lobe-openai-plugins",
+      "repo_url": "https://github.com/lobehub/lobe-openai-plugins",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/lobe-openai-plugins",
+      "payload": {
+        "forkee": "Innei/lobe-openai-plugins",
+        "forkee_url": "https://github.com/Innei/lobe-openai-plugins"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423789257",
+      "kind": "fork",
+      "text": "Innei forked lobehub/lobe-midjourney-webui → Innei/lobe-midjourney-webui",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:09:52Z",
+      "repo": "lobehub/lobe-midjourney-webui",
+      "repo_url": "https://github.com/lobehub/lobe-midjourney-webui",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/lobe-midjourney-webui",
+      "payload": {
+        "forkee": "Innei/lobe-midjourney-webui",
+        "forkee_url": "https://github.com/Innei/lobe-midjourney-webui"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423780053",
+      "kind": "fork",
+      "text": "Innei forked lobehub/lobe-lib-template → Innei/lobe-lib-template",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:09:44Z",
+      "repo": "lobehub/lobe-lib-template",
+      "repo_url": "https://github.com/lobehub/lobe-lib-template",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/lobe-lib-template",
+      "payload": {
+        "forkee": "Innei/lobe-lib-template",
+        "forkee_url": "https://github.com/Innei/lobe-lib-template"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423761815",
+      "kind": "fork",
+      "text": "Innei forked lobehub/lobe-chat-agents → Innei/lobe-chat-agents",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:09:27Z",
+      "repo": "lobehub/lobe-chat-agents",
+      "repo_url": "https://github.com/lobehub/lobe-chat-agents",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/lobe-chat-agents",
+      "payload": {
+        "forkee": "Innei/lobe-chat-agents",
+        "forkee_url": "https://github.com/Innei/lobe-chat-agents"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423752712",
+      "kind": "fork",
+      "text": "Innei forked lobehub/chat-plugin-web-crawler → Innei/chat-plugin-web-crawler",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:09:18Z",
+      "repo": "lobehub/chat-plugin-web-crawler",
+      "repo_url": "https://github.com/lobehub/chat-plugin-web-crawler",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/chat-plugin-web-crawler",
+      "payload": {
+        "forkee": "Innei/chat-plugin-web-crawler",
+        "forkee_url": "https://github.com/Innei/chat-plugin-web-crawler"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423744163",
+      "kind": "fork",
+      "text": "Innei forked lobehub/chat-plugin-open-interpreter → Innei/chat-plugin-open-interpreter",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:09:10Z",
+      "repo": "lobehub/chat-plugin-open-interpreter",
+      "repo_url": "https://github.com/lobehub/chat-plugin-open-interpreter",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/chat-plugin-open-interpreter",
+      "payload": {
+        "forkee": "Innei/chat-plugin-open-interpreter",
+        "forkee_url": "https://github.com/Innei/chat-plugin-open-interpreter"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423736465",
+      "kind": "fork",
+      "text": "Innei forked lobehub/chat-plugin-clock-time → Innei/chat-plugin-clock-time",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:09:01Z",
+      "repo": "lobehub/chat-plugin-clock-time",
+      "repo_url": "https://github.com/lobehub/chat-plugin-clock-time",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/chat-plugin-clock-time",
+      "payload": {
+        "forkee": "Innei/chat-plugin-clock-time",
+        "forkee_url": "https://github.com/Innei/chat-plugin-clock-time"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423650809",
+      "kind": "fork",
+      "text": "Innei forked lobehub/lobe-chat-plugins → Innei/lobe-chat-plugins",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T11:07:33Z",
+      "repo": "lobehub/lobe-chat-plugins",
+      "repo_url": "https://github.com/lobehub/lobe-chat-plugins",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Innei/lobe-chat-plugins",
+      "payload": {
+        "forkee": "Innei/lobe-chat-plugins",
+        "forkee_url": "https://github.com/Innei/lobe-chat-plugins"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15423389575",
+      "kind": "star",
+      "text": "crisprss starred ardeyouxipianyi/workbuddy2api-hub",
+      "actor": "crisprss",
+      "actor_url": "https://github.com/crisprss",
+      "created_at": "2026-09-21T11:02:59Z",
+      "repo": "ardeyouxipianyi/workbuddy2api-hub",
+      "repo_url": "https://github.com/ardeyouxipianyi/workbuddy2api-hub",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/ardeyouxipianyi/workbuddy2api-hub",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15423274429",
+      "kind": "fork",
+      "text": "crisprss forked zai-org/ZCode → crisprss/ZCode",
+      "actor": "crisprss",
+      "actor_url": "https://github.com/crisprss",
+      "created_at": "2026-09-21T11:00:54Z",
+      "repo": "zai-org/ZCode",
+      "repo_url": "https://github.com/zai-org/ZCode",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/crisprss/ZCode",
+      "payload": {
+        "forkee": "crisprss/ZCode",
+        "forkee_url": "https://github.com/crisprss/ZCode"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15420057507",
+      "kind": "star",
+      "text": "Autumn-27 starred RuoJi6/AgentMirror",
+      "actor": "Autumn-27",
+      "actor_url": "https://github.com/Autumn-27",
+      "created_at": "2026-09-21T10:05:16Z",
+      "repo": "RuoJi6/AgentMirror",
+      "repo_url": "https://github.com/RuoJi6/AgentMirror",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/RuoJi6/AgentMirror",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15416022886",
+      "kind": "release",
+      "text": "Mx-Iris released Mx-Iris/STUTiledLayer 1.1.1",
+      "actor": "Mx-Iris",
+      "actor_url": "https://github.com/Mx-Iris",
+      "created_at": "2026-09-21T08:57:30Z",
+      "repo": "Mx-Iris/STUTiledLayer",
+      "repo_url": "https://github.com/Mx-Iris/STUTiledLayer",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Mx-Iris/STUTiledLayer/releases/tag/1.1.1",
+      "payload": {
+        "tag": "1.1.1",
+        "name": "1.1.1",
+        "url": "https://github.com/Mx-Iris/STUTiledLayer/releases/tag/1.1.1",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15415018553",
+      "kind": "star",
+      "text": "TryGOTry starred NandhaKishorM/laya",
+      "actor": "TryGOTry",
+      "actor_url": "https://github.com/TryGOTry",
+      "created_at": "2026-09-21T08:39:34Z",
+      "repo": "NandhaKishorM/laya",
+      "repo_url": "https://github.com/NandhaKishorM/laya",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/NandhaKishorM/laya",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:15413685977",
+      "kind": "star",
+      "text": "niudaii starred browser-use/jev-ultrafast",
+      "actor": "niudaii",
+      "actor_url": "https://github.com/niudaii",
+      "created_at": "2026-09-21T08:15:17Z",
+      "repo": "browser-use/jev-ultrafast",
+      "repo_url": "https://github.com/browser-use/jev-ultrafast",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/browser-use/jev-ultrafast",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15410079426",
+      "kind": "star",
+      "text": "Lakr233 starred MobAI-App/simslim",
+      "actor": "Lakr233",
+      "actor_url": "https://github.com/Lakr233",
+      "created_at": "2026-09-21T07:05:31Z",
+      "repo": "MobAI-App/simslim",
+      "repo_url": "https://github.com/MobAI-App/simslim",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/MobAI-App/simslim",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15410026245",
+      "kind": "star",
+      "text": "safedv starred nmht3t/OneDrive-UDC2",
+      "actor": "safedv",
+      "actor_url": "https://github.com/safedv",
+      "created_at": "2026-09-21T07:04:26Z",
+      "repo": "nmht3t/OneDrive-UDC2",
+      "repo_url": "https://github.com/nmht3t/OneDrive-UDC2",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/nmht3t/OneDrive-UDC2",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15409223628",
+      "kind": "fork",
+      "text": "gmh5225 forked mubix/ai-ctf → gmh5225/ai-ctf",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-21T06:46:43Z",
+      "repo": "mubix/ai-ctf",
+      "repo_url": "https://github.com/mubix/ai-ctf",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/ai-ctf",
+      "payload": {
+        "forkee": "gmh5225/ai-ctf",
+        "forkee_url": "https://github.com/gmh5225/ai-ctf"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15408688967",
+      "kind": "star",
+      "text": "timwhitez starred tamaratran/fast-jev-compaction",
+      "actor": "timwhitez",
+      "actor_url": "https://github.com/timwhitez",
+      "created_at": "2026-09-21T06:34:42Z",
+      "repo": "tamaratran/fast-jev-compaction",
+      "repo_url": "https://github.com/tamaratran/fast-jev-compaction",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/tamaratran/fast-jev-compaction",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:15408646928",
+      "kind": "star",
+      "text": "niudaii starred NandhaKishorM/laya",
+      "actor": "niudaii",
+      "actor_url": "https://github.com/niudaii",
+      "created_at": "2026-09-21T06:33:41Z",
+      "repo": "NandhaKishorM/laya",
+      "repo_url": "https://github.com/NandhaKishorM/laya",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/NandhaKishorM/laya",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:15408536902",
+      "kind": "star",
+      "text": "yhy0 starred Kritt-ai/open-kritt",
+      "actor": "yhy0",
+      "actor_url": "https://github.com/yhy0",
+      "created_at": "2026-09-21T06:31:06Z",
+      "repo": "Kritt-ai/open-kritt",
+      "repo_url": "https://github.com/Kritt-ai/open-kritt",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Kritt-ai/open-kritt",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15407862035",
+      "kind": "star",
+      "text": "gmh5225 starred mizorewww/laya-mlx",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-21T06:16:50Z",
+      "repo": "mizorewww/laya-mlx",
+      "repo_url": "https://github.com/mizorewww/laya-mlx",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/mizorewww/laya-mlx",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15407697244",
+      "kind": "fork",
+      "text": "gmh5225 forked murrez/CVE-2026-89274 → gmh5225/CVE-2026-89274",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-21T06:13:09Z",
+      "repo": "murrez/CVE-2026-89274",
+      "repo_url": "https://github.com/murrez/CVE-2026-89274",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/CVE-2026-89274",
+      "payload": {
+        "forkee": "gmh5225/CVE-2026-89274",
+        "forkee_url": "https://github.com/gmh5225/CVE-2026-89274"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15406573882",
+      "kind": "fork",
+      "text": "gmh5225 forked zai-org/ZCode → gmh5225/ZCode",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-21T05:44:13Z",
+      "repo": "zai-org/ZCode",
+      "repo_url": "https://github.com/zai-org/ZCode",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/ZCode",
+      "payload": {
+        "forkee": "gmh5225/ZCode",
+        "forkee_url": "https://github.com/gmh5225/ZCode"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15405895471",
+      "kind": "release",
+      "text": "MG1937 released MG1937/ASC dev-0.1.1-post2",
+      "actor": "MG1937",
+      "actor_url": "https://github.com/MG1937",
+      "created_at": "2026-09-21T05:24:49Z",
+      "repo": "MG1937/ASC",
+      "repo_url": "https://github.com/MG1937/ASC",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/MG1937/ASC/releases/tag/dev-0.1.1-post2",
+      "payload": {
+        "tag": "dev-0.1.1-post2",
+        "name": "dev-0.1.1-post2",
+        "url": "https://github.com/MG1937/ASC/releases/tag/dev-0.1.1-post2",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15405305953",
+      "kind": "release",
+      "text": "Innei released lobehub/lobehub v2.2.19-canary.3",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T05:09:20Z",
+      "repo": "lobehub/lobehub",
+      "repo_url": "https://github.com/lobehub/lobehub",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/lobehub/lobehub/releases/tag/v2.2.19-canary.3",
+      "payload": {
+        "tag": "v2.2.19-canary.3",
+        "name": "Desktop Canary v2.2.19-canary.3",
+        "url": "https://github.com/lobehub/lobehub/releases/tag/v2.2.19-canary.3",
+        "prerelease": true
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15404791358",
+      "kind": "star",
+      "text": "Xre0uS starred tmux/tmux",
+      "actor": "Xre0uS",
+      "actor_url": "https://github.com/Xre0uS",
+      "created_at": "2026-09-21T04:53:42Z",
+      "repo": "tmux/tmux",
+      "repo_url": "https://github.com/tmux/tmux",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/tmux/tmux",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15404380098",
+      "kind": "star",
+      "text": "nightRainy starred intikhab49/open-jev-typed-decision-engine",
+      "actor": "nightRainy",
+      "actor_url": "https://github.com/nightRainy",
+      "created_at": "2026-09-21T04:40:33Z",
+      "repo": "intikhab49/open-jev-typed-decision-engine",
+      "repo_url": "https://github.com/intikhab49/open-jev-typed-decision-engine",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/intikhab49/open-jev-typed-decision-engine",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15404301754",
+      "kind": "star",
+      "text": "nightRainy starred cactus-compute/needle",
+      "actor": "nightRainy",
+      "actor_url": "https://github.com/nightRainy",
+      "created_at": "2026-09-21T04:38:18Z",
+      "repo": "cactus-compute/needle",
+      "repo_url": "https://github.com/cactus-compute/needle",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/cactus-compute/needle",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15403631203",
+      "kind": "fork",
+      "text": "gmh5225 forked cn0xroot/AI-Code-Analyzer → gmh5225/AI-Code-Analyzer",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-21T04:20:27Z",
+      "repo": "cn0xroot/AI-Code-Analyzer",
+      "repo_url": "https://github.com/cn0xroot/AI-Code-Analyzer",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/AI-Code-Analyzer",
+      "payload": {
+        "forkee": "gmh5225/AI-Code-Analyzer",
+        "forkee_url": "https://github.com/gmh5225/AI-Code-Analyzer"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15403479354",
+      "kind": "star",
+      "text": "gmh5225 starred tamaratran/fast-jev-compaction",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-21T04:16:11Z",
+      "repo": "tamaratran/fast-jev-compaction",
+      "repo_url": "https://github.com/tamaratran/fast-jev-compaction",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/tamaratran/fast-jev-compaction",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:15403399404",
+      "kind": "fork",
+      "text": "FemaleGhost forked NetSPI/BOF-PE → FemaleGhost/BOF-PE",
+      "actor": "FemaleGhost",
+      "actor_url": "https://github.com/FemaleGhost",
+      "created_at": "2026-09-21T04:13:42Z",
+      "repo": "NetSPI/BOF-PE",
+      "repo_url": "https://github.com/NetSPI/BOF-PE",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/FemaleGhost/BOF-PE",
+      "payload": {
+        "forkee": "FemaleGhost/BOF-PE",
+        "forkee_url": "https://github.com/FemaleGhost/BOF-PE"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15403145173",
+      "kind": "fork",
+      "text": "gmh5225 forked ashhart/Syntra → gmh5225/Syntra",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-21T04:05:44Z",
+      "repo": "ashhart/Syntra",
+      "repo_url": "https://github.com/ashhart/Syntra",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/Syntra",
+      "payload": {
+        "forkee": "gmh5225/Syntra",
+        "forkee_url": "https://github.com/gmh5225/Syntra"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15402876044",
+      "kind": "fork",
+      "text": "gmh5225 forked tamaratran/fast-jev-compaction → gmh5225/fast-jev-compaction",
+      "actor": "gmh5225",
+      "actor_url": "https://github.com/gmh5225",
+      "created_at": "2026-09-21T03:57:02Z",
+      "repo": "tamaratran/fast-jev-compaction",
+      "repo_url": "https://github.com/tamaratran/fast-jev-compaction",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/gmh5225/fast-jev-compaction",
+      "payload": {
+        "forkee": "gmh5225/fast-jev-compaction",
+        "forkee_url": "https://github.com/gmh5225/fast-jev-compaction"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:15401098791",
+      "kind": "release",
+      "text": "Innei released lobehub/lobehub v2.2.19-canary.2",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-09-21T02:59:33Z",
+      "repo": "lobehub/lobehub",
+      "repo_url": "https://github.com/lobehub/lobehub",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/lobehub/lobehub/releases/tag/v2.2.19-canary.2",
+      "payload": {
+        "tag": "v2.2.19-canary.2",
+        "name": "Desktop Canary v2.2.19-canary.2",
+        "url": "https://github.com/lobehub/lobehub/releases/tag/v2.2.19-canary.2",
+        "prerelease": true
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15398262319",
+      "kind": "fork",
+      "text": "FemaleGhost forked Beercow/OneDriveExplorer → FemaleGhost/OneDriveExplorer",
+      "actor": "FemaleGhost",
+      "actor_url": "https://github.com/FemaleGhost",
+      "created_at": "2026-09-21T01:22:27Z",
+      "repo": "Beercow/OneDriveExplorer",
+      "repo_url": "https://github.com/Beercow/OneDriveExplorer",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/FemaleGhost/OneDriveExplorer",
+      "payload": {
+        "forkee": "FemaleGhost/OneDriveExplorer",
+        "forkee_url": "https://github.com/FemaleGhost/OneDriveExplorer"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15398255057",
+      "kind": "fork",
+      "text": "FemaleGhost forked boydhacks/ntlmscout → FemaleGhost/ntlmscout",
+      "actor": "FemaleGhost",
+      "actor_url": "https://github.com/FemaleGhost",
+      "created_at": "2026-09-21T01:22:11Z",
+      "repo": "boydhacks/ntlmscout",
+      "repo_url": "https://github.com/boydhacks/ntlmscout",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/FemaleGhost/ntlmscout",
+      "payload": {
+        "forkee": "FemaleGhost/ntlmscout",
+        "forkee_url": "https://github.com/FemaleGhost/ntlmscout"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:15398201024",
+      "kind": "star",
+      "text": "0a777h starred 19h/morok",
+      "actor": "0a777h",
+      "actor_url": "https://github.com/0a777h",
+      "created_at": "2026-09-21T01:20:14Z",
+      "repo": "19h/morok",
+      "repo_url": "https://github.com/19h/morok",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/19h/morok",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15398184207",
+      "kind": "star",
+      "text": "0a777h starred 19h/chernobog",
+      "actor": "0a777h",
+      "actor_url": "https://github.com/0a777h",
+      "created_at": "2026-09-21T01:19:36Z",
+      "repo": "19h/chernobog",
+      "repo_url": "https://github.com/19h/chernobog",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/19h/chernobog",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15397771634",
+      "kind": "star",
+      "text": "Xre0uS starred Recurse-Labs/recurse",
+      "actor": "Xre0uS",
+      "actor_url": "https://github.com/Xre0uS",
+      "created_at": "2026-09-21T01:05:56Z",
+      "repo": "Recurse-Labs/recurse",
+      "repo_url": "https://github.com/Recurse-Labs/recurse",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Recurse-Labs/recurse",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:15396280173",
+      "kind": "star",
+      "text": "0xTriboulet starred eval-exec/neomacs",
+      "actor": "0xTriboulet",
+      "actor_url": "https://github.com/0xTriboulet",
+      "created_at": "2026-09-21T00:11:35Z",
+      "repo": "eval-exec/neomacs",
+      "repo_url": "https://github.com/eval-exec/neomacs",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/eval-exec/neomacs",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:15394739911",
+      "kind": "star",
+      "text": "0xTriboulet starred stratomarco/ai-training-ml-security",
+      "actor": "0xTriboulet",
+      "actor_url": "https://github.com/0xTriboulet",
+      "created_at": "2026-09-20T23:07:49Z",
+      "repo": "stratomarco/ai-training-ml-security",
+      "repo_url": "https://github.com/stratomarco/ai-training-ml-security",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/stratomarco/ai-training-ml-security",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
       }
     },
     {
@@ -138,43 +1488,6 @@
       }
     },
     {
-      "id": "network:deepseek-ai/DeepSeek-V3:2026-09-21",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "deepseek-ai/DeepSeek-V3",
-      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "text": "deepseek-ai/DeepSeek-V3 — 圈外 3 人参与（fork×1, issue×1, star×1）",
-      "created_at": "2026-09-20T21:59:51Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 3,
-        "outer_actors": [
-          "faerkan88228-pixel",
-          "henceenterprise",
-          "ihab206-max"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "issue": 1,
-          "fork": 1,
-          "star": 1
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
       "id": "event:15388302079",
       "kind": "fork",
       "text": "FemaleGhost forked nmht3t/OneDrive-UDC2 → FemaleGhost/OneDrive-UDC2",
@@ -194,7 +1507,7 @@
       "signals": {
         "trending": false,
         "trending_front_page": false,
-        "circle_count": null
+        "circle_count": 1
       }
     },
     {
@@ -311,13 +1624,13 @@
   ],
   "summary": {
     "by_kind": {
-      "network_hot": 4,
-      "fork": 3,
-      "release": 1,
-      "star": 2
+      "network_hot": 5,
+      "star": 34,
+      "fork": 26,
+      "release": 5
     },
-    "push_events_excluded": 51,
-    "events_in_window": 64,
+    "push_events_excluded": 264,
+    "events_in_window": 431,
     "follows_in_window": 0
   }
 }

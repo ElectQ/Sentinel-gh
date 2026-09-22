@@ -1,0 +1,1412 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-09-23",
+  "collect_window": {
+    "start": "2026-09-22T16:13:35+00:00",
+    "end": "2026-09-22T23:32:44+00:00",
+    "hours": 7
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "35797858751",
+    "commit": "366adb0"
+  },
+  "stats": {
+    "total": 22,
+    "by_kind": {
+      "follow": 1,
+      "network_hot": 9,
+      "star": 7,
+      "fork": 5
+    },
+    "failed_lists": [],
+    "followee_count": 174,
+    "push_events_excluded": 34
+  },
+  "items": [
+    {
+      "id": "follow:realoriginal:LLVM-PASS:2026-09-22:followed",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "follow",
+      "target": "LLVM-PASS",
+      "target_url": "https://github.com/LLVM-PASS",
+      "text": "realoriginal followed LLVM-PASS",
+      "at": "2026-09-22T23:32:44+00:00",
+      "external_id": "follow:realoriginal:LLVM-PASS:2026-09-22:followed",
+      "url": "https://github.com/LLVM-PASS",
+      "content": "realoriginal followed LLVM-PASS",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-09-22T23:32:44+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/LLVM-PASS"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "LLVM-PASS",
+          "url": "https://github.com/LLVM-PASS"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "LLVM-PASS",
+        "name": "",
+        "bio": "",
+        "followers": 4,
+        "public_repos": 17,
+        "html_url": "https://github.com/LLVM-PASS",
+        "languages": [],
+        "top_repos": [
+          {
+            "name": "LLVM-PASS/C-Vuln-Scan",
+            "description": "Code Scan with LLVM-pass",
+            "language": null,
+            "stars": 0,
+            "pushed_at": "2024-10-20T22:21:05Z"
+          },
+          {
+            "name": "LLVM-PASS/llvm-obfuscation-playground",
+            "description": "",
+            "language": null,
+            "stars": 0,
+            "pushed_at": "2024-05-08T07:09:46Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:deepseek-ai/deepseek-harness:2026-09-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/deepseek-harness",
+      "target_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "text": "deepseek-ai/deepseek-harness — 圈外 116 人参与（fork×32, star×87）",
+      "at": "2026-09-22T23:29:50+00:00",
+      "external_id": "network:deepseek-ai/deepseek-harness:2026-09-23",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "content": "deepseek-ai/deepseek-harness — 圈外 116 人参与（fork×32, star×87）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-09-22T23:29:50+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/deepseek-harness"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/deepseek-harness",
+          "url": "https://github.com/deepseek-ai/deepseek-harness"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 116,
+        "outer_actors": [
+          "12ATHARAV",
+          "706b",
+          "AbdulRahmantechnol",
+          "Anhmike",
+          "Anthonyhh",
+          "Chenqingya625",
+          "DarthBenro008",
+          "EasonHuang9951",
+          "Fedanco",
+          "Giovanni3101",
+          "Gonzaller2",
+          "GuGuGaGaHub",
+          "Gui71",
+          "HimuL-Phsam",
+          "IQzhan",
+          "JVenice",
+          "Jonze420",
+          "KaiserKauf",
+          "L-k1",
+          "Layne618"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 32,
+          "star": 87
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-09-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-V3",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 5 人参与（issue×3, star×3）",
+      "at": "2026-09-22T23:07:47+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-09-23",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "content": "deepseek-ai/DeepSeek-V3 — 圈外 5 人参与（issue×3, star×3）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-09-22T23:07:47+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-V3"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "Palladiumm",
+          "PashMohandes",
+          "XuZhangxing",
+          "aalquwayfili",
+          "qingkong66"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 3,
+          "star": 3
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepEP:2026-09-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepEP",
+      "target_url": "https://github.com/deepseek-ai/DeepEP",
+      "text": "deepseek-ai/DeepEP — 圈外 4 人参与（fork×1, issue×2, pr×9, star×1）",
+      "at": "2026-09-22T22:39:54+00:00",
+      "external_id": "network:deepseek-ai/DeepEP:2026-09-23",
+      "url": "https://github.com/deepseek-ai/DeepEP",
+      "content": "deepseek-ai/DeepEP — 圈外 4 人参与（fork×1, issue×2, pr×9, star×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-09-22T22:39:54+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepEP"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepEP",
+          "url": "https://github.com/deepseek-ai/DeepEP"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 4,
+        "outer_actors": [
+          "dmvevents",
+          "ds-review-bot",
+          "dvd233",
+          "uuTrunk"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 1,
+          "pr": 9,
+          "issue": 2,
+          "star": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-09-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/sliver",
+      "target_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 2 人参与（star×2）",
+      "at": "2026-09-22T22:28:32+00:00",
+      "external_id": "network:BishopFox/sliver:2026-09-23",
+      "url": "https://github.com/BishopFox/sliver",
+      "content": "BishopFox/sliver — 圈外 2 人参与（star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-09-22T22:28:32+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/sliver"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/sliver",
+          "url": "https://github.com/BishopFox/sliver"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "mrl1979",
+          "vib5meesho"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/awesome-deepseek-integration:2026-09-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/awesome-deepseek-integration",
+      "target_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "text": "deepseek-ai/awesome-deepseek-integration — 圈外 2 人参与（star×2）",
+      "at": "2026-09-22T21:47:03+00:00",
+      "external_id": "network:deepseek-ai/awesome-deepseek-integration:2026-09-23",
+      "url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "content": "deepseek-ai/awesome-deepseek-integration — 圈外 2 人参与（star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-09-22T21:47:03+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/awesome-deepseek-integration"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/awesome-deepseek-integration",
+          "url": "https://github.com/deepseek-ai/awesome-deepseek-integration"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "Jo-bryan",
+          "david-engelmann"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:15537116234",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "xqzme69/A2MBA-LLVM",
+      "target_url": "https://github.com/xqzme69/A2MBA-LLVM",
+      "text": "Cracked5pider starred xqzme69/A2MBA-LLVM",
+      "at": "2026-09-22T20:49:26+00:00",
+      "external_id": "event:15537116234",
+      "url": "https://github.com/xqzme69/A2MBA-LLVM",
+      "content": "Cracked5pider starred xqzme69/A2MBA-LLVM",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-09-22T20:49:26+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/xqzme69/A2MBA-LLVM"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "xqzme69/A2MBA-LLVM",
+          "url": "https://github.com/xqzme69/A2MBA-LLVM"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:15533816246",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "star",
+      "target": "HullaBrian/ttd-capa-cpp",
+      "target_url": "https://github.com/HullaBrian/ttd-capa-cpp",
+      "text": "realoriginal starred HullaBrian/ttd-capa-cpp",
+      "at": "2026-09-22T19:57:12+00:00",
+      "external_id": "event:15533816246",
+      "url": "https://github.com/HullaBrian/ttd-capa-cpp",
+      "content": "realoriginal starred HullaBrian/ttd-capa-cpp",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-09-22T19:57:12+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/HullaBrian/ttd-capa-cpp"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": {
+          "full_name": "HullaBrian/ttd-capa-cpp",
+          "url": "https://github.com/HullaBrian/ttd-capa-cpp"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 2,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-09-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 2 人参与（issue×3, pr×3）",
+      "at": "2026-09-22T19:31:51+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-09-23",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 2 人参与（issue×3, pr×3）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-09-22T19:31:51+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "plafosse",
+          "psifertex"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 3,
+          "pr": 3
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:Vector35/debugger:2026-09-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/debugger",
+      "target_url": "https://github.com/Vector35/debugger",
+      "text": "Vector35/debugger — 圈外 2 人参与（issue×5, pr×10）",
+      "at": "2026-09-22T19:07:34+00:00",
+      "external_id": "network:Vector35/debugger:2026-09-23",
+      "url": "https://github.com/Vector35/debugger",
+      "content": "Vector35/debugger — 圈外 2 人参与（issue×5, pr×10）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-09-22T19:07:34+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/debugger"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/debugger",
+          "url": "https://github.com/Vector35/debugger"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "plafosse",
+          "xusheng6"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 10,
+          "issue": 5
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:15530455837",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/sigmacat",
+      "target_url": "https://github.com/gmh5225/sigmacat",
+      "text": "gmh5225 forked cocomelonc/sigmacat → gmh5225/sigmacat",
+      "at": "2026-09-22T19:04:35+00:00",
+      "external_id": "event:15530455837",
+      "url": "https://github.com/gmh5225/sigmacat",
+      "content": "gmh5225 forked cocomelonc/sigmacat → gmh5225/sigmacat",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-09-22T19:04:35+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/cocomelonc/sigmacat",
+        "https://github.com/gmh5225/sigmacat"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "cocomelonc/sigmacat",
+          "url": "https://github.com/cocomelonc/sigmacat"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/sigmacat",
+          "url": "https://github.com/gmh5225/sigmacat"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:15527973179",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/ttd-capa-cpp",
+      "target_url": "https://github.com/gmh5225/ttd-capa-cpp",
+      "text": "gmh5225 forked HullaBrian/ttd-capa-cpp → gmh5225/ttd-capa-cpp",
+      "at": "2026-09-22T18:26:32+00:00",
+      "external_id": "event:15527973179",
+      "url": "https://github.com/gmh5225/ttd-capa-cpp",
+      "content": "gmh5225 forked HullaBrian/ttd-capa-cpp → gmh5225/ttd-capa-cpp",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-09-22T18:26:32+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/HullaBrian/ttd-capa-cpp",
+        "https://github.com/gmh5225/ttd-capa-cpp"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "HullaBrian/ttd-capa-cpp",
+          "url": "https://github.com/HullaBrian/ttd-capa-cpp"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/ttd-capa-cpp",
+          "url": "https://github.com/gmh5225/ttd-capa-cpp"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 2,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:15527732225",
+      "who": "seventeenman",
+      "who_url": "https://github.com/seventeenman",
+      "action": "star",
+      "target": "mvt-project/mvt",
+      "target_url": "https://github.com/mvt-project/mvt",
+      "text": "seventeenman starred mvt-project/mvt",
+      "at": "2026-09-22T18:22:48+00:00",
+      "external_id": "event:15527732225",
+      "url": "https://github.com/mvt-project/mvt",
+      "content": "seventeenman starred mvt-project/mvt",
+      "author": "seventeenman",
+      "author_name": "seventeenman",
+      "author_url": "https://github.com/seventeenman",
+      "published_at": "2026-09-22T18:22:48+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/seventeenman",
+        "https://github.com/mvt-project/mvt"
+      ],
+      "refs": {
+        "actor": {
+          "login": "seventeenman",
+          "url": "https://github.com/seventeenman"
+        },
+        "repo": {
+          "full_name": "mvt-project/mvt",
+          "url": "https://github.com/mvt-project/mvt"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": true,
+        "trending_front_page": true
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepJIT:2026-09-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepJIT",
+      "target_url": "https://github.com/deepseek-ai/DeepJIT",
+      "text": "deepseek-ai/DeepJIT — 圈外 2 人参与（fork×1, issue×1）",
+      "at": "2026-09-22T18:04:52+00:00",
+      "external_id": "network:deepseek-ai/DeepJIT:2026-09-23",
+      "url": "https://github.com/deepseek-ai/DeepJIT",
+      "content": "deepseek-ai/DeepJIT — 圈外 2 人参与（fork×1, issue×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-09-22T18:04:52+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepJIT"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepJIT",
+          "url": "https://github.com/deepseek-ai/DeepJIT"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "LiRunGuo",
+          "lfr-0531"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 1,
+          "fork": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:15525405695",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "LLVM-PASS/LLVM-Lens",
+      "target_url": "https://github.com/LLVM-PASS/LLVM-Lens",
+      "text": "gmh5225 forked manasghandat/LLVM-Lens → LLVM-PASS/LLVM-Lens",
+      "at": "2026-09-22T17:46:11+00:00",
+      "external_id": "event:15525405695",
+      "url": "https://github.com/LLVM-PASS/LLVM-Lens",
+      "content": "gmh5225 forked manasghandat/LLVM-Lens → LLVM-PASS/LLVM-Lens",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-09-22T17:46:11+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/manasghandat/LLVM-Lens",
+        "https://github.com/LLVM-PASS/LLVM-Lens"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "manasghandat/LLVM-Lens",
+          "url": "https://github.com/manasghandat/LLVM-Lens"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "LLVM-PASS/LLVM-Lens",
+          "url": "https://github.com/LLVM-PASS/LLVM-Lens"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:15524975235",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/llm-typesafe",
+      "target_url": "https://github.com/gmh5225/llm-typesafe",
+      "text": "gmh5225 forked simonw/llm-typesafe → gmh5225/llm-typesafe",
+      "at": "2026-09-22T17:39:15+00:00",
+      "external_id": "event:15524975235",
+      "url": "https://github.com/gmh5225/llm-typesafe",
+      "content": "gmh5225 forked simonw/llm-typesafe → gmh5225/llm-typesafe",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-09-22T17:39:15+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/simonw/llm-typesafe",
+        "https://github.com/gmh5225/llm-typesafe"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "simonw/llm-typesafe",
+          "url": "https://github.com/simonw/llm-typesafe"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/llm-typesafe",
+          "url": "https://github.com/gmh5225/llm-typesafe"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:15522816823",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "star",
+      "target": "daniel5151/gdbstub",
+      "target_url": "https://github.com/daniel5151/gdbstub",
+      "text": "realoriginal starred daniel5151/gdbstub",
+      "at": "2026-09-22T17:05:30+00:00",
+      "external_id": "event:15522816823",
+      "url": "https://github.com/daniel5151/gdbstub",
+      "content": "realoriginal starred daniel5151/gdbstub",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-09-22T17:05:30+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/daniel5151/gdbstub"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": {
+          "full_name": "daniel5151/gdbstub",
+          "url": "https://github.com/daniel5151/gdbstub"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepGEMM:2026-09-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepGEMM",
+      "target_url": "https://github.com/deepseek-ai/DeepGEMM",
+      "text": "deepseek-ai/DeepGEMM — 圈外 2 人参与（issue×6, pr×5）",
+      "at": "2026-09-22T16:49:34+00:00",
+      "external_id": "network:deepseek-ai/DeepGEMM:2026-09-23",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "content": "deepseek-ai/DeepGEMM — 圈外 2 人参与（issue×6, pr×5）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-09-22T16:49:34+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepGEMM"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepGEMM",
+          "url": "https://github.com/deepseek-ai/DeepGEMM"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "LiRunGuo",
+          "ds-review-bot"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 5,
+          "issue": 6
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:15521486805",
+      "who": "FemaleGhost",
+      "who_url": "https://github.com/FemaleGhost",
+      "action": "fork",
+      "target": "FemaleGhost/ttd-capa-cpp",
+      "target_url": "https://github.com/FemaleGhost/ttd-capa-cpp",
+      "text": "FemaleGhost forked HullaBrian/ttd-capa-cpp → FemaleGhost/ttd-capa-cpp",
+      "at": "2026-09-22T16:44:41+00:00",
+      "external_id": "event:15521486805",
+      "url": "https://github.com/FemaleGhost/ttd-capa-cpp",
+      "content": "FemaleGhost forked HullaBrian/ttd-capa-cpp → FemaleGhost/ttd-capa-cpp",
+      "author": "FemaleGhost",
+      "author_name": "FemaleGhost",
+      "author_url": "https://github.com/FemaleGhost",
+      "published_at": "2026-09-22T16:44:41+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/FemaleGhost",
+        "https://github.com/HullaBrian/ttd-capa-cpp",
+        "https://github.com/FemaleGhost/ttd-capa-cpp"
+      ],
+      "refs": {
+        "actor": {
+          "login": "FemaleGhost",
+          "url": "https://github.com/FemaleGhost"
+        },
+        "repo": {
+          "full_name": "HullaBrian/ttd-capa-cpp",
+          "url": "https://github.com/HullaBrian/ttd-capa-cpp"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "FemaleGhost/ttd-capa-cpp",
+          "url": "https://github.com/FemaleGhost/ttd-capa-cpp"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 2,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:15519976801",
+      "who": "Innei",
+      "who_url": "https://github.com/Innei",
+      "action": "star",
+      "target": "rit3zh/expo-backdrop",
+      "target_url": "https://github.com/rit3zh/expo-backdrop",
+      "text": "Innei starred rit3zh/expo-backdrop",
+      "at": "2026-09-22T16:21:20+00:00",
+      "external_id": "event:15519976801",
+      "url": "https://github.com/rit3zh/expo-backdrop",
+      "content": "Innei starred rit3zh/expo-backdrop",
+      "author": "Innei",
+      "author_name": "Innei",
+      "author_url": "https://github.com/Innei",
+      "published_at": "2026-09-22T16:21:20+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Innei",
+        "https://github.com/rit3zh/expo-backdrop"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Innei",
+          "url": "https://github.com/Innei"
+        },
+        "repo": {
+          "full_name": "rit3zh/expo-backdrop",
+          "url": "https://github.com/rit3zh/expo-backdrop"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:15519706999",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "HullaBrian/ttd-capa-cpp",
+      "target_url": "https://github.com/HullaBrian/ttd-capa-cpp",
+      "text": "Cracked5pider starred HullaBrian/ttd-capa-cpp",
+      "at": "2026-09-22T16:17:16+00:00",
+      "external_id": "event:15519706999",
+      "url": "https://github.com/HullaBrian/ttd-capa-cpp",
+      "content": "Cracked5pider starred HullaBrian/ttd-capa-cpp",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-09-22T16:17:16+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/HullaBrian/ttd-capa-cpp"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "HullaBrian/ttd-capa-cpp",
+          "url": "https://github.com/HullaBrian/ttd-capa-cpp"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 2,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:15519453657",
+      "who": "0xflux",
+      "who_url": "https://github.com/0xflux",
+      "action": "star",
+      "target": "elastic/elastic-package",
+      "target_url": "https://github.com/elastic/elastic-package",
+      "text": "0xflux starred elastic/elastic-package",
+      "at": "2026-09-22T16:13:35+00:00",
+      "external_id": "event:15519453657",
+      "url": "https://github.com/elastic/elastic-package",
+      "content": "0xflux starred elastic/elastic-package",
+      "author": "0xflux",
+      "author_name": "0xflux",
+      "author_url": "https://github.com/0xflux",
+      "published_at": "2026-09-22T16:13:35+00:00",
+      "collected_at": "2026-09-22T23:33:22.711300+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xflux",
+        "https://github.com/elastic/elastic-package"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0xflux",
+          "url": "https://github.com/0xflux"
+        },
+        "repo": {
+          "full_name": "elastic/elastic-package",
+          "url": "https://github.com/elastic/elastic-package"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

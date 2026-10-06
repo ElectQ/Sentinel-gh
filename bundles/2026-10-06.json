@@ -1,0 +1,939 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-10-06",
+  "collect_window": {
+    "start": "2026-10-05T18:30:27+00:00",
+    "end": "2026-10-06T01:42:28+00:00",
+    "hours": 7
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "37400430634",
+    "commit": "d1c5814"
+  },
+  "stats": {
+    "total": 14,
+    "by_kind": {
+      "follow": 1,
+      "network_hot": 4,
+      "star": 8,
+      "release": 1
+    },
+    "failed_lists": [],
+    "followee_count": 175,
+    "push_events_excluded": 115
+  },
+  "items": [
+    {
+      "id": "follow:Mx-Iris:khanhduytran0:2026-10-06:followed",
+      "who": "Mx-Iris",
+      "who_url": "https://github.com/Mx-Iris",
+      "action": "follow",
+      "target": "khanhduytran0",
+      "target_url": "https://github.com/khanhduytran0",
+      "text": "Mx-Iris followed khanhduytran0",
+      "at": "2026-10-06T01:42:28+00:00",
+      "external_id": "follow:Mx-Iris:khanhduytran0:2026-10-06:followed",
+      "url": "https://github.com/khanhduytran0",
+      "content": "Mx-Iris followed khanhduytran0",
+      "author": "Mx-Iris",
+      "author_name": "Mx-Iris",
+      "author_url": "https://github.com/Mx-Iris",
+      "published_at": "2026-10-06T01:42:28+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Mx-Iris",
+        "https://github.com/khanhduytran0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Mx-Iris",
+          "url": "https://github.com/Mx-Iris"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "khanhduytran0",
+          "url": "https://github.com/khanhduytran0"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "khanhduytran0",
+        "name": "Duy Tran",
+        "bio": "Android/iOS app developer\r\n\r\n@AngelAuraMC\r\n@LiveContainer",
+        "followers": 2256,
+        "public_repos": 67,
+        "html_url": "https://github.com/khanhduytran0",
+        "languages": [
+          "C",
+          "Java",
+          "Objective-C",
+          "Logos",
+          "JavaScript"
+        ],
+        "top_repos": [
+          {
+            "name": "khanhduytran0/coruna",
+            "description": "The leaked exploit toolkit for various iOS versions",
+            "language": "JavaScript",
+            "stars": 704,
+            "pushed_at": "2026-06-18T09:08:00Z"
+          },
+          {
+            "name": "khanhduytran0/SparseBox",
+            "description": "On-device toolbox?",
+            "language": "C",
+            "stars": 610,
+            "pushed_at": "2026-07-13T05:48:10Z"
+          },
+          {
+            "name": "khanhduytran0/MacWSBootingGuide",
+            "description": "Booting macOS's WindowServer on your jailbroken iDevice for real",
+            "language": "Objective-C",
+            "stars": 483,
+            "pushed_at": "2026-01-11T01:21:16Z"
+          },
+          {
+            "name": "khanhduytran0/TrollPad",
+            "description": "Troll SpringBoard into thinking it's running on iPadOS",
+            "language": "Logos",
+            "stars": 265,
+            "pushed_at": "2026-02-15T11:01:12Z"
+          },
+          {
+            "name": "khanhduytran0/FrontBoardAppLauncher",
+            "description": "Reference usage of FrontBoard & UIKit private API to display external app scene",
+            "language": "Objective-C",
+            "stars": 188,
+            "pushed_at": "2025-07-12T10:01:28Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:deepseek-ai/deepseek-harness:2026-10-06",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/deepseek-harness",
+      "target_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "text": "deepseek-ai/deepseek-harness — 圈外 80 人参与（fork×13, star×68）",
+      "at": "2026-10-06T01:41:14+00:00",
+      "external_id": "network:deepseek-ai/deepseek-harness:2026-10-06",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "content": "deepseek-ai/deepseek-harness — 圈外 80 人参与（fork×13, star×68）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-06T01:41:14+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/deepseek-harness"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/deepseek-harness",
+          "url": "https://github.com/deepseek-ai/deepseek-harness"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 80,
+        "outer_actors": [
+          "0xalizk",
+          "0xbwill",
+          "2026216257az-beep",
+          "632359823yan-hue",
+          "787878-Coder",
+          "Aliorpse",
+          "Archie1027",
+          "BeingAl",
+          "BocCh1i1",
+          "Dr-Wily-Zwei",
+          "El3azmy",
+          "HESHEN-NET",
+          "HM-Y",
+          "Hinna02",
+          "KIssShot-Shinobu",
+          "LobinhoHaux",
+          "Lord-Lexus",
+          "MistanKh",
+          "MouatezMo",
+          "NianwYue"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 13,
+          "star": 68
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepGEMM:2026-10-06",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepGEMM",
+      "target_url": "https://github.com/deepseek-ai/DeepGEMM",
+      "text": "deepseek-ai/DeepGEMM — 圈外 35 人参与（fork×14, star×22）",
+      "at": "2026-10-06T01:35:24+00:00",
+      "external_id": "network:deepseek-ai/DeepGEMM:2026-10-06",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "content": "deepseek-ai/DeepGEMM — 圈外 35 人参与（fork×14, star×22）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-06T01:35:24+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepGEMM"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepGEMM",
+          "url": "https://github.com/deepseek-ai/DeepGEMM"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 35,
+        "outer_actors": [
+          "L4Ph",
+          "Memphis1983",
+          "Morbidprince90-droid",
+          "OOPForge",
+          "PVLPM",
+          "PavanDurgaSaiGupta",
+          "Qyrhal",
+          "Soywaz",
+          "TechnoDaimon",
+          "Themis128",
+          "aavendano",
+          "absrasel-cell",
+          "adegirmenci",
+          "ananjaemin",
+          "armstrongj2001",
+          "atiftariq1",
+          "baldimario",
+          "botmanan",
+          "canyangdixue",
+          "darkflare"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 14,
+          "star": 22
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-10-06",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-V3",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 5 人参与（fork×1, issue×13, star×1）",
+      "at": "2026-10-06T01:22:11+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-10-06",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "content": "deepseek-ai/DeepSeek-V3 — 圈外 5 人参与（fork×1, issue×13, star×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-06T01:22:11+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-V3"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "johnnynelson-lab",
+          "nikitaivan0074-oss",
+          "qingkong66",
+          "woodsDevs",
+          "zarababiak-tech"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 13,
+          "star": 1,
+          "fork": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:16495014479",
+      "who": "zero2504",
+      "who_url": "https://github.com/zero2504",
+      "action": "star",
+      "target": "S12cybersecurity/FrankensteinAPCInjection",
+      "target_url": "https://github.com/S12cybersecurity/FrankensteinAPCInjection",
+      "text": "zero2504 starred S12cybersecurity/FrankensteinAPCInjection",
+      "at": "2026-10-05T22:43:31+00:00",
+      "external_id": "event:16495014479",
+      "url": "https://github.com/S12cybersecurity/FrankensteinAPCInjection",
+      "content": "zero2504 starred S12cybersecurity/FrankensteinAPCInjection",
+      "author": "zero2504",
+      "author_name": "zero2504",
+      "author_url": "https://github.com/zero2504",
+      "published_at": "2026-10-05T22:43:31+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/zero2504",
+        "https://github.com/S12cybersecurity/FrankensteinAPCInjection"
+      ],
+      "refs": {
+        "actor": {
+          "login": "zero2504",
+          "url": "https://github.com/zero2504"
+        },
+        "repo": {
+          "full_name": "S12cybersecurity/FrankensteinAPCInjection",
+          "url": "https://github.com/S12cybersecurity/FrankensteinAPCInjection"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16494993763",
+      "who": "zero2504",
+      "who_url": "https://github.com/zero2504",
+      "action": "star",
+      "target": "S12cybersecurity/RDPCredentialStealer",
+      "target_url": "https://github.com/S12cybersecurity/RDPCredentialStealer",
+      "text": "zero2504 starred S12cybersecurity/RDPCredentialStealer",
+      "at": "2026-10-05T22:43:11+00:00",
+      "external_id": "event:16494993763",
+      "url": "https://github.com/S12cybersecurity/RDPCredentialStealer",
+      "content": "zero2504 starred S12cybersecurity/RDPCredentialStealer",
+      "author": "zero2504",
+      "author_name": "zero2504",
+      "author_url": "https://github.com/zero2504",
+      "published_at": "2026-10-05T22:43:11+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/zero2504",
+        "https://github.com/S12cybersecurity/RDPCredentialStealer"
+      ],
+      "refs": {
+        "actor": {
+          "login": "zero2504",
+          "url": "https://github.com/zero2504"
+        },
+        "repo": {
+          "full_name": "S12cybersecurity/RDPCredentialStealer",
+          "url": "https://github.com/S12cybersecurity/RDPCredentialStealer"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16494964145",
+      "who": "zero2504",
+      "who_url": "https://github.com/zero2504",
+      "action": "star",
+      "target": "S12cybersecurity/S12URootkit",
+      "target_url": "https://github.com/S12cybersecurity/S12URootkit",
+      "text": "zero2504 starred S12cybersecurity/S12URootkit",
+      "at": "2026-10-05T22:42:38+00:00",
+      "external_id": "event:16494964145",
+      "url": "https://github.com/S12cybersecurity/S12URootkit",
+      "content": "zero2504 starred S12cybersecurity/S12URootkit",
+      "author": "zero2504",
+      "author_name": "zero2504",
+      "author_url": "https://github.com/zero2504",
+      "published_at": "2026-10-05T22:42:38+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/zero2504",
+        "https://github.com/S12cybersecurity/S12URootkit"
+      ],
+      "refs": {
+        "actor": {
+          "login": "zero2504",
+          "url": "https://github.com/zero2504"
+        },
+        "repo": {
+          "full_name": "S12cybersecurity/S12URootkit",
+          "url": "https://github.com/S12cybersecurity/S12URootkit"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16494950548",
+      "who": "zero2504",
+      "who_url": "https://github.com/zero2504",
+      "action": "star",
+      "target": "S12cybersecurity/UPrimitives",
+      "target_url": "https://github.com/S12cybersecurity/UPrimitives",
+      "text": "zero2504 starred S12cybersecurity/UPrimitives",
+      "at": "2026-10-05T22:42:22+00:00",
+      "external_id": "event:16494950548",
+      "url": "https://github.com/S12cybersecurity/UPrimitives",
+      "content": "zero2504 starred S12cybersecurity/UPrimitives",
+      "author": "zero2504",
+      "author_name": "zero2504",
+      "author_url": "https://github.com/zero2504",
+      "published_at": "2026-10-05T22:42:22+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/zero2504",
+        "https://github.com/S12cybersecurity/UPrimitives"
+      ],
+      "refs": {
+        "actor": {
+          "login": "zero2504",
+          "url": "https://github.com/zero2504"
+        },
+        "repo": {
+          "full_name": "S12cybersecurity/UPrimitives",
+          "url": "https://github.com/S12cybersecurity/UPrimitives"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16492968092",
+      "who": "zero2504",
+      "who_url": "https://github.com/zero2504",
+      "action": "star",
+      "target": "msuhanov/regf",
+      "target_url": "https://github.com/msuhanov/regf",
+      "text": "zero2504 starred msuhanov/regf",
+      "at": "2026-10-05T22:07:52+00:00",
+      "external_id": "event:16492968092",
+      "url": "https://github.com/msuhanov/regf",
+      "content": "zero2504 starred msuhanov/regf",
+      "author": "zero2504",
+      "author_name": "zero2504",
+      "author_url": "https://github.com/zero2504",
+      "published_at": "2026-10-05T22:07:52+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/zero2504",
+        "https://github.com/msuhanov/regf"
+      ],
+      "refs": {
+        "actor": {
+          "login": "zero2504",
+          "url": "https://github.com/zero2504"
+        },
+        "repo": {
+          "full_name": "msuhanov/regf",
+          "url": "https://github.com/msuhanov/regf"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-10-06",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 6 人参与（issue×4, pr×10）",
+      "at": "2026-10-05T22:05:32+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-10-06",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 6 人参与（issue×4, pr×10）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-05T22:05:32+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 6,
+        "outer_actors": [
+          "D0ntPanic",
+          "bdash",
+          "bpotchik",
+          "saagarjha",
+          "xusheng6",
+          "zznop"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 4,
+          "pr": 10
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:16491960440",
+      "who": "ryan-weil",
+      "who_url": "https://github.com/ryan-weil",
+      "action": "star",
+      "target": "kirklandsig/halo2-decompiled",
+      "target_url": "https://github.com/kirklandsig/halo2-decompiled",
+      "text": "ryan-weil starred kirklandsig/halo2-decompiled",
+      "at": "2026-10-05T21:51:10+00:00",
+      "external_id": "event:16491960440",
+      "url": "https://github.com/kirklandsig/halo2-decompiled",
+      "content": "ryan-weil starred kirklandsig/halo2-decompiled",
+      "author": "ryan-weil",
+      "author_name": "ryan-weil",
+      "author_url": "https://github.com/ryan-weil",
+      "published_at": "2026-10-05T21:51:10+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ryan-weil",
+        "https://github.com/kirklandsig/halo2-decompiled"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ryan-weil",
+          "url": "https://github.com/ryan-weil"
+        },
+        "repo": {
+          "full_name": "kirklandsig/halo2-decompiled",
+          "url": "https://github.com/kirklandsig/halo2-decompiled"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16490625665",
+      "who": "xaitax",
+      "who_url": "https://github.com/xaitax",
+      "action": "release",
+      "target": "xaitax/x-account-location-device",
+      "target_url": "https://github.com/xaitax/x-account-location-device",
+      "text": "xaitax released xaitax/x-account-location-device v4.2.0",
+      "at": "2026-10-05T21:30:21+00:00",
+      "external_id": "event:16490625665",
+      "url": "https://github.com/xaitax/x-account-location-device/releases/tag/v4.2.0",
+      "content": "xaitax released xaitax/x-account-location-device v4.2.0",
+      "author": "xaitax",
+      "author_name": "xaitax",
+      "author_url": "https://github.com/xaitax",
+      "published_at": "2026-10-05T21:30:21+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/xaitax",
+        "https://github.com/xaitax/x-account-location-device",
+        "https://github.com/xaitax/x-account-location-device/releases/tag/v4.2.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "xaitax",
+          "url": "https://github.com/xaitax"
+        },
+        "repo": {
+          "full_name": "xaitax/x-account-location-device",
+          "url": "https://github.com/xaitax/x-account-location-device"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16490444933",
+      "who": "Brandon7CC",
+      "who_url": "https://github.com/Brandon7CC",
+      "action": "star",
+      "target": "blacktop/ipsw-diffs",
+      "target_url": "https://github.com/blacktop/ipsw-diffs",
+      "text": "Brandon7CC starred blacktop/ipsw-diffs",
+      "at": "2026-10-05T21:27:32+00:00",
+      "external_id": "event:16490444933",
+      "url": "https://github.com/blacktop/ipsw-diffs",
+      "content": "Brandon7CC starred blacktop/ipsw-diffs",
+      "author": "Brandon7CC",
+      "author_name": "Brandon7CC",
+      "author_url": "https://github.com/Brandon7CC",
+      "published_at": "2026-10-05T21:27:32+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Brandon7CC",
+        "https://github.com/blacktop/ipsw-diffs"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Brandon7CC",
+          "url": "https://github.com/Brandon7CC"
+        },
+        "repo": {
+          "full_name": "blacktop/ipsw-diffs",
+          "url": "https://github.com/blacktop/ipsw-diffs"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16478950372",
+      "who": "huoji120",
+      "who_url": "https://github.com/huoji120",
+      "action": "star",
+      "target": "ortegaalfredo/ngram-knowledge-injector",
+      "target_url": "https://github.com/ortegaalfredo/ngram-knowledge-injector",
+      "text": "huoji120 starred ortegaalfredo/ngram-knowledge-injector",
+      "at": "2026-10-05T18:30:27+00:00",
+      "external_id": "event:16478950372",
+      "url": "https://github.com/ortegaalfredo/ngram-knowledge-injector",
+      "content": "huoji120 starred ortegaalfredo/ngram-knowledge-injector",
+      "author": "huoji120",
+      "author_name": "huoji120",
+      "author_url": "https://github.com/huoji120",
+      "published_at": "2026-10-05T18:30:27+00:00",
+      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/huoji120",
+        "https://github.com/ortegaalfredo/ngram-knowledge-injector"
+      ],
+      "refs": {
+        "actor": {
+          "login": "huoji120",
+          "url": "https://github.com/huoji120"
+        },
+        "repo": {
+          "full_name": "ortegaalfredo/ngram-knowledge-injector",
+          "url": "https://github.com/ortegaalfredo/ngram-knowledge-injector"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

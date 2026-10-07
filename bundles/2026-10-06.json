@@ -4,28 +4,707 @@
   "collect_date": "2026-10-06",
   "collect_window": {
     "start": "2026-10-05T18:30:27+00:00",
-    "end": "2026-10-06T01:42:28+00:00",
-    "hours": 7
+    "end": "2026-10-06T15:52:05+00:00",
+    "hours": 21
   },
   "producer": {
     "name": "sentinel-gh",
     "version": "0.1.0",
-    "run_id": "37400430634",
-    "commit": "d1c5814"
+    "run_id": "37552207271",
+    "commit": "cbb93f0"
   },
   "stats": {
-    "total": 14,
+    "total": 25,
     "by_kind": {
-      "follow": 1,
       "network_hot": 4,
-      "star": 8,
-      "release": 1
+      "release": 4,
+      "star": 14,
+      "fork": 2,
+      "follow": 1
     },
     "failed_lists": [],
     "followee_count": 175,
-    "push_events_excluded": 115
+    "push_events_excluded": 274
   },
   "items": [
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-10-06",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-V3",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 6 人参与（fork×1, issue×16, star×1）",
+      "at": "2026-10-06T15:52:05+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-10-06",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "content": "deepseek-ai/DeepSeek-V3 — 圈外 6 人参与（fork×1, issue×16, star×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-06T15:52:05+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-V3"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 6,
+        "outer_actors": [
+          "XuZhangxing",
+          "johnnynelson-lab",
+          "nikitaivan0074-oss",
+          "qingkong66",
+          "woodsDevs",
+          "zarababiak-tech"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 16,
+          "star": 1,
+          "fork": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:16554156688",
+      "who": "Lakr233",
+      "who_url": "https://github.com/Lakr233",
+      "action": "release",
+      "target": "Lakr233/Litext",
+      "target_url": "https://github.com/Lakr233/Litext",
+      "text": "Lakr233 released Lakr233/Litext 3.6.2",
+      "at": "2026-10-06T15:11:31+00:00",
+      "external_id": "event:16554156688",
+      "url": "https://github.com/Lakr233/Litext/releases/tag/3.6.2",
+      "content": "Lakr233 released Lakr233/Litext 3.6.2",
+      "author": "Lakr233",
+      "author_name": "Lakr233",
+      "author_url": "https://github.com/Lakr233",
+      "published_at": "2026-10-06T15:11:31+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Lakr233",
+        "https://github.com/Lakr233/Litext",
+        "https://github.com/Lakr233/Litext/releases/tag/3.6.2"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Lakr233",
+          "url": "https://github.com/Lakr233"
+        },
+        "repo": {
+          "full_name": "Lakr233/Litext",
+          "url": "https://github.com/Lakr233/Litext"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16549695388",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "Cobalt-Strike/s3-udc2",
+      "target_url": "https://github.com/Cobalt-Strike/s3-udc2",
+      "text": "Cracked5pider starred Cobalt-Strike/s3-udc2",
+      "at": "2026-10-06T14:23:54+00:00",
+      "external_id": "event:16549695388",
+      "url": "https://github.com/Cobalt-Strike/s3-udc2",
+      "content": "Cracked5pider starred Cobalt-Strike/s3-udc2",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-10-06T14:23:54+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/Cobalt-Strike/s3-udc2"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "Cobalt-Strike/s3-udc2",
+          "url": "https://github.com/Cobalt-Strike/s3-udc2"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16544998572",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "SlidyBat/outliner",
+      "target_url": "https://github.com/SlidyBat/outliner",
+      "text": "Cracked5pider starred SlidyBat/outliner",
+      "at": "2026-10-06T13:33:39+00:00",
+      "external_id": "event:16544998572",
+      "url": "https://github.com/SlidyBat/outliner",
+      "content": "Cracked5pider starred SlidyBat/outliner",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-10-06T13:33:39+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/SlidyBat/outliner"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "SlidyBat/outliner",
+          "url": "https://github.com/SlidyBat/outliner"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16539943327",
+      "who": "ScriptIdiot",
+      "who_url": "https://github.com/ScriptIdiot",
+      "action": "star",
+      "target": "elder-plinius/T3MP3ST",
+      "target_url": "https://github.com/elder-plinius/T3MP3ST",
+      "text": "ScriptIdiot starred elder-plinius/T3MP3ST",
+      "at": "2026-10-06T12:37:52+00:00",
+      "external_id": "event:16539943327",
+      "url": "https://github.com/elder-plinius/T3MP3ST",
+      "content": "ScriptIdiot starred elder-plinius/T3MP3ST",
+      "author": "ScriptIdiot",
+      "author_name": "ScriptIdiot",
+      "author_url": "https://github.com/ScriptIdiot",
+      "published_at": "2026-10-06T12:37:52+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ScriptIdiot",
+        "https://github.com/elder-plinius/T3MP3ST"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ScriptIdiot",
+          "url": "https://github.com/ScriptIdiot"
+        },
+        "repo": {
+          "full_name": "elder-plinius/T3MP3ST",
+          "url": "https://github.com/elder-plinius/T3MP3ST"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16539930028",
+      "who": "ScriptIdiot",
+      "who_url": "https://github.com/ScriptIdiot",
+      "action": "star",
+      "target": "g0h4n/RustHound-CE",
+      "target_url": "https://github.com/g0h4n/RustHound-CE",
+      "text": "ScriptIdiot starred g0h4n/RustHound-CE",
+      "at": "2026-10-06T12:37:44+00:00",
+      "external_id": "event:16539930028",
+      "url": "https://github.com/g0h4n/RustHound-CE",
+      "content": "ScriptIdiot starred g0h4n/RustHound-CE",
+      "author": "ScriptIdiot",
+      "author_name": "ScriptIdiot",
+      "author_url": "https://github.com/ScriptIdiot",
+      "published_at": "2026-10-06T12:37:44+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ScriptIdiot",
+        "https://github.com/g0h4n/RustHound-CE"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ScriptIdiot",
+          "url": "https://github.com/ScriptIdiot"
+        },
+        "repo": {
+          "full_name": "g0h4n/RustHound-CE",
+          "url": "https://github.com/g0h4n/RustHound-CE"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16538655980",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "storytold/photocraft",
+      "target_url": "https://github.com/storytold/photocraft",
+      "text": "Cracked5pider starred storytold/photocraft",
+      "at": "2026-10-06T12:23:37+00:00",
+      "external_id": "event:16538655980",
+      "url": "https://github.com/storytold/photocraft",
+      "content": "Cracked5pider starred storytold/photocraft",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-10-06T12:23:37+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/storytold/photocraft"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "storytold/photocraft",
+          "url": "https://github.com/storytold/photocraft"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16528088593",
+      "who": "phith0n",
+      "who_url": "https://github.com/phith0n",
+      "action": "star",
+      "target": "phith0n/GitRefDiff",
+      "target_url": "https://github.com/phith0n/GitRefDiff",
+      "text": "phith0n starred phith0n/GitRefDiff",
+      "at": "2026-10-06T09:59:41+00:00",
+      "external_id": "event:16528088593",
+      "url": "https://github.com/phith0n/GitRefDiff",
+      "content": "phith0n starred phith0n/GitRefDiff",
+      "author": "phith0n",
+      "author_name": "phith0n",
+      "author_url": "https://github.com/phith0n",
+      "published_at": "2026-10-06T09:59:41+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/phith0n",
+        "https://github.com/phith0n/GitRefDiff"
+      ],
+      "refs": {
+        "actor": {
+          "login": "phith0n",
+          "url": "https://github.com/phith0n"
+        },
+        "repo": {
+          "full_name": "phith0n/GitRefDiff",
+          "url": "https://github.com/phith0n/GitRefDiff"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16527704534",
+      "who": "phith0n",
+      "who_url": "https://github.com/phith0n",
+      "action": "fork",
+      "target": "phith0n/GitRefDiff",
+      "target_url": "https://github.com/phith0n/GitRefDiff",
+      "text": "phith0n forked 0qinghao/GitRefDiff → phith0n/GitRefDiff",
+      "at": "2026-10-06T09:52:28+00:00",
+      "external_id": "event:16527704534",
+      "url": "https://github.com/phith0n/GitRefDiff",
+      "content": "phith0n forked 0qinghao/GitRefDiff → phith0n/GitRefDiff",
+      "author": "phith0n",
+      "author_name": "phith0n",
+      "author_url": "https://github.com/phith0n",
+      "published_at": "2026-10-06T09:52:28+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/phith0n",
+        "https://github.com/0qinghao/GitRefDiff",
+        "https://github.com/phith0n/GitRefDiff"
+      ],
+      "refs": {
+        "actor": {
+          "login": "phith0n",
+          "url": "https://github.com/phith0n"
+        },
+        "repo": {
+          "full_name": "0qinghao/GitRefDiff",
+          "url": "https://github.com/0qinghao/GitRefDiff"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "phith0n/GitRefDiff",
+          "url": "https://github.com/phith0n/GitRefDiff"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16517135940",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/kakehashi",
+      "target_url": "https://github.com/gmh5225/kakehashi",
+      "text": "gmh5225 forked wie-project/kakehashi → gmh5225/kakehashi",
+      "at": "2026-10-06T06:32:15+00:00",
+      "external_id": "event:16517135940",
+      "url": "https://github.com/gmh5225/kakehashi",
+      "content": "gmh5225 forked wie-project/kakehashi → gmh5225/kakehashi",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-10-06T06:32:15+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/wie-project/kakehashi",
+        "https://github.com/gmh5225/kakehashi"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "wie-project/kakehashi",
+          "url": "https://github.com/wie-project/kakehashi"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/kakehashi",
+          "url": "https://github.com/gmh5225/kakehashi"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16513680660",
+      "who": "Mx-Iris",
+      "who_url": "https://github.com/Mx-Iris",
+      "action": "release",
+      "target": "AppKitSupportProgram/AppKitPlus-Release",
+      "target_url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release",
+      "text": "Mx-Iris released AppKitSupportProgram/AppKitPlus-Release 0.7.0",
+      "at": "2026-10-06T05:22:02+00:00",
+      "external_id": "event:16513680660",
+      "url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release/releases/tag/0.7.0",
+      "content": "Mx-Iris released AppKitSupportProgram/AppKitPlus-Release 0.7.0",
+      "author": "Mx-Iris",
+      "author_name": "Mx-Iris",
+      "author_url": "https://github.com/Mx-Iris",
+      "published_at": "2026-10-06T05:22:02+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Mx-Iris",
+        "https://github.com/AppKitSupportProgram/AppKitPlus-Release",
+        "https://github.com/AppKitSupportProgram/AppKitPlus-Release/releases/tag/0.7.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Mx-Iris",
+          "url": "https://github.com/Mx-Iris"
+        },
+        "repo": {
+          "full_name": "AppKitSupportProgram/AppKitPlus-Release",
+          "url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:16509784849",
+      "who": "Lakr233",
+      "who_url": "https://github.com/Lakr233",
+      "action": "release",
+      "target": "Lakr233/vphone-cli",
+      "target_url": "https://github.com/Lakr233/vphone-cli",
+      "text": "Lakr233 released Lakr233/vphone-cli 2.6.1",
+      "at": "2026-10-06T03:54:29+00:00",
+      "external_id": "event:16509784849",
+      "url": "https://github.com/Lakr233/vphone-cli/releases/tag/2.6.1",
+      "content": "Lakr233 released Lakr233/vphone-cli 2.6.1",
+      "author": "Lakr233",
+      "author_name": "Lakr233",
+      "author_url": "https://github.com/Lakr233",
+      "published_at": "2026-10-06T03:54:29+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Lakr233",
+        "https://github.com/Lakr233/vphone-cli",
+        "https://github.com/Lakr233/vphone-cli/releases/tag/2.6.1"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Lakr233",
+          "url": "https://github.com/Lakr233"
+        },
+        "repo": {
+          "full_name": "Lakr233/vphone-cli",
+          "url": "https://github.com/Lakr233/vphone-cli"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
     {
       "id": "follow:Mx-Iris:khanhduytran0:2026-10-06:followed",
       "who": "Mx-Iris",
@@ -42,7 +721,7 @@
       "author_name": "Mx-Iris",
       "author_url": "https://github.com/Mx-Iris",
       "published_at": "2026-10-06T01:42:28+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:follow"
       ],
@@ -83,7 +762,7 @@
         "login": "khanhduytran0",
         "name": "Duy Tran",
         "bio": "Android/iOS app developer\r\n\r\n@AngelAuraMC\r\n@LiveContainer",
-        "followers": 2256,
+        "followers": 2258,
         "public_repos": 67,
         "html_url": "https://github.com/khanhduytran0",
         "languages": [
@@ -105,14 +784,14 @@
             "name": "khanhduytran0/SparseBox",
             "description": "On-device toolbox?",
             "language": "C",
-            "stars": 610,
+            "stars": 611,
             "pushed_at": "2026-07-13T05:48:10Z"
           },
           {
             "name": "khanhduytran0/MacWSBootingGuide",
             "description": "Booting macOS's WindowServer on your jailbroken iDevice for real",
             "language": "Objective-C",
-            "stars": 483,
+            "stars": 484,
             "pushed_at": "2026-01-11T01:21:16Z"
           },
           {
@@ -148,7 +827,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-10-06T01:41:14+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -234,7 +913,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-10-06T01:35:24+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -305,78 +984,6 @@
       }
     },
     {
-      "id": "network:deepseek-ai/DeepSeek-V3:2026-10-06",
-      "who": "",
-      "who_url": "",
-      "action": "network_hot",
-      "target": "deepseek-ai/DeepSeek-V3",
-      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "text": "deepseek-ai/DeepSeek-V3 — 圈外 5 人参与（fork×1, issue×13, star×1）",
-      "at": "2026-10-06T01:22:11+00:00",
-      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-10-06",
-      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "content": "deepseek-ai/DeepSeek-V3 — 圈外 5 人参与（fork×1, issue×13, star×1）",
-      "author": "",
-      "author_name": "",
-      "author_url": "",
-      "published_at": "2026-10-06T01:22:11+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
-      "tags": [
-        "kind:network_hot"
-      ],
-      "hashtags": [],
-      "links": [
-        "https://github.com/deepseek-ai/DeepSeek-V3"
-      ],
-      "refs": {
-        "actor": null,
-        "repo": {
-          "full_name": "deepseek-ai/DeepSeek-V3",
-          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
-        },
-        "target_user": null,
-        "forkee": null
-      },
-      "media": {
-        "photos": [],
-        "videos": []
-      },
-      "metrics": {
-        "circle_count": null,
-        "trending": false,
-        "trending_front_page": false
-      },
-      "flags": {
-        "kind": "network_hot",
-        "time_precision": "exact",
-        "is_follow": false,
-        "is_repo_event": false,
-        "is_aggregate": true
-      },
-      "network": {
-        "outer_count": 5,
-        "outer_actors": [
-          "johnnynelson-lab",
-          "nikitaivan0074-oss",
-          "qingkong66",
-          "woodsDevs",
-          "zarababiak-tech"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "issue": 13,
-          "star": 1,
-          "fork": 1
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
       "id": "event:16495014479",
       "who": "zero2504",
       "who_url": "https://github.com/zero2504",
@@ -392,7 +999,7 @@
       "author_name": "zero2504",
       "author_url": "https://github.com/zero2504",
       "published_at": "2026-10-05T22:43:31+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:star"
       ],
@@ -446,7 +1053,7 @@
       "author_name": "zero2504",
       "author_url": "https://github.com/zero2504",
       "published_at": "2026-10-05T22:43:11+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:star"
       ],
@@ -500,7 +1107,7 @@
       "author_name": "zero2504",
       "author_url": "https://github.com/zero2504",
       "published_at": "2026-10-05T22:42:38+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:star"
       ],
@@ -554,7 +1161,7 @@
       "author_name": "zero2504",
       "author_url": "https://github.com/zero2504",
       "published_at": "2026-10-05T22:42:22+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:star"
       ],
@@ -608,7 +1215,7 @@
       "author_name": "zero2504",
       "author_url": "https://github.com/zero2504",
       "published_at": "2026-10-05T22:07:52+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:star"
       ],
@@ -662,7 +1269,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-10-05T22:05:32+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -734,7 +1341,7 @@
       "author_name": "ryan-weil",
       "author_url": "https://github.com/ryan-weil",
       "published_at": "2026-10-05T21:51:10+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:star"
       ],
@@ -788,7 +1395,7 @@
       "author_name": "xaitax",
       "author_url": "https://github.com/xaitax",
       "published_at": "2026-10-05T21:30:21+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:release"
       ],
@@ -843,7 +1450,7 @@
       "author_name": "Brandon7CC",
       "author_url": "https://github.com/Brandon7CC",
       "published_at": "2026-10-05T21:27:32+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:star"
       ],
@@ -897,7 +1504,7 @@
       "author_name": "huoji120",
       "author_url": "https://github.com/huoji120",
       "published_at": "2026-10-05T18:30:27+00:00",
-      "collected_at": "2026-10-06T01:43:07.370344+00:00",
+      "collected_at": "2026-10-07T00:31:02.174607+00:00",
       "tags": [
         "kind:star"
       ],

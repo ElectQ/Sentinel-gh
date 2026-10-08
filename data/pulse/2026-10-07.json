@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "date": "2026-10-07",
-  "generated_at": "2026-10-07T00:31:02+00:00",
+  "generated_at": "2026-10-08T00:51:31+00:00",
   "followee_count": 175,
-  "events_collected": 183,
+  "events_collected": 631,
   "trending_available": true,
-  "trending_source_date": "2026-10-06",
+  "trending_source_date": "2026-10-07",
   "circle_hot": [
     {
       "repo": "storytold/photocraft",
@@ -270,8 +270,8 @@
       "inner_count": 0,
       "inner_actors": [],
       "in_circle": false,
-      "trending": false,
-      "trending_front_page": false,
+      "trending": true,
+      "trending_front_page": true,
       "languages": [],
       "latest_at": "2026-10-07T00:29:47Z"
     },
@@ -429,20 +429,73 @@
       "latest_at": "2026-10-06T22:58:46Z"
     }
   ],
-  "trending_overlap": [],
-  "releases": [],
+  "trending_overlap": [
+    {
+      "repo": "Autumn-27/ARTEX",
+      "repo_url": "https://github.com/Autumn-27/ARTEX",
+      "count": 1,
+      "starred_by": [
+        "phith0n"
+      ],
+      "starred_by_urls": [
+        "https://github.com/phith0n"
+      ],
+      "trending": true,
+      "trending_front_page": false,
+      "languages": [
+        "go"
+      ]
+    },
+    {
+      "repo": "M-Abozaid/esp32-c3-adblock",
+      "repo_url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "count": 1,
+      "starred_by": [
+        "0xTriboulet"
+      ],
+      "starred_by_urls": [
+        "https://github.com/0xTriboulet"
+      ],
+      "trending": true,
+      "trending_front_page": false,
+      "languages": [
+        "c++"
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "repo": "Lakr233/vphone-cli",
+      "by": "Lakr233",
+      "tag": "2.7.0",
+      "name": "v2.7.0",
+      "url": "https://github.com/Lakr233/vphone-cli/releases/tag/2.7.0",
+      "prerelease": false
+    },
+    {
+      "repo": "LookInsideApp/LookInside-Release",
+      "by": "Lakr233",
+      "tag": "1.0.0",
+      "name": "1.0.0",
+      "url": "https://github.com/LookInsideApp/LookInside-Release/releases/tag/1.0.0",
+      "prerelease": false
+    }
+  ],
   "new_repos": [],
-  "starred_repos_total": 13,
+  "starred_repos_total": 22,
   "raw_counts": {
-    "CreateEvent": 10,
-    "PullRequestReviewEvent": 13,
-    "PushEvent": 46,
-    "IssueCommentEvent": 49,
-    "PullRequestEvent": 41,
-    "DeleteEvent": 5,
-    "ForkEvent": 3,
-    "WatchEvent": 14,
-    "IssuesEvent": 2
+    "CreateEvent": 43,
+    "PullRequestReviewEvent": 19,
+    "PushEvent": 215,
+    "IssueCommentEvent": 147,
+    "PullRequestEvent": 142,
+    "DeleteEvent": 12,
+    "ForkEvent": 14,
+    "WatchEvent": 23,
+    "IssuesEvent": 8,
+    "ReleaseEvent": 2,
+    "PullRequestReviewCommentEvent": 5,
+    "PublicEvent": 1
   },
   "follows": {
     "new_count": 8,
@@ -538,8 +591,107 @@
     "degraded": false
   },
   "stars": {
-    "total": 14,
+    "total": 23,
     "items": [
+      {
+        "repo": "tamaratran/fast-jev-compaction",
+        "repo_url": "https://github.com/tamaratran/fast-jev-compaction",
+        "by": "h3zh1",
+        "by_url": "https://github.com/h3zh1",
+        "html_url": "https://github.com/tamaratran/fast-jev-compaction",
+        "text": "h3zh1 starred tamaratran/fast-jev-compaction",
+        "created_at": "2026-10-07T15:48:36Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "M-Abozaid/esp32-c3-adblock",
+        "repo_url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+        "by": "0xTriboulet",
+        "by_url": "https://github.com/0xTriboulet",
+        "html_url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+        "text": "0xTriboulet starred M-Abozaid/esp32-c3-adblock",
+        "created_at": "2026-10-07T14:51:49Z",
+        "trending": true,
+        "trending_front_page": false
+      },
+      {
+        "repo": "cloudflare/computer",
+        "repo_url": "https://github.com/cloudflare/computer",
+        "by": "h3zh1",
+        "by_url": "https://github.com/h3zh1",
+        "html_url": "https://github.com/cloudflare/computer",
+        "text": "h3zh1 starred cloudflare/computer",
+        "created_at": "2026-10-07T14:42:47Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "wietze/HijackLibs",
+        "repo_url": "https://github.com/wietze/HijackLibs",
+        "by": "Whitecat18",
+        "by_url": "https://github.com/Whitecat18",
+        "html_url": "https://github.com/wietze/HijackLibs",
+        "text": "Whitecat18 starred wietze/HijackLibs",
+        "created_at": "2026-10-07T14:09:58Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Al-Qa-qa/audits",
+        "repo_url": "https://github.com/Al-Qa-qa/audits",
+        "by": "gmh5225",
+        "by_url": "https://github.com/gmh5225",
+        "html_url": "https://github.com/Al-Qa-qa/audits",
+        "text": "gmh5225 starred Al-Qa-qa/audits",
+        "created_at": "2026-10-07T10:09:17Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "yihui-dev/awesome-opus5-5-videos",
+        "repo_url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+        "by": "INotGreen",
+        "by_url": "https://github.com/INotGreen",
+        "html_url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+        "text": "INotGreen starred yihui-dev/awesome-opus5-5-videos",
+        "created_at": "2026-10-07T05:12:27Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Autumn-27/ARTEX",
+        "repo_url": "https://github.com/Autumn-27/ARTEX",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/Autumn-27/ARTEX",
+        "text": "phith0n starred Autumn-27/ARTEX",
+        "created_at": "2026-10-07T05:12:12Z",
+        "trending": true,
+        "trending_front_page": false
+      },
+      {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "repo_url": "https://github.com/lemomo-ai/lemo-opuscar",
+        "by": "INotGreen",
+        "by_url": "https://github.com/INotGreen",
+        "html_url": "https://github.com/lemomo-ai/lemo-opuscar",
+        "text": "INotGreen starred lemomo-ai/lemo-opuscar",
+        "created_at": "2026-10-07T05:11:32Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "openai/math",
+        "repo_url": "https://github.com/openai/math",
+        "by": "gmh5225",
+        "by_url": "https://github.com/gmh5225",
+        "html_url": "https://github.com/openai/math",
+        "text": "gmh5225 starred openai/math",
+        "created_at": "2026-10-07T02:26:23Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "EvanMcBroom/lsa-whisperer",
         "repo_url": "https://github.com/EvanMcBroom/lsa-whisperer",
@@ -698,6 +850,127 @@
   },
   "forks": [
     {
+      "repo": "Jordan231111/BluestacksRoot",
+      "repo_url": "https://github.com/Jordan231111/BluestacksRoot",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/BluestacksRoot",
+      "forkee_url": "https://github.com/gmh5225/BluestacksRoot",
+      "html_url": "https://github.com/gmh5225/BluestacksRoot",
+      "text": "gmh5225 forked Jordan231111/BluestacksRoot → gmh5225/BluestacksRoot",
+      "created_at": "2026-10-07T13:35:30Z"
+    },
+    {
+      "repo": "zarkones/Piclang",
+      "repo_url": "https://github.com/zarkones/Piclang",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/Piclang-pic",
+      "forkee_url": "https://github.com/FemaleGhost/Piclang-pic",
+      "html_url": "https://github.com/FemaleGhost/Piclang-pic",
+      "text": "FemaleGhost forked zarkones/Piclang → FemaleGhost/Piclang-pic",
+      "created_at": "2026-10-07T13:01:11Z"
+    },
+    {
+      "repo": "paulovitorjp/ghidra-s390x",
+      "repo_url": "https://github.com/paulovitorjp/ghidra-s390x",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/ghidra-s390x",
+      "forkee_url": "https://github.com/gmh5225/ghidra-s390x",
+      "html_url": "https://github.com/gmh5225/ghidra-s390x",
+      "text": "gmh5225 forked paulovitorjp/ghidra-s390x → gmh5225/ghidra-s390x",
+      "created_at": "2026-10-07T12:33:05Z"
+    },
+    {
+      "repo": "g13net/lockjaw",
+      "repo_url": "https://github.com/g13net/lockjaw",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/lockjaw",
+      "forkee_url": "https://github.com/FemaleGhost/lockjaw",
+      "html_url": "https://github.com/FemaleGhost/lockjaw",
+      "text": "FemaleGhost forked g13net/lockjaw → FemaleGhost/lockjaw",
+      "created_at": "2026-10-07T12:07:28Z"
+    },
+    {
+      "repo": "egoist/mygo",
+      "repo_url": "https://github.com/egoist/mygo",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/mygo",
+      "forkee_url": "https://github.com/FemaleGhost/mygo",
+      "html_url": "https://github.com/FemaleGhost/mygo",
+      "text": "FemaleGhost forked egoist/mygo → FemaleGhost/mygo",
+      "created_at": "2026-10-07T12:06:47Z"
+    },
+    {
+      "repo": "GhostPack/Certify",
+      "repo_url": "https://github.com/GhostPack/Certify",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/Certify",
+      "forkee_url": "https://github.com/FemaleGhost/Certify",
+      "html_url": "https://github.com/FemaleGhost/Certify",
+      "text": "FemaleGhost forked GhostPack/Certify → FemaleGhost/Certify",
+      "created_at": "2026-10-07T12:06:41Z"
+    },
+    {
+      "repo": "epersic/DLLParty",
+      "repo_url": "https://github.com/epersic/DLLParty",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/DLLParty",
+      "forkee_url": "https://github.com/FemaleGhost/DLLParty",
+      "html_url": "https://github.com/FemaleGhost/DLLParty",
+      "text": "FemaleGhost forked epersic/DLLParty → FemaleGhost/DLLParty",
+      "created_at": "2026-10-07T12:04:44Z"
+    },
+    {
+      "repo": "Cobalt-Strike/s3-udc2",
+      "repo_url": "https://github.com/Cobalt-Strike/s3-udc2",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/s3-udc2",
+      "forkee_url": "https://github.com/FemaleGhost/s3-udc2",
+      "html_url": "https://github.com/FemaleGhost/s3-udc2",
+      "text": "FemaleGhost forked Cobalt-Strike/s3-udc2 → FemaleGhost/s3-udc2",
+      "created_at": "2026-10-07T12:03:01Z"
+    },
+    {
+      "repo": "Al-Qa-qa/audits",
+      "repo_url": "https://github.com/Al-Qa-qa/audits",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/audits-qaqa",
+      "forkee_url": "https://github.com/gmh5225/audits-qaqa",
+      "html_url": "https://github.com/gmh5225/audits-qaqa",
+      "text": "gmh5225 forked Al-Qa-qa/audits → gmh5225/audits-qaqa",
+      "created_at": "2026-10-07T10:09:31Z"
+    },
+    {
+      "repo": "OptiTronOffical/GoldHen-Source",
+      "repo_url": "https://github.com/OptiTronOffical/GoldHen-Source",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/GoldHen-Source",
+      "forkee_url": "https://github.com/gmh5225/GoldHen-Source",
+      "html_url": "https://github.com/gmh5225/GoldHen-Source",
+      "text": "gmh5225 forked OptiTronOffical/GoldHen-Source → gmh5225/GoldHen-Source",
+      "created_at": "2026-10-07T07:17:19Z"
+    },
+    {
+      "repo": "Funny-Bones/ELDEN-RING-Combat-Rewrite",
+      "repo_url": "https://github.com/Funny-Bones/ELDEN-RING-Combat-Rewrite",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/ELDEN-RING-Combat-Rewrite",
+      "forkee_url": "https://github.com/gmh5225/ELDEN-RING-Combat-Rewrite",
+      "html_url": "https://github.com/gmh5225/ELDEN-RING-Combat-Rewrite",
+      "text": "gmh5225 forked Funny-Bones/ELDEN-RING-Combat-Rewrite → gmh5225/ELDEN-RING-Combat-Rewrite",
+      "created_at": "2026-10-07T05:59:17Z"
+    },
+    {
       "repo": "storytold/photocraft",
       "repo_url": "https://github.com/storytold/photocraft",
       "by": "0xTriboulet",
@@ -731,5 +1004,5 @@
       "created_at": "2026-10-06T17:15:55Z"
     }
   ],
-  "feed_item_count": 33
+  "feed_item_count": 55
 }

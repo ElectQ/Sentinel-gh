@@ -1,12 +1,29 @@
 {
   "schema_version": 2,
   "date": "2026-10-08",
-  "generated_at": "2026-10-08T00:51:36+00:00",
-  "followee_count": 175,
-  "events_collected": 129,
+  "generated_at": "2026-10-09T01:04:37+00:00",
+  "followee_count": 177,
+  "events_collected": 717,
   "trending_available": true,
-  "trending_source_date": "2026-10-07",
+  "trending_source_date": "2026-10-08",
   "circle_hot": [
+    {
+      "repo": "morluto/rea",
+      "repo_url": "https://github.com/morluto/rea",
+      "count": 3,
+      "starred_by": [
+        "Neo-Maoku",
+        "bartblaze",
+        "crisprss"
+      ],
+      "starred_by_urls": [
+        "https://github.com/Neo-Maoku",
+        "https://github.com/bartblaze",
+        "https://github.com/crisprss"
+      ],
+      "trending": true,
+      "trending_front_page": true
+    },
     {
       "repo": "storytold/photocraft",
       "repo_url": "https://github.com/storytold/photocraft",
@@ -220,10 +237,38 @@
       "inner_count": 0,
       "inner_actors": [],
       "in_circle": false,
-      "trending": true,
-      "trending_front_page": true,
+      "trending": false,
+      "trending_front_page": false,
       "languages": [],
       "latest_at": "2026-10-08T00:50:44Z"
+    },
+    {
+      "repo": "Vector35/binaryninja-api",
+      "repo_url": "https://github.com/Vector35/binaryninja-api",
+      "outer_count": 4,
+      "outer_actors": [
+        "bdash",
+        "paulcsiki",
+        "plafosse",
+        "zznop"
+      ],
+      "outer_actor_urls": [
+        "https://github.com/bdash",
+        "https://github.com/paulcsiki",
+        "https://github.com/plafosse",
+        "https://github.com/zznop"
+      ],
+      "by_kind": {
+        "issue": 5,
+        "pr": 2
+      },
+      "inner_count": 0,
+      "inner_actors": [],
+      "in_circle": false,
+      "trending": false,
+      "trending_front_page": false,
+      "languages": [],
+      "latest_at": "2026-10-08T13:30:03Z"
     },
     {
       "repo": "BishopFox/sliver",
@@ -279,19 +324,20 @@
       "latest_at": "2026-10-07T21:07:03Z"
     },
     {
-      "repo": "Vector35/binaryninja-api",
-      "repo_url": "https://github.com/Vector35/binaryninja-api",
+      "repo": "Vector35/debugger",
+      "repo_url": "https://github.com/Vector35/debugger",
       "outer_count": 2,
       "outer_actors": [
-        "bdash",
-        "paulcsiki"
+        "plafosse",
+        "xusheng6"
       ],
       "outer_actor_urls": [
-        "https://github.com/bdash",
-        "https://github.com/paulcsiki"
+        "https://github.com/plafosse",
+        "https://github.com/xusheng6"
       ],
       "by_kind": {
-        "issue": 5
+        "issue": 4,
+        "pr": 1
       },
       "inner_count": 0,
       "inner_actors": [],
@@ -299,7 +345,7 @@
       "trending": false,
       "trending_front_page": false,
       "languages": [],
-      "latest_at": "2026-10-07T20:52:36Z"
+      "latest_at": "2026-10-08T14:41:57Z"
     },
     {
       "repo": "deepseek-ai/DeepGEMM-Ascend",
@@ -375,12 +421,16 @@
     {
       "repo": "morluto/rea",
       "repo_url": "https://github.com/morluto/rea",
-      "count": 1,
+      "count": 3,
       "starred_by": [
-        "bartblaze"
+        "Neo-Maoku",
+        "bartblaze",
+        "crisprss"
       ],
       "starred_by_urls": [
-        "https://github.com/bartblaze"
+        "https://github.com/Neo-Maoku",
+        "https://github.com/bartblaze",
+        "https://github.com/crisprss"
       ],
       "trending": true,
       "trending_front_page": true,
@@ -397,21 +447,54 @@
       "name": "3.0.0",
       "url": "https://github.com/LookInsideApp/LookInside/releases/tag/3.0.0",
       "prerelease": false
+    },
+    {
+      "repo": "Lakr233/Litext",
+      "by": "Lakr233",
+      "tag": "3.6.3",
+      "name": "3.6.3",
+      "url": "https://github.com/Lakr233/Litext/releases/tag/3.6.3",
+      "prerelease": false
+    },
+    {
+      "repo": "Lakr233/vphone-cli",
+      "by": "Lakr233",
+      "tag": "2.8.0",
+      "name": "v2.8.0",
+      "url": "https://github.com/Lakr233/vphone-cli/releases/tag/2.8.0",
+      "prerelease": false
+    },
+    {
+      "repo": "timwhitez/AutoRE-CLI",
+      "by": "timwhitez",
+      "tag": "v0.1.10",
+      "name": "AutoRE-CLI v0.1.10",
+      "url": "https://github.com/timwhitez/AutoRE-CLI/releases/tag/v0.1.10",
+      "prerelease": false
+    },
+    {
+      "repo": "AppKitSupportProgram/AppKitPlus-Release",
+      "by": "Mx-Iris",
+      "tag": "0.8.0",
+      "name": "0.8.0",
+      "url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release/releases/tag/0.8.0",
+      "prerelease": false
     }
   ],
   "new_repos": [],
-  "starred_repos_total": 7,
+  "starred_repos_total": 30,
   "raw_counts": {
-    "PushEvent": 19,
-    "ReleaseEvent": 1,
-    "CreateEvent": 9,
-    "PullRequestEvent": 27,
-    "WatchEvent": 9,
-    "DeleteEvent": 2,
-    "ForkEvent": 1,
-    "IssueCommentEvent": 44,
-    "IssuesEvent": 6,
-    "PullRequestReviewEvent": 11
+    "PushEvent": 249,
+    "ReleaseEvent": 5,
+    "CreateEvent": 27,
+    "PullRequestEvent": 141,
+    "WatchEvent": 34,
+    "DeleteEvent": 11,
+    "ForkEvent": 10,
+    "IssueCommentEvent": 169,
+    "IssuesEvent": 36,
+    "PullRequestReviewEvent": 30,
+    "PullRequestReviewCommentEvent": 5
   },
   "follows": {
     "new_count": 4,
@@ -478,8 +561,283 @@
     "degraded": false
   },
   "stars": {
-    "total": 9,
+    "total": 34,
     "items": [
+      {
+        "repo": "wasmerio/wasmer",
+        "repo_url": "https://github.com/wasmerio/wasmer",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/wasmerio/wasmer",
+        "text": "phith0n starred wasmerio/wasmer",
+        "created_at": "2026-10-08T15:40:12Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "frida/frida-swift",
+        "repo_url": "https://github.com/frida/frida-swift",
+        "by": "realoriginal",
+        "by_url": "https://github.com/realoriginal",
+        "html_url": "https://github.com/frida/frida-swift",
+        "text": "realoriginal starred frida/frida-swift",
+        "created_at": "2026-10-08T14:20:34Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "False-Positive-Community/bluesec1-agent",
+        "repo_url": "https://github.com/False-Positive-Community/bluesec1-agent",
+        "by": "shashinma",
+        "by_url": "https://github.com/shashinma",
+        "html_url": "https://github.com/False-Positive-Community/bluesec1-agent",
+        "text": "shashinma starred False-Positive-Community/bluesec1-agent",
+        "created_at": "2026-10-08T13:58:36Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "weidutech/pi-recon",
+        "repo_url": "https://github.com/weidutech/pi-recon",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/weidutech/pi-recon",
+        "text": "timwhitez starred weidutech/pi-recon",
+        "created_at": "2026-10-08T11:02:55Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "inwpu/hxbai",
+        "repo_url": "https://github.com/inwpu/hxbai",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/inwpu/hxbai",
+        "text": "timwhitez starred inwpu/hxbai",
+        "created_at": "2026-10-08T11:00:28Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Intuition-Lab/personal-model",
+        "repo_url": "https://github.com/Intuition-Lab/personal-model",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/Intuition-Lab/personal-model",
+        "text": "timwhitez starred Intuition-Lab/personal-model",
+        "created_at": "2026-10-08T10:51:48Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Autumn-27/ScopeSentry",
+        "repo_url": "https://github.com/Autumn-27/ScopeSentry",
+        "by": "BambiZombie",
+        "by_url": "https://github.com/BambiZombie",
+        "html_url": "https://github.com/Autumn-27/ScopeSentry",
+        "text": "BambiZombie starred Autumn-27/ScopeSentry",
+        "created_at": "2026-10-08T10:38:38Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "mhtsec/ARTEX",
+        "repo_url": "https://github.com/mhtsec/ARTEX",
+        "by": "Garck3h",
+        "by_url": "https://github.com/Garck3h",
+        "html_url": "https://github.com/mhtsec/ARTEX",
+        "text": "Garck3h starred mhtsec/ARTEX",
+        "created_at": "2026-10-08T09:52:43Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "GreyDGL/PentestGPT",
+        "repo_url": "https://github.com/GreyDGL/PentestGPT",
+        "by": "BambiZombie",
+        "by_url": "https://github.com/BambiZombie",
+        "html_url": "https://github.com/GreyDGL/PentestGPT",
+        "text": "BambiZombie starred GreyDGL/PentestGPT",
+        "created_at": "2026-10-08T09:42:34Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "usestrix/strix",
+        "repo_url": "https://github.com/usestrix/strix",
+        "by": "BambiZombie",
+        "by_url": "https://github.com/BambiZombie",
+        "html_url": "https://github.com/usestrix/strix",
+        "text": "BambiZombie starred usestrix/strix",
+        "created_at": "2026-10-08T09:42:29Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "KeygraphHQ/shannon",
+        "repo_url": "https://github.com/KeygraphHQ/shannon",
+        "by": "BambiZombie",
+        "by_url": "https://github.com/BambiZombie",
+        "html_url": "https://github.com/KeygraphHQ/shannon",
+        "text": "BambiZombie starred KeygraphHQ/shannon",
+        "created_at": "2026-10-08T09:42:12Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "mhaviv/Swift-FocusEngine-Agent-Skill",
+        "repo_url": "https://github.com/mhaviv/Swift-FocusEngine-Agent-Skill",
+        "by": "Mx-Iris",
+        "by_url": "https://github.com/Mx-Iris",
+        "html_url": "https://github.com/mhaviv/Swift-FocusEngine-Agent-Skill",
+        "text": "Mx-Iris starred mhaviv/Swift-FocusEngine-Agent-Skill",
+        "created_at": "2026-10-08T08:48:05Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "microsoft/quicksand",
+        "repo_url": "https://github.com/microsoft/quicksand",
+        "by": "gmh5225",
+        "by_url": "https://github.com/gmh5225",
+        "html_url": "https://github.com/microsoft/quicksand",
+        "text": "gmh5225 starred microsoft/quicksand",
+        "created_at": "2026-10-08T08:17:25Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "cryxnet/codeshot-skill",
+        "repo_url": "https://github.com/cryxnet/codeshot-skill",
+        "by": "xaitax",
+        "by_url": "https://github.com/xaitax",
+        "html_url": "https://github.com/cryxnet/codeshot-skill",
+        "text": "xaitax starred cryxnet/codeshot-skill",
+        "created_at": "2026-10-08T08:04:59Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "morluto/rea",
+        "repo_url": "https://github.com/morluto/rea",
+        "by": "Neo-Maoku",
+        "by_url": "https://github.com/Neo-Maoku",
+        "html_url": "https://github.com/morluto/rea",
+        "text": "Neo-Maoku starred morluto/rea",
+        "created_at": "2026-10-08T07:44:55Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "nullmoth/nvidia-macos-driver",
+        "repo_url": "https://github.com/nullmoth/nvidia-macos-driver",
+        "by": "Lakr233",
+        "by_url": "https://github.com/Lakr233",
+        "html_url": "https://github.com/nullmoth/nvidia-macos-driver",
+        "text": "Lakr233 starred nullmoth/nvidia-macos-driver",
+        "created_at": "2026-10-08T06:59:07Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "morluto/rea",
+        "repo_url": "https://github.com/morluto/rea",
+        "by": "crisprss",
+        "by_url": "https://github.com/crisprss",
+        "html_url": "https://github.com/morluto/rea",
+        "text": "crisprss starred morluto/rea",
+        "created_at": "2026-10-08T06:24:26Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "hzqst/reagent",
+        "repo_url": "https://github.com/hzqst/reagent",
+        "by": "gmh5225",
+        "by_url": "https://github.com/gmh5225",
+        "html_url": "https://github.com/hzqst/reagent",
+        "text": "gmh5225 starred hzqst/reagent",
+        "created_at": "2026-10-08T05:46:12Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "TryGOTry/Chrome-Ghost-Anchor-Persistence",
+        "repo_url": "https://github.com/TryGOTry/Chrome-Ghost-Anchor-Persistence",
+        "by": "TryGOTry",
+        "by_url": "https://github.com/TryGOTry",
+        "html_url": "https://github.com/TryGOTry/Chrome-Ghost-Anchor-Persistence",
+        "text": "TryGOTry starred TryGOTry/Chrome-Ghost-Anchor-Persistence",
+        "created_at": "2026-10-08T03:38:43Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "iQingshan/Toshell",
+        "repo_url": "https://github.com/iQingshan/Toshell",
+        "by": "Neo-Maoku",
+        "by_url": "https://github.com/Neo-Maoku",
+        "html_url": "https://github.com/iQingshan/Toshell",
+        "text": "Neo-Maoku starred iQingshan/Toshell",
+        "created_at": "2026-10-08T03:34:13Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "HawkBearPig/dgpp",
+        "repo_url": "https://github.com/HawkBearPig/dgpp",
+        "by": "gmh5225",
+        "by_url": "https://github.com/gmh5225",
+        "html_url": "https://github.com/HawkBearPig/dgpp",
+        "text": "gmh5225 starred HawkBearPig/dgpp",
+        "created_at": "2026-10-08T03:00:29Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "eteran/edb-debugger",
+        "repo_url": "https://github.com/eteran/edb-debugger",
+        "by": "realoriginal",
+        "by_url": "https://github.com/realoriginal",
+        "html_url": "https://github.com/eteran/edb-debugger",
+        "text": "realoriginal starred eteran/edb-debugger",
+        "created_at": "2026-10-08T02:30:20Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "jm33-m0/emp3r0r",
+        "repo_url": "https://github.com/jm33-m0/emp3r0r",
+        "by": "Xre0uS",
+        "by_url": "https://github.com/Xre0uS",
+        "html_url": "https://github.com/jm33-m0/emp3r0r",
+        "text": "Xre0uS starred jm33-m0/emp3r0r",
+        "created_at": "2026-10-08T02:17:43Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "OpenCommunityEdition/OpenCE",
+        "repo_url": "https://github.com/OpenCommunityEdition/OpenCE",
+        "by": "ryan-weil",
+        "by_url": "https://github.com/ryan-weil",
+        "html_url": "https://github.com/OpenCommunityEdition/OpenCE",
+        "text": "ryan-weil starred OpenCommunityEdition/OpenCE",
+        "created_at": "2026-10-08T02:06:32Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "ganeshmshetty/openclip",
+        "repo_url": "https://github.com/ganeshmshetty/openclip",
+        "by": "Mx-Iris",
+        "by_url": "https://github.com/Mx-Iris",
+        "html_url": "https://github.com/ganeshmshetty/openclip",
+        "text": "Mx-Iris starred ganeshmshetty/openclip",
+        "created_at": "2026-10-08T01:09:20Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "F6-Security/pyxdr",
         "repo_url": "https://github.com/F6-Security/pyxdr",
@@ -583,6 +941,105 @@
   },
   "forks": [
     {
+      "repo": "starfallreverie/pfnwatch",
+      "repo_url": "https://github.com/starfallreverie/pfnwatch",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/pfnwatch",
+      "forkee_url": "https://github.com/gmh5225/pfnwatch",
+      "html_url": "https://github.com/gmh5225/pfnwatch",
+      "text": "gmh5225 forked starfallreverie/pfnwatch → gmh5225/pfnwatch",
+      "created_at": "2026-10-08T10:42:38Z"
+    },
+    {
+      "repo": "0x783kb/ARTEX",
+      "repo_url": "https://github.com/0x783kb/ARTEX",
+      "by": "Ithrael",
+      "by_url": "https://github.com/Ithrael",
+      "forkee": "Ithrael/ARTEX",
+      "forkee_url": "https://github.com/Ithrael/ARTEX",
+      "html_url": "https://github.com/Ithrael/ARTEX",
+      "text": "Ithrael forked 0x783kb/ARTEX → Ithrael/ARTEX",
+      "created_at": "2026-10-08T09:44:51Z"
+    },
+    {
+      "repo": "robertkarl/UnbiasedStrata",
+      "repo_url": "https://github.com/robertkarl/UnbiasedStrata",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/UnbiasedStrata",
+      "forkee_url": "https://github.com/gmh5225/UnbiasedStrata",
+      "html_url": "https://github.com/gmh5225/UnbiasedStrata",
+      "text": "gmh5225 forked robertkarl/UnbiasedStrata → gmh5225/UnbiasedStrata",
+      "created_at": "2026-10-08T08:24:52Z"
+    },
+    {
+      "repo": "microsoft/quicksand",
+      "repo_url": "https://github.com/microsoft/quicksand",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/quicksand",
+      "forkee_url": "https://github.com/gmh5225/quicksand",
+      "html_url": "https://github.com/gmh5225/quicksand",
+      "text": "gmh5225 forked microsoft/quicksand → gmh5225/quicksand",
+      "created_at": "2026-10-08T08:17:32Z"
+    },
+    {
+      "repo": "x86rc/vmp-lazy-unpack",
+      "repo_url": "https://github.com/x86rc/vmp-lazy-unpack",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/vmp-lazy-unpack",
+      "forkee_url": "https://github.com/gmh5225/vmp-lazy-unpack",
+      "html_url": "https://github.com/gmh5225/vmp-lazy-unpack",
+      "text": "gmh5225 forked x86rc/vmp-lazy-unpack → gmh5225/vmp-lazy-unpack",
+      "created_at": "2026-10-08T08:16:51Z"
+    },
+    {
+      "repo": "morluto/rea",
+      "repo_url": "https://github.com/morluto/rea",
+      "by": "crisprss",
+      "by_url": "https://github.com/crisprss",
+      "forkee": "crisprss/rea",
+      "forkee_url": "https://github.com/crisprss/rea",
+      "html_url": "https://github.com/crisprss/rea",
+      "text": "crisprss forked morluto/rea → crisprss/rea",
+      "created_at": "2026-10-08T06:24:31Z"
+    },
+    {
+      "repo": "spix18/dsh-ghidra",
+      "repo_url": "https://github.com/spix18/dsh-ghidra",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/dsh-ghidra",
+      "forkee_url": "https://github.com/gmh5225/dsh-ghidra",
+      "html_url": "https://github.com/gmh5225/dsh-ghidra",
+      "text": "gmh5225 forked spix18/dsh-ghidra → gmh5225/dsh-ghidra",
+      "created_at": "2026-10-08T05:55:18Z"
+    },
+    {
+      "repo": "stencil-hq/tern-sdk",
+      "repo_url": "https://github.com/stencil-hq/tern-sdk",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/tern-sdk",
+      "forkee_url": "https://github.com/gmh5225/tern-sdk",
+      "html_url": "https://github.com/gmh5225/tern-sdk",
+      "text": "gmh5225 forked stencil-hq/tern-sdk → gmh5225/tern-sdk",
+      "created_at": "2026-10-08T03:01:01Z"
+    },
+    {
+      "repo": "HawkBearPig/dgpp",
+      "repo_url": "https://github.com/HawkBearPig/dgpp",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/dgpp",
+      "forkee_url": "https://github.com/gmh5225/dgpp",
+      "html_url": "https://github.com/gmh5225/dgpp",
+      "text": "gmh5225 forked HawkBearPig/dgpp → gmh5225/dgpp",
+      "created_at": "2026-10-08T03:00:36Z"
+    },
+    {
       "repo": "storytold/photocraft",
       "repo_url": "https://github.com/storytold/photocraft",
       "by": "gmh5225",
@@ -594,5 +1051,5 @@
       "created_at": "2026-10-07T16:46:27Z"
     }
   ],
-  "feed_item_count": 23
+  "feed_item_count": 62
 }

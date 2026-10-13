@@ -1,12 +1,68 @@
 {
   "schema_version": 2,
   "date": "2026-10-12",
-  "generated_at": "2026-10-12T00:20:35+00:00",
+  "generated_at": "2026-10-13T02:29:53+00:00",
   "followee_count": 177,
-  "events_collected": 228,
+  "events_collected": 579,
   "trending_available": true,
-  "trending_source_date": "2026-10-11",
-  "circle_hot": [],
+  "trending_source_date": "2026-10-13",
+  "circle_hot": [
+    {
+      "repo": "morluto/rea",
+      "repo_url": "https://github.com/morluto/rea",
+      "count": 7,
+      "starred_by": [
+        "Garck3h",
+        "Innei",
+        "KpLi0rn",
+        "Xre0uS",
+        "Y4tacker",
+        "maxDcb",
+        "safedv"
+      ],
+      "starred_by_urls": [
+        "https://github.com/Garck3h",
+        "https://github.com/Innei",
+        "https://github.com/KpLi0rn",
+        "https://github.com/Xre0uS",
+        "https://github.com/Y4tacker",
+        "https://github.com/maxDcb",
+        "https://github.com/safedv"
+      ],
+      "trending": true,
+      "trending_front_page": true
+    },
+    {
+      "repo": "An0nUD4Y/bloodhound-ldapx.py",
+      "repo_url": "https://github.com/An0nUD4Y/bloodhound-ldapx.py",
+      "count": 2,
+      "starred_by": [
+        "Xre0uS",
+        "zurro"
+      ],
+      "starred_by_urls": [
+        "https://github.com/Xre0uS",
+        "https://github.com/zurro"
+      ],
+      "trending": false,
+      "trending_front_page": false
+    },
+    {
+      "repo": "mhtsec/ARTEX",
+      "repo_url": "https://github.com/mhtsec/ARTEX",
+      "count": 2,
+      "starred_by": [
+        "fdx-xdf",
+        "firmianay"
+      ],
+      "starred_by_urls": [
+        "https://github.com/fdx-xdf",
+        "https://github.com/firmianay"
+      ],
+      "trending": false,
+      "trending_front_page": false
+    }
+  ],
   "circle_outer_hot": [
     {
       "repo": "deepseek-ai/deepseek-harness",
@@ -285,9 +341,11 @@
       "inner_count": 0,
       "inner_actors": [],
       "in_circle": false,
-      "trending": false,
+      "trending": true,
       "trending_front_page": false,
-      "languages": [],
+      "languages": [
+        "go"
+      ],
       "latest_at": "2026-10-11T23:54:43Z"
     },
     {
@@ -467,34 +525,80 @@
     {
       "repo": "morluto/rea",
       "repo_url": "https://github.com/morluto/rea",
-      "count": 1,
+      "count": 7,
       "starred_by": [
-        "Innei"
+        "Garck3h",
+        "Innei",
+        "KpLi0rn",
+        "Xre0uS",
+        "Y4tacker",
+        "maxDcb",
+        "safedv"
       ],
       "starred_by_urls": [
-        "https://github.com/Innei"
+        "https://github.com/Garck3h",
+        "https://github.com/Innei",
+        "https://github.com/KpLi0rn",
+        "https://github.com/Xre0uS",
+        "https://github.com/Y4tacker",
+        "https://github.com/maxDcb",
+        "https://github.com/safedv"
       ],
       "trending": true,
       "trending_front_page": true,
       "languages": [
         "typescript"
       ]
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "repo_url": "https://github.com/Alishahryar1/free-claude-code",
+      "count": 1,
+      "starred_by": [
+        "INotGreen"
+      ],
+      "starred_by_urls": [
+        "https://github.com/INotGreen"
+      ],
+      "trending": true,
+      "trending_front_page": true,
+      "languages": [
+        "python"
+      ]
     }
   ],
-  "releases": [],
+  "releases": [
+    {
+      "repo": "AppKitSupportProgram/AppKitPlus-Release",
+      "by": "Mx-Iris",
+      "tag": "0.10.2",
+      "name": "0.10.2",
+      "url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release/releases/tag/0.10.2",
+      "prerelease": false
+    },
+    {
+      "repo": "AppKitSupportProgram/AppKitPlus-Release",
+      "by": "Mx-Iris",
+      "tag": "0.11.0",
+      "name": "0.11.0",
+      "url": "https://github.com/AppKitSupportProgram/AppKitPlus-Release/releases/tag/0.11.0",
+      "prerelease": false
+    }
+  ],
   "new_repos": [],
-  "starred_repos_total": 9,
+  "starred_repos_total": 28,
   "raw_counts": {
-    "IssuesEvent": 31,
-    "IssueCommentEvent": 89,
+    "IssuesEvent": 33,
+    "IssueCommentEvent": 93,
     "PullRequestReviewEvent": 3,
-    "PushEvent": 45,
-    "WatchEvent": 9,
-    "PullRequestEvent": 22,
+    "PushEvent": 204,
+    "WatchEvent": 36,
+    "PullRequestEvent": 104,
     "PullRequestReviewCommentEvent": 15,
-    "ForkEvent": 2,
-    "DeleteEvent": 3,
-    "CreateEvent": 9
+    "ForkEvent": 3,
+    "DeleteEvent": 33,
+    "CreateEvent": 53,
+    "ReleaseEvent": 2
   },
   "follows": {
     "new_count": 2,
@@ -541,8 +645,305 @@
     "degraded": false
   },
   "stars": {
-    "total": 9,
+    "total": 36,
     "items": [
+      {
+        "repo": "zer0def/undetected-frida",
+        "repo_url": "https://github.com/zer0def/undetected-frida",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/zer0def/undetected-frida",
+        "text": "phith0n starred zer0def/undetected-frida",
+        "created_at": "2026-10-12T15:50:48Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "morluto/rea",
+        "repo_url": "https://github.com/morluto/rea",
+        "by": "maxDcb",
+        "by_url": "https://github.com/maxDcb",
+        "html_url": "https://github.com/morluto/rea",
+        "text": "maxDcb starred morluto/rea",
+        "created_at": "2026-10-12T13:53:03Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "morluto/rea",
+        "repo_url": "https://github.com/morluto/rea",
+        "by": "Xre0uS",
+        "by_url": "https://github.com/Xre0uS",
+        "html_url": "https://github.com/morluto/rea",
+        "text": "Xre0uS starred morluto/rea",
+        "created_at": "2026-10-12T13:40:07Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "laurent22/joplin",
+        "repo_url": "https://github.com/laurent22/joplin",
+        "by": "bartblaze",
+        "by_url": "https://github.com/bartblaze",
+        "html_url": "https://github.com/laurent22/joplin",
+        "text": "bartblaze starred laurent22/joplin",
+        "created_at": "2026-10-12T13:07:01Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "standardnotes/app",
+        "repo_url": "https://github.com/standardnotes/app",
+        "by": "bartblaze",
+        "by_url": "https://github.com/bartblaze",
+        "html_url": "https://github.com/standardnotes/app",
+        "text": "bartblaze starred standardnotes/app",
+        "created_at": "2026-10-12T13:06:54Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "google/mantis",
+        "repo_url": "https://github.com/google/mantis",
+        "by": "PassingFoam",
+        "by_url": "https://github.com/PassingFoam",
+        "html_url": "https://github.com/google/mantis",
+        "text": "PassingFoam starred google/mantis",
+        "created_at": "2026-10-12T09:40:03Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "morluto/rea",
+        "repo_url": "https://github.com/morluto/rea",
+        "by": "Y4tacker",
+        "by_url": "https://github.com/Y4tacker",
+        "html_url": "https://github.com/morluto/rea",
+        "text": "Y4tacker starred morluto/rea",
+        "created_at": "2026-10-12T09:12:54Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "juliocesarfort/public-pentesting-reports",
+        "repo_url": "https://github.com/juliocesarfort/public-pentesting-reports",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/juliocesarfort/public-pentesting-reports",
+        "text": "timwhitez starred juliocesarfort/public-pentesting-reports",
+        "created_at": "2026-10-12T08:57:01Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Bypass007/Emergency-Response-Notes",
+        "repo_url": "https://github.com/Bypass007/Emergency-Response-Notes",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/Bypass007/Emergency-Response-Notes",
+        "text": "timwhitez starred Bypass007/Emergency-Response-Notes",
+        "created_at": "2026-10-12T08:55:18Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "F0ran9/src",
+        "repo_url": "https://github.com/F0ran9/src",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/F0ran9/src",
+        "text": "timwhitez starred F0ran9/src",
+        "created_at": "2026-10-12T08:53:59Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "mhtsec/ARTEX",
+        "repo_url": "https://github.com/mhtsec/ARTEX",
+        "by": "fdx-xdf",
+        "by_url": "https://github.com/fdx-xdf",
+        "html_url": "https://github.com/mhtsec/ARTEX",
+        "text": "fdx-xdf starred mhtsec/ARTEX",
+        "created_at": "2026-10-12T08:26:31Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "gepa-ai/gepa",
+        "repo_url": "https://github.com/gepa-ai/gepa",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/gepa-ai/gepa",
+        "text": "timwhitez starred gepa-ai/gepa",
+        "created_at": "2026-10-12T07:43:13Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "morluto/rea",
+        "repo_url": "https://github.com/morluto/rea",
+        "by": "safedv",
+        "by_url": "https://github.com/safedv",
+        "html_url": "https://github.com/morluto/rea",
+        "text": "safedv starred morluto/rea",
+        "created_at": "2026-10-12T07:42:26Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "mhtsec/ARTEX",
+        "repo_url": "https://github.com/mhtsec/ARTEX",
+        "by": "firmianay",
+        "by_url": "https://github.com/firmianay",
+        "html_url": "https://github.com/mhtsec/ARTEX",
+        "text": "firmianay starred mhtsec/ARTEX",
+        "created_at": "2026-10-12T07:31:55Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "x86rc/vmp-lazy-unpack",
+        "repo_url": "https://github.com/x86rc/vmp-lazy-unpack",
+        "by": "0a777h",
+        "by_url": "https://github.com/0a777h",
+        "html_url": "https://github.com/x86rc/vmp-lazy-unpack",
+        "text": "0a777h starred x86rc/vmp-lazy-unpack",
+        "created_at": "2026-10-12T07:12:52Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Hinln/ARTEX",
+        "repo_url": "https://github.com/Hinln/ARTEX",
+        "by": "0a777h",
+        "by_url": "https://github.com/0a777h",
+        "html_url": "https://github.com/Hinln/ARTEX",
+        "text": "0a777h starred Hinln/ARTEX",
+        "created_at": "2026-10-12T07:09:49Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Vector35/exarmo",
+        "repo_url": "https://github.com/Vector35/exarmo",
+        "by": "0a777h",
+        "by_url": "https://github.com/0a777h",
+        "html_url": "https://github.com/Vector35/exarmo",
+        "text": "0a777h starred Vector35/exarmo",
+        "created_at": "2026-10-12T07:06:37Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "morluto/rea",
+        "repo_url": "https://github.com/morluto/rea",
+        "by": "Garck3h",
+        "by_url": "https://github.com/Garck3h",
+        "html_url": "https://github.com/morluto/rea",
+        "text": "Garck3h starred morluto/rea",
+        "created_at": "2026-10-12T04:19:27Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "huggingface/trl",
+        "repo_url": "https://github.com/huggingface/trl",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/huggingface/trl",
+        "text": "timwhitez starred huggingface/trl",
+        "created_at": "2026-10-12T03:56:06Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "FishCodeTech/muteki",
+        "repo_url": "https://github.com/FishCodeTech/muteki",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/FishCodeTech/muteki",
+        "text": "timwhitez starred FishCodeTech/muteki",
+        "created_at": "2026-10-12T03:05:17Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "aldaor/HackerOneReports",
+        "repo_url": "https://github.com/aldaor/HackerOneReports",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/aldaor/HackerOneReports",
+        "text": "timwhitez starred aldaor/HackerOneReports",
+        "created_at": "2026-10-12T02:53:09Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "liseami/CCBaga",
+        "repo_url": "https://github.com/liseami/CCBaga",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/liseami/CCBaga",
+        "text": "phith0n starred liseami/CCBaga",
+        "created_at": "2026-10-12T01:21:53Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Macmod/ldapx",
+        "repo_url": "https://github.com/Macmod/ldapx",
+        "by": "Xre0uS",
+        "by_url": "https://github.com/Xre0uS",
+        "html_url": "https://github.com/Macmod/ldapx",
+        "text": "Xre0uS starred Macmod/ldapx",
+        "created_at": "2026-10-12T01:21:38Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "An0nUD4Y/bloodhound-ldapx.py",
+        "repo_url": "https://github.com/An0nUD4Y/bloodhound-ldapx.py",
+        "by": "Xre0uS",
+        "by_url": "https://github.com/Xre0uS",
+        "html_url": "https://github.com/An0nUD4Y/bloodhound-ldapx.py",
+        "text": "Xre0uS starred An0nUD4Y/bloodhound-ldapx.py",
+        "created_at": "2026-10-12T01:21:02Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "morluto/rea",
+        "repo_url": "https://github.com/morluto/rea",
+        "by": "KpLi0rn",
+        "by_url": "https://github.com/KpLi0rn",
+        "html_url": "https://github.com/morluto/rea",
+        "text": "KpLi0rn starred morluto/rea",
+        "created_at": "2026-10-12T01:20:21Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "storytold/pdfcraft",
+        "repo_url": "https://github.com/storytold/pdfcraft",
+        "by": "Xre0uS",
+        "by_url": "https://github.com/Xre0uS",
+        "html_url": "https://github.com/storytold/pdfcraft",
+        "text": "Xre0uS starred storytold/pdfcraft",
+        "created_at": "2026-10-12T01:18:40Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "storytold/wordcraft",
+        "repo_url": "https://github.com/storytold/wordcraft",
+        "by": "Xre0uS",
+        "by_url": "https://github.com/Xre0uS",
+        "html_url": "https://github.com/storytold/wordcraft",
+        "text": "Xre0uS starred storytold/wordcraft",
+        "created_at": "2026-10-12T01:18:19Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "ymatrix1/PortPS5",
         "repo_url": "https://github.com/ymatrix1/PortPS5",
@@ -595,8 +996,8 @@
         "html_url": "https://github.com/Alishahryar1/free-claude-code",
         "text": "INotGreen starred Alishahryar1/free-claude-code",
         "created_at": "2026-10-11T19:25:06Z",
-        "trending": false,
-        "trending_front_page": false
+        "trending": true,
+        "trending_front_page": true
       },
       {
         "repo": "morluto/rea",
@@ -646,6 +1047,17 @@
   },
   "forks": [
     {
+      "repo": "bookSiYi1412/ARTEX",
+      "repo_url": "https://github.com/bookSiYi1412/ARTEX",
+      "by": "lsr00ter",
+      "by_url": "https://github.com/lsr00ter",
+      "forkee": "lsr00ter/ARTEX-Latest",
+      "forkee_url": "https://github.com/lsr00ter/ARTEX-Latest",
+      "html_url": "https://github.com/lsr00ter/ARTEX-Latest",
+      "text": "lsr00ter forked bookSiYi1412/ARTEX → lsr00ter/ARTEX-Latest",
+      "created_at": "2026-10-12T14:40:32Z"
+    },
+    {
       "repo": "valen-lang/Valen",
       "repo_url": "https://github.com/valen-lang/Valen",
       "by": "gmh5225",
@@ -668,5 +1080,5 @@
       "created_at": "2026-10-11T16:59:01Z"
     }
   ],
-  "feed_item_count": 23
+  "feed_item_count": 53
 }

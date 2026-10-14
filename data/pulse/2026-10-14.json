@@ -1,12 +1,28 @@
 {
   "schema_version": 2,
   "date": "2026-10-14",
-  "generated_at": "2026-10-14T00:13:38+00:00",
-  "followee_count": 177,
-  "events_collected": 163,
+  "generated_at": "2026-10-14T23:47:49+00:00",
+  "followee_count": 178,
+  "events_collected": 416,
   "trending_available": true,
-  "trending_source_date": "2026-10-13",
-  "circle_hot": [],
+  "trending_source_date": "2026-10-14",
+  "circle_hot": [
+    {
+      "repo": "livid/exe",
+      "repo_url": "https://github.com/livid/exe",
+      "count": 2,
+      "starred_by": [
+        "Cracked5pider",
+        "kyxiaxiang"
+      ],
+      "starred_by_urls": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/kyxiaxiang"
+      ],
+      "trending": false,
+      "trending_front_page": false
+    }
+  ],
   "circle_outer_hot": [
     {
       "repo": "deepseek-ai/deepseek-harness",
@@ -75,7 +91,7 @@
         "https://github.com/qingkong66"
       ],
       "by_kind": {
-        "issue": 2
+        "issue": 5
       },
       "inner_count": 0,
       "inner_actors": [],
@@ -83,7 +99,7 @@
       "trending": false,
       "trending_front_page": false,
       "languages": [],
-      "latest_at": "2026-10-14T00:03:00Z"
+      "latest_at": "2026-10-14T15:41:54Z"
     },
     {
       "repo": "deepseek-ai/awesome-deepseek-integration",
@@ -111,7 +127,40 @@
       "latest_at": "2026-10-13T23:50:59Z"
     }
   ],
-  "trending_overlap": [],
+  "trending_overlap": [
+    {
+      "repo": "morluto/rea",
+      "repo_url": "https://github.com/morluto/rea",
+      "count": 1,
+      "starred_by": [
+        "Hello-xBugs"
+      ],
+      "starred_by_urls": [
+        "https://github.com/Hello-xBugs"
+      ],
+      "trending": true,
+      "trending_front_page": true,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "repo_url": "https://github.com/vercel-labs/skills",
+      "count": 1,
+      "starred_by": [
+        "firmianay"
+      ],
+      "starred_by_urls": [
+        "https://github.com/firmianay"
+      ],
+      "trending": true,
+      "trending_front_page": true,
+      "languages": [
+        "typescript"
+      ]
+    }
+  ],
   "releases": [
     {
       "repo": "Innei/haklex",
@@ -136,20 +185,28 @@
       "name": "1.0.1",
       "url": "https://github.com/LookInsideApp/LookInside-Release/releases/tag/1.0.1",
       "prerelease": false
+    },
+    {
+      "repo": "MG1937/ASC",
+      "by": "MG1937",
+      "tag": "dev-0.1.2-post2",
+      "name": "dev-0.1.2-post2",
+      "url": "https://github.com/MG1937/ASC/releases/tag/dev-0.1.2-post2",
+      "prerelease": false
     }
   ],
   "new_repos": [],
-  "starred_repos_total": 7,
+  "starred_repos_total": 20,
   "raw_counts": {
-    "PullRequestEvent": 23,
-    "PushEvent": 44,
-    "CreateEvent": 6,
-    "DeleteEvent": 2,
-    "WatchEvent": 7,
-    "ForkEvent": 1,
-    "ReleaseEvent": 3,
-    "IssuesEvent": 12,
-    "IssueCommentEvent": 65
+    "PullRequestEvent": 67,
+    "PushEvent": 81,
+    "CreateEvent": 12,
+    "DeleteEvent": 6,
+    "WatchEvent": 21,
+    "ForkEvent": 4,
+    "ReleaseEvent": 4,
+    "IssuesEvent": 15,
+    "IssueCommentEvent": 206
   },
   "follows": {
     "new_count": 1,
@@ -175,8 +232,162 @@
     "degraded": false
   },
   "stars": {
-    "total": 7,
+    "total": 21,
     "items": [
+      {
+        "repo": "morluto/rea",
+        "repo_url": "https://github.com/morluto/rea",
+        "by": "Hello-xBugs",
+        "by_url": "https://github.com/Hello-xBugs",
+        "html_url": "https://github.com/morluto/rea",
+        "text": "Hello-xBugs starred morluto/rea",
+        "created_at": "2026-10-14T15:14:38Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "yPin9/Learning-with-Claude",
+        "repo_url": "https://github.com/yPin9/Learning-with-Claude",
+        "by": "MG1937",
+        "by_url": "https://github.com/MG1937",
+        "html_url": "https://github.com/yPin9/Learning-with-Claude",
+        "text": "MG1937 starred yPin9/Learning-with-Claude",
+        "created_at": "2026-10-14T14:08:34Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "fox-it/dissect.cobaltstrike",
+        "repo_url": "https://github.com/fox-it/dissect.cobaltstrike",
+        "by": "Cracked5pider",
+        "by_url": "https://github.com/Cracked5pider",
+        "html_url": "https://github.com/fox-it/dissect.cobaltstrike",
+        "text": "Cracked5pider starred fox-it/dissect.cobaltstrike",
+        "created_at": "2026-10-14T12:19:25Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "FedericoBruzzone/tgt",
+        "repo_url": "https://github.com/FedericoBruzzone/tgt",
+        "by": "Lakr233",
+        "by_url": "https://github.com/Lakr233",
+        "html_url": "https://github.com/FedericoBruzzone/tgt",
+        "text": "Lakr233 starred FedericoBruzzone/tgt",
+        "created_at": "2026-10-14T11:18:51Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "missuo/kumone",
+        "repo_url": "https://github.com/missuo/kumone",
+        "by": "Mx-Iris",
+        "by_url": "https://github.com/Mx-Iris",
+        "html_url": "https://github.com/missuo/kumone",
+        "text": "Mx-Iris starred missuo/kumone",
+        "created_at": "2026-10-14T09:07:44Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "SagerNet/sing-box",
+        "repo_url": "https://github.com/SagerNet/sing-box",
+        "by": "Garck3h",
+        "by_url": "https://github.com/Garck3h",
+        "html_url": "https://github.com/SagerNet/sing-box",
+        "text": "Garck3h starred SagerNet/sing-box",
+        "created_at": "2026-10-14T08:31:30Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "radkawar/lindm",
+        "repo_url": "https://github.com/radkawar/lindm",
+        "by": "Cracked5pider",
+        "by_url": "https://github.com/Cracked5pider",
+        "html_url": "https://github.com/radkawar/lindm",
+        "text": "Cracked5pider starred radkawar/lindm",
+        "created_at": "2026-10-14T08:21:41Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "vercel-labs/skills",
+        "repo_url": "https://github.com/vercel-labs/skills",
+        "by": "firmianay",
+        "by_url": "https://github.com/firmianay",
+        "html_url": "https://github.com/vercel-labs/skills",
+        "text": "firmianay starred vercel-labs/skills",
+        "created_at": "2026-10-14T08:04:09Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "mhtsec/ARTEX",
+        "repo_url": "https://github.com/mhtsec/ARTEX",
+        "by": "0a777h",
+        "by_url": "https://github.com/0a777h",
+        "html_url": "https://github.com/mhtsec/ARTEX",
+        "text": "0a777h starred mhtsec/ARTEX",
+        "created_at": "2026-10-14T06:59:51Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "x86rc/vmp-lazy-unpack",
+        "repo_url": "https://github.com/x86rc/vmp-lazy-unpack",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/x86rc/vmp-lazy-unpack",
+        "text": "timwhitez starred x86rc/vmp-lazy-unpack",
+        "created_at": "2026-10-14T06:49:04Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "juice-shop/juice-shop",
+        "repo_url": "https://github.com/juice-shop/juice-shop",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/juice-shop/juice-shop",
+        "text": "timwhitez starred juice-shop/juice-shop",
+        "created_at": "2026-10-14T06:48:53Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "livid/exe",
+        "repo_url": "https://github.com/livid/exe",
+        "by": "kyxiaxiang",
+        "by_url": "https://github.com/kyxiaxiang",
+        "html_url": "https://github.com/livid/exe",
+        "text": "kyxiaxiang starred livid/exe",
+        "created_at": "2026-10-14T03:53:47Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+        "repo_url": "https://github.com/Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+        "by": "firmianay",
+        "by_url": "https://github.com/firmianay",
+        "html_url": "https://github.com/Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+        "text": "firmianay starred Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+        "created_at": "2026-10-14T03:20:17Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "yetone/magpie",
+        "repo_url": "https://github.com/yetone/magpie",
+        "by": "zema1",
+        "by_url": "https://github.com/zema1",
+        "html_url": "https://github.com/yetone/magpie",
+        "text": "zema1 starred yetone/magpie",
+        "created_at": "2026-10-14T02:52:15Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "LootJunkieAzza/NVForever",
         "repo_url": "https://github.com/LootJunkieAzza/NVForever",
@@ -258,6 +469,39 @@
   },
   "forks": [
     {
+      "repo": "morluto/rea",
+      "repo_url": "https://github.com/morluto/rea",
+      "by": "KpLi0rn",
+      "by_url": "https://github.com/KpLi0rn",
+      "forkee": "KpLi0rn/rea",
+      "forkee_url": "https://github.com/KpLi0rn/rea",
+      "html_url": "https://github.com/KpLi0rn/rea",
+      "text": "KpLi0rn forked morluto/rea → KpLi0rn/rea",
+      "created_at": "2026-10-14T15:19:46Z"
+    },
+    {
+      "repo": "dmaivel/ntoseye",
+      "repo_url": "https://github.com/dmaivel/ntoseye",
+      "by": "realoriginal",
+      "by_url": "https://github.com/realoriginal",
+      "forkee": "realoriginal/ntoseye",
+      "forkee_url": "https://github.com/realoriginal/ntoseye",
+      "html_url": "https://github.com/realoriginal/ntoseye",
+      "text": "realoriginal forked dmaivel/ntoseye → realoriginal/ntoseye",
+      "created_at": "2026-10-14T14:21:50Z"
+    },
+    {
+      "repo": "wwh1004/cli-elevator",
+      "repo_url": "https://github.com/wwh1004/cli-elevator",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/cli-elevator",
+      "forkee_url": "https://github.com/FemaleGhost/cli-elevator",
+      "html_url": "https://github.com/FemaleGhost/cli-elevator",
+      "text": "FemaleGhost forked wwh1004/cli-elevator → FemaleGhost/cli-elevator",
+      "created_at": "2026-10-14T13:38:40Z"
+    },
+    {
       "repo": "jaytiwari05/DDE-Callback-Hijack",
       "repo_url": "https://github.com/jaytiwari05/DDE-Callback-Hijack",
       "by": "FemaleGhost",
@@ -269,5 +513,5 @@
       "created_at": "2026-10-13T17:26:10Z"
     }
   ],
-  "feed_item_count": 15
+  "feed_item_count": 33
 }

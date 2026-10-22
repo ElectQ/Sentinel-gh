@@ -1,0 +1,1376 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-10-23",
+  "collect_window": {
+    "start": "2026-10-22T16:32:35+00:00",
+    "end": "2026-10-22T23:56:05+00:00",
+    "hours": 7
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "39874846120",
+    "commit": "6268a78"
+  },
+  "stats": {
+    "total": 19,
+    "by_kind": {
+      "follow": 3,
+      "network_hot": 10,
+      "star": 5,
+      "fork": 1
+    },
+    "failed_lists": [],
+    "followee_count": 179,
+    "push_events_excluded": 23
+  },
+  "items": [
+    {
+      "id": "follow:0xTriboulet:cfregly:2026-10-22:followed",
+      "who": "0xTriboulet",
+      "who_url": "https://github.com/0xTriboulet",
+      "action": "follow",
+      "target": "cfregly",
+      "target_url": "https://github.com/cfregly",
+      "text": "0xTriboulet followed cfregly",
+      "at": "2026-10-22T23:56:05+00:00",
+      "external_id": "follow:0xTriboulet:cfregly:2026-10-22:followed",
+      "url": "https://github.com/cfregly",
+      "content": "0xTriboulet followed cfregly",
+      "author": "0xTriboulet",
+      "author_name": "0xTriboulet",
+      "author_url": "https://github.com/0xTriboulet",
+      "published_at": "2026-10-22T23:56:05+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xTriboulet",
+        "https://github.com/cfregly"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0xTriboulet",
+          "url": "https://github.com/0xTriboulet"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "cfregly",
+          "url": "https://github.com/cfregly"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "cfregly",
+        "name": "Chris Fregly",
+        "bio": "AI startup founder/advisor · ex-AWS/Databricks/Netflix · 3× O'Reilly author · AI Systems Performance Engineer",
+        "followers": 1062,
+        "public_repos": 198,
+        "html_url": "https://github.com/cfregly",
+        "languages": [
+          "Python",
+          "Scala",
+          "XSLT",
+          "Java",
+          "Go"
+        ],
+        "top_repos": [
+          {
+            "name": "cfregly/ai-performance-engineering",
+            "description": "Code, labs, and resources for O'Reilly AI Systems Performance Engineering: GPU optimization, distributed training, inference scaling, and full-stack tuning.",
+            "language": "Python",
+            "stars": 2093,
+            "pushed_at": "2026-10-22T23:00:27Z"
+          },
+          {
+            "name": "cfregly/spark-after-dark",
+            "description": "",
+            "language": "Scala",
+            "stars": 24,
+            "pushed_at": "2015-07-02T00:56:30Z"
+          },
+          {
+            "name": "cfregly/spark-dynamodb",
+            "description": "[WIP] Spark-DynamoDB Data Sources API Implementation",
+            "language": "XSLT",
+            "stars": 9,
+            "pushed_at": "2015-04-07T13:30:20Z"
+          },
+          {
+            "name": "cfregly/gertrude",
+            "description": "A Multilayer and Multivariate Experiment Framework for the JVM",
+            "language": "Java",
+            "stars": 5,
+            "pushed_at": "2013-12-30T23:12:02Z"
+          },
+          {
+            "name": "cfregly/gpu-perf-tune",
+            "description": "Agent Skills and an MCP server for GPU performance profiling, benchmarking, optimization, and reporting, with an inference focus.",
+            "language": "Python",
+            "stars": 4,
+            "pushed_at": "2026-10-19T16:09:16Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "follow:0xTriboulet:adamcohen8:2026-10-22:followed",
+      "who": "0xTriboulet",
+      "who_url": "https://github.com/0xTriboulet",
+      "action": "follow",
+      "target": "adamcohen8",
+      "target_url": "https://github.com/adamcohen8",
+      "text": "0xTriboulet followed adamcohen8",
+      "at": "2026-10-22T23:56:05+00:00",
+      "external_id": "follow:0xTriboulet:adamcohen8:2026-10-22:followed",
+      "url": "https://github.com/adamcohen8",
+      "content": "0xTriboulet followed adamcohen8",
+      "author": "0xTriboulet",
+      "author_name": "0xTriboulet",
+      "author_url": "https://github.com/0xTriboulet",
+      "published_at": "2026-10-22T23:56:05+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xTriboulet",
+        "https://github.com/adamcohen8"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0xTriboulet",
+          "url": "https://github.com/0xTriboulet"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "adamcohen8",
+          "url": "https://github.com/adamcohen8"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "adamcohen8",
+        "name": "Adam Cohen",
+        "bio": "",
+        "followers": 8,
+        "public_repos": 7,
+        "html_url": "https://github.com/adamcohen8",
+        "languages": [
+          "Python"
+        ],
+        "top_repos": [
+          {
+            "name": "adamcohen8/orbital-engineering-lab",
+            "description": "Orbital Engineering Lab is a physics-based platform for agentic orbital analysis",
+            "language": "Python",
+            "stars": 33,
+            "pushed_at": "2026-10-21T14:04:07Z"
+          },
+          {
+            "name": "adamcohen8/SILO",
+            "description": "Local intelligence. Contained by design.",
+            "language": "Python",
+            "stars": 2,
+            "pushed_at": "2026-10-22T01:27:59Z"
+          },
+          {
+            "name": "adamcohen8/Election-Filtering",
+            "description": "",
+            "language": "Python",
+            "stars": 0,
+            "pushed_at": "2026-10-22T07:08:22Z"
+          },
+          {
+            "name": "adamcohen8/SARmulator",
+            "description": "Simulation and Processing library for Synthetic Aperture Radar ",
+            "language": "Python",
+            "stars": 0,
+            "pushed_at": "2026-08-01T08:36:29Z"
+          },
+          {
+            "name": "adamcohen8/COMFIX",
+            "description": "Astro 321 COMFIX project in Python",
+            "language": "Python",
+            "stars": 0,
+            "pushed_at": "2022-11-08T04:31:24Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "follow:0xTriboulet:BinaryHardening:2026-10-22:followed",
+      "who": "0xTriboulet",
+      "who_url": "https://github.com/0xTriboulet",
+      "action": "follow",
+      "target": "BinaryHardening",
+      "target_url": "https://github.com/BinaryHardening",
+      "text": "0xTriboulet followed BinaryHardening",
+      "at": "2026-10-22T23:56:05+00:00",
+      "external_id": "follow:0xTriboulet:BinaryHardening:2026-10-22:followed",
+      "url": "https://github.com/BinaryHardening",
+      "content": "0xTriboulet followed BinaryHardening",
+      "author": "0xTriboulet",
+      "author_name": "0xTriboulet",
+      "author_url": "https://github.com/0xTriboulet",
+      "published_at": "2026-10-22T23:56:05+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xTriboulet",
+        "https://github.com/BinaryHardening"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0xTriboulet",
+          "url": "https://github.com/0xTriboulet"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "BinaryHardening",
+          "url": "https://github.com/BinaryHardening"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "BinaryHardening",
+        "name": "BinaryHardening",
+        "bio": "BinaryHardening is a research community focused on reverse engineering, binary hardening, LLVM transformations, obfuscation and low-level systems research.",
+        "followers": 176,
+        "public_repos": 7,
+        "html_url": "https://github.com/BinaryHardening",
+        "languages": [
+          "C++"
+        ],
+        "top_repos": [
+          {
+            "name": "BinaryHardening/cfgrip",
+            "description": "PE/ELF x86/x64 CFG extractor",
+            "language": "C++",
+            "stars": 61,
+            "pushed_at": "2026-07-02T12:38:49Z"
+          },
+          {
+            "name": "BinaryHardening/.github",
+            "description": "Organization profile",
+            "language": null,
+            "stars": 0,
+            "pushed_at": "2026-07-02T13:07:30Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepInfer:2026-10-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepInfer",
+      "target_url": "https://github.com/deepseek-ai/DeepInfer",
+      "text": "deepseek-ai/DeepInfer — 圈外 69 人参与（fork×22, issue×1, pr×1, star×49）",
+      "at": "2026-10-22T23:53:20+00:00",
+      "external_id": "network:deepseek-ai/DeepInfer:2026-10-23",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "content": "deepseek-ai/DeepInfer — 圈外 69 人参与（fork×22, issue×1, pr×1, star×49）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-22T23:53:20+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepInfer"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepInfer",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 69,
+        "outer_actors": [
+          "1AakashK",
+          "820926z-cmd",
+          "AEGO-WRJ",
+          "DavidBao03",
+          "DrAchernar",
+          "JXMss",
+          "JinghanHuang",
+          "LIHUA919",
+          "MEIS-DaCaiTou",
+          "Mark618",
+          "Mattabase",
+          "Mesove",
+          "Minton95",
+          "Pendia",
+          "Pengpung",
+          "ScmyColin",
+          "VERSE-SHIYU",
+          "VincentDevp",
+          "Zhoufeitop",
+          "Zhuifeng414"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 22,
+          "issue": 1,
+          "pr": 1,
+          "star": 49
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/deepseek-harness:2026-10-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/deepseek-harness",
+      "target_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "text": "deepseek-ai/deepseek-harness — 圈外 50 人参与（fork×20, star×34）",
+      "at": "2026-10-22T23:45:33+00:00",
+      "external_id": "network:deepseek-ai/deepseek-harness:2026-10-23",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "content": "deepseek-ai/deepseek-harness — 圈外 50 人参与（fork×20, star×34）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-22T23:45:33+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/deepseek-harness"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/deepseek-harness",
+          "url": "https://github.com/deepseek-ai/deepseek-harness"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 50,
+        "outer_actors": [
+          "3584955578qq-jpg",
+          "AA-Developer",
+          "Ahmedmessoudi",
+          "Felip3Ramirez",
+          "Firefox2100",
+          "Godofpeoples",
+          "GrigYukh",
+          "Guxiaolong-eng",
+          "IceCokei",
+          "JenneyZhao",
+          "Jeserai",
+          "Kartik1397",
+          "L3on06",
+          "Minh123lc",
+          "Nicolas-AS07",
+          "TakiTori03",
+          "TruE-aL",
+          "Zeddmine",
+          "a01022971718-cyber",
+          "afidurko"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 20,
+          "star": 34
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:17967479979",
+      "who": "0xTriboulet",
+      "who_url": "https://github.com/0xTriboulet",
+      "action": "star",
+      "target": "cfregly/ai-performance-engineering",
+      "target_url": "https://github.com/cfregly/ai-performance-engineering",
+      "text": "0xTriboulet starred cfregly/ai-performance-engineering",
+      "at": "2026-10-22T23:19:38+00:00",
+      "external_id": "event:17967479979",
+      "url": "https://github.com/cfregly/ai-performance-engineering",
+      "content": "0xTriboulet starred cfregly/ai-performance-engineering",
+      "author": "0xTriboulet",
+      "author_name": "0xTriboulet",
+      "author_url": "https://github.com/0xTriboulet",
+      "published_at": "2026-10-22T23:19:38+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xTriboulet",
+        "https://github.com/cfregly/ai-performance-engineering"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0xTriboulet",
+          "url": "https://github.com/0xTriboulet"
+        },
+        "repo": {
+          "full_name": "cfregly/ai-performance-engineering",
+          "url": "https://github.com/cfregly/ai-performance-engineering"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:deepseek-ai/deepseek-recipe:2026-10-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/deepseek-recipe",
+      "target_url": "https://github.com/deepseek-ai/deepseek-recipe",
+      "text": "deepseek-ai/deepseek-recipe — 圈外 7 人参与（fork×4, star×3）",
+      "at": "2026-10-22T23:17:57+00:00",
+      "external_id": "network:deepseek-ai/deepseek-recipe:2026-10-23",
+      "url": "https://github.com/deepseek-ai/deepseek-recipe",
+      "content": "deepseek-ai/deepseek-recipe — 圈外 7 人参与（fork×4, star×3）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-22T23:17:57+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/deepseek-recipe"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/deepseek-recipe",
+          "url": "https://github.com/deepseek-ai/deepseek-recipe"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 7,
+        "outer_actors": [
+          "Mark618",
+          "Pendia",
+          "egc365",
+          "jnquintino",
+          "karimkash",
+          "manthenavamsi",
+          "ske4032"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 3,
+          "fork": 4
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-10-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-V3",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 5 人参与（fork×2, issue×1, star×3）",
+      "at": "2026-10-22T23:17:57+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-10-23",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "content": "deepseek-ai/DeepSeek-V3 — 圈外 5 人参与（fork×2, issue×1, star×3）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-22T23:17:57+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-V3"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "Ykxjh",
+          "haochenshi22-debug",
+          "mcmichealkaluna-debug",
+          "ukkuma",
+          "wgw31king"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 1,
+          "fork": 2,
+          "star": 3
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-10-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 5 人参与（issue×5, pr×8）",
+      "at": "2026-10-22T23:06:59+00:00",
+      "external_id": "network:Vector35/binaryninja-api:2026-10-23",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Vector35/binaryninja-api — 圈外 5 人参与（issue×5, pr×8）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-22T23:06:59+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "bdash",
+          "emesare",
+          "fuzyll",
+          "plafosse",
+          "zznop"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 8,
+          "issue": 5
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-10-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/sliver",
+      "target_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 2 人参与（pr×7）",
+      "at": "2026-10-22T23:06:31+00:00",
+      "external_id": "network:BishopFox/sliver:2026-10-23",
+      "url": "https://github.com/BishopFox/sliver",
+      "content": "BishopFox/sliver — 圈外 2 人参与（pr×7）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-22T23:06:31+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/sliver"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/sliver",
+          "url": "https://github.com/BishopFox/sliver"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "dependabot[bot]",
+          "moloch--"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "pr": 7
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-OCR:2026-10-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-OCR",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-OCR",
+      "text": "deepseek-ai/DeepSeek-OCR — 圈外 2 人参与（star×2）",
+      "at": "2026-10-22T22:46:44+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-OCR:2026-10-23",
+      "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
+      "content": "deepseek-ai/DeepSeek-OCR — 圈外 2 人参与（star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-22T22:46:44+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-OCR"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-OCR",
+          "url": "https://github.com/deepseek-ai/DeepSeek-OCR"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "Jeserai",
+          "matveyashikhin"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepGEMM:2026-10-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepGEMM",
+      "target_url": "https://github.com/deepseek-ai/DeepGEMM",
+      "text": "deepseek-ai/DeepGEMM — 圈外 3 人参与（fork×1, star×2）",
+      "at": "2026-10-22T22:40:49+00:00",
+      "external_id": "network:deepseek-ai/DeepGEMM:2026-10-23",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "content": "deepseek-ai/DeepGEMM — 圈外 3 人参与（fork×1, star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-22T22:40:49+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepGEMM"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepGEMM",
+          "url": "https://github.com/deepseek-ai/DeepGEMM"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "Vsritola",
+          "jnquintino",
+          "karimkash"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2,
+          "fork": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/FlashMLA:2026-10-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/FlashMLA",
+      "target_url": "https://github.com/deepseek-ai/FlashMLA",
+      "text": "deepseek-ai/FlashMLA — 圈外 2 人参与（fork×2）",
+      "at": "2026-10-22T22:40:38+00:00",
+      "external_id": "network:deepseek-ai/FlashMLA:2026-10-23",
+      "url": "https://github.com/deepseek-ai/FlashMLA",
+      "content": "deepseek-ai/FlashMLA — 圈外 2 人参与（fork×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-22T22:40:38+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/FlashMLA"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/FlashMLA",
+          "url": "https://github.com/deepseek-ai/FlashMLA"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": true,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "jnquintino",
+          "long096310"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": true,
+        "languages": [
+          "c++"
+        ],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:BishopFox/unredacter:2026-10-23",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/unredacter",
+      "target_url": "https://github.com/BishopFox/unredacter",
+      "text": "BishopFox/unredacter — 圈外 2 人参与（star×2）",
+      "at": "2026-10-22T22:26:26+00:00",
+      "external_id": "network:BishopFox/unredacter:2026-10-23",
+      "url": "https://github.com/BishopFox/unredacter",
+      "content": "BishopFox/unredacter — 圈外 2 人参与（star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-10-22T22:26:26+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/unredacter"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/unredacter",
+          "url": "https://github.com/BishopFox/unredacter"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "b4ndit23",
+          "guerraalexander835"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:17959635770",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "copy/v86",
+      "target_url": "https://github.com/copy/v86",
+      "text": "Cracked5pider starred copy/v86",
+      "at": "2026-10-22T21:40:38+00:00",
+      "external_id": "event:17959635770",
+      "url": "https://github.com/copy/v86",
+      "content": "Cracked5pider starred copy/v86",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-10-22T21:40:38+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/copy/v86"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "copy/v86",
+          "url": "https://github.com/copy/v86"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:17944705887",
+      "who": "FemaleGhost",
+      "who_url": "https://github.com/FemaleGhost",
+      "action": "fork",
+      "target": "FemaleGhost/reauthx-relay",
+      "target_url": "https://github.com/FemaleGhost/reauthx-relay",
+      "text": "FemaleGhost forked aas-n/reauthx → FemaleGhost/reauthx-relay",
+      "at": "2026-10-22T19:02:12+00:00",
+      "external_id": "event:17944705887",
+      "url": "https://github.com/FemaleGhost/reauthx-relay",
+      "content": "FemaleGhost forked aas-n/reauthx → FemaleGhost/reauthx-relay",
+      "author": "FemaleGhost",
+      "author_name": "FemaleGhost",
+      "author_url": "https://github.com/FemaleGhost",
+      "published_at": "2026-10-22T19:02:12+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/FemaleGhost",
+        "https://github.com/aas-n/reauthx",
+        "https://github.com/FemaleGhost/reauthx-relay"
+      ],
+      "refs": {
+        "actor": {
+          "login": "FemaleGhost",
+          "url": "https://github.com/FemaleGhost"
+        },
+        "repo": {
+          "full_name": "aas-n/reauthx",
+          "url": "https://github.com/aas-n/reauthx"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "FemaleGhost/reauthx-relay",
+          "url": "https://github.com/FemaleGhost/reauthx-relay"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:17941279412",
+      "who": "Innei",
+      "who_url": "https://github.com/Innei",
+      "action": "star",
+      "target": "rossark0/rossark-motion-skill",
+      "target_url": "https://github.com/rossark0/rossark-motion-skill",
+      "text": "Innei starred rossark0/rossark-motion-skill",
+      "at": "2026-10-22T18:25:40+00:00",
+      "external_id": "event:17941279412",
+      "url": "https://github.com/rossark0/rossark-motion-skill",
+      "content": "Innei starred rossark0/rossark-motion-skill",
+      "author": "Innei",
+      "author_name": "Innei",
+      "author_url": "https://github.com/Innei",
+      "published_at": "2026-10-22T18:25:40+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Innei",
+        "https://github.com/rossark0/rossark-motion-skill"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Innei",
+          "url": "https://github.com/Innei"
+        },
+        "repo": {
+          "full_name": "rossark0/rossark-motion-skill",
+          "url": "https://github.com/rossark0/rossark-motion-skill"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:17940663404",
+      "who": "Innei",
+      "who_url": "https://github.com/Innei",
+      "action": "star",
+      "target": "ParthJadhav/app-store-screenshots",
+      "target_url": "https://github.com/ParthJadhav/app-store-screenshots",
+      "text": "Innei starred ParthJadhav/app-store-screenshots",
+      "at": "2026-10-22T18:19:24+00:00",
+      "external_id": "event:17940663404",
+      "url": "https://github.com/ParthJadhav/app-store-screenshots",
+      "content": "Innei starred ParthJadhav/app-store-screenshots",
+      "author": "Innei",
+      "author_name": "Innei",
+      "author_url": "https://github.com/Innei",
+      "published_at": "2026-10-22T18:19:24+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Innei",
+        "https://github.com/ParthJadhav/app-store-screenshots"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Innei",
+          "url": "https://github.com/Innei"
+        },
+        "repo": {
+          "full_name": "ParthJadhav/app-store-screenshots",
+          "url": "https://github.com/ParthJadhav/app-store-screenshots"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:17930317921",
+      "who": "odzhan",
+      "who_url": "https://github.com/odzhan",
+      "action": "star",
+      "target": "nvmd/BarsWF",
+      "target_url": "https://github.com/nvmd/BarsWF",
+      "text": "odzhan starred nvmd/BarsWF",
+      "at": "2026-10-22T16:32:35+00:00",
+      "external_id": "event:17930317921",
+      "url": "https://github.com/nvmd/BarsWF",
+      "content": "odzhan starred nvmd/BarsWF",
+      "author": "odzhan",
+      "author_name": "odzhan",
+      "author_url": "https://github.com/odzhan",
+      "published_at": "2026-10-22T16:32:35+00:00",
+      "collected_at": "2026-10-22T23:56:52.605302+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/odzhan",
+        "https://github.com/nvmd/BarsWF"
+      ],
+      "refs": {
+        "actor": {
+          "login": "odzhan",
+          "url": "https://github.com/odzhan"
+        },
+        "repo": {
+          "full_name": "nvmd/BarsWF",
+          "url": "https://github.com/nvmd/BarsWF"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

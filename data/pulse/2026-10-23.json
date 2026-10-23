@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "date": "2026-10-23",
-  "generated_at": "2026-10-22T23:56:52+00:00",
-  "followee_count": 179,
-  "events_collected": 114,
+  "generated_at": "2026-10-23T23:48:33+00:00",
+  "followee_count": 181,
+  "events_collected": 605,
   "trending_available": true,
-  "trending_source_date": "2026-10-22",
+  "trending_source_date": "2026-10-23",
   "circle_hot": [],
   "circle_outer_hot": [
     {
@@ -289,6 +289,41 @@
       "latest_at": "2026-10-22T23:45:33Z"
     },
     {
+      "repo": "deepseek-ai/DeepSeek-V3",
+      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "outer_count": 7,
+      "outer_actors": [
+        "Ykxjh",
+        "buanovdaniil869-web",
+        "haochenshi22-debug",
+        "mcmichealkaluna-debug",
+        "qingkong66",
+        "ukkuma",
+        "wgw31king"
+      ],
+      "outer_actor_urls": [
+        "https://github.com/Ykxjh",
+        "https://github.com/buanovdaniil869-web",
+        "https://github.com/haochenshi22-debug",
+        "https://github.com/mcmichealkaluna-debug",
+        "https://github.com/qingkong66",
+        "https://github.com/ukkuma",
+        "https://github.com/wgw31king"
+      ],
+      "by_kind": {
+        "issue": 4,
+        "fork": 2,
+        "star": 3
+      },
+      "inner_count": 0,
+      "inner_actors": [],
+      "in_circle": false,
+      "trending": false,
+      "trending_front_page": false,
+      "languages": [],
+      "latest_at": "2026-10-23T15:24:03Z"
+    },
+    {
       "repo": "deepseek-ai/deepseek-recipe",
       "repo_url": "https://github.com/deepseek-ai/deepseek-recipe",
       "outer_count": 7,
@@ -325,12 +360,13 @@
     {
       "repo": "Vector35/binaryninja-api",
       "repo_url": "https://github.com/Vector35/binaryninja-api",
-      "outer_count": 5,
+      "outer_count": 6,
       "outer_actors": [
         "bdash",
         "emesare",
         "fuzyll",
         "plafosse",
+        "psifertex",
         "zznop"
       ],
       "outer_actor_urls": [
@@ -338,11 +374,12 @@
         "https://github.com/emesare",
         "https://github.com/fuzyll",
         "https://github.com/plafosse",
+        "https://github.com/psifertex",
         "https://github.com/zznop"
       ],
       "by_kind": {
         "pr": 8,
-        "issue": 5
+        "issue": 6
       },
       "inner_count": 0,
       "inner_actors": [],
@@ -350,38 +387,7 @@
       "trending": false,
       "trending_front_page": false,
       "languages": [],
-      "latest_at": "2026-10-22T23:06:59Z"
-    },
-    {
-      "repo": "deepseek-ai/DeepSeek-V3",
-      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "outer_count": 5,
-      "outer_actors": [
-        "Ykxjh",
-        "haochenshi22-debug",
-        "mcmichealkaluna-debug",
-        "ukkuma",
-        "wgw31king"
-      ],
-      "outer_actor_urls": [
-        "https://github.com/Ykxjh",
-        "https://github.com/haochenshi22-debug",
-        "https://github.com/mcmichealkaluna-debug",
-        "https://github.com/ukkuma",
-        "https://github.com/wgw31king"
-      ],
-      "by_kind": {
-        "issue": 1,
-        "fork": 2,
-        "star": 3
-      },
-      "inner_count": 0,
-      "inner_actors": [],
-      "in_circle": false,
-      "trending": false,
-      "trending_front_page": false,
-      "languages": [],
-      "latest_at": "2026-10-22T23:17:57Z"
+      "latest_at": "2026-10-23T11:36:25Z"
     },
     {
       "repo": "deepseek-ai/DeepGEMM",
@@ -422,7 +428,7 @@
         "https://github.com/moloch--"
       ],
       "by_kind": {
-        "pr": 7
+        "pr": 8
       },
       "inner_count": 0,
       "inner_actors": [],
@@ -430,7 +436,7 @@
       "trending": false,
       "trending_front_page": false,
       "languages": [],
-      "latest_at": "2026-10-22T23:06:31Z"
+      "latest_at": "2026-10-23T15:30:03Z"
     },
     {
       "repo": "BishopFox/unredacter",
@@ -505,19 +511,38 @@
     }
   ],
   "trending_overlap": [],
-  "releases": [],
+  "releases": [
+    {
+      "repo": "Lakr233/vphone-cli",
+      "by": "Lakr233",
+      "tag": "2.11.0",
+      "name": "v2.11.0",
+      "url": "https://github.com/Lakr233/vphone-cli/releases/tag/2.11.0",
+      "prerelease": false
+    },
+    {
+      "repo": "Lakr233/vphone-cli",
+      "by": "Lakr233",
+      "tag": "2.12.0",
+      "name": "vphone 2.12.0",
+      "url": "https://github.com/Lakr233/vphone-cli/releases/tag/2.12.0",
+      "prerelease": false
+    }
+  ],
   "new_repos": [],
-  "starred_repos_total": 5,
+  "starred_repos_total": 17,
   "raw_counts": {
-    "PullRequestEvent": 30,
-    "PullRequestReviewEvent": 10,
-    "DeleteEvent": 1,
-    "PushEvent": 23,
-    "IssuesEvent": 19,
-    "WatchEvent": 5,
-    "IssueCommentEvent": 19,
-    "CreateEvent": 6,
-    "ForkEvent": 1
+    "PullRequestEvent": 163,
+    "PullRequestReviewEvent": 19,
+    "DeleteEvent": 12,
+    "PushEvent": 220,
+    "IssuesEvent": 43,
+    "WatchEvent": 17,
+    "IssueCommentEvent": 64,
+    "CreateEvent": 37,
+    "ForkEvent": 17,
+    "ReleaseEvent": 2,
+    "PullRequestReviewCommentEvent": 11
   },
   "follows": {
     "new_count": 3,
@@ -563,8 +588,140 @@
     "degraded": false
   },
   "stars": {
-    "total": 5,
+    "total": 17,
     "items": [
+      {
+        "repo": "ruanyf/weekly",
+        "repo_url": "https://github.com/ruanyf/weekly",
+        "by": "Garck3h",
+        "by_url": "https://github.com/Garck3h",
+        "html_url": "https://github.com/ruanyf/weekly",
+        "text": "Garck3h starred ruanyf/weekly",
+        "created_at": "2026-10-23T15:45:14Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "bx33661/Wireshark-MCP",
+        "repo_url": "https://github.com/bx33661/Wireshark-MCP",
+        "by": "Neo-Maoku",
+        "by_url": "https://github.com/Neo-Maoku",
+        "html_url": "https://github.com/bx33661/Wireshark-MCP",
+        "text": "Neo-Maoku starred bx33661/Wireshark-MCP",
+        "created_at": "2026-10-23T15:34:25Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "LING71671/open-reverselab",
+        "repo_url": "https://github.com/LING71671/open-reverselab",
+        "by": "fdx-xdf",
+        "by_url": "https://github.com/fdx-xdf",
+        "html_url": "https://github.com/LING71671/open-reverselab",
+        "text": "fdx-xdf starred LING71671/open-reverselab",
+        "created_at": "2026-10-23T14:02:03Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Revivedx/SavageWindRecomp",
+        "repo_url": "https://github.com/Revivedx/SavageWindRecomp",
+        "by": "mrfearless",
+        "by_url": "https://github.com/mrfearless",
+        "html_url": "https://github.com/Revivedx/SavageWindRecomp",
+        "text": "mrfearless starred Revivedx/SavageWindRecomp",
+        "created_at": "2026-10-23T12:39:08Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "DroidASC/asc-rs",
+        "repo_url": "https://github.com/DroidASC/asc-rs",
+        "by": "MG1937",
+        "by_url": "https://github.com/MG1937",
+        "html_url": "https://github.com/DroidASC/asc-rs",
+        "text": "MG1937 starred DroidASC/asc-rs",
+        "created_at": "2026-10-23T09:48:43Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "YuJunZhiXue/dsh-purge",
+        "repo_url": "https://github.com/YuJunZhiXue/dsh-purge",
+        "by": "TryGOTry",
+        "by_url": "https://github.com/TryGOTry",
+        "html_url": "https://github.com/YuJunZhiXue/dsh-purge",
+        "text": "TryGOTry starred YuJunZhiXue/dsh-purge",
+        "created_at": "2026-10-23T09:23:18Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "JANUS-SEC/ZeroMDASH",
+        "repo_url": "https://github.com/JANUS-SEC/ZeroMDASH",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/JANUS-SEC/ZeroMDASH",
+        "text": "timwhitez starred JANUS-SEC/ZeroMDASH",
+        "created_at": "2026-10-23T09:14:22Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "hd3s5aa/CVE-2023-21674",
+        "repo_url": "https://github.com/hd3s5aa/CVE-2023-21674",
+        "by": "NUL0x4C",
+        "by_url": "https://github.com/NUL0x4C",
+        "html_url": "https://github.com/hd3s5aa/CVE-2023-21674",
+        "text": "NUL0x4C starred hd3s5aa/CVE-2023-21674",
+        "created_at": "2026-10-23T09:03:28Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Jakiboy/ReVens",
+        "repo_url": "https://github.com/Jakiboy/ReVens",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/Jakiboy/ReVens",
+        "text": "timwhitez starred Jakiboy/ReVens",
+        "created_at": "2026-10-23T07:22:10Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "coffeegist/bofhound",
+        "repo_url": "https://github.com/coffeegist/bofhound",
+        "by": "Xre0uS",
+        "by_url": "https://github.com/Xre0uS",
+        "html_url": "https://github.com/coffeegist/bofhound",
+        "text": "Xre0uS starred coffeegist/bofhound",
+        "created_at": "2026-10-23T05:42:10Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "kaandemir993/Vidar-Stealer-Chrome-Injection-Malicious-JS-Targeting-Google-Reddit-Sessions-Analysis",
+        "repo_url": "https://github.com/kaandemir993/Vidar-Stealer-Chrome-Injection-Malicious-JS-Targeting-Google-Reddit-Sessions-Analysis",
+        "by": "aleenzz",
+        "by_url": "https://github.com/aleenzz",
+        "html_url": "https://github.com/kaandemir993/Vidar-Stealer-Chrome-Injection-Malicious-JS-Targeting-Google-Reddit-Sessions-Analysis",
+        "text": "aleenzz starred kaandemir993/Vidar-Stealer-Chrome-Injection-Malicious-JS-Targeting-Google-Reddit-Sessions-Analysis",
+        "created_at": "2026-10-23T04:42:36Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "MiaAI-Lab/GLM-5.3-EXL3-3x-DGX-Sparks-TensorFold",
+        "repo_url": "https://github.com/MiaAI-Lab/GLM-5.3-EXL3-3x-DGX-Sparks-TensorFold",
+        "by": "wum0",
+        "by_url": "https://github.com/wum0",
+        "html_url": "https://github.com/MiaAI-Lab/GLM-5.3-EXL3-3x-DGX-Sparks-TensorFold",
+        "text": "wum0 starred MiaAI-Lab/GLM-5.3-EXL3-3x-DGX-Sparks-TensorFold",
+        "created_at": "2026-10-23T04:21:50Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "cfregly/ai-performance-engineering",
         "repo_url": "https://github.com/cfregly/ai-performance-engineering",
@@ -624,6 +781,182 @@
   },
   "forks": [
     {
+      "repo": "chryzsh/company-portal-lpe",
+      "repo_url": "https://github.com/chryzsh/company-portal-lpe",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/company-portal-lpe",
+      "forkee_url": "https://github.com/FemaleGhost/company-portal-lpe",
+      "html_url": "https://github.com/FemaleGhost/company-portal-lpe",
+      "text": "FemaleGhost forked chryzsh/company-portal-lpe → FemaleGhost/company-portal-lpe",
+      "created_at": "2026-10-23T15:09:41Z"
+    },
+    {
+      "repo": "jar-analyzer/jsd",
+      "repo_url": "https://github.com/jar-analyzer/jsd",
+      "by": "ssrsec",
+      "by_url": "https://github.com/ssrsec",
+      "forkee": "ssrsec/jsd",
+      "forkee_url": "https://github.com/ssrsec/jsd",
+      "html_url": "https://github.com/ssrsec/jsd",
+      "text": "ssrsec forked jar-analyzer/jsd → ssrsec/jsd",
+      "created_at": "2026-10-23T11:51:37Z"
+    },
+    {
+      "repo": "OWASP/www-project-api-security-testing-framework",
+      "repo_url": "https://github.com/OWASP/www-project-api-security-testing-framework",
+      "by": "ssrsec",
+      "by_url": "https://github.com/ssrsec",
+      "forkee": "ssrsec/www-project-api-security-testing-framework",
+      "forkee_url": "https://github.com/ssrsec/www-project-api-security-testing-framework",
+      "html_url": "https://github.com/ssrsec/www-project-api-security-testing-framework",
+      "text": "ssrsec forked OWASP/www-project-api-security-testing-framework → ssrsec/www-project-api-security-testing-framework",
+      "created_at": "2026-10-23T11:29:54Z"
+    },
+    {
+      "repo": "oosexgang/hackios-xnu-userland",
+      "repo_url": "https://github.com/oosexgang/hackios-xnu-userland",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/hackios-xnu-userland",
+      "forkee_url": "https://github.com/gmh5225/hackios-xnu-userland",
+      "html_url": "https://github.com/gmh5225/hackios-xnu-userland",
+      "text": "gmh5225 forked oosexgang/hackios-xnu-userland → gmh5225/hackios-xnu-userland",
+      "created_at": "2026-10-23T11:21:41Z"
+    },
+    {
+      "repo": "OWASP/CheatSheetSeries",
+      "repo_url": "https://github.com/OWASP/CheatSheetSeries",
+      "by": "ssrsec",
+      "by_url": "https://github.com/ssrsec",
+      "forkee": "ssrsec/CheatSheetSeries",
+      "forkee_url": "https://github.com/ssrsec/CheatSheetSeries",
+      "html_url": "https://github.com/ssrsec/CheatSheetSeries",
+      "text": "ssrsec forked OWASP/CheatSheetSeries → ssrsec/CheatSheetSeries",
+      "created_at": "2026-10-23T11:14:28Z"
+    },
+    {
+      "repo": "hd3s5aa/CVE-2023-21674",
+      "repo_url": "https://github.com/hd3s5aa/CVE-2023-21674",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/CVE-2023-21674",
+      "forkee_url": "https://github.com/gmh5225/CVE-2023-21674",
+      "html_url": "https://github.com/gmh5225/CVE-2023-21674",
+      "text": "gmh5225 forked hd3s5aa/CVE-2023-21674 → gmh5225/CVE-2023-21674",
+      "created_at": "2026-10-23T10:06:33Z"
+    },
+    {
+      "repo": "lobehub/.github",
+      "repo_url": "https://github.com/lobehub/.github",
+      "by": "Innei",
+      "by_url": "https://github.com/Innei",
+      "forkee": "Innei/lobehub-.github",
+      "forkee_url": "https://github.com/Innei/lobehub-.github",
+      "html_url": "https://github.com/Innei/lobehub-.github",
+      "text": "Innei forked lobehub/.github → Innei/lobehub-.github",
+      "created_at": "2026-10-23T09:01:06Z"
+    },
+    {
+      "repo": "hasenbanck/lzma-rust2",
+      "repo_url": "https://github.com/hasenbanck/lzma-rust2",
+      "by": "Dreamacro",
+      "by_url": "https://github.com/Dreamacro",
+      "forkee": "Dreamacro/lzma-rust2",
+      "forkee_url": "https://github.com/Dreamacro/lzma-rust2",
+      "html_url": "https://github.com/Dreamacro/lzma-rust2",
+      "text": "Dreamacro forked hasenbanck/lzma-rust2 → Dreamacro/lzma-rust2",
+      "created_at": "2026-10-23T08:41:13Z"
+    },
+    {
+      "repo": "dzhng/jevgrep",
+      "repo_url": "https://github.com/dzhng/jevgrep",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/jevgrep",
+      "forkee_url": "https://github.com/gmh5225/jevgrep",
+      "html_url": "https://github.com/gmh5225/jevgrep",
+      "text": "gmh5225 forked dzhng/jevgrep → gmh5225/jevgrep",
+      "created_at": "2026-10-23T07:46:35Z"
+    },
+    {
+      "repo": "LNPANDY/NX2Apple",
+      "repo_url": "https://github.com/LNPANDY/NX2Apple",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/nxnative-romfs-archive",
+      "forkee_url": "https://github.com/gmh5225/nxnative-romfs-archive",
+      "html_url": "https://github.com/gmh5225/nxnative-romfs-archive",
+      "text": "gmh5225 forked LNPANDY/NX2Apple → gmh5225/nxnative-romfs-archive",
+      "created_at": "2026-10-23T07:20:01Z"
+    },
+    {
+      "repo": "PSeitz/lz4_flex",
+      "repo_url": "https://github.com/PSeitz/lz4_flex",
+      "by": "Dreamacro",
+      "by_url": "https://github.com/Dreamacro",
+      "forkee": "Dreamacro/lz4_flex",
+      "forkee_url": "https://github.com/Dreamacro/lz4_flex",
+      "html_url": "https://github.com/Dreamacro/lz4_flex",
+      "text": "Dreamacro forked PSeitz/lz4_flex → Dreamacro/lz4_flex",
+      "created_at": "2026-10-23T06:56:32Z"
+    },
+    {
+      "repo": "mdpsec/bug-bounty-hunting-prompts",
+      "repo_url": "https://github.com/mdpsec/bug-bounty-hunting-prompts",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/bug-bounty-hunting-prompts",
+      "forkee_url": "https://github.com/gmh5225/bug-bounty-hunting-prompts",
+      "html_url": "https://github.com/gmh5225/bug-bounty-hunting-prompts",
+      "text": "gmh5225 forked mdpsec/bug-bounty-hunting-prompts → gmh5225/bug-bounty-hunting-prompts",
+      "created_at": "2026-10-23T05:46:43Z"
+    },
+    {
+      "repo": "theorem-labs/rocq-linux-process-semantics",
+      "repo_url": "https://github.com/theorem-labs/rocq-linux-process-semantics",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/rocq-linux-process-semantics",
+      "forkee_url": "https://github.com/gmh5225/rocq-linux-process-semantics",
+      "html_url": "https://github.com/gmh5225/rocq-linux-process-semantics",
+      "text": "gmh5225 forked theorem-labs/rocq-linux-process-semantics → gmh5225/rocq-linux-process-semantics",
+      "created_at": "2026-10-23T05:36:03Z"
+    },
+    {
+      "repo": "theorem-labs/oss-verify-proofs",
+      "repo_url": "https://github.com/theorem-labs/oss-verify-proofs",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/oss-verify-proofs",
+      "forkee_url": "https://github.com/gmh5225/oss-verify-proofs",
+      "html_url": "https://github.com/gmh5225/oss-verify-proofs",
+      "text": "gmh5225 forked theorem-labs/oss-verify-proofs → gmh5225/oss-verify-proofs",
+      "created_at": "2026-10-23T05:35:45Z"
+    },
+    {
+      "repo": "reveny/Android-Compatibility-Layer",
+      "repo_url": "https://github.com/reveny/Android-Compatibility-Layer",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/Android-Compatibility-Layer",
+      "forkee_url": "https://github.com/gmh5225/Android-Compatibility-Layer",
+      "html_url": "https://github.com/gmh5225/Android-Compatibility-Layer",
+      "text": "gmh5225 forked reveny/Android-Compatibility-Layer → gmh5225/Android-Compatibility-Layer",
+      "created_at": "2026-10-23T05:19:39Z"
+    },
+    {
+      "repo": "an0x03e8/IMEclient-bof",
+      "repo_url": "https://github.com/an0x03e8/IMEclient-bof",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/IMEclient-bof",
+      "forkee_url": "https://github.com/FemaleGhost/IMEclient-bof",
+      "html_url": "https://github.com/FemaleGhost/IMEclient-bof",
+      "text": "FemaleGhost forked an0x03e8/IMEclient-bof → FemaleGhost/IMEclient-bof",
+      "created_at": "2026-10-23T02:08:27Z"
+    },
+    {
       "repo": "aas-n/reauthx",
       "repo_url": "https://github.com/aas-n/reauthx",
       "by": "FemaleGhost",
@@ -635,5 +968,5 @@
       "created_at": "2026-10-22T19:02:12Z"
     }
   ],
-  "feed_item_count": 19
+  "feed_item_count": 49
 }

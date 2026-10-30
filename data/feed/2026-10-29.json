@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "date": "2026-10-29",
-  "generated_at": "2026-10-29T00:41:58+00:00",
+  "generated_at": "2026-10-30T00:42:31+00:00",
   "followee_count": 180,
-  "item_count": 34,
+  "item_count": 56,
   "kinds_included": [
     "star",
     "fork",
@@ -13,8 +13,503 @@
     "network_hot"
   ],
   "trending_available": true,
-  "trending_source_date": "2026-10-28",
+  "trending_source_date": "2026-10-29",
   "items": [
+    {
+      "id": "event:18573517054",
+      "kind": "star",
+      "text": "seventeenman starred qybaihe/bla",
+      "actor": "seventeenman",
+      "actor_url": "https://github.com/seventeenman",
+      "created_at": "2026-10-29T15:47:38Z",
+      "repo": "qybaihe/bla",
+      "repo_url": "https://github.com/qybaihe/bla",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/qybaihe/bla",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:Vector35/binaryninja-api:2026-10-29",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "Vector35/binaryninja-api",
+      "repo_url": "https://github.com/Vector35/binaryninja-api",
+      "html_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Vector35/binaryninja-api — 圈外 3 人参与（issue×1, pr×2）",
+      "created_at": "2026-10-29T15:30:33Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "UvuvDev",
+          "bdash",
+          "zznop"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 1,
+          "pr": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:18563293000",
+      "kind": "release",
+      "text": "Lakr233 released LookInsideApp/LookInside-Release 1.1.2",
+      "actor": "Lakr233",
+      "actor_url": "https://github.com/Lakr233",
+      "created_at": "2026-10-29T13:48:34Z",
+      "repo": "LookInsideApp/LookInside-Release",
+      "repo_url": "https://github.com/LookInsideApp/LookInside-Release",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/LookInsideApp/LookInside-Release/releases/tag/1.1.2",
+      "payload": {
+        "tag": "1.1.2",
+        "name": "1.1.2",
+        "url": "https://github.com/LookInsideApp/LookInside-Release/releases/tag/1.1.2",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:18562307525",
+      "kind": "fork",
+      "text": "FemaleGhost forked m19o/NightAgents → FemaleGhost/NightAgents",
+      "actor": "FemaleGhost",
+      "actor_url": "https://github.com/FemaleGhost",
+      "created_at": "2026-10-29T13:35:30Z",
+      "repo": "m19o/NightAgents",
+      "repo_url": "https://github.com/m19o/NightAgents",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/FemaleGhost/NightAgents",
+      "payload": {
+        "forkee": "FemaleGhost/NightAgents",
+        "forkee_url": "https://github.com/FemaleGhost/NightAgents"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:18562084321",
+      "kind": "star",
+      "text": "canyie starred michalbednarski/OtherActivityToken",
+      "actor": "canyie",
+      "actor_url": "https://github.com/canyie",
+      "created_at": "2026-10-29T13:32:32Z",
+      "repo": "michalbednarski/OtherActivityToken",
+      "repo_url": "https://github.com/michalbednarski/OtherActivityToken",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/michalbednarski/OtherActivityToken",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18561631220",
+      "kind": "fork",
+      "text": "FemaleGhost forked wangshen233/sentinel-rs → FemaleGhost/sentinel-rs",
+      "actor": "FemaleGhost",
+      "actor_url": "https://github.com/FemaleGhost",
+      "created_at": "2026-10-29T13:26:47Z",
+      "repo": "wangshen233/sentinel-rs",
+      "repo_url": "https://github.com/wangshen233/sentinel-rs",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/FemaleGhost/sentinel-rs",
+      "payload": {
+        "forkee": "FemaleGhost/sentinel-rs",
+        "forkee_url": "https://github.com/FemaleGhost/sentinel-rs"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:18551258275",
+      "kind": "star",
+      "text": "0xTriboulet starred xjdr-alt/entropix",
+      "actor": "0xTriboulet",
+      "actor_url": "https://github.com/0xTriboulet",
+      "created_at": "2026-10-29T11:09:56Z",
+      "repo": "xjdr-alt/entropix",
+      "repo_url": "https://github.com/xjdr-alt/entropix",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/xjdr-alt/entropix",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18547468027",
+      "kind": "star",
+      "text": "timwhitez starred semgrep/semgrep",
+      "actor": "timwhitez",
+      "actor_url": "https://github.com/timwhitez",
+      "created_at": "2026-10-29T10:20:23Z",
+      "repo": "semgrep/semgrep",
+      "repo_url": "https://github.com/semgrep/semgrep",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/semgrep/semgrep",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18547334676",
+      "kind": "star",
+      "text": "bartblaze starred bitcoin/bitcoin",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-10-29T10:18:39Z",
+      "repo": "bitcoin/bitcoin",
+      "repo_url": "https://github.com/bitcoin/bitcoin",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/bitcoin/bitcoin",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18546059127",
+      "kind": "star",
+      "text": "phith0n starred ai-job-search-dev/ai-job-search",
+      "actor": "phith0n",
+      "actor_url": "https://github.com/phith0n",
+      "created_at": "2026-10-29T10:01:50Z",
+      "repo": "ai-job-search-dev/ai-job-search",
+      "repo_url": "https://github.com/ai-job-search-dev/ai-job-search",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/ai-job-search-dev/ai-job-search",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18545996837",
+      "kind": "star",
+      "text": "phith0n starred heygen-com/hyperframes",
+      "actor": "phith0n",
+      "actor_url": "https://github.com/phith0n",
+      "created_at": "2026-10-29T10:01:00Z",
+      "repo": "heygen-com/hyperframes",
+      "repo_url": "https://github.com/heygen-com/hyperframes",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/heygen-com/hyperframes",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18545695348",
+      "kind": "star",
+      "text": "phith0n starred Nutlope/hallmark",
+      "actor": "phith0n",
+      "actor_url": "https://github.com/phith0n",
+      "created_at": "2026-10-29T09:56:59Z",
+      "repo": "Nutlope/hallmark",
+      "repo_url": "https://github.com/Nutlope/hallmark",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Nutlope/hallmark",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": true,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18541394308",
+      "kind": "release",
+      "text": "Lakr233 released Lakr233/vphone-cli 2.14.0",
+      "actor": "Lakr233",
+      "actor_url": "https://github.com/Lakr233",
+      "created_at": "2026-10-29T09:00:26Z",
+      "repo": "Lakr233/vphone-cli",
+      "repo_url": "https://github.com/Lakr233/vphone-cli",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Lakr233/vphone-cli/releases/tag/2.14.0",
+      "payload": {
+        "tag": "2.14.0",
+        "name": "vphone 2.14.0",
+        "url": "https://github.com/Lakr233/vphone-cli/releases/tag/2.14.0",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:18541068832",
+      "kind": "star",
+      "text": "phith0n starred debpalash/VoiceStudio",
+      "actor": "phith0n",
+      "actor_url": "https://github.com/phith0n",
+      "created_at": "2026-10-29T08:56:13Z",
+      "repo": "debpalash/VoiceStudio",
+      "repo_url": "https://github.com/debpalash/VoiceStudio",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/debpalash/VoiceStudio",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18538602976",
+      "kind": "fork",
+      "text": "FemaleGhost forked VirtualAlllocEx/edr-precut → FemaleGhost/edr-precut",
+      "actor": "FemaleGhost",
+      "actor_url": "https://github.com/FemaleGhost",
+      "created_at": "2026-10-29T08:22:44Z",
+      "repo": "VirtualAlllocEx/edr-precut",
+      "repo_url": "https://github.com/VirtualAlllocEx/edr-precut",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/FemaleGhost/edr-precut",
+      "payload": {
+        "forkee": "FemaleGhost/edr-precut",
+        "forkee_url": "https://github.com/FemaleGhost/edr-precut"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:18535472030",
+      "kind": "star",
+      "text": "PassingFoam starred QiantangCredit/heimdall-agent",
+      "actor": "PassingFoam",
+      "actor_url": "https://github.com/PassingFoam",
+      "created_at": "2026-10-29T07:35:54Z",
+      "repo": "QiantangCredit/heimdall-agent",
+      "repo_url": "https://github.com/QiantangCredit/heimdall-agent",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/QiantangCredit/heimdall-agent",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18534593190",
+      "kind": "star",
+      "text": "cdxiaodong starred togg53192-cmd/jailbreaks",
+      "actor": "cdxiaodong",
+      "actor_url": "https://github.com/cdxiaodong",
+      "created_at": "2026-10-29T07:22:05Z",
+      "repo": "togg53192-cmd/jailbreaks",
+      "repo_url": "https://github.com/togg53192-cmd/jailbreaks",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/togg53192-cmd/jailbreaks",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": true,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18533965853",
+      "kind": "star",
+      "text": "Mx-Iris starred DrWhax/unfairplay",
+      "actor": "Mx-Iris",
+      "actor_url": "https://github.com/Mx-Iris",
+      "created_at": "2026-10-29T07:12:16Z",
+      "repo": "DrWhax/unfairplay",
+      "repo_url": "https://github.com/DrWhax/unfairplay",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/DrWhax/unfairplay",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:18528367784",
+      "kind": "star",
+      "text": "Lakr233 starred storytold/photocraft",
+      "actor": "Lakr233",
+      "actor_url": "https://github.com/Lakr233",
+      "created_at": "2026-10-29T05:47:59Z",
+      "repo": "storytold/photocraft",
+      "repo_url": "https://github.com/storytold/photocraft",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/storytold/photocraft",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18523564565",
+      "kind": "star",
+      "text": "Lakr233 starred DrWhax/unfairplay",
+      "actor": "Lakr233",
+      "actor_url": "https://github.com/Lakr233",
+      "created_at": "2026-10-29T04:32:01Z",
+      "repo": "DrWhax/unfairplay",
+      "repo_url": "https://github.com/DrWhax/unfairplay",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/DrWhax/unfairplay",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:18518961525",
+      "kind": "star",
+      "text": "HuYlllc starred memvid/memvid",
+      "actor": "HuYlllc",
+      "actor_url": "https://github.com/HuYlllc",
+      "created_at": "2026-10-29T03:14:48Z",
+      "repo": "memvid/memvid",
+      "repo_url": "https://github.com/memvid/memvid",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/memvid/memvid",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18518851658",
+      "kind": "star",
+      "text": "firmianay starred vercel-labs/deepsec",
+      "actor": "firmianay",
+      "actor_url": "https://github.com/firmianay",
+      "created_at": "2026-10-29T03:13:05Z",
+      "repo": "vercel-labs/deepsec",
+      "repo_url": "https://github.com/vercel-labs/deepsec",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/vercel-labs/deepsec",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:18515564201",
+      "kind": "star",
+      "text": "firmianay starred RuoJi6/ARTEX",
+      "actor": "firmianay",
+      "actor_url": "https://github.com/firmianay",
+      "created_at": "2026-10-29T02:19:52Z",
+      "repo": "RuoJi6/ARTEX",
+      "repo_url": "https://github.com/RuoJi6/ARTEX",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/RuoJi6/ARTEX",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
     {
       "id": "follow:yj94:MG1937:2026-10-29:followed",
       "kind": "follow",
@@ -45,8 +540,8 @@
         "html_url": "https://github.com/MG1937",
         "languages": [
           "Python",
-          "C#",
           "Rust",
+          "C#",
           "HTML",
           "JavaScript"
         ],
@@ -55,8 +550,15 @@
             "name": "MG1937/ASC",
             "description": "ASC is a super FAST and lightweight Android decompiler designed for Agents/Mobile Researchers.",
             "language": "Python",
-            "stars": 2581,
-            "pushed_at": "2026-10-21T09:18:58Z"
+            "stars": 2597,
+            "pushed_at": "2026-10-29T03:26:46Z"
+          },
+          {
+            "name": "MG1937/rust_ASC",
+            "description": "Rust ASC is a super FAST and lightweight Android decompiler designed for Agents/Mobile Researchers.",
+            "language": "Rust",
+            "stars": 106,
+            "pushed_at": "2026-10-28T07:13:55Z"
           },
           {
             "name": "MG1937/AntiProguard-KRSFinder",
@@ -64,13 +566,6 @@
             "language": "C#",
             "stars": 105,
             "pushed_at": "2022-06-01T11:34:20Z"
-          },
-          {
-            "name": "MG1937/rust_ASC",
-            "description": "Rust ASC is a super FAST and lightweight Android decompiler designed for Agents/Mobile Researchers.",
-            "language": "Rust",
-            "stars": 99,
-            "pushed_at": "2026-10-28T07:13:55Z"
           },
           {
             "name": "MG1937/InformalNotes",
@@ -83,7 +578,7 @@
             "name": "MG1937/PHP_Opcode_Document",
             "description": "完善vld文档对PHP操作码的解释.  Improve vld's php-opcode document ",
             "language": "HTML",
-            "stars": 16,
+            "stars": 17,
             "pushed_at": "2022-01-27T14:39:04Z"
           }
         ]
@@ -178,7 +673,7 @@
         "login": "gh0stkey",
         "name": "EvilChen",
         "bio": "(ATT&DEF)er",
-        "followers": 3075,
+        "followers": 3077,
         "public_repos": 13,
         "html_url": "https://github.com/gh0stkey",
         "languages": [
@@ -190,14 +685,14 @@
             "name": "gh0stkey/Web-Fuzzing-Box",
             "description": "Web Fuzzing Box - Web 模糊测试字典与一些Payloads",
             "language": "HTML",
-            "stars": 2802,
+            "stars": 2803,
             "pushed_at": "2026-03-23T07:31:48Z"
           },
           {
             "name": "gh0stkey/Binary-Learning",
             "description": "二进制安全相关的学习笔记，感谢滴水逆向的所有老师辛苦教学。",
             "language": null,
-            "stars": 1458,
+            "stars": 1460,
             "pushed_at": "2024-05-30T06:33:52Z"
           },
           {
@@ -584,41 +1079,6 @@
         "trending": false,
         "trending_front_page": false,
         "circle_count": 1
-      }
-    },
-    {
-      "id": "network:Vector35/binaryninja-api:2026-10-29",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "Vector35/binaryninja-api",
-      "repo_url": "https://github.com/Vector35/binaryninja-api",
-      "html_url": "https://github.com/Vector35/binaryninja-api",
-      "text": "Vector35/binaryninja-api — 圈外 2 人参与（issue×1, pr×1）",
-      "created_at": "2026-10-28T21:44:59Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 2,
-        "outer_actors": [
-          "UvuvDev",
-          "bdash"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "issue": 1,
-          "pr": 1
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
       }
     },
     {
@@ -1045,13 +1505,14 @@
   ],
   "summary": {
     "by_kind": {
-      "follow": 3,
+      "star": 36,
       "network_hot": 10,
-      "star": 19,
-      "fork": 2
+      "release": 2,
+      "fork": 5,
+      "follow": 3
     },
-    "push_events_excluded": 0,
-    "events_in_window": 105,
+    "push_events_excluded": 14,
+    "events_in_window": 227,
     "follows_in_window": 5
   }
 }

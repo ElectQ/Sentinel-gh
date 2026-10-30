@@ -1,12 +1,27 @@
 {
   "schema_version": 2,
   "date": "2026-10-29",
-  "generated_at": "2026-10-29T00:42:00+00:00",
+  "generated_at": "2026-10-30T00:42:32+00:00",
   "followee_count": 180,
-  "events_collected": 105,
+  "events_collected": 227,
   "trending_available": true,
-  "trending_source_date": "2026-10-28",
+  "trending_source_date": "2026-10-29",
   "circle_hot": [
+    {
+      "repo": "DrWhax/unfairplay",
+      "repo_url": "https://github.com/DrWhax/unfairplay",
+      "count": 2,
+      "starred_by": [
+        "Lakr233",
+        "Mx-Iris"
+      ],
+      "starred_by_urls": [
+        "https://github.com/Lakr233",
+        "https://github.com/Mx-Iris"
+      ],
+      "trending": false,
+      "trending_front_page": false
+    },
     {
       "repo": "NotRequiem/swtpm-detector",
       "repo_url": "https://github.com/NotRequiem/swtpm-detector",
@@ -428,18 +443,20 @@
     {
       "repo": "Vector35/binaryninja-api",
       "repo_url": "https://github.com/Vector35/binaryninja-api",
-      "outer_count": 2,
+      "outer_count": 3,
       "outer_actors": [
         "UvuvDev",
-        "bdash"
+        "bdash",
+        "zznop"
       ],
       "outer_actor_urls": [
         "https://github.com/UvuvDev",
-        "https://github.com/bdash"
+        "https://github.com/bdash",
+        "https://github.com/zznop"
       ],
       "by_kind": {
         "issue": 1,
-        "pr": 1
+        "pr": 2
       },
       "inner_count": 0,
       "inner_actors": [],
@@ -447,7 +464,7 @@
       "trending": false,
       "trending_front_page": false,
       "languages": [],
-      "latest_at": "2026-10-28T21:44:59Z"
+      "latest_at": "2026-10-29T15:30:33Z"
     },
     {
       "repo": "Vector35/debugger",
@@ -522,17 +539,102 @@
       "latest_at": "2026-10-28T22:22:44Z"
     }
   ],
-  "trending_overlap": [],
-  "releases": [],
+  "trending_overlap": [
+    {
+      "repo": "Nutlope/hallmark",
+      "repo_url": "https://github.com/Nutlope/hallmark",
+      "count": 1,
+      "starred_by": [
+        "phith0n"
+      ],
+      "starred_by_urls": [
+        "https://github.com/phith0n"
+      ],
+      "trending": true,
+      "trending_front_page": true,
+      "languages": [
+        "css"
+      ]
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "repo_url": "https://github.com/debpalash/VoiceStudio",
+      "count": 1,
+      "starred_by": [
+        "phith0n"
+      ],
+      "starred_by_urls": [
+        "https://github.com/phith0n"
+      ],
+      "trending": true,
+      "trending_front_page": false,
+      "languages": [
+        "python"
+      ]
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "repo_url": "https://github.com/heygen-com/hyperframes",
+      "count": 1,
+      "starred_by": [
+        "phith0n"
+      ],
+      "starred_by_urls": [
+        "https://github.com/phith0n"
+      ],
+      "trending": true,
+      "trending_front_page": false,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "repo": "togg53192-cmd/jailbreaks",
+      "repo_url": "https://github.com/togg53192-cmd/jailbreaks",
+      "count": 1,
+      "starred_by": [
+        "cdxiaodong"
+      ],
+      "starred_by_urls": [
+        "https://github.com/cdxiaodong"
+      ],
+      "trending": true,
+      "trending_front_page": true,
+      "languages": []
+    }
+  ],
+  "releases": [
+    {
+      "repo": "Lakr233/vphone-cli",
+      "by": "Lakr233",
+      "tag": "2.14.0",
+      "name": "vphone 2.14.0",
+      "url": "https://github.com/Lakr233/vphone-cli/releases/tag/2.14.0",
+      "prerelease": false
+    },
+    {
+      "repo": "LookInsideApp/LookInside-Release",
+      "by": "Lakr233",
+      "tag": "1.1.2",
+      "name": "1.1.2",
+      "url": "https://github.com/LookInsideApp/LookInside-Release/releases/tag/1.1.2",
+      "prerelease": false
+    }
+  ],
   "new_repos": [],
-  "starred_repos_total": 18,
+  "starred_repos_total": 34,
   "raw_counts": {
-    "IssueCommentEvent": 30,
-    "IssuesEvent": 34,
-    "PullRequestEvent": 18,
-    "WatchEvent": 19,
-    "ForkEvent": 2,
-    "PullRequestReviewEvent": 2
+    "IssueCommentEvent": 44,
+    "IssuesEvent": 39,
+    "PullRequestEvent": 65,
+    "WatchEvent": 36,
+    "ForkEvent": 5,
+    "PullRequestReviewEvent": 10,
+    "CreateEvent": 3,
+    "PushEvent": 14,
+    "DeleteEvent": 2,
+    "PullRequestReviewCommentEvent": 7,
+    "ReleaseEvent": 2
   },
   "follows": {
     "new_count": 3,
@@ -599,8 +701,195 @@
     "degraded": false
   },
   "stars": {
-    "total": 19,
+    "total": 36,
     "items": [
+      {
+        "repo": "qybaihe/bla",
+        "repo_url": "https://github.com/qybaihe/bla",
+        "by": "seventeenman",
+        "by_url": "https://github.com/seventeenman",
+        "html_url": "https://github.com/qybaihe/bla",
+        "text": "seventeenman starred qybaihe/bla",
+        "created_at": "2026-10-29T15:47:38Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "michalbednarski/OtherActivityToken",
+        "repo_url": "https://github.com/michalbednarski/OtherActivityToken",
+        "by": "canyie",
+        "by_url": "https://github.com/canyie",
+        "html_url": "https://github.com/michalbednarski/OtherActivityToken",
+        "text": "canyie starred michalbednarski/OtherActivityToken",
+        "created_at": "2026-10-29T13:32:32Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "xjdr-alt/entropix",
+        "repo_url": "https://github.com/xjdr-alt/entropix",
+        "by": "0xTriboulet",
+        "by_url": "https://github.com/0xTriboulet",
+        "html_url": "https://github.com/xjdr-alt/entropix",
+        "text": "0xTriboulet starred xjdr-alt/entropix",
+        "created_at": "2026-10-29T11:09:56Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "semgrep/semgrep",
+        "repo_url": "https://github.com/semgrep/semgrep",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/semgrep/semgrep",
+        "text": "timwhitez starred semgrep/semgrep",
+        "created_at": "2026-10-29T10:20:23Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "bitcoin/bitcoin",
+        "repo_url": "https://github.com/bitcoin/bitcoin",
+        "by": "bartblaze",
+        "by_url": "https://github.com/bartblaze",
+        "html_url": "https://github.com/bitcoin/bitcoin",
+        "text": "bartblaze starred bitcoin/bitcoin",
+        "created_at": "2026-10-29T10:18:39Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "ai-job-search-dev/ai-job-search",
+        "repo_url": "https://github.com/ai-job-search-dev/ai-job-search",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/ai-job-search-dev/ai-job-search",
+        "text": "phith0n starred ai-job-search-dev/ai-job-search",
+        "created_at": "2026-10-29T10:01:50Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "heygen-com/hyperframes",
+        "repo_url": "https://github.com/heygen-com/hyperframes",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/heygen-com/hyperframes",
+        "text": "phith0n starred heygen-com/hyperframes",
+        "created_at": "2026-10-29T10:01:00Z",
+        "trending": true,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Nutlope/hallmark",
+        "repo_url": "https://github.com/Nutlope/hallmark",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/Nutlope/hallmark",
+        "text": "phith0n starred Nutlope/hallmark",
+        "created_at": "2026-10-29T09:56:59Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "debpalash/VoiceStudio",
+        "repo_url": "https://github.com/debpalash/VoiceStudio",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/debpalash/VoiceStudio",
+        "text": "phith0n starred debpalash/VoiceStudio",
+        "created_at": "2026-10-29T08:56:13Z",
+        "trending": true,
+        "trending_front_page": false
+      },
+      {
+        "repo": "QiantangCredit/heimdall-agent",
+        "repo_url": "https://github.com/QiantangCredit/heimdall-agent",
+        "by": "PassingFoam",
+        "by_url": "https://github.com/PassingFoam",
+        "html_url": "https://github.com/QiantangCredit/heimdall-agent",
+        "text": "PassingFoam starred QiantangCredit/heimdall-agent",
+        "created_at": "2026-10-29T07:35:54Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "togg53192-cmd/jailbreaks",
+        "repo_url": "https://github.com/togg53192-cmd/jailbreaks",
+        "by": "cdxiaodong",
+        "by_url": "https://github.com/cdxiaodong",
+        "html_url": "https://github.com/togg53192-cmd/jailbreaks",
+        "text": "cdxiaodong starred togg53192-cmd/jailbreaks",
+        "created_at": "2026-10-29T07:22:05Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "DrWhax/unfairplay",
+        "repo_url": "https://github.com/DrWhax/unfairplay",
+        "by": "Mx-Iris",
+        "by_url": "https://github.com/Mx-Iris",
+        "html_url": "https://github.com/DrWhax/unfairplay",
+        "text": "Mx-Iris starred DrWhax/unfairplay",
+        "created_at": "2026-10-29T07:12:16Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "storytold/photocraft",
+        "repo_url": "https://github.com/storytold/photocraft",
+        "by": "Lakr233",
+        "by_url": "https://github.com/Lakr233",
+        "html_url": "https://github.com/storytold/photocraft",
+        "text": "Lakr233 starred storytold/photocraft",
+        "created_at": "2026-10-29T05:47:59Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "DrWhax/unfairplay",
+        "repo_url": "https://github.com/DrWhax/unfairplay",
+        "by": "Lakr233",
+        "by_url": "https://github.com/Lakr233",
+        "html_url": "https://github.com/DrWhax/unfairplay",
+        "text": "Lakr233 starred DrWhax/unfairplay",
+        "created_at": "2026-10-29T04:32:01Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "memvid/memvid",
+        "repo_url": "https://github.com/memvid/memvid",
+        "by": "HuYlllc",
+        "by_url": "https://github.com/HuYlllc",
+        "html_url": "https://github.com/memvid/memvid",
+        "text": "HuYlllc starred memvid/memvid",
+        "created_at": "2026-10-29T03:14:48Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "vercel-labs/deepsec",
+        "repo_url": "https://github.com/vercel-labs/deepsec",
+        "by": "firmianay",
+        "by_url": "https://github.com/firmianay",
+        "html_url": "https://github.com/vercel-labs/deepsec",
+        "text": "firmianay starred vercel-labs/deepsec",
+        "created_at": "2026-10-29T03:13:05Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "RuoJi6/ARTEX",
+        "repo_url": "https://github.com/RuoJi6/ARTEX",
+        "by": "firmianay",
+        "by_url": "https://github.com/firmianay",
+        "html_url": "https://github.com/RuoJi6/ARTEX",
+        "text": "firmianay starred RuoJi6/ARTEX",
+        "created_at": "2026-10-29T02:19:52Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "Loxonl/vPaste-desktop",
         "repo_url": "https://github.com/Loxonl/vPaste-desktop",
@@ -814,6 +1103,39 @@
   },
   "forks": [
     {
+      "repo": "m19o/NightAgents",
+      "repo_url": "https://github.com/m19o/NightAgents",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/NightAgents",
+      "forkee_url": "https://github.com/FemaleGhost/NightAgents",
+      "html_url": "https://github.com/FemaleGhost/NightAgents",
+      "text": "FemaleGhost forked m19o/NightAgents → FemaleGhost/NightAgents",
+      "created_at": "2026-10-29T13:35:30Z"
+    },
+    {
+      "repo": "wangshen233/sentinel-rs",
+      "repo_url": "https://github.com/wangshen233/sentinel-rs",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/sentinel-rs",
+      "forkee_url": "https://github.com/FemaleGhost/sentinel-rs",
+      "html_url": "https://github.com/FemaleGhost/sentinel-rs",
+      "text": "FemaleGhost forked wangshen233/sentinel-rs → FemaleGhost/sentinel-rs",
+      "created_at": "2026-10-29T13:26:47Z"
+    },
+    {
+      "repo": "VirtualAlllocEx/edr-precut",
+      "repo_url": "https://github.com/VirtualAlllocEx/edr-precut",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/edr-precut",
+      "forkee_url": "https://github.com/FemaleGhost/edr-precut",
+      "html_url": "https://github.com/FemaleGhost/edr-precut",
+      "text": "FemaleGhost forked VirtualAlllocEx/edr-precut → FemaleGhost/edr-precut",
+      "created_at": "2026-10-29T08:22:44Z"
+    },
+    {
       "repo": "CAPESandbox/community",
       "repo_url": "https://github.com/CAPESandbox/community",
       "by": "bartblaze",
@@ -836,5 +1158,5 @@
       "created_at": "2026-10-28T17:11:42Z"
     }
   ],
-  "feed_item_count": 34
+  "feed_item_count": 56
 }

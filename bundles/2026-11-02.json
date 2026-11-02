@@ -1,0 +1,758 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-11-02",
+  "collect_window": {
+    "start": "2026-11-01T16:56:16+00:00",
+    "end": "2026-11-02T00:26:49+00:00",
+    "hours": 7
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "41367058392",
+    "commit": "ddac181"
+  },
+  "stats": {
+    "total": 11,
+    "by_kind": {
+      "follow": 1,
+      "network_hot": 3,
+      "star": 6,
+      "fork": 1
+    },
+    "failed_lists": [],
+    "followee_count": 181,
+    "push_events_excluded": 0
+  },
+  "items": [
+    {
+      "id": "follow:realoriginal:zero-objects:2026-11-02:followed",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "follow",
+      "target": "zero-objects",
+      "target_url": "https://github.com/zero-objects",
+      "text": "realoriginal followed zero-objects",
+      "at": "2026-11-02T00:26:49+00:00",
+      "external_id": "follow:realoriginal:zero-objects:2026-11-02:followed",
+      "url": "https://github.com/zero-objects",
+      "content": "realoriginal followed zero-objects",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-11-02T00:26:49+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/zero-objects"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "zero-objects",
+          "url": "https://github.com/zero-objects"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "zero-objects",
+        "name": "Zero",
+        "bio": "",
+        "followers": 3,
+        "public_repos": 9,
+        "html_url": "https://github.com/zero-objects",
+        "languages": [
+          "Rust",
+          "C++",
+          "Ruby",
+          "Shell"
+        ],
+        "top_repos": [
+          {
+            "name": "zero-objects/zero-dds",
+            "description": "OSS DDS implementation in Rust",
+            "language": "Rust",
+            "stars": 18,
+            "pushed_at": "2026-10-31T11:11:26Z"
+          },
+          {
+            "name": "zero-objects/zero-dds-snippets",
+            "description": "",
+            "language": "C++",
+            "stars": 2,
+            "pushed_at": "2026-10-29T23:29:01Z"
+          },
+          {
+            "name": "zero-objects/seesaw",
+            "description": "tgg with deltas and fast in rust",
+            "language": "Rust",
+            "stars": 2,
+            "pushed_at": "2026-08-15T20:16:14Z"
+          },
+          {
+            "name": "zero-objects/sfs",
+            "description": "A fragment-causal filesystem substrate for agentic time across machines.",
+            "language": "Rust",
+            "stars": 2,
+            "pushed_at": "2026-07-22T16:17:32Z"
+          },
+          {
+            "name": "zero-objects/Pipewright",
+            "description": "Translate, inspect, run, and migrate CI/CD pipelines across 17 platforms — bidirectional, round-trip-verified.",
+            "language": "Rust",
+            "stars": 2,
+            "pushed_at": "2026-07-03T12:47:48Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:deepseek-ai/deepseek-harness:2026-11-02",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/deepseek-harness",
+      "target_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "text": "deepseek-ai/deepseek-harness — 圈外 22 人参与（fork×5, star×17）",
+      "at": "2026-11-02T00:25:03+00:00",
+      "external_id": "network:deepseek-ai/deepseek-harness:2026-11-02",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "content": "deepseek-ai/deepseek-harness — 圈外 22 人参与（fork×5, star×17）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-02T00:25:03+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/deepseek-harness"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/deepseek-harness",
+          "url": "https://github.com/deepseek-ai/deepseek-harness"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 22,
+        "outer_actors": [
+          "201091543za-ship-it",
+          "GgMacroFinance-dotcom",
+          "TieGon",
+          "WHATAE86",
+          "XFNiubility",
+          "abhigupta768",
+          "cloudsea35",
+          "dsylx",
+          "fengzongzhixin-cpu",
+          "huw52",
+          "junwatu",
+          "manavgup",
+          "manwald",
+          "mberrys",
+          "qian541638",
+          "rovast",
+          "satbir121",
+          "shiyu429",
+          "smedina78",
+          "sosow0212"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 5,
+          "star": 17
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-02",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/dsh-superagent-prototype",
+      "target_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "text": "deepseek-ai/dsh-superagent-prototype — 圈外 105 人参与（fork×32, star×78）",
+      "at": "2026-11-02T00:24:56+00:00",
+      "external_id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-02",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "content": "deepseek-ai/dsh-superagent-prototype — 圈外 105 人参与（fork×32, star×78）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-02T00:24:56+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/dsh-superagent-prototype"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/dsh-superagent-prototype",
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 105,
+        "outer_actors": [
+          "0xdfinity",
+          "A11Might",
+          "AlexShui",
+          "Andwwy",
+          "Bill0538",
+          "BlaiseBloom",
+          "BoycePeng",
+          "DaBacchus21",
+          "Dannynguyen81",
+          "ED-dddddi-li",
+          "Flowbie",
+          "Freelander",
+          "FreesoSaiFared",
+          "Gleidisonjr",
+          "HappyLynn",
+          "HeshamAbuShaban",
+          "John-Shao",
+          "LUNCY579",
+          "LoopyLuci",
+          "Madcap72"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 32,
+          "star": 78
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:18838723993",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "star",
+      "target": "trunk-rs/trunk",
+      "target_url": "https://github.com/trunk-rs/trunk",
+      "text": "realoriginal starred trunk-rs/trunk",
+      "at": "2026-11-02T00:08:02+00:00",
+      "external_id": "event:18838723993",
+      "url": "https://github.com/trunk-rs/trunk",
+      "content": "realoriginal starred trunk-rs/trunk",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-11-02T00:08:02+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/trunk-rs/trunk"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": {
+          "full_name": "trunk-rs/trunk",
+          "url": "https://github.com/trunk-rs/trunk"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepInfer:2026-11-02",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepInfer",
+      "target_url": "https://github.com/deepseek-ai/DeepInfer",
+      "text": "deepseek-ai/DeepInfer — 圈外 3 人参与（fork×1, star×2）",
+      "at": "2026-11-01T23:58:25+00:00",
+      "external_id": "network:deepseek-ai/DeepInfer:2026-11-02",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "content": "deepseek-ai/DeepInfer — 圈外 3 人参与（fork×1, star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-01T23:58:25+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepInfer"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepInfer",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "kelvinmendoza59",
+          "najee288",
+          "stayhigh"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 1,
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:18837843844",
+      "who": "g3tsyst3m",
+      "who_url": "https://github.com/g3tsyst3m",
+      "action": "star",
+      "target": "capture0x/AdStrike",
+      "target_url": "https://github.com/capture0x/AdStrike",
+      "text": "g3tsyst3m starred capture0x/AdStrike",
+      "at": "2026-11-01T23:47:58+00:00",
+      "external_id": "event:18837843844",
+      "url": "https://github.com/capture0x/AdStrike",
+      "content": "g3tsyst3m starred capture0x/AdStrike",
+      "author": "g3tsyst3m",
+      "author_name": "g3tsyst3m",
+      "author_url": "https://github.com/g3tsyst3m",
+      "published_at": "2026-11-01T23:47:58+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/g3tsyst3m",
+        "https://github.com/capture0x/AdStrike"
+      ],
+      "refs": {
+        "actor": {
+          "login": "g3tsyst3m",
+          "url": "https://github.com/g3tsyst3m"
+        },
+        "repo": {
+          "full_name": "capture0x/AdStrike",
+          "url": "https://github.com/capture0x/AdStrike"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:18831812571",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "fork",
+      "target": "yetone/herdr-core",
+      "target_url": "https://github.com/yetone/herdr-core",
+      "text": "yetone forked herdrdev/herdr-core → yetone/herdr-core",
+      "at": "2026-11-01T21:32:29+00:00",
+      "external_id": "event:18831812571",
+      "url": "https://github.com/yetone/herdr-core",
+      "content": "yetone forked herdrdev/herdr-core → yetone/herdr-core",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-01T21:32:29+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/herdrdev/herdr-core",
+        "https://github.com/yetone/herdr-core"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "herdrdev/herdr-core",
+          "url": "https://github.com/herdrdev/herdr-core"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "yetone/herdr-core",
+          "url": "https://github.com/yetone/herdr-core"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:18826508885",
+      "who": "huoji120",
+      "who_url": "https://github.com/huoji120",
+      "action": "star",
+      "target": "vercel-labs/agent-desktop",
+      "target_url": "https://github.com/vercel-labs/agent-desktop",
+      "text": "huoji120 starred vercel-labs/agent-desktop",
+      "at": "2026-11-01T19:39:24+00:00",
+      "external_id": "event:18826508885",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "content": "huoji120 starred vercel-labs/agent-desktop",
+      "author": "huoji120",
+      "author_name": "huoji120",
+      "author_url": "https://github.com/huoji120",
+      "published_at": "2026-11-01T19:39:24+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/huoji120",
+        "https://github.com/vercel-labs/agent-desktop"
+      ],
+      "refs": {
+        "actor": {
+          "login": "huoji120",
+          "url": "https://github.com/huoji120"
+        },
+        "repo": {
+          "full_name": "vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:18826294519",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "star",
+      "target": "conradkleinespel/gitclock",
+      "target_url": "https://github.com/conradkleinespel/gitclock",
+      "text": "realoriginal starred conradkleinespel/gitclock",
+      "at": "2026-11-01T19:34:42+00:00",
+      "external_id": "event:18826294519",
+      "url": "https://github.com/conradkleinespel/gitclock",
+      "content": "realoriginal starred conradkleinespel/gitclock",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-11-01T19:34:42+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/conradkleinespel/gitclock"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": {
+          "full_name": "conradkleinespel/gitclock",
+          "url": "https://github.com/conradkleinespel/gitclock"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:18818924759",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "star",
+      "target": "YuniqueUnic/schemaui",
+      "target_url": "https://github.com/YuniqueUnic/schemaui",
+      "text": "realoriginal starred YuniqueUnic/schemaui",
+      "at": "2026-11-01T16:59:18+00:00",
+      "external_id": "event:18818924759",
+      "url": "https://github.com/YuniqueUnic/schemaui",
+      "content": "realoriginal starred YuniqueUnic/schemaui",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-11-01T16:59:18+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/YuniqueUnic/schemaui"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": {
+          "full_name": "YuniqueUnic/schemaui",
+          "url": "https://github.com/YuniqueUnic/schemaui"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:18818774579",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "star",
+      "target": "ratatui/awesome-ratatui",
+      "target_url": "https://github.com/ratatui/awesome-ratatui",
+      "text": "realoriginal starred ratatui/awesome-ratatui",
+      "at": "2026-11-01T16:56:16+00:00",
+      "external_id": "event:18818774579",
+      "url": "https://github.com/ratatui/awesome-ratatui",
+      "content": "realoriginal starred ratatui/awesome-ratatui",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-11-01T16:56:16+00:00",
+      "collected_at": "2026-11-02T00:27:37.609011+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/ratatui/awesome-ratatui"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": {
+          "full_name": "ratatui/awesome-ratatui",
+          "url": "https://github.com/ratatui/awesome-ratatui"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

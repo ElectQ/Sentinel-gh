@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T01:09:19+00:00",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T01:24:39+00:00",
   "followee_count": 181,
-  "item_count": 23,
+  "item_count": 38,
   "kinds_included": [
     "star",
     "fork",
@@ -13,18 +13,18 @@
     "network_hot"
   ],
   "trending_available": true,
-  "trending_source_date": "2026-11-03",
+  "trending_source_date": "2026-11-04",
   "items": [
     {
-      "id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-04",
+      "id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-05",
       "kind": "network_hot",
       "actor": null,
       "actor_url": null,
       "repo": "deepseek-ai/dsh-superagent-prototype",
       "repo_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
       "html_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "text": "deepseek-ai/dsh-superagent-prototype — 圈外 104 人参与（fork×46, star×60）",
-      "created_at": "2026-11-04T01:08:55Z",
+      "text": "deepseek-ai/dsh-superagent-prototype — 圈外 64 人参与（fork×31, star×38）",
+      "created_at": "2026-11-05T01:24:08Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -32,33 +32,33 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 104,
+        "outer_count": 64,
         "outer_actors": [
-          "1360069835",
-          "421372668",
-          "AliTaixi",
-          "AlpHaNoooB",
-          "Arad883",
-          "Cybercommanders",
-          "DarkMaster99",
-          "DavidHur",
-          "DiegoDionisioTB",
-          "Dirt-Y",
-          "ForestsKing",
-          "HediBelkhodja",
-          "Heldinhow",
-          "HenriqueMendesCoelho",
-          "IgorOffline",
-          "IshikiJin",
-          "JasonFu915",
-          "JoseRRodriguezP",
-          "LiRonghuan",
-          "Liang-yonghui"
+          "AlataChan",
+          "AmesianX",
+          "BigFishWuhu",
+          "BingoBinF",
+          "BoSeal",
+          "Fernando280773",
+          "ForeverYoungPp",
+          "Itsmetibo",
+          "LaobaiAi",
+          "Meutevive",
+          "Ruler-Dev",
+          "SidWuu",
+          "Suedama86",
+          "Vetlo",
+          "VitorPizzuto",
+          "Xexxed",
+          "Zeroysw",
+          "Zhang519319",
+          "brholtkamp",
+          "budali94"
         ],
         "outer_actors_truncated": true,
         "by_kind": {
-          "fork": 46,
-          "star": 60
+          "fork": 31,
+          "star": 38
         },
         "inner_count": 0,
         "inner_actors": [],
@@ -69,15 +69,226 @@
       }
     },
     {
-      "id": "network:deepseek-ai/deepseek-harness:2026-11-04",
+      "id": "follow:safedv:S12cybersecurity:2026-11-05:followed",
+      "kind": "follow",
+      "text": "safedv followed S12cybersecurity",
+      "actor": "safedv",
+      "actor_url": "https://github.com/safedv",
+      "created_at": "2026-11-05T01:23:50+00:00",
+      "repo": null,
+      "repo_url": null,
+      "target_user": "S12cybersecurity",
+      "target_user_url": "https://github.com/S12cybersecurity",
+      "html_url": "https://github.com/S12cybersecurity",
+      "payload": {
+        "action": "followed"
+      },
+      "time_precision": "daily_window",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "persona": {
+        "login": "S12cybersecurity",
+        "name": "",
+        "bio": "",
+        "followers": 862,
+        "public_repos": 108,
+        "html_url": "https://github.com/S12cybersecurity",
+        "languages": [
+          "C++",
+          "Python",
+          "Shell",
+          "C",
+          "JavaScript"
+        ],
+        "top_repos": [
+          {
+            "name": "S12cybersecurity/WinDefenderKiller",
+            "description": "Windows Defender Killer | Registry-Based Disablement + BYOVD Process Termination (C++)",
+            "language": "C",
+            "stars": 567,
+            "pushed_at": "2026-04-02T08:31:08Z"
+          },
+          {
+            "name": "S12cybersecurity/RDPCredentialStealer",
+            "description": "RDPCredentialStealer it's an implant that steal credentials provided by users in RDP using API Hooking with Detours in C++",
+            "language": "C++",
+            "stars": 286,
+            "pushed_at": "2026-03-11T14:28:12Z"
+          },
+          {
+            "name": "S12cybersecurity/GhostShell",
+            "description": "Interactive shell to execute commands anonymously using Proxychains and Tor",
+            "language": "Shell",
+            "stars": 117,
+            "pushed_at": "2023-02-01T02:35:05Z"
+          },
+          {
+            "name": "S12cybersecurity/CredGuardRuntimeShutdown",
+            "description": "Runtime Credential Guard deactivation via \\\\LSA_ISO_DISABLE_CREDENTIAL_GUARD + LSASS NT hash extraction (Win11 24H2)",
+            "language": "C",
+            "stars": 104,
+            "pushed_at": "2026-10-27T11:11:29Z"
+          },
+          {
+            "name": "S12cybersecurity/S12URootkit",
+            "description": "User Mode Windows Rootkit",
+            "language": "C++",
+            "stars": 87,
+            "pushed_at": "2026-07-14T11:14:05Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "follow:Innei:Koimsurai:2026-11-05:followed",
+      "kind": "follow",
+      "text": "Innei followed Koimsurai",
+      "actor": "Innei",
+      "actor_url": "https://github.com/Innei",
+      "created_at": "2026-11-05T01:23:50+00:00",
+      "repo": null,
+      "repo_url": null,
+      "target_user": "Koimsurai",
+      "target_user_url": "https://github.com/Koimsurai",
+      "html_url": "https://github.com/Koimsurai",
+      "payload": {
+        "action": "followed"
+      },
+      "time_precision": "daily_window",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "persona": {
+        "login": "Koimsurai",
+        "name": "Koimsurai",
+        "bio": "",
+        "followers": 17,
+        "public_repos": 23,
+        "html_url": "https://github.com/Koimsurai",
+        "languages": [
+          "TypeScript",
+          "Python",
+          "Rust",
+          "Kotlin",
+          "Dart"
+        ],
+        "top_repos": [
+          {
+            "name": "Koimsurai/sora-to-ki",
+            "description": "A self-hostable personal site in one sky: notes, moments, works, collection and a voyage log. React 19 + TanStack Start, Rust (axum + SQLite), Docker Compose. 5 languages.",
+            "language": "TypeScript",
+            "stars": 59,
+            "pushed_at": "2026-11-04T15:14:14Z"
+          },
+          {
+            "name": "Koimsurai/flow2code",
+            "description": "AST-based Visual Backend Logic Generator",
+            "language": "TypeScript",
+            "stars": 4,
+            "pushed_at": "2026-06-12T01:03:51Z"
+          },
+          {
+            "name": "Koimsurai/fakeGPS",
+            "description": "",
+            "language": "Kotlin",
+            "stars": 4,
+            "pushed_at": "2025-10-27T07:41:02Z"
+          },
+          {
+            "name": "Koimsurai/nuntius",
+            "description": "在 Discord 和 GitHub issue 之間傳話的機器人",
+            "language": "Python",
+            "stars": 3,
+            "pushed_at": "2026-10-16T17:43:45Z"
+          },
+          {
+            "name": "Koimsurai/session-to-obsidian",
+            "description": "把 Claude Code / GitHub Copilot 對話 session 轉成 Obsidian 裡依語意主題分區、可翻找、可給 Claude compact 後回想的回顧筆記",
+            "language": "Python",
+            "stars": 2,
+            "pushed_at": "2026-10-13T07:19:27Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "follow:CrazyHarb:breezeblue-ai:2026-11-05:followed",
+      "kind": "follow",
+      "text": "CrazyHarb followed breezeblue-ai",
+      "actor": "CrazyHarb",
+      "actor_url": "https://github.com/CrazyHarb",
+      "created_at": "2026-11-05T01:23:50+00:00",
+      "repo": null,
+      "repo_url": null,
+      "target_user": "breezeblue-ai",
+      "target_user_url": "https://github.com/breezeblue-ai",
+      "html_url": "https://github.com/breezeblue-ai",
+      "payload": {
+        "action": "followed"
+      },
+      "time_precision": "daily_window",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "persona": {
+        "login": "breezeblue-ai",
+        "name": "BreezeBlue",
+        "bio": "Building Realtime Audio Foundation Models.",
+        "followers": 31,
+        "public_repos": 4,
+        "html_url": "https://github.com/breezeblue-ai",
+        "languages": [
+          "Python"
+        ],
+        "top_repos": [
+          {
+            "name": "breezeblue-ai/breeze-tts",
+            "description": "Official PyTorch inference for Breeze TTS 2",
+            "language": "Python",
+            "stars": 1441,
+            "pushed_at": "2026-11-02T06:31:04Z"
+          },
+          {
+            "name": "breezeblue-ai/TTS-Voice-Direction-Benchmark",
+            "description": "",
+            "language": "Python",
+            "stars": 7,
+            "pushed_at": "2026-08-04T16:01:17Z"
+          },
+          {
+            "name": "breezeblue-ai/TTS-Voice-Design-Benchmark",
+            "description": "",
+            "language": "Python",
+            "stars": 6,
+            "pushed_at": "2026-08-04T15:46:32Z"
+          },
+          {
+            "name": "breezeblue-ai/TTS-Latency-Benchmark",
+            "description": "",
+            "language": "Python",
+            "stars": 0,
+            "pushed_at": "2026-08-07T15:27:04Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:deepseek-ai/deepseek-harness:2026-11-05",
       "kind": "network_hot",
       "actor": null,
       "actor_url": null,
       "repo": "deepseek-ai/deepseek-harness",
       "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
-      "text": "deepseek-ai/deepseek-harness — 圈外 58 人参与（fork×31, star×27）",
-      "created_at": "2026-11-04T01:08:28Z",
+      "text": "deepseek-ai/deepseek-harness — 圈外 81 人参与（fork×26, star×56）",
+      "created_at": "2026-11-05T01:23:33Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -85,33 +296,33 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 58,
+        "outer_count": 81,
         "outer_actors": [
-          "18812378757",
-          "7788fe",
-          "980654321",
-          "Bruce-lzh",
-          "Chatgpt-cli-agent",
-          "CodyBontecou",
-          "E710-jo",
-          "Elpablo777",
-          "Erfantls",
-          "FlagDock",
-          "GorRatsy",
-          "Hanriverflow",
-          "JCVIDev",
-          "Jelsin29",
-          "Lit12312",
-          "Little7Bear",
-          "LuoOfDoor",
-          "Mihail545",
-          "OpmRain",
-          "SanniKadiri"
+          "1337hero",
+          "1975655641-max",
+          "AXRoux",
+          "Awakenedy",
+          "Bams01-bot",
+          "ChenHaiPei-value",
+          "Cook-tin",
+          "Eddie8347",
+          "Eric-DD127",
+          "Gazesphotograph",
+          "Gracey554",
+          "Hean0914",
+          "Johnzx07",
+          "JunQiya",
+          "LemonRegards",
+          "LeonQuan1315",
+          "LeonardLee94",
+          "LightShadow112",
+          "Lyononthemoon",
+          "MARK-path"
         ],
         "outer_actors_truncated": true,
         "by_kind": {
-          "fork": 31,
-          "star": 27
+          "fork": 26,
+          "star": 56
         },
         "inner_count": 0,
         "inner_actors": [],
@@ -122,62 +333,15 @@
       }
     },
     {
-      "id": "network:deepseek-ai/DeepInfer:2026-11-04",
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-11-05",
       "kind": "network_hot",
       "actor": null,
       "actor_url": null,
-      "repo": "deepseek-ai/DeepInfer",
-      "repo_url": "https://github.com/deepseek-ai/DeepInfer",
-      "html_url": "https://github.com/deepseek-ai/DeepInfer",
-      "text": "deepseek-ai/DeepInfer — 圈外 14 人参与（fork×10, star×4）",
-      "created_at": "2026-11-04T01:06:03Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 14,
-        "outer_actors": [
-          "Johnzx07",
-          "LtheKid",
-          "UlviDemirsoy",
-          "adikatre",
-          "brightlightkim",
-          "dxas90",
-          "gmautner",
-          "greys",
-          "llmspace",
-          "p1cxi",
-          "tdwyer",
-          "th3architect",
-          "vijankush",
-          "z19maker"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "fork": 10,
-          "star": 4
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
-      "id": "network:deepseek-ai/awesome-deepseek-agent:2026-11-04",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "deepseek-ai/awesome-deepseek-agent",
-      "repo_url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
-      "html_url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
-      "text": "deepseek-ai/awesome-deepseek-agent — 圈外 3 人参与（fork×1, pr×1, star×2）",
-      "created_at": "2026-11-04T01:03:36Z",
+      "repo": "deepseek-ai/DeepSeek-V3",
+      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 3 人参与（issue×4）",
+      "created_at": "2026-11-05T01:16:54Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -187,14 +351,51 @@
       "network": {
         "outer_count": 3,
         "outer_actors": [
-          "Mickeymua",
-          "stuidev",
-          "vstarkz87-lgtm"
+          "999chengying",
+          "leedermix-arch",
+          "mmprestine"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
-          "fork": 1,
-          "pr": 1,
+          "issue": 4
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepInfer:2026-11-05",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/DeepInfer",
+      "repo_url": "https://github.com/deepseek-ai/DeepInfer",
+      "html_url": "https://github.com/deepseek-ai/DeepInfer",
+      "text": "deepseek-ai/DeepInfer — 圈外 5 人参与（fork×3, pr×2, star×2）",
+      "created_at": "2026-11-05T01:14:15Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 5,
+        "outer_actors": [
+          "0z5a",
+          "AA-EION",
+          "DoubleD710",
+          "JarzaCode",
+          "edbuildingstuff"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 3,
+          "pr": 2,
           "star": 2
         },
         "inner_count": 0,
@@ -206,15 +407,100 @@
       }
     },
     {
-      "id": "network:deepseek-ai/awesome-deepseek-integration:2026-11-04",
+      "id": "event:19173772156",
+      "kind": "star",
+      "text": "Cracked5pider starred mdgrs-mei/GliderUI",
+      "actor": "Cracked5pider",
+      "actor_url": "https://github.com/Cracked5pider",
+      "created_at": "2026-11-05T00:32:27Z",
+      "repo": "mdgrs-mei/GliderUI",
+      "repo_url": "https://github.com/mdgrs-mei/GliderUI",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/mdgrs-mei/GliderUI",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19172785735",
+      "kind": "release",
+      "text": "yetone released yetone/alma-releases android-v1.97",
+      "actor": "yetone",
+      "actor_url": "https://github.com/yetone",
+      "created_at": "2026-11-05T00:18:32Z",
+      "repo": "yetone/alma-releases",
+      "repo_url": "https://github.com/yetone/alma-releases",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.97",
+      "payload": {
+        "tag": "android-v1.97",
+        "name": "Alma for Android 1.97",
+        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.97",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:19170728415",
+      "kind": "star",
+      "text": "Cracked5pider starred XPSec-Security/espjack",
+      "actor": "Cracked5pider",
+      "actor_url": "https://github.com/Cracked5pider",
+      "created_at": "2026-11-04T23:49:50Z",
+      "repo": "XPSec-Security/espjack",
+      "repo_url": "https://github.com/XPSec-Security/espjack",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/XPSec-Security/espjack",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19170354163",
+      "kind": "star",
+      "text": "badboycxcc starred dirkjanm/ROADtools",
+      "actor": "badboycxcc",
+      "actor_url": "https://github.com/badboycxcc",
+      "created_at": "2026-11-04T23:44:26Z",
+      "repo": "dirkjanm/ROADtools",
+      "repo_url": "https://github.com/dirkjanm/ROADtools",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/dirkjanm/ROADtools",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepJIT:2026-11-05",
       "kind": "network_hot",
       "actor": null,
       "actor_url": null,
-      "repo": "deepseek-ai/awesome-deepseek-integration",
-      "repo_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
-      "html_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
-      "text": "deepseek-ai/awesome-deepseek-integration — 圈外 2 人参与（star×2）",
-      "created_at": "2026-11-04T00:58:57Z",
+      "repo": "deepseek-ai/DeepJIT",
+      "repo_url": "https://github.com/deepseek-ai/DeepJIT",
+      "html_url": "https://github.com/deepseek-ai/DeepJIT",
+      "text": "deepseek-ai/DeepJIT — 圈外 2 人参与（fork×2, issue×7, pr×3）",
+      "created_at": "2026-11-04T23:25:11Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -224,12 +510,14 @@
       "network": {
         "outer_count": 2,
         "outer_actors": [
-          "listato",
-          "shangui022816-svg"
+          "0z5a",
+          "Nas01010101"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
-          "star": 2
+          "issue": 7,
+          "fork": 2,
+          "pr": 3
         },
         "inner_count": 0,
         "inner_actors": [],
@@ -240,175 +528,15 @@
       }
     },
     {
-      "id": "event:19053555167",
-      "kind": "star",
-      "text": "0xTriboulet starred rbmm/ARL",
-      "actor": "0xTriboulet",
-      "actor_url": "https://github.com/0xTriboulet",
-      "created_at": "2026-11-03T23:01:31Z",
-      "repo": "rbmm/ARL",
-      "repo_url": "https://github.com/rbmm/ARL",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/rbmm/ARL",
-      "payload": {},
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": 1
-      }
-    },
-    {
-      "id": "event:19052919789",
-      "kind": "star",
-      "text": "odzhan starred zodiacon/TotalPE2",
-      "actor": "odzhan",
-      "actor_url": "https://github.com/odzhan",
-      "created_at": "2026-11-03T22:52:58Z",
-      "repo": "zodiacon/TotalPE2",
-      "repo_url": "https://github.com/zodiacon/TotalPE2",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/zodiacon/TotalPE2",
-      "payload": {},
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": 1
-      }
-    },
-    {
-      "id": "event:19051602960",
-      "kind": "release",
-      "text": "yetone released yetone/alma-releases android-v1.90",
-      "actor": "yetone",
-      "actor_url": "https://github.com/yetone",
-      "created_at": "2026-11-03T22:36:07Z",
-      "repo": "yetone/alma-releases",
-      "repo_url": "https://github.com/yetone/alma-releases",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.90",
-      "payload": {
-        "tag": "android-v1.90",
-        "name": "Alma for Android 1.90",
-        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.90",
-        "prerelease": false
-      },
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      }
-    },
-    {
-      "id": "event:19050054474",
-      "kind": "release",
-      "text": "cristianzsh released cristianzsh/eid 1.0.0",
-      "actor": "cristianzsh",
-      "actor_url": "https://github.com/cristianzsh",
-      "created_at": "2026-11-03T22:17:08Z",
-      "repo": "cristianzsh/eid",
-      "repo_url": "https://github.com/cristianzsh/eid",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/cristianzsh/eid/releases/tag/1.0.0",
-      "payload": {
-        "tag": "1.0.0",
-        "name": "v1.0.0",
-        "url": "https://github.com/cristianzsh/eid/releases/tag/1.0.0",
-        "prerelease": false
-      },
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      }
-    },
-    {
-      "id": "event:19048138103",
-      "kind": "release",
-      "text": "yetone released yetone/alma-releases android-v1.89",
-      "actor": "yetone",
-      "actor_url": "https://github.com/yetone",
-      "created_at": "2026-11-03T21:54:00Z",
-      "repo": "yetone/alma-releases",
-      "repo_url": "https://github.com/yetone/alma-releases",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.89",
-      "payload": {
-        "tag": "android-v1.89",
-        "name": "Alma for Android 1.89",
-        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.89",
-        "prerelease": false
-      },
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      }
-    },
-    {
-      "id": "event:19047162587",
-      "kind": "star",
-      "text": "Cracked5pider starred sudonoodle/BOF-coerce-ipp",
-      "actor": "Cracked5pider",
-      "actor_url": "https://github.com/Cracked5pider",
-      "created_at": "2026-11-03T21:42:24Z",
-      "repo": "sudonoodle/BOF-coerce-ipp",
-      "repo_url": "https://github.com/sudonoodle/BOF-coerce-ipp",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/sudonoodle/BOF-coerce-ipp",
-      "payload": {},
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": 1
-      }
-    },
-    {
-      "id": "event:19044663904",
-      "kind": "release",
-      "text": "yetone released yetone/alma-releases android-v1.88",
-      "actor": "yetone",
-      "actor_url": "https://github.com/yetone",
-      "created_at": "2026-11-03T21:13:11Z",
-      "repo": "yetone/alma-releases",
-      "repo_url": "https://github.com/yetone/alma-releases",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.88",
-      "payload": {
-        "tag": "android-v1.88",
-        "name": "Alma for Android 1.88",
-        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.88",
-        "prerelease": false
-      },
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      }
-    },
-    {
-      "id": "network:Vector35/binaryninja-api:2026-11-04",
+      "id": "network:BishopFox/sliver:2026-11-05",
       "kind": "network_hot",
       "actor": null,
       "actor_url": null,
-      "repo": "Vector35/binaryninja-api",
-      "repo_url": "https://github.com/Vector35/binaryninja-api",
-      "html_url": "https://github.com/Vector35/binaryninja-api",
-      "text": "Vector35/binaryninja-api — 圈外 3 人参与（issue×8, pr×3）",
-      "created_at": "2026-11-03T21:03:01Z",
+      "repo": "BishopFox/sliver",
+      "repo_url": "https://github.com/BishopFox/sliver",
+      "html_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 2 人参与（fork×1, pr×1）",
+      "created_at": "2026-11-04T23:09:00Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -416,16 +544,15 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 3,
+        "outer_count": 2,
         "outer_actors": [
-          "negasora",
-          "plafosse",
-          "zznop"
+          "HunterSploit",
+          "moloch--"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
-          "pr": 3,
-          "issue": 8
+          "fork": 1,
+          "pr": 1
         },
         "inner_count": 0,
         "inner_actors": [],
@@ -436,67 +563,88 @@
       }
     },
     {
-      "id": "event:19040003279",
-      "kind": "release",
-      "text": "yetone released yetone/alma-releases android-v1.87",
-      "actor": "yetone",
-      "actor_url": "https://github.com/yetone",
-      "created_at": "2026-11-03T20:19:53Z",
-      "repo": "yetone/alma-releases",
-      "repo_url": "https://github.com/yetone/alma-releases",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.87",
-      "payload": {
-        "tag": "android-v1.87",
-        "name": "Alma for Android 1.87",
-        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.87",
-        "prerelease": false
-      },
+      "id": "network:deepseek-ai/awesome-deepseek-integration:2026-11-05",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/awesome-deepseek-integration",
+      "repo_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "html_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "text": "deepseek-ai/awesome-deepseek-integration — 圈外 2 人参与（fork×2, pr×1）",
+      "created_at": "2026-11-04T22:59:13Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
         "trending_front_page": false,
         "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "dagrang-repository",
+          "jason19659"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 2,
+          "pr": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
       }
     },
     {
-      "id": "event:19038144672",
-      "kind": "release",
-      "text": "yetone released yetone/alma-releases android-v1.86",
-      "actor": "yetone",
-      "actor_url": "https://github.com/yetone",
-      "created_at": "2026-11-03T19:58:57Z",
-      "repo": "yetone/alma-releases",
-      "repo_url": "https://github.com/yetone/alma-releases",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.86",
-      "payload": {
-        "tag": "android-v1.86",
-        "name": "Alma for Android 1.86",
-        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.86",
-        "prerelease": false
-      },
+      "id": "network:deepseek-ai/DeepGEMM:2026-11-05",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/DeepGEMM",
+      "repo_url": "https://github.com/deepseek-ai/DeepGEMM",
+      "html_url": "https://github.com/deepseek-ai/DeepGEMM",
+      "text": "deepseek-ai/DeepGEMM — 圈外 2 人参与（fork×1, issue×6, pr×3）",
+      "created_at": "2026-11-04T22:00:58Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
         "trending_front_page": false,
         "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "0z5a",
+          "LiRunGuo"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 6,
+          "fork": 1,
+          "pr": 3
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
       }
     },
     {
-      "id": "event:19038056893",
+      "id": "event:19157505502",
       "kind": "star",
-      "text": "Cracked5pider starred tembo/voxl",
-      "actor": "Cracked5pider",
-      "actor_url": "https://github.com/Cracked5pider",
-      "created_at": "2026-11-03T19:57:58Z",
-      "repo": "tembo/voxl",
-      "repo_url": "https://github.com/tembo/voxl",
+      "text": "bartblaze starred librenms/librenms",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T21:05:06Z",
+      "repo": "librenms/librenms",
+      "repo_url": "https://github.com/librenms/librenms",
       "target_user": null,
       "target_user_url": null,
-      "html_url": "https://github.com/tembo/voxl",
+      "html_url": "https://github.com/librenms/librenms",
       "payload": {},
       "time_precision": "exact",
       "signals": {
@@ -506,17 +654,362 @@
       }
     },
     {
-      "id": "event:19035431397",
+      "id": "event:19157491035",
       "kind": "star",
-      "text": "Innei starred MMFoundation/WallpaperMachine",
+      "text": "bartblaze starred FilenCloudDienste/filen-desktop",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T21:04:56Z",
+      "repo": "FilenCloudDienste/filen-desktop",
+      "repo_url": "https://github.com/FilenCloudDienste/filen-desktop",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/FilenCloudDienste/filen-desktop",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19157448202",
+      "kind": "star",
+      "text": "bartblaze starred cryptomator/cryptomator",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T21:04:26Z",
+      "repo": "cryptomator/cryptomator",
+      "repo_url": "https://github.com/cryptomator/cryptomator",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/cryptomator/cryptomator",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19157431242",
+      "kind": "star",
+      "text": "bartblaze starred Rurik/Noriben",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T21:04:15Z",
+      "repo": "Rurik/Noriben",
+      "repo_url": "https://github.com/Rurik/Noriben",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Rurik/Noriben",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19157173027",
+      "kind": "star",
+      "text": "bartblaze starred vxcontrol/pentagi",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T21:01:17Z",
+      "repo": "vxcontrol/pentagi",
+      "repo_url": "https://github.com/vxcontrol/pentagi",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/vxcontrol/pentagi",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19156810477",
+      "kind": "release",
+      "text": "yetone released yetone/alma-releases android-v1.96",
+      "actor": "yetone",
+      "actor_url": "https://github.com/yetone",
+      "created_at": "2026-11-04T20:57:13Z",
+      "repo": "yetone/alma-releases",
+      "repo_url": "https://github.com/yetone/alma-releases",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.96",
+      "payload": {
+        "tag": "android-v1.96",
+        "name": "Alma for Android 1.96",
+        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.96",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:19156637809",
+      "kind": "star",
+      "text": "bartblaze starred datenanfragen/data",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:55:15Z",
+      "repo": "datenanfragen/data",
+      "repo_url": "https://github.com/datenanfragen/data",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/datenanfragen/data",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19156630691",
+      "kind": "star",
+      "text": "bartblaze starred datenanfragen/website",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:55:10Z",
+      "repo": "datenanfragen/website",
+      "repo_url": "https://github.com/datenanfragen/website",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/datenanfragen/website",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19154823488",
+      "kind": "star",
+      "text": "bartblaze starred SeaOf0/dsh-redteam-model",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:35:00Z",
+      "repo": "SeaOf0/dsh-redteam-model",
+      "repo_url": "https://github.com/SeaOf0/dsh-redteam-model",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/SeaOf0/dsh-redteam-model",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19154788598",
+      "kind": "star",
+      "text": "bartblaze starred huhusmang/Awesome-LLMs-for-Vulnerability-Detection",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:34:37Z",
+      "repo": "huhusmang/Awesome-LLMs-for-Vulnerability-Detection",
+      "repo_url": "https://github.com/huhusmang/Awesome-LLMs-for-Vulnerability-Detection",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/huhusmang/Awesome-LLMs-for-Vulnerability-Detection",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19154697934",
+      "kind": "star",
+      "text": "bartblaze starred califio/code-secure-semgrep",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:33:34Z",
+      "repo": "califio/code-secure-semgrep",
+      "repo_url": "https://github.com/califio/code-secure-semgrep",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/califio/code-secure-semgrep",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19154624339",
+      "kind": "star",
+      "text": "bartblaze starred 0x4D31/endpoint-ai-agent-abuse",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:32:46Z",
+      "repo": "0x4D31/endpoint-ai-agent-abuse",
+      "repo_url": "https://github.com/0x4D31/endpoint-ai-agent-abuse",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/0x4D31/endpoint-ai-agent-abuse",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19154524419",
+      "kind": "star",
+      "text": "bartblaze starred blacktop/ipsw",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:31:38Z",
+      "repo": "blacktop/ipsw",
+      "repo_url": "https://github.com/blacktop/ipsw",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/blacktop/ipsw",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19154480114",
+      "kind": "star",
+      "text": "bartblaze starred Lakr233/vphone-cli",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:31:10Z",
+      "repo": "Lakr233/vphone-cli",
+      "repo_url": "https://github.com/Lakr233/vphone-cli",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Lakr233/vphone-cli",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19154459771",
+      "kind": "star",
+      "text": "bartblaze starred blacktop/ida-mcp-rs",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:30:55Z",
+      "repo": "blacktop/ida-mcp-rs",
+      "repo_url": "https://github.com/blacktop/ida-mcp-rs",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/blacktop/ida-mcp-rs",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19154428258",
+      "kind": "star",
+      "text": "bartblaze starred califio/ngxray",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:30:36Z",
+      "repo": "califio/ngxray",
+      "repo_url": "https://github.com/califio/ngxray",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/califio/ngxray",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19154409163",
+      "kind": "star",
+      "text": "bartblaze starred califio/skills",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:30:22Z",
+      "repo": "califio/skills",
+      "repo_url": "https://github.com/califio/skills",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/califio/skills",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19154381432",
+      "kind": "star",
+      "text": "bartblaze starred califio/publications",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-04T20:30:04Z",
+      "repo": "califio/publications",
+      "repo_url": "https://github.com/califio/publications",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/califio/publications",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19149042213",
+      "kind": "star",
+      "text": "Innei starred Appllama/appllama-skills",
       "actor": "Innei",
       "actor_url": "https://github.com/Innei",
-      "created_at": "2026-11-03T19:28:43Z",
-      "repo": "MMFoundation/WallpaperMachine",
-      "repo_url": "https://github.com/MMFoundation/WallpaperMachine",
+      "created_at": "2026-11-04T19:31:14Z",
+      "repo": "Appllama/appllama-skills",
+      "repo_url": "https://github.com/Appllama/appllama-skills",
       "target_user": null,
       "target_user_url": null,
-      "html_url": "https://github.com/MMFoundation/WallpaperMachine",
+      "html_url": "https://github.com/Appllama/appllama-skills",
       "payload": {},
       "time_precision": "exact",
       "signals": {
@@ -526,21 +1019,21 @@
       }
     },
     {
-      "id": "event:19034405151",
+      "id": "event:19148967866",
       "kind": "release",
-      "text": "yetone released yetone/alma-releases android-v1.85",
+      "text": "yetone released yetone/alma-releases android-v1.95",
       "actor": "yetone",
       "actor_url": "https://github.com/yetone",
-      "created_at": "2026-11-03T19:17:07Z",
+      "created_at": "2026-11-04T19:30:24Z",
       "repo": "yetone/alma-releases",
       "repo_url": "https://github.com/yetone/alma-releases",
       "target_user": null,
       "target_user_url": null,
-      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.85",
+      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.95",
       "payload": {
-        "tag": "android-v1.85",
-        "name": "Alma for Android 1.85",
-        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.85",
+        "tag": "android-v1.95",
+        "name": "Alma for Android 1.95",
+        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.95",
         "prerelease": false
       },
       "time_precision": "exact",
@@ -551,67 +1044,37 @@
       }
     },
     {
-      "id": "event:19030609260",
-      "kind": "release",
-      "text": "helviojunior released helviojunior/go-proxy v1.1.0",
-      "actor": "helviojunior",
-      "actor_url": "https://github.com/helviojunior",
-      "created_at": "2026-11-03T18:34:58Z",
-      "repo": "helviojunior/go-proxy",
-      "repo_url": "https://github.com/helviojunior/go-proxy",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/helviojunior/go-proxy/releases/tag/v1.1.0",
-      "payload": {
-        "tag": "v1.1.0",
-        "name": "v1.1.0",
-        "url": "https://github.com/helviojunior/go-proxy/releases/tag/v1.1.0",
-        "prerelease": false
-      },
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      }
-    },
-    {
-      "id": "event:19029785324",
-      "kind": "release",
-      "text": "zodiacon released zodiacon/WinSysLive v1.6",
-      "actor": "zodiacon",
-      "actor_url": "https://github.com/zodiacon",
-      "created_at": "2026-11-03T18:26:05Z",
-      "repo": "zodiacon/WinSysLive",
-      "repo_url": "https://github.com/zodiacon/WinSysLive",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/zodiacon/WinSysLive/releases/tag/v1.6",
-      "payload": {
-        "tag": "v1.6",
-        "name": "WinSysLive v1.6",
-        "url": "https://github.com/zodiacon/WinSysLive/releases/tag/v1.6",
-        "prerelease": false
-      },
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      }
-    },
-    {
-      "id": "event:19028938795",
+      "id": "event:19147284275",
       "kind": "star",
-      "text": "realoriginal starred MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
+      "text": "safedv starred S12cybersecurity/HyperLoader",
+      "actor": "safedv",
+      "actor_url": "https://github.com/safedv",
+      "created_at": "2026-11-04T19:12:01Z",
+      "repo": "S12cybersecurity/HyperLoader",
+      "repo_url": "https://github.com/S12cybersecurity/HyperLoader",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/S12cybersecurity/HyperLoader",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:19147134102",
+      "kind": "star",
+      "text": "realoriginal starred AmberWolfCyber/NachoVPN",
       "actor": "realoriginal",
       "actor_url": "https://github.com/realoriginal",
-      "created_at": "2026-11-03T18:16:51Z",
-      "repo": "MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
-      "repo_url": "https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
+      "created_at": "2026-11-04T19:10:25Z",
+      "repo": "AmberWolfCyber/NachoVPN",
+      "repo_url": "https://github.com/AmberWolfCyber/NachoVPN",
       "target_user": null,
       "target_user_url": null,
-      "html_url": "https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
+      "html_url": "https://github.com/AmberWolfCyber/NachoVPN",
       "payload": {},
       "time_precision": "exact",
       "signals": {
@@ -621,64 +1084,35 @@
       }
     },
     {
-      "id": "event:19028455328",
-      "kind": "release",
-      "text": "yetone released yetone/alma-releases android-v1.84",
-      "actor": "yetone",
-      "actor_url": "https://github.com/yetone",
-      "created_at": "2026-11-03T18:11:42Z",
-      "repo": "yetone/alma-releases",
-      "repo_url": "https://github.com/yetone/alma-releases",
+      "id": "event:19131840614",
+      "kind": "star",
+      "text": "realoriginal starred Next-Flip/Momentum-Firmware",
+      "actor": "realoriginal",
+      "actor_url": "https://github.com/realoriginal",
+      "created_at": "2026-11-04T16:31:00Z",
+      "repo": "Next-Flip/Momentum-Firmware",
+      "repo_url": "https://github.com/Next-Flip/Momentum-Firmware",
       "target_user": null,
       "target_user_url": null,
-      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.84",
-      "payload": {
-        "tag": "android-v1.84",
-        "name": "Alma for Android 1.84",
-        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.84",
-        "prerelease": false
-      },
+      "html_url": "https://github.com/Next-Flip/Momentum-Firmware",
+      "payload": {},
       "time_precision": "exact",
       "signals": {
         "trending": false,
         "trending_front_page": false,
-        "circle_count": null
-      }
-    },
-    {
-      "id": "event:19028088962",
-      "kind": "release",
-      "text": "helviojunior released helviojunior/go-proxy v1.0.0",
-      "actor": "helviojunior",
-      "actor_url": "https://github.com/helviojunior",
-      "created_at": "2026-11-03T18:07:44Z",
-      "repo": "helviojunior/go-proxy",
-      "repo_url": "https://github.com/helviojunior/go-proxy",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/helviojunior/go-proxy/releases/tag/v1.0.0",
-      "payload": {
-        "tag": "v1.0.0",
-        "name": "v1.0.0",
-        "url": "https://github.com/helviojunior/go-proxy/releases/tag/v1.0.0",
-        "prerelease": false
-      },
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
+        "circle_count": 1
       }
     }
   ],
   "summary": {
     "by_kind": {
-      "network_hot": 6,
-      "star": 6,
-      "release": 11
+      "network_hot": 8,
+      "follow": 3,
+      "star": 24,
+      "release": 3
     },
     "push_events_excluded": 2,
-    "events_in_window": 78,
-    "follows_in_window": 2
+    "events_in_window": 128,
+    "follows_in_window": 4
   }
 }

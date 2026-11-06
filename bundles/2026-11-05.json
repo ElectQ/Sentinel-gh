@@ -4,28 +4,1424 @@
   "collect_date": "2026-11-05",
   "collect_window": {
     "start": "2026-11-04T16:31:00+00:00",
-    "end": "2026-11-05T01:24:08+00:00",
-    "hours": 8
+    "end": "2026-11-05T15:19:52+00:00",
+    "hours": 22
   },
   "producer": {
     "name": "sentinel-gh",
     "version": "0.1.0",
-    "run_id": "41948076662",
-    "commit": "b88d3eb"
+    "run_id": "42143714819",
+    "commit": "b2b5fb3"
   },
   "stats": {
-    "total": 38,
+    "total": 63,
     "by_kind": {
-      "network_hot": 8,
-      "follow": 3,
-      "star": 24,
-      "release": 3
+      "fork": 7,
+      "network_hot": 9,
+      "release": 6,
+      "star": 38,
+      "follow": 3
     },
     "failed_lists": [],
     "followee_count": 181,
-    "push_events_excluded": 2
+    "push_events_excluded": 58
   },
   "items": [
+    {
+      "id": "event:19238058816",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/compute-from-scratch",
+      "target_url": "https://github.com/gmh5225/compute-from-scratch",
+      "text": "gmh5225 forked odiak/compute-from-scratch → gmh5225/compute-from-scratch",
+      "at": "2026-11-05T15:19:52+00:00",
+      "external_id": "event:19238058816",
+      "url": "https://github.com/gmh5225/compute-from-scratch",
+      "content": "gmh5225 forked odiak/compute-from-scratch → gmh5225/compute-from-scratch",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-11-05T15:19:52+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/odiak/compute-from-scratch",
+        "https://github.com/gmh5225/compute-from-scratch"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "odiak/compute-from-scratch",
+          "url": "https://github.com/odiak/compute-from-scratch"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/compute-from-scratch",
+          "url": "https://github.com/gmh5225/compute-from-scratch"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:Vector35/debugger:2026-11-05",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "Vector35/debugger",
+      "target_url": "https://github.com/Vector35/debugger",
+      "text": "Vector35/debugger — 圈外 2 人参与（issue×1, pr×1）",
+      "at": "2026-11-05T14:43:09+00:00",
+      "external_id": "network:Vector35/debugger:2026-11-05",
+      "url": "https://github.com/Vector35/debugger",
+      "content": "Vector35/debugger — 圈外 2 人参与（issue×1, pr×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-05T14:43:09+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Vector35/debugger"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "Vector35/debugger",
+          "url": "https://github.com/Vector35/debugger"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "UvuvDev",
+          "xusheng6"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 1,
+          "pr": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:19231605511",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v2.0",
+      "at": "2026-11-05T14:06:18+00:00",
+      "external_id": "event:19231605511",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v2.0",
+      "content": "yetone released yetone/alma-releases android-v2.0",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-05T14:06:18+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v2.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19227961397",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v1.99",
+      "at": "2026-11-05T13:23:18+00:00",
+      "external_id": "event:19227961397",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.99",
+      "content": "yetone released yetone/alma-releases android-v1.99",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-05T13:23:18+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v1.99"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19226435518",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v1.98",
+      "at": "2026-11-05T13:05:32+00:00",
+      "external_id": "event:19226435518",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v1.98",
+      "content": "yetone released yetone/alma-releases android-v1.98",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-05T13:05:32+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v1.98"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19222148828",
+      "who": "0xTriboulet",
+      "who_url": "https://github.com/0xTriboulet",
+      "action": "star",
+      "target": "patrick1357/impnxc-cloak",
+      "target_url": "https://github.com/patrick1357/impnxc-cloak",
+      "text": "0xTriboulet starred patrick1357/impnxc-cloak",
+      "at": "2026-11-05T12:13:20+00:00",
+      "external_id": "event:19222148828",
+      "url": "https://github.com/patrick1357/impnxc-cloak",
+      "content": "0xTriboulet starred patrick1357/impnxc-cloak",
+      "author": "0xTriboulet",
+      "author_name": "0xTriboulet",
+      "author_url": "https://github.com/0xTriboulet",
+      "published_at": "2026-11-05T12:13:20+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xTriboulet",
+        "https://github.com/patrick1357/impnxc-cloak"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0xTriboulet",
+          "url": "https://github.com/0xTriboulet"
+        },
+        "repo": {
+          "full_name": "patrick1357/impnxc-cloak",
+          "url": "https://github.com/patrick1357/impnxc-cloak"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19216608055",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/netprobe-cve-2026-98432",
+      "target_url": "https://github.com/gmh5225/netprobe-cve-2026-98432",
+      "text": "gmh5225 forked xen0bit/netprobe-cve-2026-98432 → gmh5225/netprobe-cve-2026-98432",
+      "at": "2026-11-05T11:04:09+00:00",
+      "external_id": "event:19216608055",
+      "url": "https://github.com/gmh5225/netprobe-cve-2026-98432",
+      "content": "gmh5225 forked xen0bit/netprobe-cve-2026-98432 → gmh5225/netprobe-cve-2026-98432",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-11-05T11:04:09+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/xen0bit/netprobe-cve-2026-98432",
+        "https://github.com/gmh5225/netprobe-cve-2026-98432"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "xen0bit/netprobe-cve-2026-98432",
+          "url": "https://github.com/xen0bit/netprobe-cve-2026-98432"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/netprobe-cve-2026-98432",
+          "url": "https://github.com/gmh5225/netprobe-cve-2026-98432"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19214532899",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/claude-code-devcontainer",
+      "target_url": "https://github.com/gmh5225/claude-code-devcontainer",
+      "text": "gmh5225 forked trailofbits/claude-code-devcontainer → gmh5225/claude-code-devcontainer",
+      "at": "2026-11-05T10:38:19+00:00",
+      "external_id": "event:19214532899",
+      "url": "https://github.com/gmh5225/claude-code-devcontainer",
+      "content": "gmh5225 forked trailofbits/claude-code-devcontainer → gmh5225/claude-code-devcontainer",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-11-05T10:38:19+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/trailofbits/claude-code-devcontainer",
+        "https://github.com/gmh5225/claude-code-devcontainer"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "trailofbits/claude-code-devcontainer",
+          "url": "https://github.com/trailofbits/claude-code-devcontainer"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/claude-code-devcontainer",
+          "url": "https://github.com/gmh5225/claude-code-devcontainer"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19209309076",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/CVE-2026-97798-exploit",
+      "target_url": "https://github.com/gmh5225/CVE-2026-97798-exploit",
+      "text": "gmh5225 forked G4sp4rCS/CVE-2026-97798-exploit → gmh5225/CVE-2026-97798-exploit",
+      "at": "2026-11-05T09:34:36+00:00",
+      "external_id": "event:19209309076",
+      "url": "https://github.com/gmh5225/CVE-2026-97798-exploit",
+      "content": "gmh5225 forked G4sp4rCS/CVE-2026-97798-exploit → gmh5225/CVE-2026-97798-exploit",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-11-05T09:34:36+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
+        "https://github.com/gmh5225/CVE-2026-97798-exploit"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "G4sp4rCS/CVE-2026-97798-exploit",
+          "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/CVE-2026-97798-exploit",
+          "url": "https://github.com/gmh5225/CVE-2026-97798-exploit"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19204107617",
+      "who": "BlackSnufkin",
+      "who_url": "https://github.com/BlackSnufkin",
+      "action": "star",
+      "target": "0xjohnnydev/CVE-2026-112688-backboardd",
+      "target_url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
+      "text": "BlackSnufkin starred 0xjohnnydev/CVE-2026-112688-backboardd",
+      "at": "2026-11-05T08:28:32+00:00",
+      "external_id": "event:19204107617",
+      "url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
+      "content": "BlackSnufkin starred 0xjohnnydev/CVE-2026-112688-backboardd",
+      "author": "BlackSnufkin",
+      "author_name": "BlackSnufkin",
+      "author_url": "https://github.com/BlackSnufkin",
+      "published_at": "2026-11-05T08:28:32+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BlackSnufkin",
+        "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd"
+      ],
+      "refs": {
+        "actor": {
+          "login": "BlackSnufkin",
+          "url": "https://github.com/BlackSnufkin"
+        },
+        "repo": {
+          "full_name": "0xjohnnydev/CVE-2026-112688-backboardd",
+          "url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19199546961",
+      "who": "sqlsec",
+      "who_url": "https://github.com/sqlsec",
+      "action": "star",
+      "target": "LNPANDY/NX2Apple",
+      "target_url": "https://github.com/LNPANDY/NX2Apple",
+      "text": "sqlsec starred LNPANDY/NX2Apple",
+      "at": "2026-11-05T07:27:53+00:00",
+      "external_id": "event:19199546961",
+      "url": "https://github.com/LNPANDY/NX2Apple",
+      "content": "sqlsec starred LNPANDY/NX2Apple",
+      "author": "sqlsec",
+      "author_name": "sqlsec",
+      "author_url": "https://github.com/sqlsec",
+      "published_at": "2026-11-05T07:27:53+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/sqlsec",
+        "https://github.com/LNPANDY/NX2Apple"
+      ],
+      "refs": {
+        "actor": {
+          "login": "sqlsec",
+          "url": "https://github.com/sqlsec"
+        },
+        "repo": {
+          "full_name": "LNPANDY/NX2Apple",
+          "url": "https://github.com/LNPANDY/NX2Apple"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19197205472",
+      "who": "Rvn0xsy",
+      "who_url": "https://github.com/Rvn0xsy",
+      "action": "star",
+      "target": "X1a0He/X1a0HeWeChatPlugin",
+      "target_url": "https://github.com/X1a0He/X1a0HeWeChatPlugin",
+      "text": "Rvn0xsy starred X1a0He/X1a0HeWeChatPlugin",
+      "at": "2026-11-05T06:52:57+00:00",
+      "external_id": "event:19197205472",
+      "url": "https://github.com/X1a0He/X1a0HeWeChatPlugin",
+      "content": "Rvn0xsy starred X1a0He/X1a0HeWeChatPlugin",
+      "author": "Rvn0xsy",
+      "author_name": "Rvn0xsy",
+      "author_url": "https://github.com/Rvn0xsy",
+      "published_at": "2026-11-05T06:52:57+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Rvn0xsy",
+        "https://github.com/X1a0He/X1a0HeWeChatPlugin"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Rvn0xsy",
+          "url": "https://github.com/Rvn0xsy"
+        },
+        "repo": {
+          "full_name": "X1a0He/X1a0HeWeChatPlugin",
+          "url": "https://github.com/X1a0He/X1a0HeWeChatPlugin"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19192024959",
+      "who": "Cen4enCen",
+      "who_url": "https://github.com/Cen4enCen",
+      "action": "star",
+      "target": "7uckzero/garble",
+      "target_url": "https://github.com/7uckzero/garble",
+      "text": "Cen4enCen starred 7uckzero/garble",
+      "at": "2026-11-05T05:28:31+00:00",
+      "external_id": "event:19192024959",
+      "url": "https://github.com/7uckzero/garble",
+      "content": "Cen4enCen starred 7uckzero/garble",
+      "author": "Cen4enCen",
+      "author_name": "Cen4enCen",
+      "author_url": "https://github.com/Cen4enCen",
+      "published_at": "2026-11-05T05:28:31+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cen4enCen",
+        "https://github.com/7uckzero/garble"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cen4enCen",
+          "url": "https://github.com/Cen4enCen"
+        },
+        "repo": {
+          "full_name": "7uckzero/garble",
+          "url": "https://github.com/7uckzero/garble"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19192025403",
+      "who": "Cen4enCen",
+      "who_url": "https://github.com/Cen4enCen",
+      "action": "star",
+      "target": "7uckzero/FreedomCallStackSpoof",
+      "target_url": "https://github.com/7uckzero/FreedomCallStackSpoof",
+      "text": "Cen4enCen starred 7uckzero/FreedomCallStackSpoof",
+      "at": "2026-11-05T05:28:30+00:00",
+      "external_id": "event:19192025403",
+      "url": "https://github.com/7uckzero/FreedomCallStackSpoof",
+      "content": "Cen4enCen starred 7uckzero/FreedomCallStackSpoof",
+      "author": "Cen4enCen",
+      "author_name": "Cen4enCen",
+      "author_url": "https://github.com/Cen4enCen",
+      "published_at": "2026-11-05T05:28:30+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cen4enCen",
+        "https://github.com/7uckzero/FreedomCallStackSpoof"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cen4enCen",
+          "url": "https://github.com/Cen4enCen"
+        },
+        "repo": {
+          "full_name": "7uckzero/FreedomCallStackSpoof",
+          "url": "https://github.com/7uckzero/FreedomCallStackSpoof"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19192025040",
+      "who": "Cen4enCen",
+      "who_url": "https://github.com/Cen4enCen",
+      "action": "star",
+      "target": "7uckzero/ExInjectSetConsole",
+      "target_url": "https://github.com/7uckzero/ExInjectSetConsole",
+      "text": "Cen4enCen starred 7uckzero/ExInjectSetConsole",
+      "at": "2026-11-05T05:28:29+00:00",
+      "external_id": "event:19192025040",
+      "url": "https://github.com/7uckzero/ExInjectSetConsole",
+      "content": "Cen4enCen starred 7uckzero/ExInjectSetConsole",
+      "author": "Cen4enCen",
+      "author_name": "Cen4enCen",
+      "author_url": "https://github.com/Cen4enCen",
+      "published_at": "2026-11-05T05:28:29+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cen4enCen",
+        "https://github.com/7uckzero/ExInjectSetConsole"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cen4enCen",
+          "url": "https://github.com/Cen4enCen"
+        },
+        "repo": {
+          "full_name": "7uckzero/ExInjectSetConsole",
+          "url": "https://github.com/7uckzero/ExInjectSetConsole"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19192021073",
+      "who": "Cen4enCen",
+      "who_url": "https://github.com/Cen4enCen",
+      "action": "star",
+      "target": "7uckzero/detection-rules",
+      "target_url": "https://github.com/7uckzero/detection-rules",
+      "text": "Cen4enCen starred 7uckzero/detection-rules",
+      "at": "2026-11-05T05:28:29+00:00",
+      "external_id": "event:19192021073",
+      "url": "https://github.com/7uckzero/detection-rules",
+      "content": "Cen4enCen starred 7uckzero/detection-rules",
+      "author": "Cen4enCen",
+      "author_name": "Cen4enCen",
+      "author_url": "https://github.com/Cen4enCen",
+      "published_at": "2026-11-05T05:28:29+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cen4enCen",
+        "https://github.com/7uckzero/detection-rules"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cen4enCen",
+          "url": "https://github.com/Cen4enCen"
+        },
+        "repo": {
+          "full_name": "7uckzero/detection-rules",
+          "url": "https://github.com/7uckzero/detection-rules"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19189660360",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "star",
+      "target": "storytold/craft-anything",
+      "target_url": "https://github.com/storytold/craft-anything",
+      "text": "realoriginal starred storytold/craft-anything",
+      "at": "2026-11-05T04:48:14+00:00",
+      "external_id": "event:19189660360",
+      "url": "https://github.com/storytold/craft-anything",
+      "content": "realoriginal starred storytold/craft-anything",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-11-05T04:48:14+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/storytold/craft-anything"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": {
+          "full_name": "storytold/craft-anything",
+          "url": "https://github.com/storytold/craft-anything"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19188023567",
+      "who": "komimoe",
+      "who_url": "https://github.com/komimoe",
+      "action": "star",
+      "target": "HexRaysSA/ida-mcp",
+      "target_url": "https://github.com/HexRaysSA/ida-mcp",
+      "text": "komimoe starred HexRaysSA/ida-mcp",
+      "at": "2026-11-05T04:19:16+00:00",
+      "external_id": "event:19188023567",
+      "url": "https://github.com/HexRaysSA/ida-mcp",
+      "content": "komimoe starred HexRaysSA/ida-mcp",
+      "author": "komimoe",
+      "author_name": "komimoe",
+      "author_url": "https://github.com/komimoe",
+      "published_at": "2026-11-05T04:19:16+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/komimoe",
+        "https://github.com/HexRaysSA/ida-mcp"
+      ],
+      "refs": {
+        "actor": {
+          "login": "komimoe",
+          "url": "https://github.com/komimoe"
+        },
+        "repo": {
+          "full_name": "HexRaysSA/ida-mcp",
+          "url": "https://github.com/HexRaysSA/ida-mcp"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19185811198",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "fork",
+      "target": "gmh5225/auto-ontology",
+      "target_url": "https://github.com/gmh5225/auto-ontology",
+      "text": "gmh5225 forked NVIDIA/auto-ontology → gmh5225/auto-ontology",
+      "at": "2026-11-05T03:41:02+00:00",
+      "external_id": "event:19185811198",
+      "url": "https://github.com/gmh5225/auto-ontology",
+      "content": "gmh5225 forked NVIDIA/auto-ontology → gmh5225/auto-ontology",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-11-05T03:41:02+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/NVIDIA/auto-ontology",
+        "https://github.com/gmh5225/auto-ontology"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "NVIDIA/auto-ontology",
+          "url": "https://github.com/NVIDIA/auto-ontology"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "gmh5225/auto-ontology",
+          "url": "https://github.com/gmh5225/auto-ontology"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": true,
+        "trending_front_page": true
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19185793719",
+      "who": "PassingFoam",
+      "who_url": "https://github.com/PassingFoam",
+      "action": "star",
+      "target": "HKUDS/Vibe-Trading",
+      "target_url": "https://github.com/HKUDS/Vibe-Trading",
+      "text": "PassingFoam starred HKUDS/Vibe-Trading",
+      "at": "2026-11-05T03:40:45+00:00",
+      "external_id": "event:19185793719",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "content": "PassingFoam starred HKUDS/Vibe-Trading",
+      "author": "PassingFoam",
+      "author_name": "PassingFoam",
+      "author_url": "https://github.com/PassingFoam",
+      "published_at": "2026-11-05T03:40:45+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/PassingFoam",
+        "https://github.com/HKUDS/Vibe-Trading"
+      ],
+      "refs": {
+        "actor": {
+          "login": "PassingFoam",
+          "url": "https://github.com/PassingFoam"
+        },
+        "repo": {
+          "full_name": "HKUDS/Vibe-Trading",
+          "url": "https://github.com/HKUDS/Vibe-Trading"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19183312995",
+      "who": "s3c4ct0r",
+      "who_url": "https://github.com/s3c4ct0r",
+      "action": "fork",
+      "target": "s3c4ct0r/sliver-ligolo-ng",
+      "target_url": "https://github.com/s3c4ct0r/sliver-ligolo-ng",
+      "text": "s3c4ct0r forked exil-security/sliver-ligolo-ng → s3c4ct0r/sliver-ligolo-ng",
+      "at": "2026-11-05T02:58:27+00:00",
+      "external_id": "event:19183312995",
+      "url": "https://github.com/s3c4ct0r/sliver-ligolo-ng",
+      "content": "s3c4ct0r forked exil-security/sliver-ligolo-ng → s3c4ct0r/sliver-ligolo-ng",
+      "author": "s3c4ct0r",
+      "author_name": "s3c4ct0r",
+      "author_url": "https://github.com/s3c4ct0r",
+      "published_at": "2026-11-05T02:58:27+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/s3c4ct0r",
+        "https://github.com/exil-security/sliver-ligolo-ng",
+        "https://github.com/s3c4ct0r/sliver-ligolo-ng"
+      ],
+      "refs": {
+        "actor": {
+          "login": "s3c4ct0r",
+          "url": "https://github.com/s3c4ct0r"
+        },
+        "repo": {
+          "full_name": "exil-security/sliver-ligolo-ng",
+          "url": "https://github.com/exil-security/sliver-ligolo-ng"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "s3c4ct0r/sliver-ligolo-ng",
+          "url": "https://github.com/s3c4ct0r/sliver-ligolo-ng"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19183059921",
+      "who": "s3c4ct0r",
+      "who_url": "https://github.com/s3c4ct0r",
+      "action": "fork",
+      "target": "s3c4ct0r/goexec",
+      "target_url": "https://github.com/s3c4ct0r/goexec",
+      "text": "s3c4ct0r forked FalconOpsLLC/goexec → s3c4ct0r/goexec",
+      "at": "2026-11-05T02:54:20+00:00",
+      "external_id": "event:19183059921",
+      "url": "https://github.com/s3c4ct0r/goexec",
+      "content": "s3c4ct0r forked FalconOpsLLC/goexec → s3c4ct0r/goexec",
+      "author": "s3c4ct0r",
+      "author_name": "s3c4ct0r",
+      "author_url": "https://github.com/s3c4ct0r",
+      "published_at": "2026-11-05T02:54:20+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/s3c4ct0r",
+        "https://github.com/FalconOpsLLC/goexec",
+        "https://github.com/s3c4ct0r/goexec"
+      ],
+      "refs": {
+        "actor": {
+          "login": "s3c4ct0r",
+          "url": "https://github.com/s3c4ct0r"
+        },
+        "repo": {
+          "full_name": "FalconOpsLLC/goexec",
+          "url": "https://github.com/FalconOpsLLC/goexec"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "s3c4ct0r/goexec",
+          "url": "https://github.com/s3c4ct0r/goexec"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19181446585",
+      "who": "fdx-xdf",
+      "who_url": "https://github.com/fdx-xdf",
+      "action": "star",
+      "target": "anthropics/FlashProve",
+      "target_url": "https://github.com/anthropics/FlashProve",
+      "text": "fdx-xdf starred anthropics/FlashProve",
+      "at": "2026-11-05T02:27:27+00:00",
+      "external_id": "event:19181446585",
+      "url": "https://github.com/anthropics/FlashProve",
+      "content": "fdx-xdf starred anthropics/FlashProve",
+      "author": "fdx-xdf",
+      "author_name": "fdx-xdf",
+      "author_url": "https://github.com/fdx-xdf",
+      "published_at": "2026-11-05T02:27:27+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/fdx-xdf",
+        "https://github.com/anthropics/FlashProve"
+      ],
+      "refs": {
+        "actor": {
+          "login": "fdx-xdf",
+          "url": "https://github.com/fdx-xdf"
+        },
+        "repo": {
+          "full_name": "anthropics/FlashProve",
+          "url": "https://github.com/anthropics/FlashProve"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19181176024",
+      "who": "0xTriboulet",
+      "who_url": "https://github.com/0xTriboulet",
+      "action": "star",
+      "target": "PShlyundin/TimeSync",
+      "target_url": "https://github.com/PShlyundin/TimeSync",
+      "text": "0xTriboulet starred PShlyundin/TimeSync",
+      "at": "2026-11-05T02:22:39+00:00",
+      "external_id": "event:19181176024",
+      "url": "https://github.com/PShlyundin/TimeSync",
+      "content": "0xTriboulet starred PShlyundin/TimeSync",
+      "author": "0xTriboulet",
+      "author_name": "0xTriboulet",
+      "author_url": "https://github.com/0xTriboulet",
+      "published_at": "2026-11-05T02:22:39+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/0xTriboulet",
+        "https://github.com/PShlyundin/TimeSync"
+      ],
+      "refs": {
+        "actor": {
+          "login": "0xTriboulet",
+          "url": "https://github.com/0xTriboulet"
+        },
+        "repo": {
+          "full_name": "PShlyundin/TimeSync",
+          "url": "https://github.com/PShlyundin/TimeSync"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19177706846",
+      "who": "yj94",
+      "who_url": "https://github.com/yj94",
+      "action": "star",
+      "target": "breezeblue-ai/breeze-tts",
+      "target_url": "https://github.com/breezeblue-ai/breeze-tts",
+      "text": "yj94 starred breezeblue-ai/breeze-tts",
+      "at": "2026-11-05T01:29:19+00:00",
+      "external_id": "event:19177706846",
+      "url": "https://github.com/breezeblue-ai/breeze-tts",
+      "content": "yj94 starred breezeblue-ai/breeze-tts",
+      "author": "yj94",
+      "author_name": "yj94",
+      "author_url": "https://github.com/yj94",
+      "published_at": "2026-11-05T01:29:19+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yj94",
+        "https://github.com/breezeblue-ai/breeze-tts"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yj94",
+          "url": "https://github.com/yj94"
+        },
+        "repo": {
+          "full_name": "breezeblue-ai/breeze-tts",
+          "url": "https://github.com/breezeblue-ai/breeze-tts"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
     {
       "id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-05",
       "who": "",
@@ -42,7 +1438,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-05T01:24:08+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -128,7 +1524,7 @@
       "author_name": "safedv",
       "author_url": "https://github.com/safedv",
       "published_at": "2026-11-05T01:23:50+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:follow"
       ],
@@ -169,7 +1565,7 @@
         "login": "S12cybersecurity",
         "name": "",
         "bio": "",
-        "followers": 862,
+        "followers": 869,
         "public_repos": 108,
         "html_url": "https://github.com/S12cybersecurity",
         "languages": [
@@ -184,14 +1580,14 @@
             "name": "S12cybersecurity/WinDefenderKiller",
             "description": "Windows Defender Killer | Registry-Based Disablement + BYOVD Process Termination (C++)",
             "language": "C",
-            "stars": 567,
+            "stars": 569,
             "pushed_at": "2026-04-02T08:31:08Z"
           },
           {
             "name": "S12cybersecurity/RDPCredentialStealer",
             "description": "RDPCredentialStealer it's an implant that steal credentials provided by users in RDP using API Hooking with Detours in C++",
             "language": "C++",
-            "stars": 286,
+            "stars": 287,
             "pushed_at": "2026-03-11T14:28:12Z"
           },
           {
@@ -205,15 +1601,15 @@
             "name": "S12cybersecurity/CredGuardRuntimeShutdown",
             "description": "Runtime Credential Guard deactivation via \\\\LSA_ISO_DISABLE_CREDENTIAL_GUARD + LSASS NT hash extraction (Win11 24H2)",
             "language": "C",
-            "stars": 104,
+            "stars": 108,
             "pushed_at": "2026-10-27T11:11:29Z"
           },
           {
-            "name": "S12cybersecurity/S12URootkit",
-            "description": "User Mode Windows Rootkit",
+            "name": "S12cybersecurity/LogonStealer",
+            "description": "Abuses the Credential Provider interface to steal plaintext passwords from logonui.exe via CredProvDataModel.dll hooks",
             "language": "C++",
-            "stars": 87,
-            "pushed_at": "2026-07-14T11:14:05Z"
+            "stars": 100,
+            "pushed_at": "2026-10-12T09:53:15Z"
           }
         ]
       }
@@ -234,7 +1630,7 @@
       "author_name": "Innei",
       "author_url": "https://github.com/Innei",
       "published_at": "2026-11-05T01:23:50+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:follow"
       ],
@@ -291,7 +1687,7 @@
             "description": "A self-hostable personal site in one sky: notes, moments, works, collection and a voyage log. React 19 + TanStack Start, Rust (axum + SQLite), Docker Compose. 5 languages.",
             "language": "TypeScript",
             "stars": 59,
-            "pushed_at": "2026-11-04T15:14:14Z"
+            "pushed_at": "2026-11-05T11:10:02Z"
           },
           {
             "name": "Koimsurai/flow2code",
@@ -340,7 +1736,7 @@
       "author_name": "CrazyHarb",
       "author_url": "https://github.com/CrazyHarb",
       "published_at": "2026-11-05T01:23:50+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:follow"
       ],
@@ -392,7 +1788,7 @@
             "name": "breezeblue-ai/breeze-tts",
             "description": "Official PyTorch inference for Breeze TTS 2",
             "language": "Python",
-            "stars": 1441,
+            "stars": 1479,
             "pushed_at": "2026-11-02T06:31:04Z"
           },
           {
@@ -435,7 +1831,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-05T01:23:33+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -521,7 +1917,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-05T01:16:54+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -589,7 +1985,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-05T01:14:15+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -661,7 +2057,7 @@
       "author_name": "Cracked5pider",
       "author_url": "https://github.com/Cracked5pider",
       "published_at": "2026-11-05T00:32:27+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -715,7 +2111,7 @@
       "author_name": "yetone",
       "author_url": "https://github.com/yetone",
       "published_at": "2026-11-05T00:18:32+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:release"
       ],
@@ -770,7 +2166,7 @@
       "author_name": "Cracked5pider",
       "author_url": "https://github.com/Cracked5pider",
       "published_at": "2026-11-04T23:49:50+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -824,7 +2220,7 @@
       "author_name": "badboycxcc",
       "author_url": "https://github.com/badboycxcc",
       "published_at": "2026-11-04T23:44:26+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -878,7 +2274,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-04T23:25:11+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -947,7 +2343,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-04T23:09:00+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -1015,7 +2411,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-04T22:59:13+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -1083,7 +2479,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-04T22:00:58+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -1152,7 +2548,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T21:05:06+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1206,7 +2602,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T21:04:56+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1260,7 +2656,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T21:04:26+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1314,7 +2710,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T21:04:15+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1368,7 +2764,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T21:01:17+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1395,7 +2791,7 @@
       },
       "metrics": {
         "circle_count": 1,
-        "trending": true,
+        "trending": false,
         "trending_front_page": false
       },
       "flags": {
@@ -1422,7 +2818,7 @@
       "author_name": "yetone",
       "author_url": "https://github.com/yetone",
       "published_at": "2026-11-04T20:57:13+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:release"
       ],
@@ -1477,7 +2873,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:55:15+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1531,7 +2927,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:55:10+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1585,7 +2981,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:35:00+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1639,7 +3035,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:34:37+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1693,7 +3089,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:33:34+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1747,7 +3143,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:32:46+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1801,7 +3197,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:31:38+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1855,7 +3251,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:31:10+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1909,7 +3305,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:30:55+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1963,7 +3359,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:30:36+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -2017,7 +3413,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:30:22+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -2071,7 +3467,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-04T20:30:04+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -2125,7 +3521,7 @@
       "author_name": "Innei",
       "author_url": "https://github.com/Innei",
       "published_at": "2026-11-04T19:31:14+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -2179,7 +3575,7 @@
       "author_name": "yetone",
       "author_url": "https://github.com/yetone",
       "published_at": "2026-11-04T19:30:24+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:release"
       ],
@@ -2234,7 +3630,7 @@
       "author_name": "safedv",
       "author_url": "https://github.com/safedv",
       "published_at": "2026-11-04T19:12:01+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -2288,7 +3684,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-11-04T19:10:25+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],
@@ -2342,7 +3738,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-11-04T16:31:00+00:00",
-      "collected_at": "2026-11-05T01:24:41.641692+00:00",
+      "collected_at": "2026-11-06T01:27:24.816256+00:00",
       "tags": [
         "kind:star"
       ],

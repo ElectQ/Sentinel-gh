@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T01:27:26+00:00",
+  "generated_at": "2026-11-07T00:45:16+00:00",
   "followee_count": 181,
-  "events_collected": 163,
+  "events_collected": 726,
   "trending_available": true,
-  "trending_source_date": "2026-11-05",
+  "trending_source_date": "2026-11-06",
   "circle_hot": [],
   "circle_outer_hot": [
     {
@@ -467,11 +467,9 @@
       "inner_count": 0,
       "inner_actors": [],
       "in_circle": false,
-      "trending": true,
+      "trending": false,
       "trending_front_page": false,
-      "languages": [
-        "makefile"
-      ],
+      "languages": [],
       "latest_at": "2026-11-05T20:51:04Z"
     },
     {
@@ -500,21 +498,89 @@
       "latest_at": "2026-11-06T00:44:01Z"
     }
   ],
-  "trending_overlap": [],
-  "releases": [],
+  "trending_overlap": [
+    {
+      "repo": "D4Vinci/Scrapling",
+      "repo_url": "https://github.com/D4Vinci/Scrapling",
+      "count": 1,
+      "starred_by": [
+        "phith0n"
+      ],
+      "starred_by_urls": [
+        "https://github.com/phith0n"
+      ],
+      "trending": true,
+      "trending_front_page": true,
+      "languages": [
+        "python"
+      ]
+    },
+    {
+      "repo": "pydantic/monty",
+      "repo_url": "https://github.com/pydantic/monty",
+      "count": 1,
+      "starred_by": [
+        "h3zh1"
+      ],
+      "starred_by_urls": [
+        "https://github.com/h3zh1"
+      ],
+      "trending": true,
+      "trending_front_page": false,
+      "languages": [
+        "rust"
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "repo": "yetone/alma-releases",
+      "by": "yetone",
+      "tag": "android-v2.1",
+      "name": "Alma Android 2.1",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v2.1",
+      "prerelease": false
+    },
+    {
+      "repo": "yetone/alma-releases",
+      "by": "yetone",
+      "tag": "android-v2.2",
+      "name": "Alma Android 2.2",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v2.2",
+      "prerelease": false
+    },
+    {
+      "repo": "yetone/alma-releases",
+      "by": "yetone",
+      "tag": "android-v2.3",
+      "name": "Alma Android 2.3",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v2.3",
+      "prerelease": false
+    },
+    {
+      "repo": "cristianzsh/eid",
+      "by": "cristianzsh",
+      "tag": "1.0.1",
+      "name": "v1.0.1",
+      "url": "https://github.com/cristianzsh/eid/releases/tag/1.0.1",
+      "prerelease": false
+    }
+  ],
   "new_repos": [],
-  "starred_repos_total": 5,
+  "starred_repos_total": 18,
   "raw_counts": {
-    "PushEvent": 38,
-    "IssueCommentEvent": 42,
-    "DeleteEvent": 1,
-    "WatchEvent": 5,
-    "ForkEvent": 4,
-    "PublicEvent": 1,
-    "PullRequestReviewEvent": 6,
-    "CreateEvent": 25,
-    "PullRequestEvent": 30,
-    "IssuesEvent": 11
+    "PushEvent": 299,
+    "IssueCommentEvent": 117,
+    "DeleteEvent": 22,
+    "WatchEvent": 18,
+    "ForkEvent": 9,
+    "PublicEvent": 2,
+    "PullRequestReviewEvent": 28,
+    "CreateEvent": 97,
+    "PullRequestEvent": 80,
+    "IssuesEvent": 49,
+    "ReleaseEvent": 4,
+    "CommitCommentEvent": 1
   },
   "follows": {
     "new_count": 1,
@@ -561,8 +627,151 @@
     "degraded": false
   },
   "stars": {
-    "total": 5,
+    "total": 18,
     "items": [
+      {
+        "repo": "c0nf1den71al/turn-udc2",
+        "repo_url": "https://github.com/c0nf1den71al/turn-udc2",
+        "by": "Cracked5pider",
+        "by_url": "https://github.com/Cracked5pider",
+        "html_url": "https://github.com/c0nf1den71al/turn-udc2",
+        "text": "Cracked5pider starred c0nf1den71al/turn-udc2",
+        "created_at": "2026-11-06T14:17:49Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "bproject07/Codex-web",
+        "repo_url": "https://github.com/bproject07/Codex-web",
+        "by": "zurro",
+        "by_url": "https://github.com/zurro",
+        "html_url": "https://github.com/bproject07/Codex-web",
+        "text": "zurro starred bproject07/Codex-web",
+        "created_at": "2026-11-06T13:05:35Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "dis0rder0x00/TrustedHive",
+        "repo_url": "https://github.com/dis0rder0x00/TrustedHive",
+        "by": "ScriptIdiot",
+        "by_url": "https://github.com/ScriptIdiot",
+        "html_url": "https://github.com/dis0rder0x00/TrustedHive",
+        "text": "ScriptIdiot starred dis0rder0x00/TrustedHive",
+        "created_at": "2026-11-06T11:50:46Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "1r0BIT/WinSSHound",
+        "repo_url": "https://github.com/1r0BIT/WinSSHound",
+        "by": "ScriptIdiot",
+        "by_url": "https://github.com/ScriptIdiot",
+        "html_url": "https://github.com/1r0BIT/WinSSHound",
+        "text": "ScriptIdiot starred 1r0BIT/WinSSHound",
+        "created_at": "2026-11-06T11:49:14Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Lakr233/vphone-cli",
+        "repo_url": "https://github.com/Lakr233/vphone-cli",
+        "by": "Idov31",
+        "by_url": "https://github.com/Idov31",
+        "html_url": "https://github.com/Lakr233/vphone-cli",
+        "text": "Idov31 starred Lakr233/vphone-cli",
+        "created_at": "2026-11-06T11:20:48Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "utmapp/UTM",
+        "repo_url": "https://github.com/utmapp/UTM",
+        "by": "Idov31",
+        "by_url": "https://github.com/Idov31",
+        "html_url": "https://github.com/utmapp/UTM",
+        "text": "Idov31 starred utmapp/UTM",
+        "created_at": "2026-11-06T10:28:17Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "sherlock-project/sherlock",
+        "repo_url": "https://github.com/sherlock-project/sherlock",
+        "by": "minhangxiaohui",
+        "by_url": "https://github.com/minhangxiaohui",
+        "html_url": "https://github.com/sherlock-project/sherlock",
+        "text": "minhangxiaohui starred sherlock-project/sherlock",
+        "created_at": "2026-11-06T09:29:13Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "mviereck/x11docker",
+        "repo_url": "https://github.com/mviereck/x11docker",
+        "by": "realoriginal",
+        "by_url": "https://github.com/realoriginal",
+        "html_url": "https://github.com/mviereck/x11docker",
+        "text": "realoriginal starred mviereck/x11docker",
+        "created_at": "2026-11-06T08:39:00Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "railwayapp/railpack",
+        "repo_url": "https://github.com/railwayapp/railpack",
+        "by": "realoriginal",
+        "by_url": "https://github.com/realoriginal",
+        "html_url": "https://github.com/railwayapp/railpack",
+        "text": "realoriginal starred railwayapp/railpack",
+        "created_at": "2026-11-06T07:48:02Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "ktwu01/benchmark-radar",
+        "repo_url": "https://github.com/ktwu01/benchmark-radar",
+        "by": "cdxiaodong",
+        "by_url": "https://github.com/cdxiaodong",
+        "html_url": "https://github.com/ktwu01/benchmark-radar",
+        "text": "cdxiaodong starred ktwu01/benchmark-radar",
+        "created_at": "2026-11-06T05:59:46Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "ivancabrera02/tprtdll-Injection",
+        "repo_url": "https://github.com/ivancabrera02/tprtdll-Injection",
+        "by": "safedv",
+        "by_url": "https://github.com/safedv",
+        "html_url": "https://github.com/ivancabrera02/tprtdll-Injection",
+        "text": "safedv starred ivancabrera02/tprtdll-Injection",
+        "created_at": "2026-11-06T05:59:27Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "D4Vinci/Scrapling",
+        "repo_url": "https://github.com/D4Vinci/Scrapling",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/D4Vinci/Scrapling",
+        "text": "phith0n starred D4Vinci/Scrapling",
+        "created_at": "2026-11-06T02:55:46Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "larashero3-dotcom/lieflat-less-ai-tone",
+        "repo_url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+        "text": "phith0n starred larashero3-dotcom/lieflat-less-ai-tone",
+        "created_at": "2026-11-06T02:47:28Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "momusdigital/fnv_decomp",
         "repo_url": "https://github.com/momusdigital/fnv_decomp",
@@ -582,7 +791,7 @@
         "html_url": "https://github.com/pydantic/monty",
         "text": "h3zh1 starred pydantic/monty",
         "created_at": "2026-11-05T20:20:58Z",
-        "trending": false,
+        "trending": true,
         "trending_front_page": false
       },
       {
@@ -621,6 +830,61 @@
     ]
   },
   "forks": [
+    {
+      "repo": "ppmpreetham/BUI",
+      "repo_url": "https://github.com/ppmpreetham/BUI",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/BUI",
+      "forkee_url": "https://github.com/gmh5225/BUI",
+      "html_url": "https://github.com/gmh5225/BUI",
+      "text": "gmh5225 forked ppmpreetham/BUI → gmh5225/BUI",
+      "created_at": "2026-11-06T15:42:05Z"
+    },
+    {
+      "repo": "zortos293/Lichii",
+      "repo_url": "https://github.com/zortos293/Lichii",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/Lichii",
+      "forkee_url": "https://github.com/gmh5225/Lichii",
+      "html_url": "https://github.com/gmh5225/Lichii",
+      "text": "gmh5225 forked zortos293/Lichii → gmh5225/Lichii",
+      "created_at": "2026-11-06T15:28:57Z"
+    },
+    {
+      "repo": "h4urek/CVE-2026-50679",
+      "repo_url": "https://github.com/h4urek/CVE-2026-50679",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/CVE-2026-50679",
+      "forkee_url": "https://github.com/gmh5225/CVE-2026-50679",
+      "html_url": "https://github.com/gmh5225/CVE-2026-50679",
+      "text": "gmh5225 forked h4urek/CVE-2026-50679 → gmh5225/CVE-2026-50679",
+      "created_at": "2026-11-06T15:27:09Z"
+    },
+    {
+      "repo": "Cyllex-Framework/Cyllex-Argus",
+      "repo_url": "https://github.com/Cyllex-Framework/Cyllex-Argus",
+      "by": "ZephrFish",
+      "by_url": "https://github.com/ZephrFish",
+      "forkee": "ZephrFish/Cyllex-Argus",
+      "forkee_url": "https://github.com/ZephrFish/Cyllex-Argus",
+      "html_url": "https://github.com/ZephrFish/Cyllex-Argus",
+      "text": "ZephrFish forked Cyllex-Framework/Cyllex-Argus → ZephrFish/Cyllex-Argus",
+      "created_at": "2026-11-06T10:25:14Z"
+    },
+    {
+      "repo": "ktwu01/benchmark-radar",
+      "repo_url": "https://github.com/ktwu01/benchmark-radar",
+      "by": "cdxiaodong",
+      "by_url": "https://github.com/cdxiaodong",
+      "forkee": "cdxiaodong/benchmark-radar",
+      "forkee_url": "https://github.com/cdxiaodong/benchmark-radar",
+      "html_url": "https://github.com/cdxiaodong/benchmark-radar",
+      "text": "cdxiaodong forked ktwu01/benchmark-radar → cdxiaodong/benchmark-radar",
+      "created_at": "2026-11-06T05:59:53Z"
+    },
     {
       "repo": "anthropics/cwc-workshops",
       "repo_url": "https://github.com/anthropics/cwc-workshops",
@@ -666,5 +930,5 @@
       "created_at": "2026-11-05T16:28:57Z"
     }
   ],
-  "feed_item_count": 18
+  "feed_item_count": 40
 }

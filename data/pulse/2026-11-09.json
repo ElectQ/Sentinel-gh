@@ -1,12 +1,43 @@
 {
   "schema_version": 2,
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T00:40:09+00:00",
-  "followee_count": 180,
-  "events_collected": 152,
+  "generated_at": "2026-11-10T03:19:31+00:00",
+  "followee_count": 181,
+  "events_collected": 669,
   "trending_available": true,
-  "trending_source_date": "2026-11-08",
-  "circle_hot": [],
+  "trending_source_date": "2026-11-09",
+  "circle_hot": [
+    {
+      "repo": "sec4si/ai2shell",
+      "repo_url": "https://github.com/sec4si/ai2shell",
+      "count": 2,
+      "starred_by": [
+        "4ra1n",
+        "ssrsec"
+      ],
+      "starred_by_urls": [
+        "https://github.com/4ra1n",
+        "https://github.com/ssrsec"
+      ],
+      "trending": false,
+      "trending_front_page": false
+    },
+    {
+      "repo": "zgsfsec/Full-Chain-Sentinel-System",
+      "repo_url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+      "count": 2,
+      "starred_by": [
+        "shmilylty",
+        "yj94"
+      ],
+      "starred_by_urls": [
+        "https://github.com/shmilylty",
+        "https://github.com/yj94"
+      ],
+      "trending": false,
+      "trending_front_page": false
+    }
+  ],
   "circle_outer_hot": [
     {
       "repo": "deepseek-ai/deepseek-harness",
@@ -649,7 +680,56 @@
       "latest_at": "2026-11-09T00:23:54Z"
     }
   ],
-  "trending_overlap": [],
+  "trending_overlap": [
+    {
+      "repo": "lobehub/lobehub",
+      "repo_url": "https://github.com/lobehub/lobehub",
+      "count": 1,
+      "starred_by": [
+        "timwhitez"
+      ],
+      "starred_by_urls": [
+        "https://github.com/timwhitez"
+      ],
+      "trending": true,
+      "trending_front_page": false,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "repo_url": "https://github.com/milind-soni/OpenMausBot",
+      "count": 1,
+      "starred_by": [
+        "timwhitez"
+      ],
+      "starred_by_urls": [
+        "https://github.com/timwhitez"
+      ],
+      "trending": true,
+      "trending_front_page": true,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "repo": "ranxianglei/billion-context",
+      "repo_url": "https://github.com/ranxianglei/billion-context",
+      "count": 1,
+      "starred_by": [
+        "veo"
+      ],
+      "starred_by_urls": [
+        "https://github.com/veo"
+      ],
+      "trending": true,
+      "trending_front_page": true,
+      "languages": [
+        "typescript"
+      ]
+    }
+  ],
   "releases": [
     {
       "repo": "yetone/alma-relay",
@@ -690,23 +770,81 @@
       "name": "v1.1.0",
       "url": "https://github.com/Idov31/Silverseal/releases/tag/v1.1.0",
       "prerelease": false
+    },
+    {
+      "repo": "yetone/alma-releases",
+      "by": "yetone",
+      "tag": "android-v3.3",
+      "name": "Alma Android 3.3",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v3.3",
+      "prerelease": false
+    },
+    {
+      "repo": "yetone/alma-releases",
+      "by": "yetone",
+      "tag": "android-v3.4",
+      "name": "Alma Android 3.4",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v3.4",
+      "prerelease": false
+    },
+    {
+      "repo": "Lakr233/vphone-cli",
+      "by": "Lakr233",
+      "tag": "2.16.0",
+      "name": "vphone 2.16.0",
+      "url": "https://github.com/Lakr233/vphone-cli/releases/tag/2.16.0",
+      "prerelease": false
+    },
+    {
+      "repo": "yetone/alma-releases",
+      "by": "yetone",
+      "tag": "android-v3.5",
+      "name": "Alma Android 3.5",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v3.5",
+      "prerelease": false
+    },
+    {
+      "repo": "yetone/alma-releases",
+      "by": "yetone",
+      "tag": "android-v3.6",
+      "name": "Alma Android 3.6",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v3.6",
+      "prerelease": false
+    },
+    {
+      "repo": "yetone/alma-releases",
+      "by": "yetone",
+      "tag": "android-v3.7",
+      "name": "Alma Android 3.7",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v3.7",
+      "prerelease": false
+    },
+    {
+      "repo": "helviojunior/pymd-fmt",
+      "by": "helviojunior",
+      "tag": "v0.1.0",
+      "name": "v0.1.0",
+      "url": "https://github.com/helviojunior/pymd-fmt/releases/tag/v0.1.0",
+      "prerelease": false
     }
   ],
   "new_repos": [],
-  "starred_repos_total": 19,
+  "starred_repos_total": 39,
   "raw_counts": {
-    "PushEvent": 57,
+    "PushEvent": 303,
     "CommitCommentEvent": 2,
-    "PullRequestEvent": 36,
-    "CreateEvent": 5,
-    "WatchEvent": 19,
-    "DeleteEvent": 2,
-    "ForkEvent": 1,
-    "ReleaseEvent": 5,
-    "IssuesEvent": 9,
-    "IssueCommentEvent": 12,
-    "PullRequestReviewEvent": 3,
-    "DiscussionEvent": 1
+    "PullRequestEvent": 100,
+    "CreateEvent": 49,
+    "WatchEvent": 41,
+    "DeleteEvent": 13,
+    "ForkEvent": 2,
+    "ReleaseEvent": 12,
+    "IssuesEvent": 44,
+    "IssueCommentEvent": 78,
+    "PullRequestReviewEvent": 18,
+    "DiscussionEvent": 1,
+    "PublicEvent": 1,
+    "PullRequestReviewCommentEvent": 5
   },
   "follows": {
     "new_count": 0,
@@ -1042,8 +1180,250 @@
     "degraded": false
   },
   "stars": {
-    "total": 19,
+    "total": 41,
     "items": [
+      {
+        "repo": "splintersfury/KernelSight",
+        "repo_url": "https://github.com/splintersfury/KernelSight",
+        "by": "kyxiaxiang",
+        "by_url": "https://github.com/kyxiaxiang",
+        "html_url": "https://github.com/splintersfury/KernelSight",
+        "text": "kyxiaxiang starred splintersfury/KernelSight",
+        "created_at": "2026-11-09T15:18:10Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Ray-lea/Argus",
+        "repo_url": "https://github.com/Ray-lea/Argus",
+        "by": "Hello-xBugs",
+        "by_url": "https://github.com/Hello-xBugs",
+        "html_url": "https://github.com/Ray-lea/Argus",
+        "text": "Hello-xBugs starred Ray-lea/Argus",
+        "created_at": "2026-11-09T15:16:53Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "michael-denyer/pstack-claude",
+        "repo_url": "https://github.com/michael-denyer/pstack-claude",
+        "by": "Rvn0xsy",
+        "by_url": "https://github.com/Rvn0xsy",
+        "html_url": "https://github.com/michael-denyer/pstack-claude",
+        "text": "Rvn0xsy starred michael-denyer/pstack-claude",
+        "created_at": "2026-11-09T14:35:25Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "backnotprop/pstack",
+        "repo_url": "https://github.com/backnotprop/pstack",
+        "by": "Rvn0xsy",
+        "by_url": "https://github.com/Rvn0xsy",
+        "html_url": "https://github.com/backnotprop/pstack",
+        "text": "Rvn0xsy starred backnotprop/pstack",
+        "created_at": "2026-11-09T14:34:27Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "ResoluteAssault/AdaptiHound-BOF",
+        "repo_url": "https://github.com/ResoluteAssault/AdaptiHound-BOF",
+        "by": "s3c4ct0r",
+        "by_url": "https://github.com/s3c4ct0r",
+        "html_url": "https://github.com/ResoluteAssault/AdaptiHound-BOF",
+        "text": "s3c4ct0r starred ResoluteAssault/AdaptiHound-BOF",
+        "created_at": "2026-11-09T14:01:20Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "memN0ps/doublepulsar-rs",
+        "repo_url": "https://github.com/memN0ps/doublepulsar-rs",
+        "by": "safedv",
+        "by_url": "https://github.com/safedv",
+        "html_url": "https://github.com/memN0ps/doublepulsar-rs",
+        "text": "safedv starred memN0ps/doublepulsar-rs",
+        "created_at": "2026-11-09T13:45:53Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "twili8/homer",
+        "repo_url": "https://github.com/twili8/homer",
+        "by": "aleenzz",
+        "by_url": "https://github.com/aleenzz",
+        "html_url": "https://github.com/twili8/homer",
+        "text": "aleenzz starred twili8/homer",
+        "created_at": "2026-11-09T13:25:41Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "ranxianglei/billion-context",
+        "repo_url": "https://github.com/ranxianglei/billion-context",
+        "by": "veo",
+        "by_url": "https://github.com/veo",
+        "html_url": "https://github.com/ranxianglei/billion-context",
+        "text": "veo starred ranxianglei/billion-context",
+        "created_at": "2026-11-09T12:21:24Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "huamidev/GestaltX",
+        "repo_url": "https://github.com/huamidev/GestaltX",
+        "by": "Mx-Iris",
+        "by_url": "https://github.com/Mx-Iris",
+        "html_url": "https://github.com/huamidev/GestaltX",
+        "text": "Mx-Iris starred huamidev/GestaltX",
+        "created_at": "2026-11-09T10:54:58Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "larashero3-dotcom/lieflat-less-ai-tone",
+        "repo_url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+        "by": "Y4tacker",
+        "by_url": "https://github.com/Y4tacker",
+        "html_url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+        "text": "Y4tacker starred larashero3-dotcom/lieflat-less-ai-tone",
+        "created_at": "2026-11-09T08:38:40Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "yorkeccak/globalhackmap",
+        "repo_url": "https://github.com/yorkeccak/globalhackmap",
+        "by": "zurro",
+        "by_url": "https://github.com/zurro",
+        "html_url": "https://github.com/yorkeccak/globalhackmap",
+        "text": "zurro starred yorkeccak/globalhackmap",
+        "created_at": "2026-11-09T07:57:03Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "sec4si/ai2shell",
+        "repo_url": "https://github.com/sec4si/ai2shell",
+        "by": "ssrsec",
+        "by_url": "https://github.com/ssrsec",
+        "html_url": "https://github.com/sec4si/ai2shell",
+        "text": "ssrsec starred sec4si/ai2shell",
+        "created_at": "2026-11-09T07:14:59Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "gtsteffaniak/filebrowser",
+        "repo_url": "https://github.com/gtsteffaniak/filebrowser",
+        "by": "fdx-xdf",
+        "by_url": "https://github.com/fdx-xdf",
+        "html_url": "https://github.com/gtsteffaniak/filebrowser",
+        "text": "fdx-xdf starred gtsteffaniak/filebrowser",
+        "created_at": "2026-11-09T07:10:37Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "sec4si/ai2shell",
+        "repo_url": "https://github.com/sec4si/ai2shell",
+        "by": "4ra1n",
+        "by_url": "https://github.com/4ra1n",
+        "html_url": "https://github.com/sec4si/ai2shell",
+        "text": "4ra1n starred sec4si/ai2shell",
+        "created_at": "2026-11-09T06:54:05Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "lobehub/lobehub",
+        "repo_url": "https://github.com/lobehub/lobehub",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/lobehub/lobehub",
+        "text": "timwhitez starred lobehub/lobehub",
+        "created_at": "2026-11-09T05:38:30Z",
+        "trending": true,
+        "trending_front_page": false
+      },
+      {
+        "repo": "gremwell/o365enum",
+        "repo_url": "https://github.com/gremwell/o365enum",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/gremwell/o365enum",
+        "text": "timwhitez starred gremwell/o365enum",
+        "created_at": "2026-11-09T05:34:04Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "milind-soni/OpenMausBot",
+        "repo_url": "https://github.com/milind-soni/OpenMausBot",
+        "by": "timwhitez",
+        "by_url": "https://github.com/timwhitez",
+        "html_url": "https://github.com/milind-soni/OpenMausBot",
+        "text": "timwhitez starred milind-soni/OpenMausBot",
+        "created_at": "2026-11-09T05:33:07Z",
+        "trending": true,
+        "trending_front_page": true
+      },
+      {
+        "repo": "ly05010419/MacNativeGames",
+        "repo_url": "https://github.com/ly05010419/MacNativeGames",
+        "by": "sqlsec",
+        "by_url": "https://github.com/sqlsec",
+        "html_url": "https://github.com/ly05010419/MacNativeGames",
+        "text": "sqlsec starred ly05010419/MacNativeGames",
+        "created_at": "2026-11-09T05:29:04Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "zgsfsec/Full-Chain-Sentinel-System",
+        "repo_url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+        "by": "shmilylty",
+        "by_url": "https://github.com/shmilylty",
+        "html_url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+        "text": "shmilylty starred zgsfsec/Full-Chain-Sentinel-System",
+        "created_at": "2026-11-09T04:59:46Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "avatartwo/avatar2",
+        "repo_url": "https://github.com/avatartwo/avatar2",
+        "by": "realoriginal",
+        "by_url": "https://github.com/realoriginal",
+        "html_url": "https://github.com/avatartwo/avatar2",
+        "text": "realoriginal starred avatartwo/avatar2",
+        "created_at": "2026-11-09T04:59:39Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "zgsfsec/Full-Chain-Sentinel-System",
+        "repo_url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+        "by": "yj94",
+        "by_url": "https://github.com/yj94",
+        "html_url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+        "text": "yj94 starred zgsfsec/Full-Chain-Sentinel-System",
+        "created_at": "2026-11-09T04:34:55Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "saulob/13-sentinels-aegis-rim-pc",
+        "repo_url": "https://github.com/saulob/13-sentinels-aegis-rim-pc",
+        "by": "mrfearless",
+        "by_url": "https://github.com/mrfearless",
+        "html_url": "https://github.com/saulob/13-sentinels-aegis-rim-pc",
+        "text": "mrfearless starred saulob/13-sentinels-aegis-rim-pc",
+        "created_at": "2026-11-09T04:31:42Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "lima-vm/lima",
         "repo_url": "https://github.com/lima-vm/lima",
@@ -1257,6 +1637,17 @@
   },
   "forks": [
     {
+      "repo": "michalbednarski/TheLastBundleMismatch",
+      "repo_url": "https://github.com/michalbednarski/TheLastBundleMismatch",
+      "by": "canyie",
+      "by_url": "https://github.com/canyie",
+      "forkee": "canyie/TheLastBundleMismatch",
+      "forkee_url": "https://github.com/canyie/TheLastBundleMismatch",
+      "html_url": "https://github.com/canyie/TheLastBundleMismatch",
+      "text": "canyie forked michalbednarski/TheLastBundleMismatch → canyie/TheLastBundleMismatch",
+      "created_at": "2026-11-09T07:11:24Z"
+    },
+    {
       "repo": "34306/doublera1n",
       "repo_url": "https://github.com/34306/doublera1n",
       "by": "gmh5225",
@@ -1268,5 +1659,5 @@
       "created_at": "2026-11-08T18:37:09Z"
     }
   ],
-  "feed_item_count": 40
+  "feed_item_count": 70
 }

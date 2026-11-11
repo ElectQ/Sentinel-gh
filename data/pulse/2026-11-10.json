@@ -1,12 +1,28 @@
 {
   "schema_version": 2,
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T03:19:31+00:00",
+  "generated_at": "2026-11-11T01:08:28+00:00",
   "followee_count": 181,
-  "events_collected": 188,
+  "events_collected": 565,
   "trending_available": true,
-  "trending_source_date": "2026-11-09",
-  "circle_hot": [],
+  "trending_source_date": "2026-11-10",
+  "circle_hot": [
+    {
+      "repo": "nukeratframework/nukerat",
+      "repo_url": "https://github.com/nukeratframework/nukerat",
+      "count": 2,
+      "starred_by": [
+        "aleenzz",
+        "s3c4ct0r"
+      ],
+      "starred_by_urls": [
+        "https://github.com/aleenzz",
+        "https://github.com/s3c4ct0r"
+      ],
+      "trending": false,
+      "trending_front_page": false
+    }
+  ],
   "circle_outer_hot": [
     {
       "repo": "deepseek-ai/deepseek-harness",
@@ -499,9 +515,11 @@
       "inner_count": 0,
       "inner_actors": [],
       "in_circle": false,
-      "trending": false,
+      "trending": true,
       "trending_front_page": false,
-      "languages": [],
+      "languages": [
+        "go"
+      ],
       "latest_at": "2026-11-10T02:52:43Z"
     }
   ],
@@ -546,21 +564,31 @@
       "name": "Alma Android 4.2",
       "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.2",
       "prerelease": false
+    },
+    {
+      "repo": "yetone/alma-releases",
+      "by": "yetone",
+      "tag": "android-v4.3",
+      "name": "Alma Android 4.3",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.3",
+      "prerelease": false
     }
   ],
   "new_repos": [],
-  "starred_repos_total": 11,
+  "starred_repos_total": 17,
   "raw_counts": {
-    "CreateEvent": 10,
-    "IssuesEvent": 24,
-    "PullRequestEvent": 73,
-    "PushEvent": 20,
-    "WatchEvent": 11,
-    "ForkEvent": 6,
-    "IssueCommentEvent": 36,
-    "DeleteEvent": 1,
-    "ReleaseEvent": 5,
-    "CommitCommentEvent": 2
+    "CreateEvent": 32,
+    "IssuesEvent": 72,
+    "PullRequestEvent": 178,
+    "PushEvent": 139,
+    "WatchEvent": 18,
+    "ForkEvent": 11,
+    "IssueCommentEvent": 91,
+    "DeleteEvent": 4,
+    "ReleaseEvent": 6,
+    "CommitCommentEvent": 2,
+    "PullRequestReviewEvent": 10,
+    "PullRequestReviewCommentEvent": 2
   },
   "follows": {
     "new_count": 32,
@@ -896,8 +924,85 @@
     "degraded": false
   },
   "stars": {
-    "total": 11,
+    "total": 18,
     "items": [
+      {
+        "repo": "nukeratframework/nukerat",
+        "repo_url": "https://github.com/nukeratframework/nukerat",
+        "by": "s3c4ct0r",
+        "by_url": "https://github.com/s3c4ct0r",
+        "html_url": "https://github.com/nukeratframework/nukerat",
+        "text": "s3c4ct0r starred nukeratframework/nukerat",
+        "created_at": "2026-11-10T14:07:06Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "UniXNU/UniXNU",
+        "repo_url": "https://github.com/UniXNU/UniXNU",
+        "by": "Lakr233",
+        "by_url": "https://github.com/Lakr233",
+        "html_url": "https://github.com/UniXNU/UniXNU",
+        "text": "Lakr233 starred UniXNU/UniXNU",
+        "created_at": "2026-11-10T12:21:19Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "mull-project/libirm",
+        "repo_url": "https://github.com/mull-project/libirm",
+        "by": "0a777h",
+        "by_url": "https://github.com/0a777h",
+        "html_url": "https://github.com/mull-project/libirm",
+        "text": "0a777h starred mull-project/libirm",
+        "created_at": "2026-11-10T11:32:14Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "nukeratframework/nukerat",
+        "repo_url": "https://github.com/nukeratframework/nukerat",
+        "by": "aleenzz",
+        "by_url": "https://github.com/aleenzz",
+        "html_url": "https://github.com/nukeratframework/nukerat",
+        "text": "aleenzz starred nukeratframework/nukerat",
+        "created_at": "2026-11-10T09:55:05Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "nullg0re/Experienced-Pentester-OSEP",
+        "repo_url": "https://github.com/nullg0re/Experienced-Pentester-OSEP",
+        "by": "bartblaze",
+        "by_url": "https://github.com/bartblaze",
+        "html_url": "https://github.com/nullg0re/Experienced-Pentester-OSEP",
+        "text": "bartblaze starred nullg0re/Experienced-Pentester-OSEP",
+        "created_at": "2026-11-10T09:16:09Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "FuzzySecurity/StandIn",
+        "repo_url": "https://github.com/FuzzySecurity/StandIn",
+        "by": "bartblaze",
+        "by_url": "https://github.com/bartblaze",
+        "html_url": "https://github.com/FuzzySecurity/StandIn",
+        "text": "bartblaze starred FuzzySecurity/StandIn",
+        "created_at": "2026-11-10T09:12:37Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "egoist/mygo",
+        "repo_url": "https://github.com/egoist/mygo",
+        "by": "niudaii",
+        "by_url": "https://github.com/niudaii",
+        "html_url": "https://github.com/egoist/mygo",
+        "text": "niudaii starred egoist/mygo",
+        "created_at": "2026-11-10T03:24:17Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "lbr77/xcfetch",
         "repo_url": "https://github.com/lbr77/xcfetch",
@@ -1023,6 +1128,61 @@
   },
   "forks": [
     {
+      "repo": "adrbn/bo2-mac",
+      "repo_url": "https://github.com/adrbn/bo2-mac",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/bo2-mac",
+      "forkee_url": "https://github.com/gmh5225/bo2-mac",
+      "html_url": "https://github.com/gmh5225/bo2-mac",
+      "text": "gmh5225 forked adrbn/bo2-mac → gmh5225/bo2-mac",
+      "created_at": "2026-11-10T15:12:57Z"
+    },
+    {
+      "repo": "theluckystrike/hex-viewer-vscode",
+      "repo_url": "https://github.com/theluckystrike/hex-viewer-vscode",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/hex-viewer-vscode",
+      "forkee_url": "https://github.com/gmh5225/hex-viewer-vscode",
+      "html_url": "https://github.com/gmh5225/hex-viewer-vscode",
+      "text": "gmh5225 forked theluckystrike/hex-viewer-vscode → gmh5225/hex-viewer-vscode",
+      "created_at": "2026-11-10T15:11:13Z"
+    },
+    {
+      "repo": "tommy0103/blackhole",
+      "repo_url": "https://github.com/tommy0103/blackhole",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/blackhole-",
+      "forkee_url": "https://github.com/gmh5225/blackhole-",
+      "html_url": "https://github.com/gmh5225/blackhole-",
+      "text": "gmh5225 forked tommy0103/blackhole → gmh5225/blackhole-",
+      "created_at": "2026-11-10T12:54:20Z"
+    },
+    {
+      "repo": "forcequitOS/worse_query",
+      "repo_url": "https://github.com/forcequitOS/worse_query",
+      "by": "gmh5225",
+      "by_url": "https://github.com/gmh5225",
+      "forkee": "gmh5225/worse_query",
+      "forkee_url": "https://github.com/gmh5225/worse_query",
+      "html_url": "https://github.com/gmh5225/worse_query",
+      "text": "gmh5225 forked forcequitOS/worse_query → gmh5225/worse_query",
+      "created_at": "2026-11-10T11:16:45Z"
+    },
+    {
+      "repo": "jailbreakdotparty/Erosion",
+      "repo_url": "https://github.com/jailbreakdotparty/Erosion",
+      "by": "Innei",
+      "by_url": "https://github.com/Innei",
+      "forkee": "Innei/Erosion",
+      "forkee_url": "https://github.com/Innei/Erosion",
+      "html_url": "https://github.com/Innei/Erosion",
+      "text": "Innei forked jailbreakdotparty/Erosion → Innei/Erosion",
+      "created_at": "2026-11-10T09:37:35Z"
+    },
+    {
       "repo": "0xSero/dspine-trainer",
       "repo_url": "https://github.com/0xSero/dspine-trainer",
       "by": "gmh5225",
@@ -1089,5 +1249,5 @@
       "created_at": "2026-11-09T16:28:59Z"
     }
   ],
-  "feed_item_count": 62
+  "feed_item_count": 75
 }

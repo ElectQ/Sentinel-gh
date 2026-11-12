@@ -4,29 +4,702 @@
   "collect_date": "2026-11-11",
   "collect_window": {
     "start": "2026-11-10T16:08:56+00:00",
-    "end": "2026-11-11T01:08:07+00:00",
-    "hours": 8
+    "end": "2026-11-11T15:35:28+00:00",
+    "hours": 23
   },
   "producer": {
     "name": "sentinel-gh",
     "version": "0.1.0",
-    "run_id": "42936427409",
-    "commit": "c334a74"
+    "run_id": "43139412676",
+    "commit": "c124b84"
   },
   "stats": {
-    "total": 23,
+    "total": 34,
     "by_kind": {
       "network_hot": 10,
+      "star": 18,
+      "fork": 3,
       "follow": 1,
-      "fork": 1,
-      "star": 9,
       "release": 2
     },
     "failed_lists": [],
-    "followee_count": 181,
-    "push_events_excluded": 0
+    "followee_count": 182,
+    "push_events_excluded": 26
   },
   "items": [
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-11-11",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-V3",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 4 人参与（fork×1, issue×3, star×2）",
+      "at": "2026-11-11T15:35:28+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-11-11",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "content": "deepseek-ai/DeepSeek-V3 — 圈外 4 人参与（fork×1, issue×3, star×2）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-11T15:35:28+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-V3"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 4,
+        "outer_actors": [
+          "ahmetemectimur190558-droid",
+          "jm-nikstery1",
+          "qingkong66",
+          "zhipc"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 2,
+          "fork": 1,
+          "issue": 3
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:19789382479",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "star",
+      "target": "chojs23/concord",
+      "target_url": "https://github.com/chojs23/concord",
+      "text": "realoriginal starred chojs23/concord",
+      "at": "2026-11-11T14:26:02+00:00",
+      "external_id": "event:19789382479",
+      "url": "https://github.com/chojs23/concord",
+      "content": "realoriginal starred chojs23/concord",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-11-11T14:26:02+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/chojs23/concord"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": {
+          "full_name": "chojs23/concord",
+          "url": "https://github.com/chojs23/concord"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19782069681",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "rothgar/awesome-tmux",
+      "target_url": "https://github.com/rothgar/awesome-tmux",
+      "text": "Cracked5pider starred rothgar/awesome-tmux",
+      "at": "2026-11-11T12:59:30+00:00",
+      "external_id": "event:19782069681",
+      "url": "https://github.com/rothgar/awesome-tmux",
+      "content": "Cracked5pider starred rothgar/awesome-tmux",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-11-11T12:59:30+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/rothgar/awesome-tmux"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "rothgar/awesome-tmux",
+          "url": "https://github.com/rothgar/awesome-tmux"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19778797024",
+      "who": "xaitax",
+      "who_url": "https://github.com/xaitax",
+      "action": "star",
+      "target": "tinysec/msrc-ext",
+      "target_url": "https://github.com/tinysec/msrc-ext",
+      "text": "xaitax starred tinysec/msrc-ext",
+      "at": "2026-11-11T12:19:20+00:00",
+      "external_id": "event:19778797024",
+      "url": "https://github.com/tinysec/msrc-ext",
+      "content": "xaitax starred tinysec/msrc-ext",
+      "author": "xaitax",
+      "author_name": "xaitax",
+      "author_url": "https://github.com/xaitax",
+      "published_at": "2026-11-11T12:19:20+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/xaitax",
+        "https://github.com/tinysec/msrc-ext"
+      ],
+      "refs": {
+        "actor": {
+          "login": "xaitax",
+          "url": "https://github.com/xaitax"
+        },
+        "repo": {
+          "full_name": "tinysec/msrc-ext",
+          "url": "https://github.com/tinysec/msrc-ext"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19775149897",
+      "who": "badboycxcc",
+      "who_url": "https://github.com/badboycxcc",
+      "action": "star",
+      "target": "FJNB5/fujiang-pojia",
+      "target_url": "https://github.com/FJNB5/fujiang-pojia",
+      "text": "badboycxcc starred FJNB5/fujiang-pojia",
+      "at": "2026-11-11T11:33:09+00:00",
+      "external_id": "event:19775149897",
+      "url": "https://github.com/FJNB5/fujiang-pojia",
+      "content": "badboycxcc starred FJNB5/fujiang-pojia",
+      "author": "badboycxcc",
+      "author_name": "badboycxcc",
+      "author_url": "https://github.com/badboycxcc",
+      "published_at": "2026-11-11T11:33:09+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/badboycxcc",
+        "https://github.com/FJNB5/fujiang-pojia"
+      ],
+      "refs": {
+        "actor": {
+          "login": "badboycxcc",
+          "url": "https://github.com/badboycxcc"
+        },
+        "repo": {
+          "full_name": "FJNB5/fujiang-pojia",
+          "url": "https://github.com/FJNB5/fujiang-pojia"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19774554507",
+      "who": "badboycxcc",
+      "who_url": "https://github.com/badboycxcc",
+      "action": "star",
+      "target": "nestho/impacket-rs",
+      "target_url": "https://github.com/nestho/impacket-rs",
+      "text": "badboycxcc starred nestho/impacket-rs",
+      "at": "2026-11-11T11:25:26+00:00",
+      "external_id": "event:19774554507",
+      "url": "https://github.com/nestho/impacket-rs",
+      "content": "badboycxcc starred nestho/impacket-rs",
+      "author": "badboycxcc",
+      "author_name": "badboycxcc",
+      "author_url": "https://github.com/badboycxcc",
+      "published_at": "2026-11-11T11:25:26+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/badboycxcc",
+        "https://github.com/nestho/impacket-rs"
+      ],
+      "refs": {
+        "actor": {
+          "login": "badboycxcc",
+          "url": "https://github.com/badboycxcc"
+        },
+        "repo": {
+          "full_name": "nestho/impacket-rs",
+          "url": "https://github.com/nestho/impacket-rs"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19755984780",
+      "who": "FemaleGhost",
+      "who_url": "https://github.com/FemaleGhost",
+      "action": "fork",
+      "target": "FemaleGhost/WinObjEx64",
+      "target_url": "https://github.com/FemaleGhost/WinObjEx64",
+      "text": "FemaleGhost forked hfiref0x/WinObjEx64 → FemaleGhost/WinObjEx64",
+      "at": "2026-11-11T07:24:07+00:00",
+      "external_id": "event:19755984780",
+      "url": "https://github.com/FemaleGhost/WinObjEx64",
+      "content": "FemaleGhost forked hfiref0x/WinObjEx64 → FemaleGhost/WinObjEx64",
+      "author": "FemaleGhost",
+      "author_name": "FemaleGhost",
+      "author_url": "https://github.com/FemaleGhost",
+      "published_at": "2026-11-11T07:24:07+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/FemaleGhost",
+        "https://github.com/hfiref0x/WinObjEx64",
+        "https://github.com/FemaleGhost/WinObjEx64"
+      ],
+      "refs": {
+        "actor": {
+          "login": "FemaleGhost",
+          "url": "https://github.com/FemaleGhost"
+        },
+        "repo": {
+          "full_name": "hfiref0x/WinObjEx64",
+          "url": "https://github.com/hfiref0x/WinObjEx64"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "FemaleGhost/WinObjEx64",
+          "url": "https://github.com/FemaleGhost/WinObjEx64"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19747017727",
+      "who": "FemaleGhost",
+      "who_url": "https://github.com/FemaleGhost",
+      "action": "fork",
+      "target": "FemaleGhost/Project-Onyx",
+      "target_url": "https://github.com/FemaleGhost/Project-Onyx",
+      "text": "FemaleGhost forked X-3306/Project-Onyx → FemaleGhost/Project-Onyx",
+      "at": "2026-11-11T05:01:32+00:00",
+      "external_id": "event:19747017727",
+      "url": "https://github.com/FemaleGhost/Project-Onyx",
+      "content": "FemaleGhost forked X-3306/Project-Onyx → FemaleGhost/Project-Onyx",
+      "author": "FemaleGhost",
+      "author_name": "FemaleGhost",
+      "author_url": "https://github.com/FemaleGhost",
+      "published_at": "2026-11-11T05:01:32+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/FemaleGhost",
+        "https://github.com/X-3306/Project-Onyx",
+        "https://github.com/FemaleGhost/Project-Onyx"
+      ],
+      "refs": {
+        "actor": {
+          "login": "FemaleGhost",
+          "url": "https://github.com/FemaleGhost"
+        },
+        "repo": {
+          "full_name": "X-3306/Project-Onyx",
+          "url": "https://github.com/X-3306/Project-Onyx"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "FemaleGhost/Project-Onyx",
+          "url": "https://github.com/FemaleGhost/Project-Onyx"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19742460490",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "Vector35/binaryninja-api",
+      "target_url": "https://github.com/Vector35/binaryninja-api",
+      "text": "Cracked5pider starred Vector35/binaryninja-api",
+      "at": "2026-11-11T03:43:27+00:00",
+      "external_id": "event:19742460490",
+      "url": "https://github.com/Vector35/binaryninja-api",
+      "content": "Cracked5pider starred Vector35/binaryninja-api",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-11-11T03:43:27+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/Vector35/binaryninja-api"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "Vector35/binaryninja-api",
+          "url": "https://github.com/Vector35/binaryninja-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19733645342",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "SecurityRiskAdvisors/VECTR",
+      "target_url": "https://github.com/SecurityRiskAdvisors/VECTR",
+      "text": "Cracked5pider starred SecurityRiskAdvisors/VECTR",
+      "at": "2026-11-11T01:27:07+00:00",
+      "external_id": "event:19733645342",
+      "url": "https://github.com/SecurityRiskAdvisors/VECTR",
+      "content": "Cracked5pider starred SecurityRiskAdvisors/VECTR",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-11-11T01:27:07+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/SecurityRiskAdvisors/VECTR"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "SecurityRiskAdvisors/VECTR",
+          "url": "https://github.com/SecurityRiskAdvisors/VECTR"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19733620191",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "SecurityRiskAdvisors/ATTiRe",
+      "target_url": "https://github.com/SecurityRiskAdvisors/ATTiRe",
+      "text": "Cracked5pider starred SecurityRiskAdvisors/ATTiRe",
+      "at": "2026-11-11T01:26:45+00:00",
+      "external_id": "event:19733620191",
+      "url": "https://github.com/SecurityRiskAdvisors/ATTiRe",
+      "content": "Cracked5pider starred SecurityRiskAdvisors/ATTiRe",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-11-11T01:26:45+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/SecurityRiskAdvisors/ATTiRe"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "SecurityRiskAdvisors/ATTiRe",
+          "url": "https://github.com/SecurityRiskAdvisors/ATTiRe"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:19732750181",
+      "who": "hasherezade",
+      "who_url": "https://github.com/hasherezade",
+      "action": "star",
+      "target": "hasherezade/smog_monitor",
+      "target_url": "https://github.com/hasherezade/smog_monitor",
+      "text": "hasherezade starred hasherezade/smog_monitor",
+      "at": "2026-11-11T01:14:41+00:00",
+      "external_id": "event:19732750181",
+      "url": "https://github.com/hasherezade/smog_monitor",
+      "content": "hasherezade starred hasherezade/smog_monitor",
+      "author": "hasherezade",
+      "author_name": "hasherezade",
+      "author_url": "https://github.com/hasherezade",
+      "published_at": "2026-11-11T01:14:41+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/hasherezade",
+        "https://github.com/hasherezade/smog_monitor"
+      ],
+      "refs": {
+        "actor": {
+          "login": "hasherezade",
+          "url": "https://github.com/hasherezade"
+        },
+        "repo": {
+          "full_name": "hasherezade/smog_monitor",
+          "url": "https://github.com/hasherezade/smog_monitor"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
     {
       "id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-11",
       "who": "",
@@ -43,7 +716,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-11T01:08:07+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -129,7 +802,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-11T01:08:06+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -215,7 +888,7 @@
       "author_name": "jm33-m0",
       "author_url": "https://github.com/jm33-m0",
       "published_at": "2026-11-11T01:07:35+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:follow"
       ],
@@ -321,7 +994,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-11T01:04:48+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -393,7 +1066,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-11T00:43:33+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -416,7 +1089,7 @@
       },
       "metrics": {
         "circle_count": null,
-        "trending": true,
+        "trending": false,
         "trending_front_page": false
       },
       "flags": {
@@ -441,10 +1114,8 @@
         "inner_count": 0,
         "inner_actors": [],
         "in_circle": false,
-        "trending": true,
-        "languages": [
-          "go"
-        ],
+        "trending": false,
+        "languages": [],
         "source": "received_feed"
       }
     },
@@ -464,7 +1135,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-11T00:40:44+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -533,7 +1204,7 @@
       "author_name": "s3c4ct0r",
       "author_url": "https://github.com/s3c4ct0r",
       "published_at": "2026-11-11T00:35:23+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -576,75 +1247,6 @@
       }
     },
     {
-      "id": "network:deepseek-ai/DeepSeek-V3:2026-11-11",
-      "who": "",
-      "who_url": "",
-      "action": "network_hot",
-      "target": "deepseek-ai/DeepSeek-V3",
-      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "text": "deepseek-ai/DeepSeek-V3 — 圈外 3 人参与（fork×1, star×2）",
-      "at": "2026-11-11T00:30:24+00:00",
-      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-11-11",
-      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "content": "deepseek-ai/DeepSeek-V3 — 圈外 3 人参与（fork×1, star×2）",
-      "author": "",
-      "author_name": "",
-      "author_url": "",
-      "published_at": "2026-11-11T00:30:24+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
-      "tags": [
-        "kind:network_hot"
-      ],
-      "hashtags": [],
-      "links": [
-        "https://github.com/deepseek-ai/DeepSeek-V3"
-      ],
-      "refs": {
-        "actor": null,
-        "repo": {
-          "full_name": "deepseek-ai/DeepSeek-V3",
-          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
-        },
-        "target_user": null,
-        "forkee": null
-      },
-      "media": {
-        "photos": [],
-        "videos": []
-      },
-      "metrics": {
-        "circle_count": null,
-        "trending": false,
-        "trending_front_page": false
-      },
-      "flags": {
-        "kind": "network_hot",
-        "time_precision": "exact",
-        "is_follow": false,
-        "is_repo_event": false,
-        "is_aggregate": true
-      },
-      "network": {
-        "outer_count": 3,
-        "outer_actors": [
-          "ahmetemectimur190558-droid",
-          "jm-nikstery1",
-          "zhipc"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "star": 2,
-          "fork": 1
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
       "id": "event:19728978564",
       "who": "yj94",
       "who_url": "https://github.com/yj94",
@@ -660,7 +1262,7 @@
       "author_name": "yj94",
       "author_url": "https://github.com/yj94",
       "published_at": "2026-11-11T00:23:19+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:star"
       ],
@@ -714,7 +1316,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-10T23:38:26+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -782,7 +1384,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-10T23:27:28+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -850,7 +1452,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-11-10T23:18:47+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:star"
       ],
@@ -904,7 +1506,7 @@
       "author_name": "Cracked5pider",
       "author_url": "https://github.com/Cracked5pider",
       "published_at": "2026-11-10T23:17:23+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:star"
       ],
@@ -949,16 +1551,16 @@
       "action": "network_hot",
       "target": "Vector35/binaryninja-api",
       "target_url": "https://github.com/Vector35/binaryninja-api",
-      "text": "Vector35/binaryninja-api — 圈外 2 人参与（issue×1, pr×1）",
+      "text": "Vector35/binaryninja-api — 圈外 2 人参与，圈内 1 人也 star（issue×1, pr×1）",
       "at": "2026-11-10T22:26:06+00:00",
       "external_id": "network:Vector35/binaryninja-api:2026-11-11",
       "url": "https://github.com/Vector35/binaryninja-api",
-      "content": "Vector35/binaryninja-api — 圈外 2 人参与（issue×1, pr×1）",
+      "content": "Vector35/binaryninja-api — 圈外 2 人参与，圈内 1 人也 star（issue×1, pr×1）",
       "author": "",
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-10T22:26:06+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -980,7 +1582,7 @@
         "videos": []
       },
       "metrics": {
-        "circle_count": null,
+        "circle_count": 1,
         "trending": false,
         "trending_front_page": false
       },
@@ -1002,9 +1604,11 @@
           "pr": 1,
           "issue": 1
         },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
+        "inner_count": 1,
+        "inner_actors": [
+          "Cracked5pider"
+        ],
+        "in_circle": true,
         "trending": false,
         "languages": [],
         "source": "received_feed"
@@ -1026,7 +1630,7 @@
       "author_name": "s3c4ct0r",
       "author_url": "https://github.com/s3c4ct0r",
       "published_at": "2026-11-10T22:13:07+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1080,7 +1684,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-10T22:09:36+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -1147,7 +1751,7 @@
       "author_name": "zurro",
       "author_url": "https://github.com/zurro",
       "published_at": "2026-11-10T20:59:56+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1201,7 +1805,7 @@
       "author_name": "MSNightmare",
       "author_url": "https://github.com/MSNightmare",
       "published_at": "2026-11-10T19:21:11+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:release"
       ],
@@ -1256,7 +1860,7 @@
       "author_name": "bartblaze",
       "author_url": "https://github.com/bartblaze",
       "published_at": "2026-11-10T18:22:02+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1310,7 +1914,7 @@
       "author_name": "Lakr233",
       "author_url": "https://github.com/Lakr233",
       "published_at": "2026-11-10T17:53:41+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:release"
       ],
@@ -1365,7 +1969,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-11-10T17:46:58+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1419,7 +2023,7 @@
       "author_name": "Innei",
       "author_url": "https://github.com/Innei",
       "published_at": "2026-11-10T17:19:34+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1473,7 +2077,7 @@
       "author_name": "mrfearless",
       "author_url": "https://github.com/mrfearless",
       "published_at": "2026-11-10T16:08:56+00:00",
-      "collected_at": "2026-11-11T01:08:32.200438+00:00",
+      "collected_at": "2026-11-12T02:11:34.300209+00:00",
       "tags": [
         "kind:star"
       ],

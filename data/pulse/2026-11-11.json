@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T01:08:32+00:00",
-  "followee_count": 181,
-  "events_collected": 127,
+  "generated_at": "2026-11-12T02:11:34+00:00",
+  "followee_count": 182,
+  "events_collected": 359,
   "trending_available": true,
-  "trending_source_date": "2026-11-10",
+  "trending_source_date": "2026-11-12",
   "circle_hot": [],
   "circle_outer_hot": [
     {
@@ -295,6 +295,35 @@
       "latest_at": "2026-11-11T01:04:48Z"
     },
     {
+      "repo": "deepseek-ai/DeepSeek-V3",
+      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "outer_count": 4,
+      "outer_actors": [
+        "ahmetemectimur190558-droid",
+        "jm-nikstery1",
+        "qingkong66",
+        "zhipc"
+      ],
+      "outer_actor_urls": [
+        "https://github.com/ahmetemectimur190558-droid",
+        "https://github.com/jm-nikstery1",
+        "https://github.com/qingkong66",
+        "https://github.com/zhipc"
+      ],
+      "by_kind": {
+        "star": 2,
+        "fork": 1,
+        "issue": 3
+      },
+      "inner_count": 0,
+      "inner_actors": [],
+      "in_circle": false,
+      "trending": false,
+      "trending_front_page": false,
+      "languages": [],
+      "latest_at": "2026-11-11T15:35:28Z"
+    },
+    {
       "repo": "BishopFox/sliver",
       "repo_url": "https://github.com/BishopFox/sliver",
       "outer_count": 3,
@@ -315,38 +344,10 @@
       "inner_count": 0,
       "inner_actors": [],
       "in_circle": false,
-      "trending": true,
-      "trending_front_page": false,
-      "languages": [
-        "go"
-      ],
-      "latest_at": "2026-11-11T00:43:33Z"
-    },
-    {
-      "repo": "deepseek-ai/DeepSeek-V3",
-      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "outer_count": 3,
-      "outer_actors": [
-        "ahmetemectimur190558-droid",
-        "jm-nikstery1",
-        "zhipc"
-      ],
-      "outer_actor_urls": [
-        "https://github.com/ahmetemectimur190558-droid",
-        "https://github.com/jm-nikstery1",
-        "https://github.com/zhipc"
-      ],
-      "by_kind": {
-        "star": 2,
-        "fork": 1
-      },
-      "inner_count": 0,
-      "inner_actors": [],
-      "in_circle": false,
       "trending": false,
       "trending_front_page": false,
       "languages": [],
-      "latest_at": "2026-11-11T00:30:24Z"
+      "latest_at": "2026-11-11T00:43:33Z"
     },
     {
       "repo": "deepseek-ai/awesome-deepseek-integration",
@@ -390,9 +391,11 @@
         "pr": 1,
         "issue": 1
       },
-      "inner_count": 0,
-      "inner_actors": [],
-      "in_circle": false,
+      "inner_count": 1,
+      "inner_actors": [
+        "Cracked5pider"
+      ],
+      "in_circle": true,
       "trending": false,
       "trending_front_page": false,
       "languages": [],
@@ -490,16 +493,19 @@
     }
   ],
   "new_repos": [],
-  "starred_repos_total": 9,
+  "starred_repos_total": 18,
   "raw_counts": {
-    "PullRequestEvent": 42,
-    "WatchEvent": 9,
-    "IssueCommentEvent": 28,
-    "IssuesEvent": 37,
-    "PullRequestReviewEvent": 7,
+    "PullRequestEvent": 96,
+    "WatchEvent": 18,
+    "IssueCommentEvent": 103,
+    "IssuesEvent": 87,
+    "PullRequestReviewEvent": 21,
     "ReleaseEvent": 2,
     "GollumEvent": 1,
-    "ForkEvent": 1
+    "ForkEvent": 3,
+    "PushEvent": 26,
+    "CreateEvent": 1,
+    "MemberEvent": 1
   },
   "follows": {
     "new_count": 1,
@@ -525,8 +531,107 @@
     "degraded": false
   },
   "stars": {
-    "total": 9,
+    "total": 18,
     "items": [
+      {
+        "repo": "chojs23/concord",
+        "repo_url": "https://github.com/chojs23/concord",
+        "by": "realoriginal",
+        "by_url": "https://github.com/realoriginal",
+        "html_url": "https://github.com/chojs23/concord",
+        "text": "realoriginal starred chojs23/concord",
+        "created_at": "2026-11-11T14:26:02Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "rothgar/awesome-tmux",
+        "repo_url": "https://github.com/rothgar/awesome-tmux",
+        "by": "Cracked5pider",
+        "by_url": "https://github.com/Cracked5pider",
+        "html_url": "https://github.com/rothgar/awesome-tmux",
+        "text": "Cracked5pider starred rothgar/awesome-tmux",
+        "created_at": "2026-11-11T12:59:30Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "tinysec/msrc-ext",
+        "repo_url": "https://github.com/tinysec/msrc-ext",
+        "by": "xaitax",
+        "by_url": "https://github.com/xaitax",
+        "html_url": "https://github.com/tinysec/msrc-ext",
+        "text": "xaitax starred tinysec/msrc-ext",
+        "created_at": "2026-11-11T12:19:20Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "FJNB5/fujiang-pojia",
+        "repo_url": "https://github.com/FJNB5/fujiang-pojia",
+        "by": "badboycxcc",
+        "by_url": "https://github.com/badboycxcc",
+        "html_url": "https://github.com/FJNB5/fujiang-pojia",
+        "text": "badboycxcc starred FJNB5/fujiang-pojia",
+        "created_at": "2026-11-11T11:33:09Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "nestho/impacket-rs",
+        "repo_url": "https://github.com/nestho/impacket-rs",
+        "by": "badboycxcc",
+        "by_url": "https://github.com/badboycxcc",
+        "html_url": "https://github.com/nestho/impacket-rs",
+        "text": "badboycxcc starred nestho/impacket-rs",
+        "created_at": "2026-11-11T11:25:26Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "Vector35/binaryninja-api",
+        "repo_url": "https://github.com/Vector35/binaryninja-api",
+        "by": "Cracked5pider",
+        "by_url": "https://github.com/Cracked5pider",
+        "html_url": "https://github.com/Vector35/binaryninja-api",
+        "text": "Cracked5pider starred Vector35/binaryninja-api",
+        "created_at": "2026-11-11T03:43:27Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "SecurityRiskAdvisors/VECTR",
+        "repo_url": "https://github.com/SecurityRiskAdvisors/VECTR",
+        "by": "Cracked5pider",
+        "by_url": "https://github.com/Cracked5pider",
+        "html_url": "https://github.com/SecurityRiskAdvisors/VECTR",
+        "text": "Cracked5pider starred SecurityRiskAdvisors/VECTR",
+        "created_at": "2026-11-11T01:27:07Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "SecurityRiskAdvisors/ATTiRe",
+        "repo_url": "https://github.com/SecurityRiskAdvisors/ATTiRe",
+        "by": "Cracked5pider",
+        "by_url": "https://github.com/Cracked5pider",
+        "html_url": "https://github.com/SecurityRiskAdvisors/ATTiRe",
+        "text": "Cracked5pider starred SecurityRiskAdvisors/ATTiRe",
+        "created_at": "2026-11-11T01:26:45Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "hasherezade/smog_monitor",
+        "repo_url": "https://github.com/hasherezade/smog_monitor",
+        "by": "hasherezade",
+        "by_url": "https://github.com/hasherezade",
+        "html_url": "https://github.com/hasherezade/smog_monitor",
+        "text": "hasherezade starred hasherezade/smog_monitor",
+        "created_at": "2026-11-11T01:14:41Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "ivanpotatoes/KozDbg",
         "repo_url": "https://github.com/ivanpotatoes/KozDbg",
@@ -630,6 +735,28 @@
   },
   "forks": [
     {
+      "repo": "hfiref0x/WinObjEx64",
+      "repo_url": "https://github.com/hfiref0x/WinObjEx64",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/WinObjEx64",
+      "forkee_url": "https://github.com/FemaleGhost/WinObjEx64",
+      "html_url": "https://github.com/FemaleGhost/WinObjEx64",
+      "text": "FemaleGhost forked hfiref0x/WinObjEx64 → FemaleGhost/WinObjEx64",
+      "created_at": "2026-11-11T07:24:07Z"
+    },
+    {
+      "repo": "X-3306/Project-Onyx",
+      "repo_url": "https://github.com/X-3306/Project-Onyx",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/Project-Onyx",
+      "forkee_url": "https://github.com/FemaleGhost/Project-Onyx",
+      "html_url": "https://github.com/FemaleGhost/Project-Onyx",
+      "text": "FemaleGhost forked X-3306/Project-Onyx → FemaleGhost/Project-Onyx",
+      "created_at": "2026-11-11T05:01:32Z"
+    },
+    {
       "repo": "Loky-rt/NaxDarks",
       "repo_url": "https://github.com/Loky-rt/NaxDarks",
       "by": "s3c4ct0r",
@@ -641,5 +768,5 @@
       "created_at": "2026-11-11T00:35:23Z"
     }
   ],
-  "feed_item_count": 23
+  "feed_item_count": 34
 }

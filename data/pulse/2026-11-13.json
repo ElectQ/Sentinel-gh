@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T01:45:07+00:00",
-  "followee_count": 182,
-  "events_collected": 64,
+  "generated_at": "2026-11-14T01:22:08+00:00",
+  "followee_count": 183,
+  "events_collected": 374,
   "trending_available": true,
-  "trending_source_date": "2026-11-12",
+  "trending_source_date": "2026-11-13",
   "circle_hot": [
     {
       "repo": "crisprss/CVE-2026-88235",
@@ -421,7 +421,24 @@
       "latest_at": "2026-11-13T01:11:58Z"
     }
   ],
-  "trending_overlap": [],
+  "trending_overlap": [
+    {
+      "repo": "multica-ai/multica",
+      "repo_url": "https://github.com/multica-ai/multica",
+      "count": 1,
+      "starred_by": [
+        "M09Ic"
+      ],
+      "starred_by_urls": [
+        "https://github.com/M09Ic"
+      ],
+      "trending": true,
+      "trending_front_page": false,
+      "languages": [
+        "go"
+      ]
+    }
+  ],
   "releases": [
     {
       "repo": "yetone/alma-releases",
@@ -430,19 +447,30 @@
       "name": "Alma Android 4.5",
       "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.5",
       "prerelease": false
+    },
+    {
+      "repo": "Lakr233/ListViewKit",
+      "by": "Lakr233",
+      "tag": "4.6.2",
+      "name": "4.6.2",
+      "url": "https://github.com/Lakr233/ListViewKit/releases/tag/4.6.2",
+      "prerelease": false
     }
   ],
   "new_repos": [],
-  "starred_repos_total": 10,
+  "starred_repos_total": 20,
   "raw_counts": {
-    "IssueCommentEvent": 23,
-    "IssuesEvent": 13,
-    "ForkEvent": 1,
-    "PullRequestEvent": 11,
-    "WatchEvent": 11,
-    "ReleaseEvent": 1,
-    "CreateEvent": 3,
-    "PushEvent": 1
+    "IssueCommentEvent": 104,
+    "IssuesEvent": 66,
+    "ForkEvent": 2,
+    "PullRequestEvent": 48,
+    "WatchEvent": 21,
+    "ReleaseEvent": 2,
+    "CreateEvent": 57,
+    "PushEvent": 61,
+    "DeleteEvent": 5,
+    "PullRequestReviewEvent": 6,
+    "PublicEvent": 2
   },
   "follows": {
     "new_count": 1,
@@ -468,8 +496,118 @@
     "degraded": false
   },
   "stars": {
-    "total": 11,
+    "total": 21,
     "items": [
+      {
+        "repo": "multica-ai/multica",
+        "repo_url": "https://github.com/multica-ai/multica",
+        "by": "M09Ic",
+        "by_url": "https://github.com/M09Ic",
+        "html_url": "https://github.com/multica-ai/multica",
+        "text": "M09Ic starred multica-ai/multica",
+        "created_at": "2026-11-13T12:48:44Z",
+        "trending": true,
+        "trending_front_page": false
+      },
+      {
+        "repo": "hyperionaidev/smolmaxxing",
+        "repo_url": "https://github.com/hyperionaidev/smolmaxxing",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/hyperionaidev/smolmaxxing",
+        "text": "phith0n starred hyperionaidev/smolmaxxing",
+        "created_at": "2026-11-13T11:25:56Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "yetone/magpie",
+        "repo_url": "https://github.com/yetone/magpie",
+        "by": "phith0n",
+        "by_url": "https://github.com/phith0n",
+        "html_url": "https://github.com/yetone/magpie",
+        "text": "phith0n starred yetone/magpie",
+        "created_at": "2026-11-13T11:23:21Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "reversenseorg/dexcalibur",
+        "repo_url": "https://github.com/reversenseorg/dexcalibur",
+        "by": "jm33-m0",
+        "by_url": "https://github.com/jm33-m0",
+        "html_url": "https://github.com/reversenseorg/dexcalibur",
+        "text": "jm33-m0 starred reversenseorg/dexcalibur",
+        "created_at": "2026-11-13T11:03:53Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "XmirrorSecurity/OpenSCA-cli",
+        "repo_url": "https://github.com/XmirrorSecurity/OpenSCA-cli",
+        "by": "Garck3h",
+        "by_url": "https://github.com/Garck3h",
+        "html_url": "https://github.com/XmirrorSecurity/OpenSCA-cli",
+        "text": "Garck3h starred XmirrorSecurity/OpenSCA-cli",
+        "created_at": "2026-11-13T09:09:27Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "nmatt0/mithril",
+        "repo_url": "https://github.com/nmatt0/mithril",
+        "by": "realoriginal",
+        "by_url": "https://github.com/realoriginal",
+        "html_url": "https://github.com/nmatt0/mithril",
+        "text": "realoriginal starred nmatt0/mithril",
+        "created_at": "2026-11-13T07:51:42Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "nmatt0/moria",
+        "repo_url": "https://github.com/nmatt0/moria",
+        "by": "realoriginal",
+        "by_url": "https://github.com/realoriginal",
+        "html_url": "https://github.com/nmatt0/moria",
+        "text": "realoriginal starred nmatt0/moria",
+        "created_at": "2026-11-13T07:51:31Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "rust-cross/manylinux-cross",
+        "repo_url": "https://github.com/rust-cross/manylinux-cross",
+        "by": "realoriginal",
+        "by_url": "https://github.com/realoriginal",
+        "html_url": "https://github.com/rust-cross/manylinux-cross",
+        "text": "realoriginal starred rust-cross/manylinux-cross",
+        "created_at": "2026-11-13T06:42:10Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "UserLRJ/Bypass-Antivirus",
+        "repo_url": "https://github.com/UserLRJ/Bypass-Antivirus",
+        "by": "s3c4ct0r",
+        "by_url": "https://github.com/s3c4ct0r",
+        "html_url": "https://github.com/UserLRJ/Bypass-Antivirus",
+        "text": "s3c4ct0r starred UserLRJ/Bypass-Antivirus",
+        "created_at": "2026-11-13T04:07:31Z",
+        "trending": false,
+        "trending_front_page": false
+      },
+      {
+        "repo": "0xC9H/specter",
+        "repo_url": "https://github.com/0xC9H/specter",
+        "by": "s3c4ct0r",
+        "by_url": "https://github.com/s3c4ct0r",
+        "html_url": "https://github.com/0xC9H/specter",
+        "text": "s3c4ct0r starred 0xC9H/specter",
+        "created_at": "2026-11-13T02:21:27Z",
+        "trending": false,
+        "trending_front_page": false
+      },
       {
         "repo": "crisprss/CVE-2026-88235",
         "repo_url": "https://github.com/crisprss/CVE-2026-88235",
@@ -595,6 +733,17 @@
   },
   "forks": [
     {
+      "repo": "Laster-dev/MemLLVM",
+      "repo_url": "https://github.com/Laster-dev/MemLLVM",
+      "by": "FemaleGhost",
+      "by_url": "https://github.com/FemaleGhost",
+      "forkee": "FemaleGhost/MemLLVM",
+      "forkee_url": "https://github.com/FemaleGhost/MemLLVM",
+      "html_url": "https://github.com/FemaleGhost/MemLLVM",
+      "text": "FemaleGhost forked Laster-dev/MemLLVM → FemaleGhost/MemLLVM",
+      "created_at": "2026-11-13T10:48:15Z"
+    },
+    {
       "repo": "ivancabrera02/AdminToSystem-HTTP.sys",
       "repo_url": "https://github.com/ivancabrera02/AdminToSystem-HTTP.sys",
       "by": "FemaleGhost",
@@ -606,5 +755,5 @@
       "created_at": "2026-11-12T18:29:56Z"
     }
   ],
-  "feed_item_count": 22
+  "feed_item_count": 34
 }

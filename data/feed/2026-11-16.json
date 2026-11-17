@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T00:53:38+00:00",
-  "followee_count": 183,
-  "item_count": 13,
+  "generated_at": "2026-11-17T03:32:46+00:00",
+  "followee_count": 184,
+  "item_count": 41,
   "kinds_included": [
     "star",
     "fork",
@@ -13,8 +13,595 @@
     "network_hot"
   ],
   "trending_available": true,
-  "trending_source_date": "2026-11-15",
+  "trending_source_date": "2026-11-16",
   "items": [
+    {
+      "id": "event:20280856380",
+      "kind": "fork",
+      "text": "s3c4ct0r forked MaorSabag/NaX → s3c4ct0r/NaX",
+      "actor": "s3c4ct0r",
+      "actor_url": "https://github.com/s3c4ct0r",
+      "created_at": "2026-11-16T15:16:06Z",
+      "repo": "MaorSabag/NaX",
+      "repo_url": "https://github.com/MaorSabag/NaX",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/s3c4ct0r/NaX",
+      "payload": {
+        "forkee": "s3c4ct0r/NaX",
+        "forkee_url": "https://github.com/s3c4ct0r/NaX"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-11-16",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "BishopFox/sliver",
+      "repo_url": "https://github.com/BishopFox/sliver",
+      "html_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 2 人参与（pr×1, star×1）",
+      "created_at": "2026-11-16T14:49:57Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "caimsabel",
+          "moloch--"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 1,
+          "pr": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:20274056142",
+      "kind": "star",
+      "text": "0xTriboulet starred klezVirus/RpcProxyInvoke",
+      "actor": "0xTriboulet",
+      "actor_url": "https://github.com/0xTriboulet",
+      "created_at": "2026-11-16T14:05:47Z",
+      "repo": "klezVirus/RpcProxyInvoke",
+      "repo_url": "https://github.com/klezVirus/RpcProxyInvoke",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/klezVirus/RpcProxyInvoke",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20271923805",
+      "kind": "fork",
+      "text": "Cen4enCen forked Aabyss-Team/Threat-Broadcast-Plus → Cen4enCen/Threat-Broadcast-Plus",
+      "actor": "Cen4enCen",
+      "actor_url": "https://github.com/Cen4enCen",
+      "created_at": "2026-11-16T13:42:34Z",
+      "repo": "Aabyss-Team/Threat-Broadcast-Plus",
+      "repo_url": "https://github.com/Aabyss-Team/Threat-Broadcast-Plus",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Cen4enCen/Threat-Broadcast-Plus",
+      "payload": {
+        "forkee": "Cen4enCen/Threat-Broadcast-Plus",
+        "forkee_url": "https://github.com/Cen4enCen/Threat-Broadcast-Plus"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:20271914476",
+      "kind": "star",
+      "text": "Cen4enCen starred Aabyss-Team/Threat-Broadcast-Plus",
+      "actor": "Cen4enCen",
+      "actor_url": "https://github.com/Cen4enCen",
+      "created_at": "2026-11-16T13:42:29Z",
+      "repo": "Aabyss-Team/Threat-Broadcast-Plus",
+      "repo_url": "https://github.com/Aabyss-Team/Threat-Broadcast-Plus",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Aabyss-Team/Threat-Broadcast-Plus",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:20264973244",
+      "kind": "star",
+      "text": "odzhan starred jedisct1/flightdeck-deckbo",
+      "actor": "odzhan",
+      "actor_url": "https://github.com/odzhan",
+      "created_at": "2026-11-16T12:27:44Z",
+      "repo": "jedisct1/flightdeck-deckbo",
+      "repo_url": "https://github.com/jedisct1/flightdeck-deckbo",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/jedisct1/flightdeck-deckbo",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20263213684",
+      "kind": "star",
+      "text": "odzhan starred guitmz/halfexec",
+      "actor": "odzhan",
+      "actor_url": "https://github.com/odzhan",
+      "created_at": "2026-11-16T12:08:25Z",
+      "repo": "guitmz/halfexec",
+      "repo_url": "https://github.com/guitmz/halfexec",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/guitmz/halfexec",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20258527163",
+      "kind": "fork",
+      "text": "lsr00ter forked WeebDataHoarder/pana-fw → lsr00ter/pana-fw",
+      "actor": "lsr00ter",
+      "actor_url": "https://github.com/lsr00ter",
+      "created_at": "2026-11-16T11:14:32Z",
+      "repo": "WeebDataHoarder/pana-fw",
+      "repo_url": "https://github.com/WeebDataHoarder/pana-fw",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/lsr00ter/pana-fw",
+      "payload": {
+        "forkee": "lsr00ter/pana-fw",
+        "forkee_url": "https://github.com/lsr00ter/pana-fw"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:20254191568",
+      "kind": "star",
+      "text": "AabyssZG starred Esonhugh/claude-code",
+      "actor": "AabyssZG",
+      "actor_url": "https://github.com/AabyssZG",
+      "created_at": "2026-11-16T10:25:24Z",
+      "repo": "Esonhugh/claude-code",
+      "repo_url": "https://github.com/Esonhugh/claude-code",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Esonhugh/claude-code",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20253060269",
+      "kind": "star",
+      "text": "bartblaze starred SFML/SFML",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-16T10:12:51Z",
+      "repo": "SFML/SFML",
+      "repo_url": "https://github.com/SFML/SFML",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/SFML/SFML",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20251826497",
+      "kind": "fork",
+      "text": "bartblaze forked kevoreilly/CAPEv2 → bartblaze/CAPEv2",
+      "actor": "bartblaze",
+      "actor_url": "https://github.com/bartblaze",
+      "created_at": "2026-11-16T09:59:17Z",
+      "repo": "kevoreilly/CAPEv2",
+      "repo_url": "https://github.com/kevoreilly/CAPEv2",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/bartblaze/CAPEv2",
+      "payload": {
+        "forkee": "bartblaze/CAPEv2",
+        "forkee_url": "https://github.com/bartblaze/CAPEv2"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:20249643626",
+      "kind": "star",
+      "text": "s3c4ct0r starred GVCoder09/NoDPI",
+      "actor": "s3c4ct0r",
+      "actor_url": "https://github.com/s3c4ct0r",
+      "created_at": "2026-11-16T09:35:21Z",
+      "repo": "GVCoder09/NoDPI",
+      "repo_url": "https://github.com/GVCoder09/NoDPI",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/GVCoder09/NoDPI",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20242679488",
+      "kind": "star",
+      "text": "shmilylty starred karnkaul/locc",
+      "actor": "shmilylty",
+      "actor_url": "https://github.com/shmilylty",
+      "created_at": "2026-11-16T08:15:19Z",
+      "repo": "karnkaul/locc",
+      "repo_url": "https://github.com/karnkaul/locc",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/karnkaul/locc",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20232388327",
+      "kind": "star",
+      "text": "HuYlllc starred elementalsouls/Claude-BugHunter",
+      "actor": "HuYlllc",
+      "actor_url": "https://github.com/HuYlllc",
+      "created_at": "2026-11-16T05:51:53Z",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "repo_url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": true,
+        "trending_front_page": true,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20231065301",
+      "kind": "star",
+      "text": "HuYlllc starred loopx-project/loopx",
+      "actor": "HuYlllc",
+      "actor_url": "https://github.com/HuYlllc",
+      "created_at": "2026-11-16T05:30:59Z",
+      "repo": "loopx-project/loopx",
+      "repo_url": "https://github.com/loopx-project/loopx",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/loopx-project/loopx",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20231047112",
+      "kind": "star",
+      "text": "HuYlllc starred GoogleChrome/modern-web-guidance",
+      "actor": "HuYlllc",
+      "actor_url": "https://github.com/HuYlllc",
+      "created_at": "2026-11-16T05:30:43Z",
+      "repo": "GoogleChrome/modern-web-guidance",
+      "repo_url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20230336690",
+      "kind": "star",
+      "text": "sqlsec starred 0-ss/MacShell",
+      "actor": "sqlsec",
+      "actor_url": "https://github.com/sqlsec",
+      "created_at": "2026-11-16T05:19:16Z",
+      "repo": "0-ss/MacShell",
+      "repo_url": "https://github.com/0-ss/MacShell",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/0-ss/MacShell",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20228716763",
+      "kind": "star",
+      "text": "odzhan starred jiwoochris/artex-global",
+      "actor": "odzhan",
+      "actor_url": "https://github.com/odzhan",
+      "created_at": "2026-11-16T04:51:35Z",
+      "repo": "jiwoochris/artex-global",
+      "repo_url": "https://github.com/jiwoochris/artex-global",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/jiwoochris/artex-global",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20227926855",
+      "kind": "star",
+      "text": "AabyssZG starred Aabyss-Team/Threat-Broadcast-Plus",
+      "actor": "AabyssZG",
+      "actor_url": "https://github.com/AabyssZG",
+      "created_at": "2026-11-16T04:37:27Z",
+      "repo": "Aabyss-Team/Threat-Broadcast-Plus",
+      "repo_url": "https://github.com/Aabyss-Team/Threat-Broadcast-Plus",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Aabyss-Team/Threat-Broadcast-Plus",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 2
+      }
+    },
+    {
+      "id": "event:20225815005",
+      "kind": "star",
+      "text": "realoriginal starred NeffIsBack/wsuks",
+      "actor": "realoriginal",
+      "actor_url": "https://github.com/realoriginal",
+      "created_at": "2026-11-16T04:00:56Z",
+      "repo": "NeffIsBack/wsuks",
+      "repo_url": "https://github.com/NeffIsBack/wsuks",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/NeffIsBack/wsuks",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20225473728",
+      "kind": "star",
+      "text": "shmilylty starred Armur-Ai/Pentest-Swarm-AI",
+      "actor": "shmilylty",
+      "actor_url": "https://github.com/shmilylty",
+      "created_at": "2026-11-16T03:54:37Z",
+      "repo": "Armur-Ai/Pentest-Swarm-AI",
+      "repo_url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20225469367",
+      "kind": "star",
+      "text": "shmilylty starred CyberStrikeus/CyberStrike",
+      "actor": "shmilylty",
+      "actor_url": "https://github.com/shmilylty",
+      "created_at": "2026-11-16T03:54:33Z",
+      "repo": "CyberStrikeus/CyberStrike",
+      "repo_url": "https://github.com/CyberStrikeus/CyberStrike",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/CyberStrikeus/CyberStrike",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20225350541",
+      "kind": "star",
+      "text": "shmilylty starred mukul975/Anthropic-Cybersecurity-Skills",
+      "actor": "shmilylty",
+      "actor_url": "https://github.com/shmilylty",
+      "created_at": "2026-11-16T03:52:18Z",
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "repo_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20225346092",
+      "kind": "star",
+      "text": "shmilylty starred ljagiello/ctf-skills",
+      "actor": "shmilylty",
+      "actor_url": "https://github.com/shmilylty",
+      "created_at": "2026-11-16T03:52:12Z",
+      "repo": "ljagiello/ctf-skills",
+      "repo_url": "https://github.com/ljagiello/ctf-skills",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/ljagiello/ctf-skills",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20224282904",
+      "kind": "star",
+      "text": "Xre0uS starred vxcontrol/pentagi",
+      "actor": "Xre0uS",
+      "actor_url": "https://github.com/Xre0uS",
+      "created_at": "2026-11-16T03:32:02Z",
+      "repo": "vxcontrol/pentagi",
+      "repo_url": "https://github.com/vxcontrol/pentagi",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/vxcontrol/pentagi",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20224157334",
+      "kind": "star",
+      "text": "shmilylty starred samugit83/redamon",
+      "actor": "shmilylty",
+      "actor_url": "https://github.com/shmilylty",
+      "created_at": "2026-11-16T03:29:43Z",
+      "repo": "samugit83/redamon",
+      "repo_url": "https://github.com/samugit83/redamon",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/samugit83/redamon",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20223646282",
+      "kind": "star",
+      "text": "PassingFoam starred kingcharleslzy-ai/dsh-purge",
+      "actor": "PassingFoam",
+      "actor_url": "https://github.com/PassingFoam",
+      "created_at": "2026-11-16T03:20:31Z",
+      "repo": "kingcharleslzy-ai/dsh-purge",
+      "repo_url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20222548506",
+      "kind": "star",
+      "text": "0xTriboulet starred nukeratframework/nukerat",
+      "actor": "0xTriboulet",
+      "actor_url": "https://github.com/0xTriboulet",
+      "created_at": "2026-11-16T03:01:21Z",
+      "repo": "nukeratframework/nukerat",
+      "repo_url": "https://github.com/nukeratframework/nukerat",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/nukeratframework/nukerat",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
     {
       "id": "follow:FemaleGhost:s3c4ct0r:2026-11-16:followed",
       "kind": "follow",
@@ -41,50 +628,10 @@
         "name": "Mikhail",
         "bio": "Security Researcher // DFIR, TH, OffSec",
         "followers": 79,
-        "public_repos": 31,
+        "public_repos": 7,
         "html_url": "https://github.com/s3c4ct0r",
-        "languages": [
-          "C",
-          "C++",
-          "Go"
-        ],
-        "top_repos": [
-          {
-            "name": "s3c4ct0r/SauronEye-BOF",
-            "description": "SauronEye is an @Adaptix-Framework post-exploitation BOF tool for searching directories and file contents for specific keywords discreetly.",
-            "language": "C",
-            "stars": 14,
-            "pushed_at": "2025-11-24T18:47:59Z"
-          },
-          {
-            "name": "s3c4ct0r/UnderlayCopy-BOF",
-            "description": "UnderlayCopy is an @Adaptix-Framework post-exploitation BOF tool for copying locked files and registry hives using low-level NTFS volume access, bypassing file locks and access restrictions discreetly",
-            "language": "C",
-            "stars": 13,
-            "pushed_at": "2025-11-25T18:09:00Z"
-          },
-          {
-            "name": "s3c4ct0r/AdaptiHound-BOF",
-            "description": "AdaptiHound is an @Adaptix-Framework post-exploitation BOF tool for collecting Active Directory and FreeIPA objects, permissions, and relationships as BloodHound-compatible graphs.",
-            "language": "C++",
-            "stars": 8,
-            "pushed_at": "2026-11-11T01:39:29Z"
-          },
-          {
-            "name": "s3c4ct0r/LSAdump-BOF",
-            "description": "LSAdump is an @Adaptix-Framework BOF tool for credential extraction that dumps LSA secrets, SAM hashes, and cached domain credentials from Windows systems and automatically adds discovered credentials",
-            "language": "C",
-            "stars": 7,
-            "pushed_at": "2026-01-15T00:31:57Z"
-          },
-          {
-            "name": "s3c4ct0r/NBTscan-BOF",
-            "description": "NBTscan is an @Adaptix-Framework BOF tool for network reconnaissance that discovers NetBIOS names, MAC addresses, and services of Windows hosts and automatically registers them in Adaptix.",
-            "language": "C",
-            "stars": 6,
-            "pushed_at": "2026-01-19T15:19:33Z"
-          }
-        ]
+        "languages": [],
+        "top_repos": []
       }
     },
     {
@@ -184,7 +731,7 @@
         "login": "BishopFox",
         "name": "Bishop Fox",
         "bio": "The leader in offensive security, providing continuous pen testing, red teaming, attack surface management, and traditional security assessments.",
-        "followers": 2230,
+        "followers": 2234,
         "public_repos": 103,
         "html_url": "https://github.com/BishopFox",
         "languages": [
@@ -199,35 +746,35 @@
             "name": "BishopFox/sliver",
             "description": "Adversary Emulation Framework",
             "language": "Go",
-            "stars": 12340,
-            "pushed_at": "2026-11-14T05:12:52Z"
+            "stars": 12350,
+            "pushed_at": "2026-11-17T01:03:40Z"
           },
           {
             "name": "BishopFox/unredacter",
             "description": "Never ever ever use pixelation as a redaction technique",
             "language": "TypeScript",
-            "stars": 8415,
+            "stars": 8416,
             "pushed_at": "2024-03-15T00:35:43Z"
           },
           {
             "name": "BishopFox/cloudfox",
             "description": "Automating situational awareness for cloud penetration tests.",
             "language": "Go",
-            "stars": 2625,
+            "stars": 2627,
             "pushed_at": "2026-11-02T13:30:53Z"
           },
           {
             "name": "BishopFox/jsluice",
             "description": "Extract URLs, paths, secrets, and other interesting bits from JavaScript",
             "language": "Go",
-            "stars": 1975,
+            "stars": 1976,
             "pushed_at": "2024-05-22T02:26:53Z"
           },
           {
             "name": "BishopFox/GitGot",
             "description": "Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.",
             "language": "Python",
-            "stars": 1580,
+            "stars": 1579,
             "pushed_at": "2024-03-07T13:48:48Z"
           }
         ]
@@ -551,12 +1098,13 @@
   ],
   "summary": {
     "by_kind": {
-      "follow": 3,
-      "network_hot": 5,
-      "star": 5
+      "fork": 4,
+      "network_hot": 6,
+      "star": 28,
+      "follow": 3
     },
-    "push_events_excluded": 13,
-    "events_in_window": 93,
+    "push_events_excluded": 96,
+    "events_in_window": 398,
     "follows_in_window": 4
   }
 }

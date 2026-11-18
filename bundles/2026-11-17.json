@@ -4,28 +4,809 @@
   "collect_date": "2026-11-17",
   "collect_window": {
     "start": "2026-11-16T20:49:11+00:00",
-    "end": "2026-11-17T03:32:13+00:00",
-    "hours": 6
+    "end": "2026-11-17T15:51:47+00:00",
+    "hours": 19
   },
   "producer": {
     "name": "sentinel-gh",
     "version": "0.1.0",
-    "run_id": "44010721242",
-    "commit": "2294b13"
+    "run_id": "44225745865",
+    "commit": "e6acaae"
   },
   "stats": {
-    "total": 22,
+    "total": 35,
     "by_kind": {
       "network_hot": 9,
-      "follow": 1,
-      "star": 11,
-      "release": 1
+      "star": 22,
+      "release": 2,
+      "fork": 1,
+      "follow": 1
     },
     "failed_lists": [],
     "followee_count": 184,
-    "push_events_excluded": 45
+    "push_events_excluded": 157
   },
   "items": [
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-11-17",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-V3",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 6 人参与（fork×2, issue×4, star×1）",
+      "at": "2026-11-17T15:51:47+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-11-17",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "content": "deepseek-ai/DeepSeek-V3 — 圈外 6 人参与（fork×2, issue×4, star×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-17T15:51:47+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-V3"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 6,
+        "outer_actors": [
+          "AmoebaFPS",
+          "LordCairo",
+          "SacredAstra",
+          "hhoneypot0-ui",
+          "mursalimov97-crypto",
+          "qingkong66"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 4,
+          "fork": 2,
+          "star": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:20401078078",
+      "who": "Hello-xBugs",
+      "who_url": "https://github.com/Hello-xBugs",
+      "action": "star",
+      "target": "storytold/craft-anything",
+      "target_url": "https://github.com/storytold/craft-anything",
+      "text": "Hello-xBugs starred storytold/craft-anything",
+      "at": "2026-11-17T14:28:22+00:00",
+      "external_id": "event:20401078078",
+      "url": "https://github.com/storytold/craft-anything",
+      "content": "Hello-xBugs starred storytold/craft-anything",
+      "author": "Hello-xBugs",
+      "author_name": "Hello-xBugs",
+      "author_url": "https://github.com/Hello-xBugs",
+      "published_at": "2026-11-17T14:28:22+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Hello-xBugs",
+        "https://github.com/storytold/craft-anything"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Hello-xBugs",
+          "url": "https://github.com/Hello-xBugs"
+        },
+        "repo": {
+          "full_name": "storytold/craft-anything",
+          "url": "https://github.com/storytold/craft-anything"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20399245103",
+      "who": "Hello-xBugs",
+      "who_url": "https://github.com/Hello-xBugs",
+      "action": "star",
+      "target": "Maldev-Academy/WhisperLoader",
+      "target_url": "https://github.com/Maldev-Academy/WhisperLoader",
+      "text": "Hello-xBugs starred Maldev-Academy/WhisperLoader",
+      "at": "2026-11-17T14:09:00+00:00",
+      "external_id": "event:20399245103",
+      "url": "https://github.com/Maldev-Academy/WhisperLoader",
+      "content": "Hello-xBugs starred Maldev-Academy/WhisperLoader",
+      "author": "Hello-xBugs",
+      "author_name": "Hello-xBugs",
+      "author_url": "https://github.com/Hello-xBugs",
+      "published_at": "2026-11-17T14:09:00+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Hello-xBugs",
+        "https://github.com/Maldev-Academy/WhisperLoader"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Hello-xBugs",
+          "url": "https://github.com/Hello-xBugs"
+        },
+        "repo": {
+          "full_name": "Maldev-Academy/WhisperLoader",
+          "url": "https://github.com/Maldev-Academy/WhisperLoader"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 4,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20387509790",
+      "who": "timwhitez",
+      "who_url": "https://github.com/timwhitez",
+      "action": "star",
+      "target": "Yuan-ManX/open-motion",
+      "target_url": "https://github.com/Yuan-ManX/open-motion",
+      "text": "timwhitez starred Yuan-ManX/open-motion",
+      "at": "2026-11-17T12:01:33+00:00",
+      "external_id": "event:20387509790",
+      "url": "https://github.com/Yuan-ManX/open-motion",
+      "content": "timwhitez starred Yuan-ManX/open-motion",
+      "author": "timwhitez",
+      "author_name": "timwhitez",
+      "author_url": "https://github.com/timwhitez",
+      "published_at": "2026-11-17T12:01:33+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/timwhitez",
+        "https://github.com/Yuan-ManX/open-motion"
+      ],
+      "refs": {
+        "actor": {
+          "login": "timwhitez",
+          "url": "https://github.com/timwhitez"
+        },
+        "repo": {
+          "full_name": "Yuan-ManX/open-motion",
+          "url": "https://github.com/Yuan-ManX/open-motion"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20387402943",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.10",
+      "at": "2026-11-17T12:00:24+00:00",
+      "external_id": "event:20387402943",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.10",
+      "content": "yetone released yetone/alma-releases android-v4.10",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-17T12:00:24+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.10"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20382347640",
+      "who": "Cerbersec",
+      "who_url": "https://github.com/Cerbersec",
+      "action": "star",
+      "target": "crisprss/CVE-2026-88235",
+      "target_url": "https://github.com/crisprss/CVE-2026-88235",
+      "text": "Cerbersec starred crisprss/CVE-2026-88235",
+      "at": "2026-11-17T11:03:07+00:00",
+      "external_id": "event:20382347640",
+      "url": "https://github.com/crisprss/CVE-2026-88235",
+      "content": "Cerbersec starred crisprss/CVE-2026-88235",
+      "author": "Cerbersec",
+      "author_name": "Cerbersec",
+      "author_url": "https://github.com/Cerbersec",
+      "published_at": "2026-11-17T11:03:07+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cerbersec",
+        "https://github.com/crisprss/CVE-2026-88235"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cerbersec",
+          "url": "https://github.com/Cerbersec"
+        },
+        "repo": {
+          "full_name": "crisprss/CVE-2026-88235",
+          "url": "https://github.com/crisprss/CVE-2026-88235"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20376334288",
+      "who": "phith0n",
+      "who_url": "https://github.com/phith0n",
+      "action": "star",
+      "target": "elmir-mammadli/ai-deslop",
+      "target_url": "https://github.com/elmir-mammadli/ai-deslop",
+      "text": "phith0n starred elmir-mammadli/ai-deslop",
+      "at": "2026-11-17T09:56:29+00:00",
+      "external_id": "event:20376334288",
+      "url": "https://github.com/elmir-mammadli/ai-deslop",
+      "content": "phith0n starred elmir-mammadli/ai-deslop",
+      "author": "phith0n",
+      "author_name": "phith0n",
+      "author_url": "https://github.com/phith0n",
+      "published_at": "2026-11-17T09:56:29+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/phith0n",
+        "https://github.com/elmir-mammadli/ai-deslop"
+      ],
+      "refs": {
+        "actor": {
+          "login": "phith0n",
+          "url": "https://github.com/phith0n"
+        },
+        "repo": {
+          "full_name": "elmir-mammadli/ai-deslop",
+          "url": "https://github.com/elmir-mammadli/ai-deslop"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20368801190",
+      "who": "ScriptIdiot",
+      "who_url": "https://github.com/ScriptIdiot",
+      "action": "star",
+      "target": "ServiceNow/Dark-Agent",
+      "target_url": "https://github.com/ServiceNow/Dark-Agent",
+      "text": "ScriptIdiot starred ServiceNow/Dark-Agent",
+      "at": "2026-11-17T08:31:16+00:00",
+      "external_id": "event:20368801190",
+      "url": "https://github.com/ServiceNow/Dark-Agent",
+      "content": "ScriptIdiot starred ServiceNow/Dark-Agent",
+      "author": "ScriptIdiot",
+      "author_name": "ScriptIdiot",
+      "author_url": "https://github.com/ScriptIdiot",
+      "published_at": "2026-11-17T08:31:16+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ScriptIdiot",
+        "https://github.com/ServiceNow/Dark-Agent"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ScriptIdiot",
+          "url": "https://github.com/ScriptIdiot"
+        },
+        "repo": {
+          "full_name": "ServiceNow/Dark-Agent",
+          "url": "https://github.com/ServiceNow/Dark-Agent"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20368543983",
+      "who": "ScriptIdiot",
+      "who_url": "https://github.com/ScriptIdiot",
+      "action": "star",
+      "target": "NeffIsBack/wsuks",
+      "target_url": "https://github.com/NeffIsBack/wsuks",
+      "text": "ScriptIdiot starred NeffIsBack/wsuks",
+      "at": "2026-11-17T08:28:20+00:00",
+      "external_id": "event:20368543983",
+      "url": "https://github.com/NeffIsBack/wsuks",
+      "content": "ScriptIdiot starred NeffIsBack/wsuks",
+      "author": "ScriptIdiot",
+      "author_name": "ScriptIdiot",
+      "author_url": "https://github.com/ScriptIdiot",
+      "published_at": "2026-11-17T08:28:20+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ScriptIdiot",
+        "https://github.com/NeffIsBack/wsuks"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ScriptIdiot",
+          "url": "https://github.com/ScriptIdiot"
+        },
+        "repo": {
+          "full_name": "NeffIsBack/wsuks",
+          "url": "https://github.com/NeffIsBack/wsuks"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20368420758",
+      "who": "ScriptIdiot",
+      "who_url": "https://github.com/ScriptIdiot",
+      "action": "star",
+      "target": "MSNightmare/SignDrop",
+      "target_url": "https://github.com/MSNightmare/SignDrop",
+      "text": "ScriptIdiot starred MSNightmare/SignDrop",
+      "at": "2026-11-17T08:26:50+00:00",
+      "external_id": "event:20368420758",
+      "url": "https://github.com/MSNightmare/SignDrop",
+      "content": "ScriptIdiot starred MSNightmare/SignDrop",
+      "author": "ScriptIdiot",
+      "author_name": "ScriptIdiot",
+      "author_url": "https://github.com/ScriptIdiot",
+      "published_at": "2026-11-17T08:26:50+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ScriptIdiot",
+        "https://github.com/MSNightmare/SignDrop"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ScriptIdiot",
+          "url": "https://github.com/ScriptIdiot"
+        },
+        "repo": {
+          "full_name": "MSNightmare/SignDrop",
+          "url": "https://github.com/MSNightmare/SignDrop"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20368371811",
+      "who": "ScriptIdiot",
+      "who_url": "https://github.com/ScriptIdiot",
+      "action": "fork",
+      "target": "ScriptIdiot/WhisperLoader",
+      "target_url": "https://github.com/ScriptIdiot/WhisperLoader",
+      "text": "ScriptIdiot forked Maldev-Academy/WhisperLoader → ScriptIdiot/WhisperLoader",
+      "at": "2026-11-17T08:26:15+00:00",
+      "external_id": "event:20368371811",
+      "url": "https://github.com/ScriptIdiot/WhisperLoader",
+      "content": "ScriptIdiot forked Maldev-Academy/WhisperLoader → ScriptIdiot/WhisperLoader",
+      "author": "ScriptIdiot",
+      "author_name": "ScriptIdiot",
+      "author_url": "https://github.com/ScriptIdiot",
+      "published_at": "2026-11-17T08:26:15+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ScriptIdiot",
+        "https://github.com/Maldev-Academy/WhisperLoader",
+        "https://github.com/ScriptIdiot/WhisperLoader"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ScriptIdiot",
+          "url": "https://github.com/ScriptIdiot"
+        },
+        "repo": {
+          "full_name": "Maldev-Academy/WhisperLoader",
+          "url": "https://github.com/Maldev-Academy/WhisperLoader"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "ScriptIdiot/WhisperLoader",
+          "url": "https://github.com/ScriptIdiot/WhisperLoader"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 4,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20368363793",
+      "who": "ScriptIdiot",
+      "who_url": "https://github.com/ScriptIdiot",
+      "action": "star",
+      "target": "Maldev-Academy/WhisperLoader",
+      "target_url": "https://github.com/Maldev-Academy/WhisperLoader",
+      "text": "ScriptIdiot starred Maldev-Academy/WhisperLoader",
+      "at": "2026-11-17T08:26:12+00:00",
+      "external_id": "event:20368363793",
+      "url": "https://github.com/Maldev-Academy/WhisperLoader",
+      "content": "ScriptIdiot starred Maldev-Academy/WhisperLoader",
+      "author": "ScriptIdiot",
+      "author_name": "ScriptIdiot",
+      "author_url": "https://github.com/ScriptIdiot",
+      "published_at": "2026-11-17T08:26:12+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ScriptIdiot",
+        "https://github.com/Maldev-Academy/WhisperLoader"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ScriptIdiot",
+          "url": "https://github.com/ScriptIdiot"
+        },
+        "repo": {
+          "full_name": "Maldev-Academy/WhisperLoader",
+          "url": "https://github.com/Maldev-Academy/WhisperLoader"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 4,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20354251661",
+      "who": "mrfearless",
+      "who_url": "https://github.com/mrfearless",
+      "action": "star",
+      "target": "cobaltmods/Fallout34_Installer",
+      "target_url": "https://github.com/cobaltmods/Fallout34_Installer",
+      "text": "mrfearless starred cobaltmods/Fallout34_Installer",
+      "at": "2026-11-17T05:18:19+00:00",
+      "external_id": "event:20354251661",
+      "url": "https://github.com/cobaltmods/Fallout34_Installer",
+      "content": "mrfearless starred cobaltmods/Fallout34_Installer",
+      "author": "mrfearless",
+      "author_name": "mrfearless",
+      "author_url": "https://github.com/mrfearless",
+      "published_at": "2026-11-17T05:18:19+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/mrfearless",
+        "https://github.com/cobaltmods/Fallout34_Installer"
+      ],
+      "refs": {
+        "actor": {
+          "login": "mrfearless",
+          "url": "https://github.com/mrfearless"
+        },
+        "repo": {
+          "full_name": "cobaltmods/Fallout34_Installer",
+          "url": "https://github.com/cobaltmods/Fallout34_Installer"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:20354156938",
+      "who": "zema1",
+      "who_url": "https://github.com/zema1",
+      "action": "star",
+      "target": "ASkyeye/CPPPractice",
+      "target_url": "https://github.com/ASkyeye/CPPPractice",
+      "text": "zema1 starred ASkyeye/CPPPractice",
+      "at": "2026-11-17T05:17:00+00:00",
+      "external_id": "event:20354156938",
+      "url": "https://github.com/ASkyeye/CPPPractice",
+      "content": "zema1 starred ASkyeye/CPPPractice",
+      "author": "zema1",
+      "author_name": "zema1",
+      "author_url": "https://github.com/zema1",
+      "published_at": "2026-11-17T05:17:00+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/zema1",
+        "https://github.com/ASkyeye/CPPPractice"
+      ],
+      "refs": {
+        "actor": {
+          "login": "zema1",
+          "url": "https://github.com/zema1"
+        },
+        "repo": {
+          "full_name": "ASkyeye/CPPPractice",
+          "url": "https://github.com/ASkyeye/CPPPractice"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
     {
       "id": "network:deepseek-ai/deepseek-harness:2026-11-17",
       "who": "",
@@ -42,7 +823,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-17T03:32:13+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -128,7 +909,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-17T03:32:01+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -214,7 +995,7 @@
       "author_name": "FemaleGhost",
       "author_url": "https://github.com/FemaleGhost",
       "published_at": "2026-11-17T03:31:59+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:follow"
       ],
@@ -255,7 +1036,7 @@
         "login": "moloch--",
         "name": "Joe",
         "bio": "I like computers.",
-        "followers": 1239,
+        "followers": 1238,
         "public_repos": 134,
         "html_url": "https://github.com/moloch--",
         "languages": [
@@ -320,7 +1101,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-17T03:30:37+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -394,7 +1175,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-17T03:29:17+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -477,7 +1258,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-17T03:21:54+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -531,77 +1312,6 @@
       }
     },
     {
-      "id": "network:deepseek-ai/DeepSeek-V3:2026-11-17",
-      "who": "",
-      "who_url": "",
-      "action": "network_hot",
-      "target": "deepseek-ai/DeepSeek-V3",
-      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "text": "deepseek-ai/DeepSeek-V3 — 圈外 4 人参与（fork×2, issue×1, star×1）",
-      "at": "2026-11-17T03:16:52+00:00",
-      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-11-17",
-      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "content": "deepseek-ai/DeepSeek-V3 — 圈外 4 人参与（fork×2, issue×1, star×1）",
-      "author": "",
-      "author_name": "",
-      "author_url": "",
-      "published_at": "2026-11-17T03:16:52+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
-      "tags": [
-        "kind:network_hot"
-      ],
-      "hashtags": [],
-      "links": [
-        "https://github.com/deepseek-ai/DeepSeek-V3"
-      ],
-      "refs": {
-        "actor": null,
-        "repo": {
-          "full_name": "deepseek-ai/DeepSeek-V3",
-          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
-        },
-        "target_user": null,
-        "forkee": null
-      },
-      "media": {
-        "photos": [],
-        "videos": []
-      },
-      "metrics": {
-        "circle_count": null,
-        "trending": false,
-        "trending_front_page": false
-      },
-      "flags": {
-        "kind": "network_hot",
-        "time_precision": "exact",
-        "is_follow": false,
-        "is_repo_event": false,
-        "is_aggregate": true
-      },
-      "network": {
-        "outer_count": 4,
-        "outer_actors": [
-          "AmoebaFPS",
-          "LordCairo",
-          "SacredAstra",
-          "hhoneypot0-ui"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "issue": 1,
-          "fork": 2,
-          "star": 1
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
       "id": "event:20345041076",
       "who": "jm33-m0",
       "who_url": "https://github.com/jm33-m0",
@@ -617,7 +1327,7 @@
       "author_name": "jm33-m0",
       "author_url": "https://github.com/jm33-m0",
       "published_at": "2026-11-17T03:03:12+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],
@@ -671,7 +1381,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-17T03:01:23+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -739,7 +1449,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-17T02:57:38+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -807,7 +1517,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-11-17T02:32:29+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],
@@ -861,7 +1571,7 @@
       "author_name": "Xre0uS",
       "author_url": "https://github.com/Xre0uS",
       "published_at": "2026-11-17T02:29:47+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],
@@ -887,7 +1597,7 @@
         "videos": []
       },
       "metrics": {
-        "circle_count": 2,
+        "circle_count": 4,
         "trending": false,
         "trending_front_page": false
       },
@@ -915,7 +1625,7 @@
       "author_name": "Cracked5pider",
       "author_url": "https://github.com/Cracked5pider",
       "published_at": "2026-11-17T01:17:27+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],
@@ -969,7 +1679,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-17T01:03:43+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -1038,7 +1748,7 @@
       "author_name": "mrfearless",
       "author_url": "https://github.com/mrfearless",
       "published_at": "2026-11-17T00:34:10+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1092,7 +1802,7 @@
       "author_name": "0a777h",
       "author_url": "https://github.com/0a777h",
       "published_at": "2026-11-16T23:39:37+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1146,7 +1856,7 @@
       "author_name": "Cracked5pider",
       "author_url": "https://github.com/Cracked5pider",
       "published_at": "2026-11-16T23:32:30+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1200,7 +1910,7 @@
       "author_name": "s3c4ct0r",
       "author_url": "https://github.com/s3c4ct0r",
       "published_at": "2026-11-16T23:05:02+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1254,7 +1964,7 @@
       "author_name": "s3c4ct0r",
       "author_url": "https://github.com/s3c4ct0r",
       "published_at": "2026-11-16T23:04:56+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1308,7 +2018,7 @@
       "author_name": "cfregly",
       "author_url": "https://github.com/cfregly",
       "published_at": "2026-11-16T22:29:56+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:release"
       ],
@@ -1363,7 +2073,7 @@
       "author_name": "ZephrFish",
       "author_url": "https://github.com/ZephrFish",
       "published_at": "2026-11-16T22:15:00+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1389,7 +2099,7 @@
         "videos": []
       },
       "metrics": {
-        "circle_count": 2,
+        "circle_count": 4,
         "trending": false,
         "trending_front_page": false
       },
@@ -1417,7 +2127,7 @@
       "author_name": "ryan-weil",
       "author_url": "https://github.com/ryan-weil",
       "published_at": "2026-11-16T20:49:11+00:00",
-      "collected_at": "2026-11-17T03:32:52.532110+00:00",
+      "collected_at": "2026-11-18T02:49:00.113269+00:00",
       "tags": [
         "kind:star"
       ],

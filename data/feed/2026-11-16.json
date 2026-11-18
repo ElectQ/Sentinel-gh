@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-11-16",
-  "generated_at": "2026-11-17T03:32:46+00:00",
+  "generated_at": "2026-11-18T02:48:52+00:00",
   "followee_count": 184,
   "item_count": 41,
   "kinds_included": [
@@ -13,7 +13,7 @@
     "network_hot"
   ],
   "trending_available": true,
-  "trending_source_date": "2026-11-16",
+  "trending_source_date": "2026-11-17",
   "items": [
     {
       "id": "event:20280856380",
@@ -628,10 +628,50 @@
         "name": "Mikhail",
         "bio": "Security Researcher // DFIR, TH, OffSec",
         "followers": 79,
-        "public_repos": 7,
+        "public_repos": 13,
         "html_url": "https://github.com/s3c4ct0r",
-        "languages": [],
-        "top_repos": []
+        "languages": [
+          "C",
+          "C++",
+          "Go"
+        ],
+        "top_repos": [
+          {
+            "name": "s3c4ct0r/SauronEye-BOF",
+            "description": "SauronEye is an @Adaptix-Framework post-exploitation BOF tool for searching directories and file contents for specific keywords discreetly.",
+            "language": "C",
+            "stars": 14,
+            "pushed_at": "2025-11-24T18:47:59Z"
+          },
+          {
+            "name": "s3c4ct0r/UnderlayCopy-BOF",
+            "description": "UnderlayCopy is an @Adaptix-Framework post-exploitation BOF tool for copying locked files and registry hives using low-level NTFS volume access, bypassing file locks and access restrictions discreetly",
+            "language": "C",
+            "stars": 13,
+            "pushed_at": "2025-11-25T18:09:00Z"
+          },
+          {
+            "name": "s3c4ct0r/AdaptiHound-BOF",
+            "description": "AdaptiHound is an @Adaptix-Framework post-exploitation BOF tool for collecting Active Directory and FreeIPA objects, permissions, and relationships as BloodHound-compatible graphs.",
+            "language": "C++",
+            "stars": 8,
+            "pushed_at": "2026-11-17T01:15:22Z"
+          },
+          {
+            "name": "s3c4ct0r/LSAdump-BOF",
+            "description": "LSAdump is an @Adaptix-Framework BOF tool for credential extraction that dumps LSA secrets, SAM hashes, and cached domain credentials from Windows systems and automatically adds discovered credentials",
+            "language": "C",
+            "stars": 7,
+            "pushed_at": "2026-01-15T00:31:57Z"
+          },
+          {
+            "name": "s3c4ct0r/NBTscan-BOF",
+            "description": "NBTscan is an @Adaptix-Framework BOF tool for network reconnaissance that discovers NetBIOS names, MAC addresses, and services of Windows hosts and automatically registers them in Adaptix.",
+            "language": "C",
+            "stars": 6,
+            "pushed_at": "2026-01-19T15:19:33Z"
+          }
+        ]
       }
     },
     {
@@ -731,7 +771,7 @@
         "login": "BishopFox",
         "name": "Bishop Fox",
         "bio": "The leader in offensive security, providing continuous pen testing, red teaming, attack surface management, and traditional security assessments.",
-        "followers": 2234,
+        "followers": 2235,
         "public_repos": 103,
         "html_url": "https://github.com/BishopFox",
         "languages": [
@@ -746,28 +786,28 @@
             "name": "BishopFox/sliver",
             "description": "Adversary Emulation Framework",
             "language": "Go",
-            "stars": 12350,
+            "stars": 12363,
             "pushed_at": "2026-11-17T01:03:40Z"
           },
           {
             "name": "BishopFox/unredacter",
             "description": "Never ever ever use pixelation as a redaction technique",
             "language": "TypeScript",
-            "stars": 8416,
+            "stars": 8417,
             "pushed_at": "2024-03-15T00:35:43Z"
           },
           {
             "name": "BishopFox/cloudfox",
             "description": "Automating situational awareness for cloud penetration tests.",
             "language": "Go",
-            "stars": 2627,
+            "stars": 2629,
             "pushed_at": "2026-11-02T13:30:53Z"
           },
           {
             "name": "BishopFox/jsluice",
             "description": "Extract URLs, paths, secrets, and other interesting bits from JavaScript",
             "language": "Go",
-            "stars": 1976,
+            "stars": 1977,
             "pushed_at": "2024-05-22T02:26:53Z"
           },
           {
@@ -1103,8 +1143,8 @@
       "star": 28,
       "follow": 3
     },
-    "push_events_excluded": 96,
-    "events_in_window": 398,
+    "push_events_excluded": 97,
+    "events_in_window": 399,
     "follows_in_window": 4
   }
 }

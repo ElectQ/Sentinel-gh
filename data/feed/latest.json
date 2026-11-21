@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "date": "2026-11-20",
-  "generated_at": "2026-11-20T02:09:07+00:00",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T02:03:22+00:00",
   "followee_count": 185,
-  "item_count": 20,
+  "item_count": 19,
   "kinds_included": [
     "star",
     "fork",
@@ -13,20 +13,73 @@
     "network_hot"
   ],
   "trending_available": true,
-  "trending_source_date": "2026-11-19",
+  "trending_source_date": "2026-11-21",
   "items": [
     {
-      "id": "follow:yj94:icecliffs:2026-11-20:followed",
+      "id": "network:deepseek-ai/deepseek-harness:2026-11-21",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/deepseek-harness",
+      "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "html_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "text": "deepseek-ai/deepseek-harness — 圈外 37 人参与（fork×3, star×35）",
+      "created_at": "2026-11-21T02:02:45Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 37,
+        "outer_actors": [
+          "3179341937",
+          "3420194599as-blip",
+          "Adminstrator2026",
+          "AndyerNotFound",
+          "Carter-Lee-2010",
+          "Daniel-Osman",
+          "Desalzes",
+          "HmWhite",
+          "Mason-DA",
+          "MrTanuk",
+          "NEONKID",
+          "OW-BASTION",
+          "ObedeMacena",
+          "Samukawa77",
+          "Sinterdial",
+          "ZXCZXC12138",
+          "arturght06",
+          "boulate",
+          "dawoa",
+          "dncman"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "star": 35,
+          "fork": 3
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "follow:AabyssZG:howmp:2026-11-21:followed",
       "kind": "follow",
-      "text": "yj94 followed icecliffs",
-      "actor": "yj94",
-      "actor_url": "https://github.com/yj94",
-      "created_at": "2026-11-20T02:08:27+00:00",
+      "text": "AabyssZG followed howmp",
+      "actor": "AabyssZG",
+      "actor_url": "https://github.com/AabyssZG",
+      "created_at": "2026-11-21T02:02:32+00:00",
       "repo": null,
       "repo_url": null,
-      "target_user": "icecliffs",
-      "target_user_url": "https://github.com/icecliffs",
-      "html_url": "https://github.com/icecliffs",
+      "target_user": "howmp",
+      "target_user_url": "https://github.com/howmp",
+      "html_url": "https://github.com/howmp",
       "payload": {
         "action": "followed"
       },
@@ -37,213 +90,142 @@
         "circle_count": null
       },
       "persona": {
-        "login": "icecliffs",
-        "name": "ner0p1r",
-        "bio": "root@icecliffs:~# whoami && id && ip\r\nDidi / Huaxiaozhu / Uber Driver",
-        "followers": 115,
-        "public_repos": 45,
-        "html_url": "https://github.com/icecliffs",
+        "login": "howmp",
+        "name": "guage",
+        "bio": "半块西瓜皮",
+        "followers": 327,
+        "public_repos": 33,
+        "html_url": "https://github.com/howmp",
         "languages": [
-          "JavaScript",
-          "HTML",
-          "Python",
-          "PHP",
-          "TypeScript"
+          "Go",
+          "Zig",
+          "C#",
+          "C",
+          "JavaScript"
         ],
         "top_repos": [
           {
-            "name": "icecliffs/nextwq",
-            "description": "QQ小程序反编译逆向/微信小程序反编译逆向/红队攻击面分析/快速漏洞/检查/筛查",
-            "language": null,
-            "stars": 91,
-            "pushed_at": "2026-06-13T04:14:17Z"
+            "name": "howmp/reality",
+            "description": "grs内网穿透工具通过reality协议隐藏特征",
+            "language": "Go",
+            "stars": 639,
+            "pushed_at": "2026-08-08T15:55:06Z"
           },
           {
-            "name": "icecliffs/nextanti",
-            "description": "NextAnti is a browser extension focused on anti-honeypot and anti anti-honeypot techniques, NextAnti 是一款专门用于浏览器反蜜罐反反蜜罐（Anti-Honeypot）的插件，自动阻断蜜罐请求，被蜜罐溯源，皆在于快速被蓝队识破并反制红队小伎俩",
+            "name": "howmp/dsh-pentest",
+            "description": "面向 DeepSeek Harness（dsh）的渗透测试模式  @CloverSecLabs",
             "language": "JavaScript",
-            "stars": 40,
-            "pushed_at": "2026-06-22T11:55:27Z"
+            "stars": 622,
+            "pushed_at": "2026-10-09T11:19:50Z"
           },
           {
-            "name": "icecliffs/MAPUS",
-            "description": "MAPUS - 一个能让你在浏览器上直接做智能体渗透测试的DeepSeek Harness浏览器插件",
-            "language": "JavaScript",
-            "stars": 34,
-            "pushed_at": "2026-10-28T11:31:41Z"
+            "name": "howmp/WinDump",
+            "description": "后渗透信息/密码/凭证收集工具",
+            "language": "C#",
+            "stars": 321,
+            "pushed_at": "2025-05-07T08:21:15Z"
           },
           {
-            "name": "icecliffs/nextassets",
-            "description": "Bug Hunter/Red Team/Yellow Team/Blue Team/Green Team/Cyan Team/Purple Team/Operations/Security Research Asset Collection & Scanning Platform and Automated Penetration Testing Platform ‘Global Falcon’,",
-            "language": null,
-            "stars": 29,
-            "pushed_at": "2026-02-09T10:37:23Z"
+            "name": "howmp/iisproxy",
+            "description": "通过websocket在IIS8(Windows Server 2012)以上实现socks5代理",
+            "language": "Go",
+            "stars": 110,
+            "pushed_at": "2024-01-26T04:52:25Z"
           },
           {
-            "name": "icecliffs/bilibili_anime",
-            "description": ":trollface: 🎗️ A WordPress page for tracking anime series — give it a try q(≧▽≦q)",
-            "language": "PHP",
-            "stars": 22,
-            "pushed_at": "2023-01-03T03:05:12Z"
+            "name": "howmp/wget",
+            "description": "可能是windows最小的wget (862字节)",
+            "language": "C",
+            "stars": 71,
+            "pushed_at": "2024-12-13T10:55:34Z"
           }
         ]
       }
     },
     {
-      "id": "network:deepseek-ai/chat-demo:2026-11-20",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "deepseek-ai/chat-demo",
-      "repo_url": "https://github.com/deepseek-ai/chat-demo",
-      "html_url": "https://github.com/deepseek-ai/chat-demo",
-      "text": "deepseek-ai/chat-demo — 圈外 19 人参与（fork×10, star×10）",
-      "created_at": "2026-11-20T02:08:10Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 19,
-        "outer_actors": [
-          "1769492002",
-          "Agonygone",
-          "BreezyMomo",
-          "Code-MonkeyZhang",
-          "IZRINO",
-          "KlayThompson",
-          "Lowfeye",
-          "PZW152",
-          "chenzhjian",
-          "duojiale",
-          "homgorn",
-          "iuiiuo",
-          "jerrywwl",
-          "lws123321",
-          "mathengcs",
-          "pcxshuaige",
-          "yanyu03",
-          "zhonguu",
-          "zouc4nan"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "fork": 10,
-          "star": 10
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
-      "id": "network:deepseek-ai/deepseek-harness:2026-11-20",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "deepseek-ai/deepseek-harness",
-      "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
-      "html_url": "https://github.com/deepseek-ai/deepseek-harness",
-      "text": "deepseek-ai/deepseek-harness — 圈外 93 人参与（fork×32, star×62）",
-      "created_at": "2026-11-20T02:08:00Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 93,
-        "outer_actors": [
-          "0xunknownz",
-          "2001jgg",
-          "Albatany",
-          "Amoncharters",
-          "Bbdolt",
-          "ChatGFW",
-          "Esltdk",
-          "Fairyestell",
-          "Fyhax1ki",
-          "GeronimoKTT",
-          "GmMars1",
-          "HaksWill",
-          "Hello-Dream",
-          "J04kkking",
-          "KinomotoXiao",
-          "Krittanat-uni",
-          "Magnet-Sys",
-          "Mxyloto",
-          "OnlyChen45",
-          "PrineHarry"
-        ],
-        "outer_actors_truncated": true,
-        "by_kind": {
-          "fork": 32,
-          "star": 62
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
-      "id": "event:20714406770",
-      "kind": "star",
-      "text": "AabyssZG starred MSNightmare/FastUnlock",
+      "id": "follow:AabyssZG:Whitecat18:2026-11-21:followed",
+      "kind": "follow",
+      "text": "AabyssZG followed Whitecat18",
       "actor": "AabyssZG",
       "actor_url": "https://github.com/AabyssZG",
-      "created_at": "2026-11-20T02:06:48Z",
-      "repo": "MSNightmare/FastUnlock",
-      "repo_url": "https://github.com/MSNightmare/FastUnlock",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/MSNightmare/FastUnlock",
-      "payload": {},
-      "time_precision": "exact",
+      "created_at": "2026-11-21T02:02:32+00:00",
+      "repo": null,
+      "repo_url": null,
+      "target_user": "Whitecat18",
+      "target_user_url": "https://github.com/Whitecat18",
+      "html_url": "https://github.com/Whitecat18",
+      "payload": {
+        "action": "followed"
+      },
+      "time_precision": "daily_window",
       "signals": {
         "trending": false,
         "trending_front_page": false,
-        "circle_count": 1
+        "circle_count": null
+      },
+      "persona": {
+        "login": "Whitecat18",
+        "name": "Smukx ♠",
+        "bio": "Offensive code writer. 20 y/o.",
+        "followers": 1436,
+        "public_repos": 17,
+        "html_url": "https://github.com/Whitecat18",
+        "languages": [
+          "Rust",
+          "PowerShell",
+          "Batchfile",
+          "C",
+          "Python"
+        ],
+        "top_repos": [
+          {
+            "name": "Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters",
+            "description": "An List of my Powershell scripts, commands and Blogs for windows Red Teaming. ",
+            "language": "PowerShell",
+            "stars": 497,
+            "pushed_at": "2026-03-29T09:22:17Z"
+          },
+          {
+            "name": "Whitecat18/LazyDLLSideload",
+            "description": "Generate DLL proxy/sideload projects. Automatically parses PE export tables and generates ready-to-compile project for red team engagements.",
+            "language": "Rust",
+            "stars": 173,
+            "pushed_at": "2026-09-13T18:48:00Z"
+          },
+          {
+            "name": "Whitecat18/Windows-Activator",
+            "description": "Activate your windows machines in one step. ",
+            "language": "Batchfile",
+            "stars": 120,
+            "pushed_at": "2024-01-18T15:34:05Z"
+          },
+          {
+            "name": "Whitecat18/earlycascade-injection",
+            "description": "Early cascade injection PoC based on Outflanks blog post written in Rust",
+            "language": "Rust",
+            "stars": 68,
+            "pushed_at": "2025-12-26T19:45:38Z"
+          },
+          {
+            "name": "Whitecat18/Javahexor",
+            "description": "An automated tool kit that clones sites and builds malicious javascript , deploys public Tunneling and send info through telegram Bot",
+            "language": "Rust",
+            "stars": 62,
+            "pushed_at": "2025-03-02T18:22:10Z"
+          }
+        ]
       }
     },
     {
-      "id": "event:20714367291",
-      "kind": "star",
-      "text": "0xTriboulet starred memoe-app/memoe",
-      "actor": "0xTriboulet",
-      "actor_url": "https://github.com/0xTriboulet",
-      "created_at": "2026-11-20T02:06:13Z",
-      "repo": "memoe-app/memoe",
-      "repo_url": "https://github.com/memoe-app/memoe",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/memoe-app/memoe",
-      "payload": {},
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": 1
-      }
-    },
-    {
-      "id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-20",
+      "id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-21",
       "kind": "network_hot",
       "actor": null,
       "actor_url": null,
       "repo": "deepseek-ai/dsh-superagent-prototype",
       "repo_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
       "html_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "text": "deepseek-ai/dsh-superagent-prototype — 圈外 12 人参与（fork×2, star×10）",
-      "created_at": "2026-11-20T01:57:15Z",
+      "text": "deepseek-ai/dsh-superagent-prototype — 圈外 8 人参与（fork×1, star×7）",
+      "created_at": "2026-11-21T01:56:13Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -251,25 +233,21 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 12,
+        "outer_count": 8,
         "outer_actors": [
-          "21335464876",
-          "Alexlz2538",
-          "aleozlx",
-          "developertogo",
-          "eeriedevil",
-          "fengqiangboy",
-          "guangaosu5-gif",
-          "guangwenz",
-          "jayintheday",
-          "seamasyang",
-          "wangngo",
-          "xiaocheny214"
+          "1winner222",
+          "Daniel-Osman",
+          "bennyyu786",
+          "damonchen",
+          "lamonomics",
+          "lzylyd",
+          "primadist",
+          "wolfkin-hth"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
-          "fork": 2,
-          "star": 10
+          "fork": 1,
+          "star": 7
         },
         "inner_count": 0,
         "inner_actors": [],
@@ -280,15 +258,58 @@
       }
     },
     {
-      "id": "network:deepseek-ai/awesome-deepseek-integration:2026-11-20",
+      "id": "network:deepseek-ai/chat-demo:2026-11-21",
       "kind": "network_hot",
       "actor": null,
       "actor_url": null,
-      "repo": "deepseek-ai/awesome-deepseek-integration",
-      "repo_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
-      "html_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
-      "text": "deepseek-ai/awesome-deepseek-integration — 圈外 2 人参与（fork×1, issue×1, pr×1）",
-      "created_at": "2026-11-20T01:45:02Z",
+      "repo": "deepseek-ai/chat-demo",
+      "repo_url": "https://github.com/deepseek-ai/chat-demo",
+      "html_url": "https://github.com/deepseek-ai/chat-demo",
+      "text": "deepseek-ai/chat-demo — 圈外 10 人参与（fork×1, star×9）",
+      "created_at": "2026-11-21T01:40:11Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 10,
+        "outer_actors": [
+          "MdialloC19",
+          "ZhangLan31",
+          "ZhouDeLiBoy",
+          "apelsito",
+          "b-Y-d",
+          "ihuangweiwei",
+          "m-Muhaimin",
+          "mengmaQ",
+          "wyl-b",
+          "zzZZZmj911"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 9,
+          "fork": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-Coder:2026-11-21",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/DeepSeek-Coder",
+      "repo_url": "https://github.com/deepseek-ai/DeepSeek-Coder",
+      "html_url": "https://github.com/deepseek-ai/DeepSeek-Coder",
+      "text": "deepseek-ai/DeepSeek-Coder — 圈外 2 人参与（star×2）",
+      "created_at": "2026-11-21T01:32:50Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -298,14 +319,12 @@
       "network": {
         "outer_count": 2,
         "outer_actors": [
-          "edsml-jz2321",
-          "martianacademy"
+          "OW-BASTION",
+          "primadist"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
-          "issue": 1,
-          "fork": 1,
-          "pr": 1
+          "star": 2
         },
         "inner_count": 0,
         "inner_actors": [],
@@ -316,15 +335,15 @@
       }
     },
     {
-      "id": "network:deepseek-ai/DeepSeek-V3:2026-11-20",
+      "id": "network:deepseek-ai/awesome-deepseek-integration:2026-11-21",
       "kind": "network_hot",
       "actor": null,
       "actor_url": null,
-      "repo": "deepseek-ai/DeepSeek-V3",
-      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "text": "deepseek-ai/DeepSeek-V3 — 圈外 5 人参与（issue×3, star×2）",
-      "created_at": "2026-11-20T01:43:50Z",
+      "repo": "deepseek-ai/awesome-deepseek-integration",
+      "repo_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "html_url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+      "text": "deepseek-ai/awesome-deepseek-integration — 圈外 3 人参与（star×3）",
+      "created_at": "2026-11-21T01:32:38Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -332,13 +351,46 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 5,
+        "outer_count": 3,
         "outer_actors": [
-          "AhmadFikriZakaria",
-          "Fairyestell",
-          "ghdbtksgvz-coder",
-          "giadaevola55-debug",
-          "yin-kang83"
+          "JINGBODAI",
+          "OW-BASTION",
+          "primadist"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "star": 3
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-11-21",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/DeepSeek-V3",
+      "repo_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 3 人参与（issue×3, star×2）",
+      "created_at": "2026-11-21T01:32:36Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "OW-BASTION",
+          "dsid0506-png",
+          "primadist"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
@@ -354,40 +406,15 @@
       }
     },
     {
-      "id": "event:20712796929",
-      "kind": "release",
-      "text": "yetone released yetone/alma-releases android-v4.20",
-      "actor": "yetone",
-      "actor_url": "https://github.com/yetone",
-      "created_at": "2026-11-20T01:42:45Z",
-      "repo": "yetone/alma-releases",
-      "repo_url": "https://github.com/yetone/alma-releases",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.20",
-      "payload": {
-        "tag": "android-v4.20",
-        "name": "Alma for Android 4.20",
-        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.20",
-        "prerelease": false
-      },
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      }
-    },
-    {
-      "id": "network:deepseek-ai/DeepInfer:2026-11-20",
+      "id": "network:deepseek-ai/DeepSeek-R1:2026-11-21",
       "kind": "network_hot",
       "actor": null,
       "actor_url": null,
-      "repo": "deepseek-ai/DeepInfer",
-      "repo_url": "https://github.com/deepseek-ai/DeepInfer",
-      "html_url": "https://github.com/deepseek-ai/DeepInfer",
-      "text": "deepseek-ai/DeepInfer — 圈外 3 人参与（fork×2, star×2）",
-      "created_at": "2026-11-20T01:36:31Z",
+      "repo": "deepseek-ai/DeepSeek-R1",
+      "repo_url": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "html_url": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "text": "deepseek-ai/DeepSeek-R1 — 圈外 2 人参与（star×2）",
+      "created_at": "2026-11-21T01:32:22Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -395,15 +422,13 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 3,
+        "outer_count": 2,
         "outer_actors": [
-          "enjoychaim",
-          "jun-mang",
-          "zq13131"
+          "OW-BASTION",
+          "primadist"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
-          "fork": 2,
           "star": 2
         },
         "inner_count": 0,
@@ -415,52 +440,40 @@
       }
     },
     {
-      "id": "network:Whispergate/BOFbird:2026-11-20",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "Whispergate/BOFbird",
-      "repo_url": "https://github.com/Whispergate/BOFbird",
-      "html_url": "https://github.com/Whispergate/BOFbird",
-      "text": "Whispergate/BOFbird — 圈外 3 人参与，圈内 1 人也 star（star×3）",
-      "created_at": "2026-11-20T01:30:29Z",
+      "id": "event:20822734262",
+      "kind": "release",
+      "text": "xaitax released xaitax/msrc-dashboard v0.4.0",
+      "actor": "xaitax",
+      "actor_url": "https://github.com/xaitax",
+      "created_at": "2026-11-21T01:18:25Z",
+      "repo": "xaitax/msrc-dashboard",
+      "repo_url": "https://github.com/xaitax/msrc-dashboard",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/xaitax/msrc-dashboard/releases/tag/v0.4.0",
+      "payload": {
+        "tag": "v0.4.0",
+        "name": "MSRC Dashboard 0.4.0",
+        "url": "https://github.com/xaitax/msrc-dashboard/releases/tag/v0.4.0",
+        "prerelease": false
+      },
       "time_precision": "exact",
       "signals": {
         "trending": false,
         "trending_front_page": false,
-        "circle_count": 1
-      },
-      "network": {
-        "outer_count": 3,
-        "outer_actors": [
-          "ceramicskate0",
-          "excalibruh3813",
-          "youngifif"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "star": 3
-        },
-        "inner_count": 1,
-        "inner_actors": [
-          "Cracked5pider"
-        ],
-        "in_circle": true,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
+        "circle_count": null
       }
     },
     {
-      "id": "network:deepseek-ai/DeepSeek-R1:2026-11-20",
+      "id": "network:BishopFox/sliver:2026-11-21",
       "kind": "network_hot",
       "actor": null,
       "actor_url": null,
-      "repo": "deepseek-ai/DeepSeek-R1",
-      "repo_url": "https://github.com/deepseek-ai/DeepSeek-R1",
-      "html_url": "https://github.com/deepseek-ai/DeepSeek-R1",
-      "text": "deepseek-ai/DeepSeek-R1 — 圈外 3 人参与（issue×1, pr×1, star×1）",
-      "created_at": "2026-11-20T01:05:13Z",
+      "repo": "BishopFox/sliver",
+      "repo_url": "https://github.com/BishopFox/sliver",
+      "html_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 2 人参与（star×2）",
+      "created_at": "2026-11-21T01:17:34Z",
       "time_precision": "exact",
       "signals": {
         "trending": false,
@@ -468,16 +481,48 @@
         "circle_count": null
       },
       "network": {
-        "outer_count": 3,
+        "outer_count": 2,
         "outer_actors": [
-          "1010110101-gif",
-          "1416873705",
-          "AhmadFikriZakaria"
+          "lepotekil",
+          "mulkisuhya"
         ],
         "outer_actors_truncated": false,
         "by_kind": {
-          "issue": 1,
-          "pr": 1,
+          "star": 2
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepInfer:2026-11-21",
+      "kind": "network_hot",
+      "actor": null,
+      "actor_url": null,
+      "repo": "deepseek-ai/DeepInfer",
+      "repo_url": "https://github.com/deepseek-ai/DeepInfer",
+      "html_url": "https://github.com/deepseek-ai/DeepInfer",
+      "text": "deepseek-ai/DeepInfer — 圈外 2 人参与（fork×1, star×1）",
+      "created_at": "2026-11-21T01:03:53Z",
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "original-el8",
+          "primadist"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 1,
           "star": 1
         },
         "inner_count": 0,
@@ -489,176 +534,21 @@
       }
     },
     {
-      "id": "event:20709326086",
-      "kind": "star",
-      "text": "Cracked5pider starred Whispergate/BOFbird",
-      "actor": "Cracked5pider",
-      "actor_url": "https://github.com/Cracked5pider",
-      "created_at": "2026-11-20T00:52:05Z",
-      "repo": "Whispergate/BOFbird",
-      "repo_url": "https://github.com/Whispergate/BOFbird",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/Whispergate/BOFbird",
-      "payload": {},
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": 1
-      }
-    },
-    {
-      "id": "event:20706803276",
-      "kind": "star",
-      "text": "realoriginal starred NordSecurity/uniffi-bindgen-cpp",
-      "actor": "realoriginal",
-      "actor_url": "https://github.com/realoriginal",
-      "created_at": "2026-11-20T00:16:47Z",
-      "repo": "NordSecurity/uniffi-bindgen-cpp",
-      "repo_url": "https://github.com/NordSecurity/uniffi-bindgen-cpp",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/NordSecurity/uniffi-bindgen-cpp",
-      "payload": {},
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": 1
-      }
-    },
-    {
-      "id": "event:20701250809",
-      "kind": "star",
-      "text": "Whitecat18 starred boykopovar/AnyPS5",
-      "actor": "Whitecat18",
-      "actor_url": "https://github.com/Whitecat18",
-      "created_at": "2026-11-19T23:02:16Z",
-      "repo": "boykopovar/AnyPS5",
-      "repo_url": "https://github.com/boykopovar/AnyPS5",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/boykopovar/AnyPS5",
-      "payload": {},
-      "time_precision": "exact",
-      "signals": {
-        "trending": true,
-        "trending_front_page": false,
-        "circle_count": 1
-      }
-    },
-    {
-      "id": "network:Vector35/binaryninja-api:2026-11-20",
-      "kind": "network_hot",
-      "actor": null,
-      "actor_url": null,
-      "repo": "Vector35/binaryninja-api",
-      "repo_url": "https://github.com/Vector35/binaryninja-api",
-      "html_url": "https://github.com/Vector35/binaryninja-api",
-      "text": "Vector35/binaryninja-api — 圈外 2 人参与（issue×3, pr×10）",
-      "created_at": "2026-11-19T21:00:20Z",
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": null
-      },
-      "network": {
-        "outer_count": 2,
-        "outer_actors": [
-          "ElykDeer",
-          "jrozner"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "pr": 10,
-          "issue": 3
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
-      "id": "event:20684592843",
-      "kind": "star",
-      "text": "realoriginal starred hkalbasi/zngur",
-      "actor": "realoriginal",
-      "actor_url": "https://github.com/realoriginal",
-      "created_at": "2026-11-19T20:00:16Z",
-      "repo": "hkalbasi/zngur",
-      "repo_url": "https://github.com/hkalbasi/zngur",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/hkalbasi/zngur",
-      "payload": {},
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": 1
-      }
-    },
-    {
-      "id": "event:20679907023",
-      "kind": "star",
-      "text": "realoriginal starred Likely7/Veyra-NRVideo",
-      "actor": "realoriginal",
-      "actor_url": "https://github.com/realoriginal",
-      "created_at": "2026-11-19T19:11:48Z",
-      "repo": "Likely7/Veyra-NRVideo",
-      "repo_url": "https://github.com/Likely7/Veyra-NRVideo",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/Likely7/Veyra-NRVideo",
-      "payload": {},
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": 1
-      }
-    },
-    {
-      "id": "event:20676977004",
-      "kind": "star",
-      "text": "cfregly starred dangxingyu/megakernel-zoo",
-      "actor": "cfregly",
-      "actor_url": "https://github.com/cfregly",
-      "created_at": "2026-11-19T18:42:07Z",
-      "repo": "dangxingyu/megakernel-zoo",
-      "repo_url": "https://github.com/dangxingyu/megakernel-zoo",
-      "target_user": null,
-      "target_user_url": null,
-      "html_url": "https://github.com/dangxingyu/megakernel-zoo",
-      "payload": {},
-      "time_precision": "exact",
-      "signals": {
-        "trending": false,
-        "trending_front_page": false,
-        "circle_count": 1
-      }
-    },
-    {
-      "id": "event:20667889355",
+      "id": "event:20820810677",
       "kind": "release",
-      "text": "helviojunior released helviojunior/nullops v1.2.3",
-      "actor": "helviojunior",
-      "actor_url": "https://github.com/helviojunior",
-      "created_at": "2026-11-19T17:11:45Z",
-      "repo": "helviojunior/nullops",
-      "repo_url": "https://github.com/helviojunior/nullops",
+      "text": "yetone released yetone/alma-releases android-v4.23",
+      "actor": "yetone",
+      "actor_url": "https://github.com/yetone",
+      "created_at": "2026-11-21T00:45:28Z",
+      "repo": "yetone/alma-releases",
+      "repo_url": "https://github.com/yetone/alma-releases",
       "target_user": null,
       "target_user_url": null,
-      "html_url": "https://github.com/helviojunior/nullops/releases/tag/v1.2.3",
+      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.23",
       "payload": {
-        "tag": "v1.2.3",
-        "name": "NullOps v1.2.3",
-        "url": "https://github.com/helviojunior/nullops/releases/tag/v1.2.3",
+        "tag": "android-v4.23",
+        "name": "Alma Android 4.23",
+        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.23",
         "prerelease": false
       },
       "time_precision": "exact",
@@ -667,17 +557,146 @@
         "trending_front_page": false,
         "circle_count": null
       }
+    },
+    {
+      "id": "event:20819742246",
+      "kind": "star",
+      "text": "s3c4ct0r starred kda2495/IPA_Downloader",
+      "actor": "s3c4ct0r",
+      "actor_url": "https://github.com/s3c4ct0r",
+      "created_at": "2026-11-21T00:27:56Z",
+      "repo": "kda2495/IPA_Downloader",
+      "repo_url": "https://github.com/kda2495/IPA_Downloader",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/kda2495/IPA_Downloader",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20817827886",
+      "kind": "star",
+      "text": "Cracked5pider starred okcontract/zean",
+      "actor": "Cracked5pider",
+      "actor_url": "https://github.com/Cracked5pider",
+      "created_at": "2026-11-20T23:58:01Z",
+      "repo": "okcontract/zean",
+      "repo_url": "https://github.com/okcontract/zean",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/okcontract/zean",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20809607692",
+      "kind": "fork",
+      "text": "malware-unicorn forked rhaiscript/rhai → malware-unicorn/rhai",
+      "actor": "malware-unicorn",
+      "actor_url": "https://github.com/malware-unicorn",
+      "created_at": "2026-11-20T21:59:27Z",
+      "repo": "rhaiscript/rhai",
+      "repo_url": "https://github.com/rhaiscript/rhai",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/malware-unicorn/rhai",
+      "payload": {
+        "forkee": "malware-unicorn/rhai",
+        "forkee_url": "https://github.com/malware-unicorn/rhai"
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:20788806068",
+      "kind": "release",
+      "text": "yetone released yetone/alma-releases android-v4.22",
+      "actor": "yetone",
+      "actor_url": "https://github.com/yetone",
+      "created_at": "2026-11-20T17:49:18Z",
+      "repo": "yetone/alma-releases",
+      "repo_url": "https://github.com/yetone/alma-releases",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.22",
+      "payload": {
+        "tag": "android-v4.22",
+        "name": "Alma for Android 4.22",
+        "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.22",
+        "prerelease": false
+      },
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": null
+      }
+    },
+    {
+      "id": "event:20783195152",
+      "kind": "star",
+      "text": "seventeenman starred crisprss/CVE-2026-88235",
+      "actor": "seventeenman",
+      "actor_url": "https://github.com/seventeenman",
+      "created_at": "2026-11-20T16:49:50Z",
+      "repo": "crisprss/CVE-2026-88235",
+      "repo_url": "https://github.com/crisprss/CVE-2026-88235",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/crisprss/CVE-2026-88235",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
+    },
+    {
+      "id": "event:20782624212",
+      "kind": "star",
+      "text": "seventeenman starred botiverse/oar",
+      "actor": "seventeenman",
+      "actor_url": "https://github.com/seventeenman",
+      "created_at": "2026-11-20T16:44:07Z",
+      "repo": "botiverse/oar",
+      "repo_url": "https://github.com/botiverse/oar",
+      "target_user": null,
+      "target_user_url": null,
+      "html_url": "https://github.com/botiverse/oar",
+      "payload": {},
+      "time_precision": "exact",
+      "signals": {
+        "trending": false,
+        "trending_front_page": false,
+        "circle_count": 1
+      }
     }
   ],
   "summary": {
     "by_kind": {
-      "follow": 1,
       "network_hot": 9,
-      "star": 8,
-      "release": 2
+      "follow": 2,
+      "release": 3,
+      "star": 4,
+      "fork": 1
     },
-    "push_events_excluded": 3,
-    "events_in_window": 69,
+    "push_events_excluded": 7,
+    "events_in_window": 88,
     "follows_in_window": 2
   }
 }

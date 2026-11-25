@@ -1,0 +1,1667 @@
+{
+  "schema_version": 1,
+  "source_id": "github_followee_feed",
+  "collect_date": "2026-11-25",
+  "collect_window": {
+    "start": "2026-11-24T16:54:05+00:00",
+    "end": "2026-11-25T04:01:07+00:00",
+    "hours": 11
+  },
+  "producer": {
+    "name": "sentinel-gh",
+    "version": "0.1.0",
+    "run_id": "45543716729",
+    "commit": "9ef9bcb"
+  },
+  "stats": {
+    "total": 26,
+    "by_kind": {
+      "follow": 1,
+      "network_hot": 7,
+      "release": 12,
+      "fork": 2,
+      "star": 4
+    },
+    "failed_lists": [],
+    "followee_count": 185,
+    "push_events_excluded": 7
+  },
+  "items": [
+    {
+      "id": "follow:SaladDay:hrhrng:2026-11-25:followed",
+      "who": "SaladDay",
+      "who_url": "https://github.com/SaladDay",
+      "action": "follow",
+      "target": "hrhrng",
+      "target_url": "https://github.com/hrhrng",
+      "text": "SaladDay followed hrhrng",
+      "at": "2026-11-25T04:01:07+00:00",
+      "external_id": "follow:SaladDay:hrhrng:2026-11-25:followed",
+      "url": "https://github.com/hrhrng",
+      "content": "SaladDay followed hrhrng",
+      "author": "SaladDay",
+      "author_name": "SaladDay",
+      "author_url": "https://github.com/SaladDay",
+      "published_at": "2026-11-25T04:01:07+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:follow"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/SaladDay",
+        "https://github.com/hrhrng"
+      ],
+      "refs": {
+        "actor": {
+          "login": "SaladDay",
+          "url": "https://github.com/SaladDay"
+        },
+        "repo": null,
+        "target_user": {
+          "login": "hrhrng",
+          "url": "https://github.com/hrhrng"
+        },
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "follow",
+        "time_precision": "daily_window",
+        "is_follow": true,
+        "is_repo_event": false,
+        "is_aggregate": false
+      },
+      "persona": {
+        "login": "hrhrng",
+        "name": "",
+        "bio": "Time can change me\r\n\\nBut I can't trace time",
+        "followers": 17,
+        "public_repos": 65,
+        "html_url": "https://github.com/hrhrng",
+        "languages": [
+          "TypeScript",
+          "Java",
+          "HTML",
+          "JavaScript",
+          "Python"
+        ],
+        "top_repos": [
+          {
+            "name": "hrhrng/readio",
+            "description": "A terminal ebook reader with the interaction grammar of a coding agent — EPUB, PDF, Markdown, local-model read-aloud, images in the terminal. 3.9MB, no runtime deps.",
+            "language": "Rust",
+            "stars": 14,
+            "pushed_at": "2026-09-23T04:04:34Z"
+          },
+          {
+            "name": "hrhrng/gragraf",
+            "description": "Simple Agentic Workflow Base On LangGraph",
+            "language": "TypeScript",
+            "stars": 8,
+            "pushed_at": "2025-08-24T15:42:41Z"
+          },
+          {
+            "name": "hrhrng/super-json",
+            "description": "Most powerful online JSON Editor. All data keep in your browser. No Ads.",
+            "language": "TypeScript",
+            "stars": 4,
+            "pushed_at": "2026-03-14T13:34:21Z"
+          },
+          {
+            "name": "hrhrng/playheads",
+            "description": "",
+            "language": "TypeScript",
+            "stars": 3,
+            "pushed_at": "2026-11-13T16:45:21Z"
+          },
+          {
+            "name": "hrhrng/lucy",
+            "description": "",
+            "language": "TypeScript",
+            "stars": 3,
+            "pushed_at": "2026-01-28T02:04:12Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "network:deepseek-ai/deepseek-harness:2026-11-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/deepseek-harness",
+      "target_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "text": "deepseek-ai/deepseek-harness — 圈外 94 人参与（fork×34, star×63）",
+      "at": "2026-11-25T04:00:35+00:00",
+      "external_id": "network:deepseek-ai/deepseek-harness:2026-11-25",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "content": "deepseek-ai/deepseek-harness — 圈外 94 人参与（fork×34, star×63）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-25T04:00:35+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/deepseek-harness"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/deepseek-harness",
+          "url": "https://github.com/deepseek-ai/deepseek-harness"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 94,
+        "outer_actors": [
+          "2008Terry",
+          "76ri76tfu",
+          "9gkc",
+          "BEE-ter-wert",
+          "BEIM123-dev",
+          "CatOverrun",
+          "Charlieen",
+          "Chencass",
+          "DevinZhaoO",
+          "Eternalverysmart",
+          "FancyChenXX",
+          "Fengyuan-Miao",
+          "Germesych",
+          "GoldenScriptsYt",
+          "GuniBMB",
+          "GuoXingTing",
+          "H66e",
+          "HandyChang",
+          "IR1SSS",
+          "LamDinh1504"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 34,
+          "star": 63
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/dsh-superagent-prototype",
+      "target_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "text": "deepseek-ai/dsh-superagent-prototype — 圈外 29 人参与（fork×8, star×21）",
+      "at": "2026-11-25T03:58:00+00:00",
+      "external_id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-25",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "content": "deepseek-ai/dsh-superagent-prototype — 圈外 29 人参与（fork×8, star×21）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-25T03:58:00+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/dsh-superagent-prototype"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/dsh-superagent-prototype",
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 29,
+        "outer_actors": [
+          "0x9bb1",
+          "Code-Wu007",
+          "EmHahaha",
+          "FalushanSenpai",
+          "ILTomatoes",
+          "KeithSureThingIO",
+          "Leo486597",
+          "Martins3",
+          "R0llingGravity",
+          "SHCSCA",
+          "Shao-YJ",
+          "Whathelp233",
+          "biekanle01",
+          "cdrizzt",
+          "chatgpt-helper-tech",
+          "ctmillerlin",
+          "cyy123-commits",
+          "dingyalin",
+          "ds4syk",
+          "humensmoc"
+        ],
+        "outer_actors_truncated": true,
+        "by_kind": {
+          "fork": 8,
+          "star": 21
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:21215527106",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.59",
+      "at": "2026-11-25T03:56:52+00:00",
+      "external_id": "event:21215527106",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.59",
+      "content": "yetone released yetone/alma-releases android-v4.59",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-25T03:56:52+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.59"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:deepseek-ai/chat-demo:2026-11-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/chat-demo",
+      "target_url": "https://github.com/deepseek-ai/chat-demo",
+      "text": "deepseek-ai/chat-demo — 圈外 15 人参与（fork×9, star×7）",
+      "at": "2026-11-25T03:50:31+00:00",
+      "external_id": "network:deepseek-ai/chat-demo:2026-11-25",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "content": "deepseek-ai/chat-demo — 圈外 15 人参与（fork×9, star×7）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-25T03:50:31+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/chat-demo"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/chat-demo",
+          "url": "https://github.com/deepseek-ai/chat-demo"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 15,
+        "outer_actors": [
+          "Artificialheaven",
+          "Harujimai",
+          "MozuGit",
+          "Rain1er",
+          "SplinterHuang",
+          "StardustKanade",
+          "baendlorel",
+          "bubuzhidao",
+          "clearnature",
+          "kee0012",
+          "kuaikuai",
+          "meway24",
+          "sx0354",
+          "xujieming",
+          "zhangshipeng"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 9,
+          "star": 7
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepInfer:2026-11-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepInfer",
+      "target_url": "https://github.com/deepseek-ai/DeepInfer",
+      "text": "deepseek-ai/DeepInfer — 圈外 9 人参与（fork×2, issue×1, star×6）",
+      "at": "2026-11-25T03:32:20+00:00",
+      "external_id": "network:deepseek-ai/DeepInfer:2026-11-25",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "content": "deepseek-ai/DeepInfer — 圈外 9 人参与（fork×2, issue×1, star×6）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-25T03:32:20+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepInfer"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepInfer",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 9,
+        "outer_actors": [
+          "GuoXingTing",
+          "TreeNewWind",
+          "Winsaney",
+          "danishkumar26",
+          "lh123cha",
+          "nishantkluhera",
+          "pikez",
+          "qlw",
+          "weuisxz"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 1,
+          "fork": 2,
+          "star": 6
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-11-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-V3",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 4 人参与（issue×6）",
+      "at": "2026-11-25T03:31:39+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-11-25",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "content": "deepseek-ai/DeepSeek-V3 — 圈外 4 人参与（issue×6）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-25T03:31:39+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-V3"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 4,
+        "outer_actors": [
+          "Cenester-Hunter",
+          "HappinessEV",
+          "MasterTeniment",
+          "Nutella928"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 6
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:21212958878",
+      "who": "Mx-Iris",
+      "who_url": "https://github.com/Mx-Iris",
+      "action": "release",
+      "target": "Mx-Iris/swift-onboardingkit",
+      "target_url": "https://github.com/Mx-Iris/swift-onboardingkit",
+      "text": "Mx-Iris released Mx-Iris/swift-onboardingkit 0.2.1",
+      "at": "2026-11-25T03:19:01+00:00",
+      "external_id": "event:21212958878",
+      "url": "https://github.com/Mx-Iris/swift-onboardingkit/releases/tag/0.2.1",
+      "content": "Mx-Iris released Mx-Iris/swift-onboardingkit 0.2.1",
+      "author": "Mx-Iris",
+      "author_name": "Mx-Iris",
+      "author_url": "https://github.com/Mx-Iris",
+      "published_at": "2026-11-25T03:19:01+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Mx-Iris",
+        "https://github.com/Mx-Iris/swift-onboardingkit",
+        "https://github.com/Mx-Iris/swift-onboardingkit/releases/tag/0.2.1"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Mx-Iris",
+          "url": "https://github.com/Mx-Iris"
+        },
+        "repo": {
+          "full_name": "Mx-Iris/swift-onboardingkit",
+          "url": "https://github.com/Mx-Iris/swift-onboardingkit"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "network:BishopFox/sliver:2026-11-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "BishopFox/sliver",
+      "target_url": "https://github.com/BishopFox/sliver",
+      "text": "BishopFox/sliver — 圈外 4 人参与（fork×2, pr×2, star×1）",
+      "at": "2026-11-25T03:13:46+00:00",
+      "external_id": "network:BishopFox/sliver:2026-11-25",
+      "url": "https://github.com/BishopFox/sliver",
+      "content": "BishopFox/sliver — 圈外 4 人参与（fork×2, pr×2, star×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-25T03:13:46+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BishopFox/sliver"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "BishopFox/sliver",
+          "url": "https://github.com/BishopFox/sliver"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 4,
+        "outer_actors": [
+          "danishkumar26",
+          "fromancient",
+          "phrynus",
+          "rkervella"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 2,
+          "pr": 2,
+          "star": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "network:deepseek-ai/DeepGEMM:2026-11-25",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepGEMM",
+      "target_url": "https://github.com/deepseek-ai/DeepGEMM",
+      "text": "deepseek-ai/DeepGEMM — 圈外 2 人参与（fork×1, issue×1, pr×1）",
+      "at": "2026-11-25T03:06:44+00:00",
+      "external_id": "network:deepseek-ai/DeepGEMM:2026-11-25",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "content": "deepseek-ai/DeepGEMM — 圈外 2 人参与（fork×1, issue×1, pr×1）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-25T03:06:44+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepGEMM"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepGEMM",
+          "url": "https://github.com/deepseek-ai/DeepGEMM"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 2,
+        "outer_actors": [
+          "SYChen123",
+          "magnatelee"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "fork": 1,
+          "pr": 1,
+          "issue": 1
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:21212011967",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.58",
+      "at": "2026-11-25T03:05:40+00:00",
+      "external_id": "event:21212011967",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.58",
+      "content": "yetone released yetone/alma-releases android-v4.58",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-25T03:05:40+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.58"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21210540857",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.57",
+      "at": "2026-11-25T02:45:05+00:00",
+      "external_id": "event:21210540857",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.57",
+      "content": "yetone released yetone/alma-releases android-v4.57",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-25T02:45:05+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.57"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21207943672",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.56",
+      "at": "2026-11-25T02:09:48+00:00",
+      "external_id": "event:21207943672",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.56",
+      "content": "yetone released yetone/alma-releases android-v4.56",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-25T02:09:48+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.56"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21207043879",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.55",
+      "at": "2026-11-25T01:58:04+00:00",
+      "external_id": "event:21207043879",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.55",
+      "content": "yetone released yetone/alma-releases android-v4.55",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-25T01:58:04+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.55"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21204560720",
+      "who": "s3c4ct0r",
+      "who_url": "https://github.com/s3c4ct0r",
+      "action": "fork",
+      "target": "s3c4ct0r/FullPowers",
+      "target_url": "https://github.com/s3c4ct0r/FullPowers",
+      "text": "s3c4ct0r forked itm4n/FullPowers → s3c4ct0r/FullPowers",
+      "at": "2026-11-25T01:25:45+00:00",
+      "external_id": "event:21204560720",
+      "url": "https://github.com/s3c4ct0r/FullPowers",
+      "content": "s3c4ct0r forked itm4n/FullPowers → s3c4ct0r/FullPowers",
+      "author": "s3c4ct0r",
+      "author_name": "s3c4ct0r",
+      "author_url": "https://github.com/s3c4ct0r",
+      "published_at": "2026-11-25T01:25:45+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/s3c4ct0r",
+        "https://github.com/itm4n/FullPowers",
+        "https://github.com/s3c4ct0r/FullPowers"
+      ],
+      "refs": {
+        "actor": {
+          "login": "s3c4ct0r",
+          "url": "https://github.com/s3c4ct0r"
+        },
+        "repo": {
+          "full_name": "itm4n/FullPowers",
+          "url": "https://github.com/itm4n/FullPowers"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "s3c4ct0r/FullPowers",
+          "url": "https://github.com/s3c4ct0r/FullPowers"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21201761020",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "release",
+      "target": "NeverSight/llvm-project",
+      "target_url": "https://github.com/NeverSight/llvm-project",
+      "text": "gmh5225 released NeverSight/llvm-project neverd-llvm-v23.0.0-r11",
+      "at": "2026-11-25T00:49:26+00:00",
+      "external_id": "event:21201761020",
+      "url": "https://github.com/NeverSight/llvm-project/releases/tag/neverd-llvm-v23.0.0-r11",
+      "content": "gmh5225 released NeverSight/llvm-project neverd-llvm-v23.0.0-r11",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-11-25T00:49:26+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/NeverSight/llvm-project",
+        "https://github.com/NeverSight/llvm-project/releases/tag/neverd-llvm-v23.0.0-r11"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "NeverSight/llvm-project",
+          "url": "https://github.com/NeverSight/llvm-project"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21190760332",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "release",
+      "target": "NeverSight/llvm-project",
+      "target_url": "https://github.com/NeverSight/llvm-project",
+      "text": "gmh5225 released NeverSight/llvm-project neverd-llvm-v23.0.0-r10",
+      "at": "2026-11-24T22:35:58+00:00",
+      "external_id": "event:21190760332",
+      "url": "https://github.com/NeverSight/llvm-project/releases/tag/neverd-llvm-v23.0.0-r10",
+      "content": "gmh5225 released NeverSight/llvm-project neverd-llvm-v23.0.0-r10",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-11-24T22:35:58+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/NeverSight/llvm-project",
+        "https://github.com/NeverSight/llvm-project/releases/tag/neverd-llvm-v23.0.0-r10"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "NeverSight/llvm-project",
+          "url": "https://github.com/NeverSight/llvm-project"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21188438726",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.54",
+      "at": "2026-11-24T22:10:25+00:00",
+      "external_id": "event:21188438726",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.54",
+      "content": "yetone released yetone/alma-releases android-v4.54",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-24T22:10:25+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.54"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21188250436",
+      "who": "Idov31",
+      "who_url": "https://github.com/Idov31",
+      "action": "star",
+      "target": "stanfordnlp/dspy",
+      "target_url": "https://github.com/stanfordnlp/dspy",
+      "text": "Idov31 starred stanfordnlp/dspy",
+      "at": "2026-11-24T22:08:21+00:00",
+      "external_id": "event:21188250436",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "content": "Idov31 starred stanfordnlp/dspy",
+      "author": "Idov31",
+      "author_name": "Idov31",
+      "author_url": "https://github.com/Idov31",
+      "published_at": "2026-11-24T22:08:21+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Idov31",
+        "https://github.com/stanfordnlp/dspy"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Idov31",
+          "url": "https://github.com/Idov31"
+        },
+        "repo": {
+          "full_name": "stanfordnlp/dspy",
+          "url": "https://github.com/stanfordnlp/dspy"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21172526952",
+      "who": "helviojunior",
+      "who_url": "https://github.com/helviojunior",
+      "action": "release",
+      "target": "helviojunior/o365-mail-migration",
+      "target_url": "https://github.com/helviojunior/o365-mail-migration",
+      "text": "helviojunior released helviojunior/o365-mail-migration v0.1.2",
+      "at": "2026-11-24T19:30:14+00:00",
+      "external_id": "event:21172526952",
+      "url": "https://github.com/helviojunior/o365-mail-migration/releases/tag/v0.1.2",
+      "content": "helviojunior released helviojunior/o365-mail-migration v0.1.2",
+      "author": "helviojunior",
+      "author_name": "helviojunior",
+      "author_url": "https://github.com/helviojunior",
+      "published_at": "2026-11-24T19:30:14+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/helviojunior",
+        "https://github.com/helviojunior/o365-mail-migration",
+        "https://github.com/helviojunior/o365-mail-migration/releases/tag/v0.1.2"
+      ],
+      "refs": {
+        "actor": {
+          "login": "helviojunior",
+          "url": "https://github.com/helviojunior"
+        },
+        "repo": {
+          "full_name": "helviojunior/o365-mail-migration",
+          "url": "https://github.com/helviojunior/o365-mail-migration"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21169917535",
+      "who": "ZephrFish",
+      "who_url": "https://github.com/ZephrFish",
+      "action": "fork",
+      "target": "ZephrFish/InfoSec-and-Tech-Black-Friday",
+      "target_url": "https://github.com/ZephrFish/InfoSec-and-Tech-Black-Friday",
+      "text": "ZephrFish forked ps-lo/InfoSec-and-Tech-Black-Friday → ZephrFish/InfoSec-and-Tech-Black-Friday",
+      "at": "2026-11-24T19:05:16+00:00",
+      "external_id": "event:21169917535",
+      "url": "https://github.com/ZephrFish/InfoSec-and-Tech-Black-Friday",
+      "content": "ZephrFish forked ps-lo/InfoSec-and-Tech-Black-Friday → ZephrFish/InfoSec-and-Tech-Black-Friday",
+      "author": "ZephrFish",
+      "author_name": "ZephrFish",
+      "author_url": "https://github.com/ZephrFish",
+      "published_at": "2026-11-24T19:05:16+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:fork"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/ZephrFish",
+        "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
+        "https://github.com/ZephrFish/InfoSec-and-Tech-Black-Friday"
+      ],
+      "refs": {
+        "actor": {
+          "login": "ZephrFish",
+          "url": "https://github.com/ZephrFish"
+        },
+        "repo": {
+          "full_name": "ps-lo/InfoSec-and-Tech-Black-Friday",
+          "url": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday"
+        },
+        "target_user": null,
+        "forkee": {
+          "full_name": "ZephrFish/InfoSec-and-Tech-Black-Friday",
+          "url": "https://github.com/ZephrFish/InfoSec-and-Tech-Black-Friday"
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "fork",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21166981472",
+      "who": "Cracked5pider",
+      "who_url": "https://github.com/Cracked5pider",
+      "action": "star",
+      "target": "AlexLinov/WinRM-PtH-BOF",
+      "target_url": "https://github.com/AlexLinov/WinRM-PtH-BOF",
+      "text": "Cracked5pider starred AlexLinov/WinRM-PtH-BOF",
+      "at": "2026-11-24T18:37:36+00:00",
+      "external_id": "event:21166981472",
+      "url": "https://github.com/AlexLinov/WinRM-PtH-BOF",
+      "content": "Cracked5pider starred AlexLinov/WinRM-PtH-BOF",
+      "author": "Cracked5pider",
+      "author_name": "Cracked5pider",
+      "author_url": "https://github.com/Cracked5pider",
+      "published_at": "2026-11-24T18:37:36+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Cracked5pider",
+        "https://github.com/AlexLinov/WinRM-PtH-BOF"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Cracked5pider",
+          "url": "https://github.com/Cracked5pider"
+        },
+        "repo": {
+          "full_name": "AlexLinov/WinRM-PtH-BOF",
+          "url": "https://github.com/AlexLinov/WinRM-PtH-BOF"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21166389864",
+      "who": "gmh5225",
+      "who_url": "https://github.com/gmh5225",
+      "action": "release",
+      "target": "NeverSight/llvm-project",
+      "target_url": "https://github.com/NeverSight/llvm-project",
+      "text": "gmh5225 released NeverSight/llvm-project neverd-llvm-v23.0.0-r9",
+      "at": "2026-11-24T18:31:58+00:00",
+      "external_id": "event:21166389864",
+      "url": "https://github.com/NeverSight/llvm-project/releases/tag/neverd-llvm-v23.0.0-r9",
+      "content": "gmh5225 released NeverSight/llvm-project neverd-llvm-v23.0.0-r9",
+      "author": "gmh5225",
+      "author_name": "gmh5225",
+      "author_url": "https://github.com/gmh5225",
+      "published_at": "2026-11-24T18:31:58+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/gmh5225",
+        "https://github.com/NeverSight/llvm-project",
+        "https://github.com/NeverSight/llvm-project/releases/tag/neverd-llvm-v23.0.0-r9"
+      ],
+      "refs": {
+        "actor": {
+          "login": "gmh5225",
+          "url": "https://github.com/gmh5225"
+        },
+        "repo": {
+          "full_name": "NeverSight/llvm-project",
+          "url": "https://github.com/NeverSight/llvm-project"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21163035744",
+      "who": "helviojunior",
+      "who_url": "https://github.com/helviojunior",
+      "action": "release",
+      "target": "helviojunior/o365-mail-migration",
+      "target_url": "https://github.com/helviojunior/o365-mail-migration",
+      "text": "helviojunior released helviojunior/o365-mail-migration v0.1.0",
+      "at": "2026-11-24T18:00:27+00:00",
+      "external_id": "event:21163035744",
+      "url": "https://github.com/helviojunior/o365-mail-migration/releases/tag/v0.1.0",
+      "content": "helviojunior released helviojunior/o365-mail-migration v0.1.0",
+      "author": "helviojunior",
+      "author_name": "helviojunior",
+      "author_url": "https://github.com/helviojunior",
+      "published_at": "2026-11-24T18:00:27+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/helviojunior",
+        "https://github.com/helviojunior/o365-mail-migration",
+        "https://github.com/helviojunior/o365-mail-migration/releases/tag/v0.1.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "helviojunior",
+          "url": "https://github.com/helviojunior"
+        },
+        "repo": {
+          "full_name": "helviojunior/o365-mail-migration",
+          "url": "https://github.com/helviojunior/o365-mail-migration"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21160397023",
+      "who": "yhy0",
+      "who_url": "https://github.com/yhy0",
+      "action": "star",
+      "target": "Crypto-Cat/geoserver-unauth-rce-poc",
+      "target_url": "https://github.com/Crypto-Cat/geoserver-unauth-rce-poc",
+      "text": "yhy0 starred Crypto-Cat/geoserver-unauth-rce-poc",
+      "at": "2026-11-24T17:35:05+00:00",
+      "external_id": "event:21160397023",
+      "url": "https://github.com/Crypto-Cat/geoserver-unauth-rce-poc",
+      "content": "yhy0 starred Crypto-Cat/geoserver-unauth-rce-poc",
+      "author": "yhy0",
+      "author_name": "yhy0",
+      "author_url": "https://github.com/yhy0",
+      "published_at": "2026-11-24T17:35:05+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yhy0",
+        "https://github.com/Crypto-Cat/geoserver-unauth-rce-poc"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yhy0",
+          "url": "https://github.com/yhy0"
+        },
+        "repo": {
+          "full_name": "Crypto-Cat/geoserver-unauth-rce-poc",
+          "url": "https://github.com/Crypto-Cat/geoserver-unauth-rce-poc"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21155998289",
+      "who": "Dreamacro",
+      "who_url": "https://github.com/Dreamacro",
+      "action": "star",
+      "target": "deterministic-machines/deslop-please",
+      "target_url": "https://github.com/deterministic-machines/deslop-please",
+      "text": "Dreamacro starred deterministic-machines/deslop-please",
+      "at": "2026-11-24T16:54:05+00:00",
+      "external_id": "event:21155998289",
+      "url": "https://github.com/deterministic-machines/deslop-please",
+      "content": "Dreamacro starred deterministic-machines/deslop-please",
+      "author": "Dreamacro",
+      "author_name": "Dreamacro",
+      "author_url": "https://github.com/Dreamacro",
+      "published_at": "2026-11-24T16:54:05+00:00",
+      "collected_at": "2026-11-25T04:01:53.307012+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Dreamacro",
+        "https://github.com/deterministic-machines/deslop-please"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Dreamacro",
+          "url": "https://github.com/Dreamacro"
+        },
+        "repo": {
+          "full_name": "deterministic-machines/deslop-please",
+          "url": "https://github.com/deterministic-machines/deslop-please"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    }
+  ]
+}

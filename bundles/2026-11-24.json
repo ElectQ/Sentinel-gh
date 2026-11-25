@@ -4,29 +4,1296 @@
   "collect_date": "2026-11-24",
   "collect_window": {
     "start": "2026-11-23T16:07:05+00:00",
-    "end": "2026-11-24T05:12:21+00:00",
-    "hours": 13
+    "end": "2026-11-24T15:53:19+00:00",
+    "hours": 23
   },
   "producer": {
     "name": "sentinel-gh",
     "version": "0.1.0",
-    "run_id": "45331377365",
-    "commit": "6170cac"
+    "run_id": "45543716729",
+    "commit": "9ef9bcb"
   },
   "stats": {
-    "total": 39,
+    "total": 61,
     "by_kind": {
       "network_hot": 8,
+      "star": 25,
+      "release": 19,
       "follow": 1,
-      "star": 14,
-      "release": 8,
       "fork": 8
     },
     "failed_lists": [],
     "followee_count": 185,
-    "push_events_excluded": 33
+    "push_events_excluded": 191
   },
   "items": [
+    {
+      "id": "network:deepseek-ai/DeepSeek-V3:2026-11-24",
+      "who": "",
+      "who_url": "",
+      "action": "network_hot",
+      "target": "deepseek-ai/DeepSeek-V3",
+      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "text": "deepseek-ai/DeepSeek-V3 — 圈外 3 人参与（issue×8）",
+      "at": "2026-11-24T15:53:19+00:00",
+      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-11-24",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "content": "deepseek-ai/DeepSeek-V3 — 圈外 3 人参与（issue×8）",
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "published_at": "2026-11-24T15:53:19+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:network_hot"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/deepseek-ai/DeepSeek-V3"
+      ],
+      "refs": {
+        "actor": null,
+        "repo": {
+          "full_name": "deepseek-ai/DeepSeek-V3",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "network_hot",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": false,
+        "is_aggregate": true
+      },
+      "network": {
+        "outer_count": 3,
+        "outer_actors": [
+          "AmoebaFPS",
+          "SuperHero2010",
+          "qingkong66"
+        ],
+        "outer_actors_truncated": false,
+        "by_kind": {
+          "issue": 8
+        },
+        "inner_count": 0,
+        "inner_actors": [],
+        "in_circle": false,
+        "trending": false,
+        "languages": [],
+        "source": "received_feed"
+      }
+    },
+    {
+      "id": "event:21148694533",
+      "who": "AabyssZG",
+      "who_url": "https://github.com/AabyssZG",
+      "action": "star",
+      "target": "togg53192-cmd/jailbreaks",
+      "target_url": "https://github.com/togg53192-cmd/jailbreaks",
+      "text": "AabyssZG starred togg53192-cmd/jailbreaks",
+      "at": "2026-11-24T15:46:23+00:00",
+      "external_id": "event:21148694533",
+      "url": "https://github.com/togg53192-cmd/jailbreaks",
+      "content": "AabyssZG starred togg53192-cmd/jailbreaks",
+      "author": "AabyssZG",
+      "author_name": "AabyssZG",
+      "author_url": "https://github.com/AabyssZG",
+      "published_at": "2026-11-24T15:46:23+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/AabyssZG",
+        "https://github.com/togg53192-cmd/jailbreaks"
+      ],
+      "refs": {
+        "actor": {
+          "login": "AabyssZG",
+          "url": "https://github.com/AabyssZG"
+        },
+        "repo": {
+          "full_name": "togg53192-cmd/jailbreaks",
+          "url": "https://github.com/togg53192-cmd/jailbreaks"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21148213922",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.53",
+      "at": "2026-11-24T15:41:36+00:00",
+      "external_id": "event:21148213922",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.53",
+      "content": "yetone released yetone/alma-releases android-v4.53",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-24T15:41:36+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.53"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21147882432",
+      "who": "AabyssZG",
+      "who_url": "https://github.com/AabyssZG",
+      "action": "star",
+      "target": "wgpsec/context1337",
+      "target_url": "https://github.com/wgpsec/context1337",
+      "text": "AabyssZG starred wgpsec/context1337",
+      "at": "2026-11-24T15:38:16+00:00",
+      "external_id": "event:21147882432",
+      "url": "https://github.com/wgpsec/context1337",
+      "content": "AabyssZG starred wgpsec/context1337",
+      "author": "AabyssZG",
+      "author_name": "AabyssZG",
+      "author_url": "https://github.com/AabyssZG",
+      "published_at": "2026-11-24T15:38:16+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/AabyssZG",
+        "https://github.com/wgpsec/context1337"
+      ],
+      "refs": {
+        "actor": {
+          "login": "AabyssZG",
+          "url": "https://github.com/AabyssZG"
+        },
+        "repo": {
+          "full_name": "wgpsec/context1337",
+          "url": "https://github.com/wgpsec/context1337"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21144636226",
+      "who": "BaiMeow",
+      "who_url": "https://github.com/BaiMeow",
+      "action": "release",
+      "target": "dn-11/11dog",
+      "target_url": "https://github.com/dn-11/11dog",
+      "text": "BaiMeow released dn-11/11dog v0.2.1",
+      "at": "2026-11-24T15:06:04+00:00",
+      "external_id": "event:21144636226",
+      "url": "https://github.com/dn-11/11dog/releases/tag/v0.2.1",
+      "content": "BaiMeow released dn-11/11dog v0.2.1",
+      "author": "BaiMeow",
+      "author_name": "BaiMeow",
+      "author_url": "https://github.com/BaiMeow",
+      "published_at": "2026-11-24T15:06:04+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BaiMeow",
+        "https://github.com/dn-11/11dog",
+        "https://github.com/dn-11/11dog/releases/tag/v0.2.1"
+      ],
+      "refs": {
+        "actor": {
+          "login": "BaiMeow",
+          "url": "https://github.com/BaiMeow"
+        },
+        "repo": {
+          "full_name": "dn-11/11dog",
+          "url": "https://github.com/dn-11/11dog"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21143714834",
+      "who": "Brandon7CC",
+      "who_url": "https://github.com/Brandon7CC",
+      "action": "release",
+      "target": "Brandon7CC/mac-monitor",
+      "target_url": "https://github.com/Brandon7CC/mac-monitor",
+      "text": "Brandon7CC released Brandon7CC/mac-monitor v3.2.0",
+      "at": "2026-11-24T14:56:48+00:00",
+      "external_id": "event:21143714834",
+      "url": "https://github.com/Brandon7CC/mac-monitor/releases/tag/v3.2.0",
+      "content": "Brandon7CC released Brandon7CC/mac-monitor v3.2.0",
+      "author": "Brandon7CC",
+      "author_name": "Brandon7CC",
+      "author_url": "https://github.com/Brandon7CC",
+      "published_at": "2026-11-24T14:56:48+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Brandon7CC",
+        "https://github.com/Brandon7CC/mac-monitor",
+        "https://github.com/Brandon7CC/mac-monitor/releases/tag/v3.2.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Brandon7CC",
+          "url": "https://github.com/Brandon7CC"
+        },
+        "repo": {
+          "full_name": "Brandon7CC/mac-monitor",
+          "url": "https://github.com/Brandon7CC/mac-monitor"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21143537872",
+      "who": "Hello-xBugs",
+      "who_url": "https://github.com/Hello-xBugs",
+      "action": "star",
+      "target": "Mafifrizi/shuna",
+      "target_url": "https://github.com/Mafifrizi/shuna",
+      "text": "Hello-xBugs starred Mafifrizi/shuna",
+      "at": "2026-11-24T14:55:08+00:00",
+      "external_id": "event:21143537872",
+      "url": "https://github.com/Mafifrizi/shuna",
+      "content": "Hello-xBugs starred Mafifrizi/shuna",
+      "author": "Hello-xBugs",
+      "author_name": "Hello-xBugs",
+      "author_url": "https://github.com/Hello-xBugs",
+      "published_at": "2026-11-24T14:55:08+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Hello-xBugs",
+        "https://github.com/Mafifrizi/shuna"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Hello-xBugs",
+          "url": "https://github.com/Hello-xBugs"
+        },
+        "repo": {
+          "full_name": "Mafifrizi/shuna",
+          "url": "https://github.com/Mafifrizi/shuna"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21140173604",
+      "who": "BaiMeow",
+      "who_url": "https://github.com/BaiMeow",
+      "action": "release",
+      "target": "dn-11/11dog",
+      "target_url": "https://github.com/dn-11/11dog",
+      "text": "BaiMeow released dn-11/11dog v0.2.0",
+      "at": "2026-11-24T14:22:04+00:00",
+      "external_id": "event:21140173604",
+      "url": "https://github.com/dn-11/11dog/releases/tag/v0.2.0",
+      "content": "BaiMeow released dn-11/11dog v0.2.0",
+      "author": "BaiMeow",
+      "author_name": "BaiMeow",
+      "author_url": "https://github.com/BaiMeow",
+      "published_at": "2026-11-24T14:22:04+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BaiMeow",
+        "https://github.com/dn-11/11dog",
+        "https://github.com/dn-11/11dog/releases/tag/v0.2.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "BaiMeow",
+          "url": "https://github.com/BaiMeow"
+        },
+        "repo": {
+          "full_name": "dn-11/11dog",
+          "url": "https://github.com/dn-11/11dog"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21138596295",
+      "who": "h3zh1",
+      "who_url": "https://github.com/h3zh1",
+      "action": "star",
+      "target": "dofastted/vm2api",
+      "target_url": "https://github.com/dofastted/vm2api",
+      "text": "h3zh1 starred dofastted/vm2api",
+      "at": "2026-11-24T14:06:13+00:00",
+      "external_id": "event:21138596295",
+      "url": "https://github.com/dofastted/vm2api",
+      "content": "h3zh1 starred dofastted/vm2api",
+      "author": "h3zh1",
+      "author_name": "h3zh1",
+      "author_url": "https://github.com/h3zh1",
+      "published_at": "2026-11-24T14:06:13+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/h3zh1",
+        "https://github.com/dofastted/vm2api"
+      ],
+      "refs": {
+        "actor": {
+          "login": "h3zh1",
+          "url": "https://github.com/h3zh1"
+        },
+        "repo": {
+          "full_name": "dofastted/vm2api",
+          "url": "https://github.com/dofastted/vm2api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21135314470",
+      "who": "BaiMeow",
+      "who_url": "https://github.com/BaiMeow",
+      "action": "release",
+      "target": "dn-11/11dog",
+      "target_url": "https://github.com/dn-11/11dog",
+      "text": "BaiMeow released dn-11/11dog v0.1.0",
+      "at": "2026-11-24T13:33:01+00:00",
+      "external_id": "event:21135314470",
+      "url": "https://github.com/dn-11/11dog/releases/tag/v0.1.0",
+      "content": "BaiMeow released dn-11/11dog v0.1.0",
+      "author": "BaiMeow",
+      "author_name": "BaiMeow",
+      "author_url": "https://github.com/BaiMeow",
+      "published_at": "2026-11-24T13:33:01+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/BaiMeow",
+        "https://github.com/dn-11/11dog",
+        "https://github.com/dn-11/11dog/releases/tag/v0.1.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "BaiMeow",
+          "url": "https://github.com/BaiMeow"
+        },
+        "repo": {
+          "full_name": "dn-11/11dog",
+          "url": "https://github.com/dn-11/11dog"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21125286209",
+      "who": "xaitax",
+      "who_url": "https://github.com/xaitax",
+      "action": "release",
+      "target": "xaitax/msrc-dashboard",
+      "target_url": "https://github.com/xaitax/msrc-dashboard",
+      "text": "xaitax released xaitax/msrc-dashboard v0.5.0",
+      "at": "2026-11-24T11:43:37+00:00",
+      "external_id": "event:21125286209",
+      "url": "https://github.com/xaitax/msrc-dashboard/releases/tag/v0.5.0",
+      "content": "xaitax released xaitax/msrc-dashboard v0.5.0",
+      "author": "xaitax",
+      "author_name": "xaitax",
+      "author_url": "https://github.com/xaitax",
+      "published_at": "2026-11-24T11:43:37+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/xaitax",
+        "https://github.com/xaitax/msrc-dashboard",
+        "https://github.com/xaitax/msrc-dashboard/releases/tag/v0.5.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "xaitax",
+          "url": "https://github.com/xaitax"
+        },
+        "repo": {
+          "full_name": "xaitax/msrc-dashboard",
+          "url": "https://github.com/xaitax/msrc-dashboard"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21112360232",
+      "who": "Mx-Iris",
+      "who_url": "https://github.com/Mx-Iris",
+      "action": "release",
+      "target": "Mx-Iris/swift-onboardingkit",
+      "target_url": "https://github.com/Mx-Iris/swift-onboardingkit",
+      "text": "Mx-Iris released Mx-Iris/swift-onboardingkit 0.2.0",
+      "at": "2026-11-24T09:17:15+00:00",
+      "external_id": "event:21112360232",
+      "url": "https://github.com/Mx-Iris/swift-onboardingkit/releases/tag/0.2.0",
+      "content": "Mx-Iris released Mx-Iris/swift-onboardingkit 0.2.0",
+      "author": "Mx-Iris",
+      "author_name": "Mx-Iris",
+      "author_url": "https://github.com/Mx-Iris",
+      "published_at": "2026-11-24T09:17:15+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Mx-Iris",
+        "https://github.com/Mx-Iris/swift-onboardingkit",
+        "https://github.com/Mx-Iris/swift-onboardingkit/releases/tag/0.2.0"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Mx-Iris",
+          "url": "https://github.com/Mx-Iris"
+        },
+        "repo": {
+          "full_name": "Mx-Iris/swift-onboardingkit",
+          "url": "https://github.com/Mx-Iris/swift-onboardingkit"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21112213410",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.52",
+      "at": "2026-11-24T09:15:31+00:00",
+      "external_id": "event:21112213410",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.52",
+      "content": "yetone released yetone/alma-releases android-v4.52",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-24T09:15:31+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.52"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21109883138",
+      "who": "Lakr233",
+      "who_url": "https://github.com/Lakr233",
+      "action": "star",
+      "target": "unixzii/Remo",
+      "target_url": "https://github.com/unixzii/Remo",
+      "text": "Lakr233 starred unixzii/Remo",
+      "at": "2026-11-24T08:48:13+00:00",
+      "external_id": "event:21109883138",
+      "url": "https://github.com/unixzii/Remo",
+      "content": "Lakr233 starred unixzii/Remo",
+      "author": "Lakr233",
+      "author_name": "Lakr233",
+      "author_url": "https://github.com/Lakr233",
+      "published_at": "2026-11-24T08:48:13+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Lakr233",
+        "https://github.com/unixzii/Remo"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Lakr233",
+          "url": "https://github.com/Lakr233"
+        },
+        "repo": {
+          "full_name": "unixzii/Remo",
+          "url": "https://github.com/unixzii/Remo"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21103944853",
+      "who": "SaladDay",
+      "who_url": "https://github.com/SaladDay",
+      "action": "star",
+      "target": "hatchet-dev/brickie",
+      "target_url": "https://github.com/hatchet-dev/brickie",
+      "text": "SaladDay starred hatchet-dev/brickie",
+      "at": "2026-11-24T07:33:52+00:00",
+      "external_id": "event:21103944853",
+      "url": "https://github.com/hatchet-dev/brickie",
+      "content": "SaladDay starred hatchet-dev/brickie",
+      "author": "SaladDay",
+      "author_name": "SaladDay",
+      "author_url": "https://github.com/SaladDay",
+      "published_at": "2026-11-24T07:33:52+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/SaladDay",
+        "https://github.com/hatchet-dev/brickie"
+      ],
+      "refs": {
+        "actor": {
+          "login": "SaladDay",
+          "url": "https://github.com/SaladDay"
+        },
+        "repo": {
+          "full_name": "hatchet-dev/brickie",
+          "url": "https://github.com/hatchet-dev/brickie"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21103513686",
+      "who": "realoriginal",
+      "who_url": "https://github.com/realoriginal",
+      "action": "star",
+      "target": "ariel-os/ariel-os",
+      "target_url": "https://github.com/ariel-os/ariel-os",
+      "text": "realoriginal starred ariel-os/ariel-os",
+      "at": "2026-11-24T07:28:12+00:00",
+      "external_id": "event:21103513686",
+      "url": "https://github.com/ariel-os/ariel-os",
+      "content": "realoriginal starred ariel-os/ariel-os",
+      "author": "realoriginal",
+      "author_name": "realoriginal",
+      "author_url": "https://github.com/realoriginal",
+      "published_at": "2026-11-24T07:28:12+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/realoriginal",
+        "https://github.com/ariel-os/ariel-os"
+      ],
+      "refs": {
+        "actor": {
+          "login": "realoriginal",
+          "url": "https://github.com/realoriginal"
+        },
+        "repo": {
+          "full_name": "ariel-os/ariel-os",
+          "url": "https://github.com/ariel-os/ariel-os"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21102938774",
+      "who": "Mx-Iris",
+      "who_url": "https://github.com/Mx-Iris",
+      "action": "release",
+      "target": "Mx-Iris/swift-onboardingkit",
+      "target_url": "https://github.com/Mx-Iris/swift-onboardingkit",
+      "text": "Mx-Iris released Mx-Iris/swift-onboardingkit 0.1.1",
+      "at": "2026-11-24T07:20:51+00:00",
+      "external_id": "event:21102938774",
+      "url": "https://github.com/Mx-Iris/swift-onboardingkit/releases/tag/0.1.1",
+      "content": "Mx-Iris released Mx-Iris/swift-onboardingkit 0.1.1",
+      "author": "Mx-Iris",
+      "author_name": "Mx-Iris",
+      "author_url": "https://github.com/Mx-Iris",
+      "published_at": "2026-11-24T07:20:51+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Mx-Iris",
+        "https://github.com/Mx-Iris/swift-onboardingkit",
+        "https://github.com/Mx-Iris/swift-onboardingkit/releases/tag/0.1.1"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Mx-Iris",
+          "url": "https://github.com/Mx-Iris"
+        },
+        "repo": {
+          "full_name": "Mx-Iris/swift-onboardingkit",
+          "url": "https://github.com/Mx-Iris/swift-onboardingkit"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21098977654",
+      "who": "Rvn0xsy",
+      "who_url": "https://github.com/Rvn0xsy",
+      "action": "star",
+      "target": "pingdotgg/t3code",
+      "target_url": "https://github.com/pingdotgg/t3code",
+      "text": "Rvn0xsy starred pingdotgg/t3code",
+      "at": "2026-11-24T06:27:26+00:00",
+      "external_id": "event:21098977654",
+      "url": "https://github.com/pingdotgg/t3code",
+      "content": "Rvn0xsy starred pingdotgg/t3code",
+      "author": "Rvn0xsy",
+      "author_name": "Rvn0xsy",
+      "author_url": "https://github.com/Rvn0xsy",
+      "published_at": "2026-11-24T06:27:26+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Rvn0xsy",
+        "https://github.com/pingdotgg/t3code"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Rvn0xsy",
+          "url": "https://github.com/Rvn0xsy"
+        },
+        "repo": {
+          "full_name": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21098425285",
+      "who": "Garck3h",
+      "who_url": "https://github.com/Garck3h",
+      "action": "star",
+      "target": "chu0119/Pojun",
+      "target_url": "https://github.com/chu0119/Pojun",
+      "text": "Garck3h starred chu0119/Pojun",
+      "at": "2026-11-24T06:19:37+00:00",
+      "external_id": "event:21098425285",
+      "url": "https://github.com/chu0119/Pojun",
+      "content": "Garck3h starred chu0119/Pojun",
+      "author": "Garck3h",
+      "author_name": "Garck3h",
+      "author_url": "https://github.com/Garck3h",
+      "published_at": "2026-11-24T06:19:37+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/Garck3h",
+        "https://github.com/chu0119/Pojun"
+      ],
+      "refs": {
+        "actor": {
+          "login": "Garck3h",
+          "url": "https://github.com/Garck3h"
+        },
+        "repo": {
+          "full_name": "chu0119/Pojun",
+          "url": "https://github.com/chu0119/Pojun"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21097441736",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.51",
+      "at": "2026-11-24T06:06:19+00:00",
+      "external_id": "event:21097441736",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.51",
+      "content": "yetone released yetone/alma-releases android-v4.51",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-24T06:06:19+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.51"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21095355225",
+      "who": "HuYlllc",
+      "who_url": "https://github.com/HuYlllc",
+      "action": "star",
+      "target": "QuantumNous/new-api",
+      "target_url": "https://github.com/QuantumNous/new-api",
+      "text": "HuYlllc starred QuantumNous/new-api",
+      "at": "2026-11-24T05:35:40+00:00",
+      "external_id": "event:21095355225",
+      "url": "https://github.com/QuantumNous/new-api",
+      "content": "HuYlllc starred QuantumNous/new-api",
+      "author": "HuYlllc",
+      "author_name": "HuYlllc",
+      "author_url": "https://github.com/HuYlllc",
+      "published_at": "2026-11-24T05:35:40+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/HuYlllc",
+        "https://github.com/QuantumNous/new-api"
+      ],
+      "refs": {
+        "actor": {
+          "login": "HuYlllc",
+          "url": "https://github.com/HuYlllc"
+        },
+        "repo": {
+          "full_name": "QuantumNous/new-api",
+          "url": "https://github.com/QuantumNous/new-api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21095339479",
+      "who": "HuYlllc",
+      "who_url": "https://github.com/HuYlllc",
+      "action": "star",
+      "target": "Wei-Shaw/sub2api",
+      "target_url": "https://github.com/Wei-Shaw/sub2api",
+      "text": "HuYlllc starred Wei-Shaw/sub2api",
+      "at": "2026-11-24T05:35:26+00:00",
+      "external_id": "event:21095339479",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "content": "HuYlllc starred Wei-Shaw/sub2api",
+      "author": "HuYlllc",
+      "author_name": "HuYlllc",
+      "author_url": "https://github.com/HuYlllc",
+      "published_at": "2026-11-24T05:35:26+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:star"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/HuYlllc",
+        "https://github.com/Wei-Shaw/sub2api"
+      ],
+      "refs": {
+        "actor": {
+          "login": "HuYlllc",
+          "url": "https://github.com/HuYlllc"
+        },
+        "repo": {
+          "full_name": "Wei-Shaw/sub2api",
+          "url": "https://github.com/Wei-Shaw/sub2api"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": 1,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "star",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
+    {
+      "id": "event:21095327253",
+      "who": "yetone",
+      "who_url": "https://github.com/yetone",
+      "action": "release",
+      "target": "yetone/alma-releases",
+      "target_url": "https://github.com/yetone/alma-releases",
+      "text": "yetone released yetone/alma-releases android-v4.50",
+      "at": "2026-11-24T05:35:16+00:00",
+      "external_id": "event:21095327253",
+      "url": "https://github.com/yetone/alma-releases/releases/tag/android-v4.50",
+      "content": "yetone released yetone/alma-releases android-v4.50",
+      "author": "yetone",
+      "author_name": "yetone",
+      "author_url": "https://github.com/yetone",
+      "published_at": "2026-11-24T05:35:16+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
+      "tags": [
+        "kind:release"
+      ],
+      "hashtags": [],
+      "links": [
+        "https://github.com/yetone",
+        "https://github.com/yetone/alma-releases",
+        "https://github.com/yetone/alma-releases/releases/tag/android-v4.50"
+      ],
+      "refs": {
+        "actor": {
+          "login": "yetone",
+          "url": "https://github.com/yetone"
+        },
+        "repo": {
+          "full_name": "yetone/alma-releases",
+          "url": "https://github.com/yetone/alma-releases"
+        },
+        "target_user": null,
+        "forkee": null
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "metrics": {
+        "circle_count": null,
+        "trending": false,
+        "trending_front_page": false
+      },
+      "flags": {
+        "kind": "release",
+        "time_precision": "exact",
+        "is_follow": false,
+        "is_repo_event": true,
+        "is_aggregate": false
+      }
+    },
     {
       "id": "network:deepseek-ai/dsh-superagent-prototype:2026-11-24",
       "who": "",
@@ -43,7 +1310,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-24T05:12:21+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -125,7 +1392,7 @@
       "author_name": "J1angLl",
       "author_url": "https://github.com/J1angLl",
       "published_at": "2026-11-24T05:11:44+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:follow"
       ],
@@ -213,7 +1480,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-24T05:10:39+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -299,7 +1566,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-24T05:06:10+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -366,7 +1633,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-24T05:01:13+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -435,7 +1702,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-24T04:51:40+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -504,73 +1771,6 @@
       }
     },
     {
-      "id": "network:deepseek-ai/DeepSeek-V3:2026-11-24",
-      "who": "",
-      "who_url": "",
-      "action": "network_hot",
-      "target": "deepseek-ai/DeepSeek-V3",
-      "target_url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "text": "deepseek-ai/DeepSeek-V3 — 圈外 2 人参与（issue×5）",
-      "at": "2026-11-24T04:48:22+00:00",
-      "external_id": "network:deepseek-ai/DeepSeek-V3:2026-11-24",
-      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "content": "deepseek-ai/DeepSeek-V3 — 圈外 2 人参与（issue×5）",
-      "author": "",
-      "author_name": "",
-      "author_url": "",
-      "published_at": "2026-11-24T04:48:22+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
-      "tags": [
-        "kind:network_hot"
-      ],
-      "hashtags": [],
-      "links": [
-        "https://github.com/deepseek-ai/DeepSeek-V3"
-      ],
-      "refs": {
-        "actor": null,
-        "repo": {
-          "full_name": "deepseek-ai/DeepSeek-V3",
-          "url": "https://github.com/deepseek-ai/DeepSeek-V3"
-        },
-        "target_user": null,
-        "forkee": null
-      },
-      "media": {
-        "photos": [],
-        "videos": []
-      },
-      "metrics": {
-        "circle_count": null,
-        "trending": false,
-        "trending_front_page": false
-      },
-      "flags": {
-        "kind": "network_hot",
-        "time_precision": "exact",
-        "is_follow": false,
-        "is_repo_event": false,
-        "is_aggregate": true
-      },
-      "network": {
-        "outer_count": 2,
-        "outer_actors": [
-          "AmoebaFPS",
-          "SuperHero2010"
-        ],
-        "outer_actors_truncated": false,
-        "by_kind": {
-          "issue": 5
-        },
-        "inner_count": 0,
-        "inner_actors": [],
-        "in_circle": false,
-        "trending": false,
-        "languages": [],
-        "source": "received_feed"
-      }
-    },
-    {
       "id": "event:21089320721",
       "who": "Mx-Iris",
       "who_url": "https://github.com/Mx-Iris",
@@ -586,7 +1786,7 @@
       "author_name": "Mx-Iris",
       "author_url": "https://github.com/Mx-Iris",
       "published_at": "2026-11-24T04:04:30+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -640,7 +1840,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-24T03:35:45+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -709,7 +1909,7 @@
       "author_name": "Mx-Iris",
       "author_url": "https://github.com/Mx-Iris",
       "published_at": "2026-11-24T03:28:23+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:release"
       ],
@@ -764,7 +1964,7 @@
       "author_name": "",
       "author_url": "",
       "published_at": "2026-11-24T03:12:51+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:network_hot"
       ],
@@ -832,7 +2032,7 @@
       "author_name": "yetone",
       "author_url": "https://github.com/yetone",
       "published_at": "2026-11-24T02:30:18+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:release"
       ],
@@ -887,7 +2087,7 @@
       "author_name": "mrfearless",
       "author_url": "https://github.com/mrfearless",
       "published_at": "2026-11-24T02:12:42+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -941,7 +2141,7 @@
       "author_name": "mrfearless",
       "author_url": "https://github.com/mrfearless",
       "published_at": "2026-11-24T02:11:48+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -995,7 +2195,7 @@
       "author_name": "niudaii",
       "author_url": "https://github.com/niudaii",
       "published_at": "2026-11-24T01:47:14+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1049,7 +2249,7 @@
       "author_name": "yetone",
       "author_url": "https://github.com/yetone",
       "published_at": "2026-11-24T01:36:10+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:release"
       ],
@@ -1104,7 +2304,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-11-24T00:51:47+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1158,7 +2358,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-11-24T00:49:10+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -1216,7 +2416,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-11-24T00:42:48+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1270,7 +2470,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-11-24T00:36:04+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -1328,7 +2528,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-11-24T00:35:41+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1382,7 +2582,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-11-23T23:58:14+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -1440,7 +2640,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-11-23T23:48:20+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -1498,7 +2698,7 @@
       "author_name": "gmh5225",
       "author_url": "https://github.com/gmh5225",
       "published_at": "2026-11-23T23:48:09+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1552,7 +2752,7 @@
       "author_name": "s3c4ct0r",
       "author_url": "https://github.com/s3c4ct0r",
       "published_at": "2026-11-23T23:05:01+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1606,7 +2806,7 @@
       "author_name": "yetone",
       "author_url": "https://github.com/yetone",
       "published_at": "2026-11-23T22:17:29+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:release"
       ],
@@ -1661,7 +2861,7 @@
       "author_name": "Idov31",
       "author_url": "https://github.com/Idov31",
       "published_at": "2026-11-23T22:13:47+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1715,7 +2915,7 @@
       "author_name": "Cracked5pider",
       "author_url": "https://github.com/Cracked5pider",
       "published_at": "2026-11-23T21:16:49+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1769,7 +2969,7 @@
       "author_name": "s3c4ct0r",
       "author_url": "https://github.com/s3c4ct0r",
       "published_at": "2026-11-23T19:54:21+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1823,7 +3023,7 @@
       "author_name": "Lakr233",
       "author_url": "https://github.com/Lakr233",
       "published_at": "2026-11-23T19:24:35+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:release"
       ],
@@ -1878,7 +3078,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-11-23T17:15:28+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1932,7 +3132,7 @@
       "author_name": "realoriginal",
       "author_url": "https://github.com/realoriginal",
       "published_at": "2026-11-23T17:14:42+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:star"
       ],
@@ -1986,7 +3186,7 @@
       "author_name": "yetone",
       "author_url": "https://github.com/yetone",
       "published_at": "2026-11-23T16:48:29+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:release"
       ],
@@ -2041,7 +3241,7 @@
       "author_name": "yetone",
       "author_url": "https://github.com/yetone",
       "published_at": "2026-11-23T16:43:22+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:release"
       ],
@@ -2096,7 +3296,7 @@
       "author_name": "yetone",
       "author_url": "https://github.com/yetone",
       "published_at": "2026-11-23T16:19:54+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:release"
       ],
@@ -2151,7 +3351,7 @@
       "author_name": "Innei",
       "author_url": "https://github.com/Innei",
       "published_at": "2026-11-23T16:07:20+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -2209,7 +3409,7 @@
       "author_name": "Innei",
       "author_url": "https://github.com/Innei",
       "published_at": "2026-11-23T16:07:16+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -2267,7 +3467,7 @@
       "author_name": "Innei",
       "author_url": "https://github.com/Innei",
       "published_at": "2026-11-23T16:07:11+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:fork"
       ],
@@ -2325,7 +3525,7 @@
       "author_name": "Innei",
       "author_url": "https://github.com/Innei",
       "published_at": "2026-11-23T16:07:05+00:00",
-      "collected_at": "2026-11-24T05:12:39.790877+00:00",
+      "collected_at": "2026-11-25T04:01:52.372724+00:00",
       "tags": [
         "kind:fork"
       ],
